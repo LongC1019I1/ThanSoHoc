@@ -1,6 +1,7 @@
 import React from "react";
 import FormInfor from "../component/FormInfor";
 import OverviewNumber from "../component/OverviewNumber";
+import DetailNumber from "../component/DetailNumber";
 const Numerlogy = () => {
   return (
     <div class="container w-100">
@@ -8,6 +9,7 @@ const Numerlogy = () => {
       <div id="root_content">
         <FormInfor />
         <OverviewNumber />
+        <DetailNumber />
       </div>
     </div>
   );
