@@ -1,110 +1,243 @@
-import { Stage, Layer, Label, Text, Tag } from "react-konva";
+import {
+  Stage,
+  Layer,
+  Label,
+  Text,
+  Tag,
+  Arrow,
+  Circle,
+  Line,
+} from "react-konva";
 import React, { useEffect, useRef, useState, Fragment } from "react";
 function LifePeak({ numbers, ages }) {
   const canvasEl = useRef(null);
   const [wRightPanel, setWLeftPanel] = useState();
   const [kamarNumeroMain, setKamarNumeroMain] = useState(9);
-  const [topEnergy, setTopEnergy] = useState([]);
-  const [numberOfNum, setNumberOfNum] = useState({});
-  const wMatrix = wRightPanel * 0.5;
-  const hMatrix = (wMatrix / 5) * 3;
 
   const w4Top = wRightPanel * 0.9;
-  const h4Top = (w4Top / 5) * 1.5;
+  const h4Top = w4Top / 2;
 
   const subWidth = w4Top / 6;
   const spaceForCenter = (w4Top - subWidth * 1.1 * 4) / 2;
-
-  const DrawCell = () => {
-    const rects = [];
-
-    for (let x = 0; x < 5; x++) {
-      const xx = ((wMatrix + 1) / 5) * x + 3;
-      for (let y = 0; y < 3; y++) {
-        const yy = hMatrix - (hMatrix / 3) * (y + 1) + 5;
-        const stt = y + 1 + 3 * x;
-        let text =
-          stt === 11
-            ? 20
-            : stt === 12
-            ? 30
-            : stt === 13
-            ? 22
-            : stt === 14
-            ? 11
-            : stt === 15
-            ? 33
-            : stt;
-        rects.push(
-          <Label key={x + "" + y} x={xx} y={yy}>
-            <Tag stroke="black" />
-            <Text
-              width={wMatrix / 5 - 10}
-              height={hMatrix / 3 - 10}
-              fill="black"
-              text={
-                numberOfNum.hasOwnProperty(text)
-                  ? text + "^" + numberOfNum[text]
-                  : ""
-              }
-              align="center"
-              verticalAlign="middle"
-              fontSize={wMatrix * 0.05}
-            />
-          </Label>
-        );
-      }
-    }
-
-    return rects;
-  };
 
   useEffect(() => {
     const width = canvasEl?.current?.offsetWidth;
     setWLeftPanel(width);
   }, [kamarNumeroMain]);
 
+  // 4 dinh
+  const topFour = {
+    numberbase: { num1: "1", num2: "1", num3: "7" },
+    top01: { num: "2", year: 2023, age: 27 },
+    top02: { num: "8", year: 2032, age: 36 },
+    top03: { num: "10", year: 2041, age: 45 },
+    top04: { num: "8", year: 2050, age: 54 },
+  };
+  const radius = 10;
+  const x0 = 50;
+  const y0 = 5;
+
+  var gray_color = "#b2aea5";
   return (
     <Fragment>
       <div
         ref={canvasEl}
-        className="col-lg col-md-12 border border-1 border-dark rounded mb-2 px-2"
+        className="col-lg col-md-12 mt-5 border border-1 border-dark rounded mb-2 px-2"
       >
-        <div className="text-center fw-bold py-2">TRỌNG SỐ NĂNG LƯỢNG</div>
-        <div className="row">
-          {wMatrix && (
-            <Stage
-              width={wMatrix}
-              height={hMatrix}
-              className="col-7 d-flex justify-content-left"
-            >
-              <Layer>{DrawCell()}</Layer>
-            </Stage>
-          )}
-          <div className="col-5 d-flex flex-column">
-            {topEnergy.map((p, key) => {
-              return (
-                <div key={key} className="d-flex align-items-center my-2">
-                  <StarFilled className="text-primary" />
-                  <Popover
-                    style={{ whiteSpace: "pre-wrap" }}
-                    content={
-                      "Dương: " +
-                      NUMEROLOGY_KARMA[p.num].DUONG +
-                      "\n Âm: " +
-                      NUMEROLOGY_KARMA[p.num].AM
-                    }
-                    trigger="click"
-                  >
-                    <span className="px-3" style={{ cursor: "pointer" }}>
-                      {p.num + "^" + p.amount}
-                    </span>
-                  </Popover>
-                </div>
-              );
+        <Stage
+          width={w4Top}
+          height={h4Top}
+          className="d-flex mx-3 my-3 justify-content-center "
+        >
+          <Layer>
+            {console.log({
+              x: x0 + radius,
+              y: subWidth + 2 * y0 + radius,
+              x1: w4Top - 2 * radius - 3 * x0,
+              y1: subWidth + 2 * y0 + radius,
             })}
-          </div>
-        </div>
+            <Line
+              points={[
+                subWidth,
+                h4Top / 2 + 50,
+                subWidth + 300,
+                h4Top / 2 + 50,
+                subWidth + 150,
+                h4Top / 4,
+              ]}
+              closed
+              lineCap="round"
+              lineJoin="round"
+              stroke="black"
+              strokeWidth={3}
+            />
+            {/* CAC DIEM VE CAC DINH */}
+            {/* DIEM 1 */}
+            <Circle
+              x={subWidth + 50}
+              y={h4Top / 2 + 50}
+              radius={radius}
+              fill="white"
+            />
+            <Label x={subWidth + 50 - 5} y={h4Top / 2 + +50 - 8}>
+              <Text
+                align="center"
+                verticalAlign="middle"
+                text="1"
+                fill={gray_color}
+                fontSize={subWidth * 0.09}
+              />
+            </Label>
+
+            {/* DIEM 2 */}
+            <Circle
+              x={subWidth + 149}
+              y={h4Top / 2 + 50}
+              radius={radius}
+              fill="white"
+            />
+            <Label x={subWidth + 149 - 5} y={h4Top / 2 + 50 - 8}>
+              <Text
+                align="center"
+                verticalAlign="middle"
+                text="9"
+                fill={gray_color}
+                fontSize={subWidth * 0.09}
+              />
+            </Label>
+
+            {/* DIEM 3 */}
+            <Circle
+              x={subWidth + 250}
+              y={h4Top / 2 + 50}
+              radius={radius}
+              fill="white"
+            />
+            <Label x={subWidth + 250 - 5} y={h4Top / 2 + 50 - 8}>
+              <Text
+                align="center"
+                verticalAlign="middle"
+                text="7"
+                fill={gray_color}
+                fontSize={subWidth * 0.09}
+              />
+            </Label>
+
+            {/* CAC DINH */}
+
+            {/* DINH 1 */}
+            <Line
+              points={[
+                subWidth + 50,
+                h4Top / 2 + 50,
+                subWidth + 150,
+                h4Top / 2 + 50,
+                subWidth + 100,
+                h4Top / 2 - 10,
+              ]}
+              closed
+              lineCap="round"
+              lineJoin="round"
+              stroke="black"
+              strokeWidth={3}
+            />
+            <Circle
+              x={subWidth + 100}
+              y={h4Top / 2 - 10}
+              radius={radius + 5}
+              fill="white"
+            />
+            <Label x={subWidth + 100 - 5} y={h4Top / 2 - 10}>
+              <Text
+                align="center"
+                verticalAlign="middle"
+                text="8"
+                fill="red"
+                fontSize={subWidth * 0.09}
+              />
+            </Label>
+
+            {/* DINH 2 */}
+            <Line
+              points={[
+                subWidth + 150,
+                h4Top / 2 + 50,
+                subWidth + 250,
+                h4Top / 2 + 50,
+                subWidth + 200,
+                h4Top / 2 - 10,
+              ]}
+              closed
+              lineCap="round"
+              lineJoin="round"
+              stroke="black"
+              strokeWidth={3}
+            />
+            <Circle
+              x={subWidth + 200}
+              y={h4Top / 2 - 10}
+              radius={radius + 5}
+              fill="white"
+            />
+            <Label x={subWidth + 200 - 5} y={h4Top / 2 - 10}>
+              <Text
+                align="center"
+                verticalAlign="middle"
+                text="8"
+                fill="red"
+                fontSize={subWidth * 0.09}
+              />
+            </Label>
+
+            {/* DINH 3 */}
+            <Line
+              points={[
+                subWidth + 100,
+                h4Top / 2 - 10,
+                subWidth + 200,
+                h4Top / 2 - 10,
+                subWidth + 150,
+                h4Top / 2 - 60,
+              ]}
+              closed
+              lineCap="round"
+              lineJoin="round"
+              stroke="black"
+              strokeWidth={3}
+            />
+            <Circle
+              x={subWidth + 150}
+              y={h4Top / 2 - 60}
+              radius={radius + 5}
+              fill="white"
+            />
+            <Label x={subWidth + 150 - 5} y={h4Top / 2 - 60 - 8}>
+              <Text
+                align="center"
+                verticalAlign="middle"
+                text="8"
+                fill="red"
+                fontSize={subWidth * 0.09}
+              />
+            </Label>
+            {/* DINH 4 */}
+            <Circle
+              x={subWidth + 150}
+              y={h4Top / 4}
+              radius={radius + 10}
+              fill="white"
+            />
+            <Label x={subWidth + 150 - 5} y={h4Top / 4 - 3}>
+              <Text
+                align="center"
+                verticalAlign="middle"
+                text="8"
+                fill="red"
+                fontSize={subWidth * 0.09}
+              />
+            </Label>
+          </Layer>
+        </Stage>
       </div>
     </Fragment>
   );
