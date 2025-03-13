@@ -13,7 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
 
   --primary-color: #ee4d2d;
-  --gray-color: #b2aea5
+  --gray-color: #b2aea5;
+  --jade-green: #3cbc9b;
 }
 
 #root {
@@ -24,6 +25,32 @@
 #root_content {
   background-color: white;
   padding: 50px 0;
+}
+
+.jade-green {
+  background-color: var(--jade-green);
+}
+.jade-green:hover {
+  background-color: rgb(49, 160, 134);
+  color: white;
+}
+
+.triangle {
+  position: relative;
+}
+.custom-btn {
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  position: absolute;
+
+  top: 80%;
+  left: 21%;
 }
 
 a {
@@ -91,8 +118,6 @@ button:focus-visible {
   }
 }
 
-
-
 #detail_number {
   p {
     margin-left: 5px;
@@ -103,7 +128,6 @@ button:focus-visible {
     margin: 10px 0;
   }
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {

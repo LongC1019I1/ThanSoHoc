@@ -28,7 +28,27 @@ function DetailNumber() {
   return (
     <Fragment>
       <div id="detail_number">
-        <LifePeak numbers={sampleNumbers} ages={sampleAges} />
+        <div
+          id="lifepeak"
+          className="  border rounded  row d-flex  p-3 m-3 justify-content-center"
+        >
+          <LifePeak
+            numbers={sampleNumbers}
+            ages={sampleAges}
+            btn={{
+              class_name: "btn btn-danger",
+              noi_dung: "4 ĐỈNH CỦA CUỘC ĐỜI",
+            }}
+          />
+          <LifePeak
+            numbers={sampleNumbers}
+            ages={sampleAges}
+            btn={{
+              class_name: "btn jade-green",
+              noi_dung: "BIỂU ĐỒ THỬ THÁCH",
+            }}
+          />
+        </div>
         <MainNumber />
         <NameNumber />
         <DestinyNumber />
