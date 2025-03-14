@@ -13,18 +13,6 @@ function LifePeak({ numbers, ages, btn }) {
   const canvasEl = useRef(null);
   const [wRightPanel, setWLeftPanel] = useState();
   const [kamarNumeroMain, setKamarNumeroMain] = useState(9);
-
-  const w4Top = wRightPanel * 1.2;
-  const h4Top = w4Top / 1.4;
-
-  const subWidth = w4Top / 8;
-  const spaceForCenter = (w4Top - subWidth * 1.1 * 4) / 2;
-
-  useEffect(() => {
-    const width = canvasEl?.current?.offsetWidth;
-    setWLeftPanel(width);
-  }, [kamarNumeroMain]);
-
   // 4 dinh
   const topFour = {
     numberbase: { num1: "1", num2: "1", num3: "7" },
@@ -37,6 +25,16 @@ function LifePeak({ numbers, ages, btn }) {
 
   var gray_color = "#b2aea5";
 
+  const w4Top = wRightPanel;
+  const h4Top = w4Top / 2;
+
+  const subWidth = w4Top / 4;
+
+  useEffect(() => {
+    const width = canvasEl?.current?.offsetWidth;
+    setWLeftPanel(width);
+  }, [kamarNumeroMain]);
+
   //
 
   // VE TAM GIAC 4 DINH CUOC DOI
@@ -45,22 +43,69 @@ function LifePeak({ numbers, ages, btn }) {
 
   const TAMGIACNGOAI = {
     x: subWidth,
-    y: h4Top / 2 + 50,
+    y: h4Top / 2 + 50 + 50,
     x1: subWidth + 300,
-    y1: h4Top / 2 + 50,
+    y1: h4Top / 2 + 50 + 50,
     x2: subWidth + 150,
-    y2: h4Top / 4,
+    y2: h4Top / 10 + 50,
+  };
+
+  // Dinh 1
+  const TAMGIACDINH1 = {
+    x: subWidth + 50,
+    y: TAMGIACNGOAI.y,
+    x1: subWidth + 150,
+    y1: TAMGIACNGOAI.y1,
+    x2: subWidth + 100,
+    y2: TAMGIACNGOAI.y1 - 60,
+  };
+
+  const TUOIDINH1 = {
+    muiten: {
+      x: TAMGIACDINH1.x2 - 20,
+      y: TAMGIACDINH1.y2 - 10,
+      x1: TAMGIACDINH1.x2 - 80,
+      y1: TAMGIACDINH1.y2 - 40,
+    },
+  };
+
+  TUOIDINH1.chisotuoi = {
+    x: TUOIDINH1.muiten.x1 - spaceShowNumPeak.x,
+    y: TUOIDINH1.muiten.y1 - spaceShowNumPeak.y,
+  };
+  // Dinh 2
+  const TAMGIACDINH2 = {
+    x: subWidth + 150,
+    y: TAMGIACNGOAI.y,
+    x1: subWidth + 250,
+    y1: TAMGIACNGOAI.y1,
+    x2: subWidth + 200,
+    y2: TAMGIACNGOAI.y1 - 60,
+  };
+
+  const TUOIDINH2 = {
+    muiten: {
+      x: TAMGIACDINH2.x2 + 20,
+      y: TAMGIACDINH2.y2 - 10,
+      x1: TAMGIACDINH2.x2 + 80,
+      y1: TAMGIACDINH2.y2 - 40,
+    },
+  };
+
+  TUOIDINH2.chisotuoi = {
+    x: TUOIDINH2.muiten.x1 + 5,
+    y: TUOIDINH2.muiten.y1 - spaceShowNumPeak.y,
   };
 
   // Dinh 3
 
   const TAMGIACDINH3 = {
     x: subWidth + 100,
-    y: h4Top / 2 - 10,
+    y: TAMGIACDINH1.y2,
     x1: subWidth + 200,
-    y1: h4Top / 2 - 10,
+    y1: TAMGIACDINH2.y2,
     x2: subWidth + 150,
-    y2: h4Top / 2 - 70,
+    y2: TAMGIACDINH2.y2 - 60,
   };
 
   const TUOIDINH3 = {
@@ -95,63 +140,11 @@ function LifePeak({ numbers, ages, btn }) {
     y: TUOIDINH4.muiten.y1 - spaceShowNumPeak.y,
   };
 
-  // Dinh 2
-  const TAMGIACDINH2 = {
-    x: subWidth + 150,
-    y: h4Top / 2 + 50,
-    x1: subWidth + 250,
-    y1: h4Top / 2 + 50,
-    x2: subWidth + 200,
-    y2: h4Top / 2 - 10,
-  };
-
-  const TUOIDINH2 = {
-    muiten: {
-      x: TAMGIACDINH2.x2 + 20,
-      y: TAMGIACDINH2.y2 - 10,
-      x1: TAMGIACDINH2.x2 + 80,
-      y1: TAMGIACDINH2.y2 - 40,
-    },
-  };
-
-  TUOIDINH2.chisotuoi = {
-    x: TUOIDINH2.muiten.x1 + 5,
-    y: TUOIDINH2.muiten.y1 - spaceShowNumPeak.y,
-  };
-
-  // Dinh 1
-  const TAMGIACDINH1 = {
-    x: subWidth + 50,
-    y: h4Top / 2 + 50,
-    x1: subWidth + 150,
-    y1: h4Top / 2 + 50,
-    x2: subWidth + 100,
-    y2: h4Top / 2 - 10,
-  };
-
-  const TUOIDINH1 = {
-    muiten: {
-      x: TAMGIACDINH1.x2 - 20,
-      y: TAMGIACDINH1.y2 - 10,
-      x1: TAMGIACDINH1.x2 - 80,
-      y1: TAMGIACDINH1.y2 - 40,
-    },
-  };
-
-  TUOIDINH1.chisotuoi = {
-    x: TUOIDINH1.muiten.x1 - spaceShowNumPeak.x,
-    y: TUOIDINH1.muiten.y1 - spaceShowNumPeak.y,
-  };
-
   return (
     <Fragment>
       <div ref={canvasEl} className="col-6 rounded mb-2 px-2 ">
-        <div class="triangle">
-          <Stage
-            width={w4Top}
-            height={h4Top}
-            className="d-flex mx-3 my-3 justify-content-center "
-          >
+        <div class=" d-flex justify-content-center ">
+          <Stage style={{ top: "10px" }} width={w4Top} height={h4Top}>
             <Layer>
               <Line
                 points={[
@@ -514,13 +507,24 @@ function LifePeak({ numbers, ages, btn }) {
               </Label>
             </Layer>
           </Stage>
-
-          <button className={`custom-btn ${btn.class_name}`}>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button
+            style={{
+              color: "white",
+              padding: "10px 20px",
+              border: "none",
+              borderRadius: "5px",
+              cursor: "pointer",
+              marginTop: "10px",
+              position: "relative",
+              top: "-30px",
+            }}
+            className={` btn ${btn.class_name}`}
+          >
             <span>👉</span> {btn.noi_dung}
           </button>
         </div>
-
-        <div class="container mt-3"></div>
       </div>
     </Fragment>
   );

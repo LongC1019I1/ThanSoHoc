@@ -9,6 +9,7 @@ import SoulNumber from "./DetailNumber/SoulNumber";
 import ExpressNumber from "./DetailNumber/ExpressNumber";
 import InnerNumber from "./DetailNumber/InnerNumber";
 import LifePeak from "./DetailNumber/LifePeak";
+import ChartDateName from "./DetailNumber/ChartDateName";
 // 🟢 Dữ liệu mẫu để truyền vào component
 const sampleNumbers = {
   top: 8,
@@ -28,6 +29,32 @@ function DetailNumber() {
   return (
     <Fragment>
       <div id="detail_number">
+        <div
+          class="border rounded p-3 m-3 row "
+        >
+          <ChartDateName
+            numbersData={[
+              { num: 6, x: 1, y: 0 },
+              { num: 99, x: 2, y: 0 },
+              { num: 111, x: 0, y: 2 },
+            ]}
+            color="red"
+            buttonText="BIỂU ĐỒ NGÀY SINH"
+            buttonColor="green"
+          />
+
+          <ChartDateName
+            numbersData={[
+              { num: 33, x: 0, y: 0 },
+              { num: 6, x: 1, y: 0 },
+              { num: 55, x: 1, y: 1 },
+              { num: 888, x: 2, y: 1 },
+            ]}
+            color="purple"
+            buttonText="BIỂU ĐỒ HỌ TÊN"
+            buttonColor="purple"
+          />
+        </div>
         <div
           id="lifepeak"
           className="  border rounded  row d-flex  p-3 m-3 justify-content-center"
