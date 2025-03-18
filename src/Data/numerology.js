@@ -1,4 +1,113 @@
 export const NUMEROLOGY_KARMA = {
+  1: {
+    SO_CHU_DAO: "1",
+    DAC_DIEM:
+      "<p>Số 1 tượng trưng cho sự độc lập, khả năng lãnh đạo và ý chí mạnh mẽ. Những người có số chủ đạo 1 thường là những người tiên phong, dám nghĩ dám làm và không ngại đối mặt với thử thách.</p>",
+    CAN_BANG: {
+      noidung:
+        "<h4>1️⃣ Rung động cân bằng – Khi số 1 phát triển hài hòa</h4><ul><li>🔹 Độc lập, tự chủ, có khả năng lãnh đạo.</li><li>🔹 Sáng tạo, không ngại đổi mới.</li><li>🔹 Quyết đoán, có chính kiến mạnh mẽ.</li></ul>",
+    },
+    YEU: {
+      noidung:
+        "<h4>2️⃣ Rung động yếu – Khi số 1 mất cân bằng</h4><ul><li>🔻 Cứng đầu, bướng bỉnh.</li><li>🔻 Khó tiếp thu ý kiến người khác.</li><li>🔻 Thiếu kiên nhẫn, dễ bỏ cuộc.</li></ul>",
+    },
+    QUA_MANH: {
+      noidung:
+        "<h4>3️⃣ Rung động quá mạnh – Khi số 1 mất kiểm soát năng lượng</h4><ul><li>💥 Quá độc đoán, gia trưởng.</li><li>💥 Áp đặt suy nghĩ lên người khác.</li><li>💥 Dễ cảm thấy cô đơn, xa cách với mọi người.</li></ul>",
+    },
+    TOM_TAT: {
+      noidung:
+        "<h4>4️⃣ Tóm tắt các tầng phát triển dành cho số 1</h4><ul><li>🔴 <b>Tầng chưa phát triển:</b> Dễ bảo thủ, bướng bỉnh.</li><li>🟠 <b>Tầng cơ bản:</b> Có chính kiến nhưng thiếu linh hoạt.</li><li>🟢 <b>Tầng phát triển:</b> Lãnh đạo xuất sắc, có tầm nhìn.</li><li>🔵 <b>Tầng dẫn đầu:</b> Người truyền cảm hứng, dẫn dắt cộng đồng.</li></ul>",
+    },
+    KET_LUAN: {
+      noidung:
+        "<h4>🔹 Kết luận</h4><ul><li>🌟 Người có số 1 chủ đạo có tiềm năng lãnh đạo mạnh mẽ.</li><li>🌍 Cần học cách lắng nghe và hợp tác để phát huy tốt nhất khả năng của mình.</li></ul>",
+      thong_diep:
+        "<blockquote class='text-success fw-bold'>💡 Hãy tự tin vào bản thân, nhưng đừng quên lắng nghe và thấu hiểu người khác. 🌿💙</blockquote>",
+    },
+  },
+  2: {
+    SO_CHU_DAO: "2",
+    DAC_DIEM:
+      "<p>Số 2 tượng trưng cho sự hòa hợp, tinh thần đồng đội và sự nhạy cảm. Những người mang số 2 có khả năng kết nối tốt với người khác, họ là người hòa giải và rất giỏi trong việc tạo ra sự cân bằng trong các mối quan hệ.</p>",
+    CAN_BANG: {
+      noidung:
+        "<h4>1️⃣ Rung động cân bằng – Khi số 2 phát triển hài hòa</h4><ul><li>🔹 Nhạy cảm, tinh tế, giỏi lắng nghe.</li><li>🔹 Thích hợp với công việc hợp tác, hòa giải.</li><li>🔹 Có khả năng ngoại giao tốt.</li></ul>",
+    },
+    YEU: {
+      noidung:
+        "<h4>2️⃣ Rung động yếu – Khi số 2 mất cân bằng</h4><ul><li>🔻 Dễ bị ảnh hưởng bởi cảm xúc.</li><li>🔻 Thiếu tự tin, dễ do dự.</li><li>🔻 Sợ đối đầu, né tránh xung đột.</li></ul>",
+    },
+    QUA_MANH: {
+      noidung:
+        "<h4>3️⃣ Rung động quá mạnh – Khi số 2 mất kiểm soát năng lượng</h4><ul><li>💥 Quá nhạy cảm, dễ bị tổn thương.</li><li>💥 Lệ thuộc vào người khác.</li><li>💥 Đặt lợi ích của người khác lên trên bản thân một cách cực đoan.</li></ul>",
+    },
+    TOM_TAT: {
+      noidung:
+        "<h4>4️⃣ Tóm tắt các tầng phát triển dành cho số 2</h4><ul><li>🔴 <b>Tầng chưa phát triển:</b> Thiếu tự tin, dễ bị động.</li><li>🟠 <b>Tầng cơ bản:</b> Biết quan tâm, hòa hợp với mọi người.</li><li>🟢 <b>Tầng phát triển:</b> Người có khả năng hòa giải xuất sắc.</li><li>🔵 <b>Tầng dẫn đầu:</b> Nhà ngoại giao, người cố vấn tài ba.</li></ul>",
+    },
+    KET_LUAN: {
+      noidung:
+        "<h4>🔹 Kết luận</h4><ul><li>🌿 Người có số 2 chủ đạo giỏi trong việc kết nối con người.</li><li>🌍 Cần học cách tự tin và khẳng định bản thân hơn.</li></ul>",
+      thong_diep:
+        "<blockquote class='text-success fw-bold'>💡 Hãy học cách cân bằng giữa việc giúp đỡ người khác và bảo vệ chính mình. 🌿💙</blockquote>",
+    },
+  },
+  3: {
+    SO_CHU_DAO: "3",
+    DAC_DIEM:
+      "<p>Số 3 đại diện cho sự sáng tạo, giao tiếp và sự vui vẻ. Những người có số chủ đạo 3 thường rất lạc quan, thông minh và có khả năng diễn đạt tốt. Họ có tinh thần cởi mở, thích giao tiếp và mang đến nguồn năng lượng tích cực cho mọi người xung quanh.</p>",
+    CAN_BANG: {
+      noidung:
+        "<h4>1️⃣ Rung động cân bằng – Khi số 3 phát triển hài hòa</h4><ul><li>🔹 Sáng tạo và có tư duy linh hoạt.</li><li>🔹 Giao tiếp tốt, truyền đạt ý tưởng rõ ràng.</li><li>🔹 Lạc quan, vui vẻ, truyền cảm hứng cho người khác.</li></ul>",
+    },
+    YEU: {
+      noidung:
+        "<h4>2️⃣ Rung động yếu – Khi số 3 mất cân bằng</h4><ul><li>🔻 Dễ mất tập trung, thiếu kiên nhẫn.</li><li>🔻 Hay trì hoãn, không thích đối mặt với khó khăn.</li><li>🔻 Nhạy cảm quá mức, dễ bị tổn thương.</li></ul>",
+    },
+    QUA_MANH: {
+      noidung:
+        "<h4>3️⃣ Rung động quá mạnh – Khi số 3 mất kiểm soát</h4><ul><li>💥 Quá lạc quan, đôi khi không thực tế.</li><li>💥 Dễ trở nên nói nhiều, không lắng nghe người khác.</li><li>💥 Có thể trở nên tự cao, thiếu khiêm tốn.</li></ul>",
+    },
+    TOM_TAT: {
+      noidung:
+        "<h4 class='mb-3'>4️⃣ Tóm tắt</h4><ul><li>🔴 Tầng chưa phát triển: Thiếu kiên nhẫn, dễ chán nản.</li><li>🟠 Tầng cơ bản: Sáng tạo nhưng cần học cách tập trung.</li><li>🟢 Tầng phát triển: Biết cách kiểm soát năng lượng sáng tạo.</li><li>🔵 Tầng dẫn đầu: Trở thành người truyền cảm hứng cho cộng đồng.</li></ul>",
+    },
+    KET_LUAN: {
+      noidung:
+        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 3 là người của sự sáng tạo và vui vẻ.</li><li>🌍 Khi phát triển đúng hướng, họ có thể truyền cảm hứng mạnh mẽ.</li><li>🔄 Cần học cách tập trung, tránh lan man để đạt được thành công bền vững.</li></ul>",
+      thong_diep:
+        "<blockquote class='text-success fw-bold'>💡 Hãy tận dụng sự sáng tạo của bạn để mang lại giá trị thực sự! 🌿💙</blockquote>",
+    },
+  },
+  4: {
+    SO_CHU_DAO: "4",
+    DAC_DIEM:
+      "<p>Số 4 tượng trưng cho sự kỷ luật, trách nhiệm và thực tế. Những người có số chủ đạo 4 thường là người chăm chỉ, kiên trì và có khả năng tổ chức tốt.</p>",
+    CAN_BANG: {
+      noidung:
+        "<h4>1️⃣ Rung động cân bằng</h4><ul><li>🔹 Có trách nhiệm, đáng tin cậy.</li><li>🔹 Làm việc chăm chỉ, kiên trì theo đuổi mục tiêu.</li><li>🔹 Tư duy thực tế, có hệ thống.</li></ul>",
+    },
+    YEU: {
+      noidung:
+        "<h4>2️⃣ Rung động yếu</h4><ul><li>🔻 Cứng nhắc, thiếu linh hoạt.</li><li>🔻 Quá tập trung vào chi tiết, dễ bỏ lỡ bức tranh lớn.</li><li>🔻 Dễ bị căng thẳng, áp lực.</li></ul>",
+    },
+    QUA_MANH: {
+      noidung:
+        "<h4>3️⃣ Rung động quá mạnh</h4><ul><li>💥 Quá kỷ luật, thiếu sáng tạo.</li><li>💥 Cố chấp, khó tiếp thu cái mới.</li><li>💥 Áp đặt bản thân và người khác.</li></ul>",
+    },
+    TOM_TAT: {
+      noidung:
+        "<h4>4️⃣ Tóm tắt</h4><ul><li>🔴 Chưa phát triển: Bảo thủ, cứng nhắc.</li><li>🟠 Cơ bản: Có nguyên tắc nhưng cần linh hoạt hơn.</li><li>🟢 Phát triển: Cân bằng giữa thực tế và sáng tạo.</li><li>🔵 Dẫn đầu: Biết cách lãnh đạo và quản lý hiệu quả.</li></ul>",
+    },
+    KET_LUAN: {
+      noidung:
+        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 4 là người có trách nhiệm, đáng tin cậy.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành nhà lãnh đạo thực thụ.</li><li>🔄 Cần học cách linh hoạt và sáng tạo hơn.</li></ul>",
+      thong_diep:
+        "<blockquote class='text-success fw-bold'>💡 Hãy giữ vững nguyên tắc nhưng cũng cần cởi mở với cái mới! 🌿💙</blockquote>",
+    },
+  },
+
   9: {
     SO_CHU_DAO: "9",
     DAC_DIEM:
@@ -317,4 +426,3 @@ export const EXPRESSION_NUMBER = {
       "<h4 class='my-3'>Chỉ Số Biểu Đạt 9 - Người nhân đạo và truyền cảm hứng</h4> <p>Người có chỉ số biểu đạt 9 có tấm lòng rộng lớn và luôn mong muốn cống hiến vì cộng đồng. Họ mang trong mình niềm tin vào những lý tưởng cao đẹp và luôn nỗ lực để lan tỏa yêu thương, giúp đỡ người khác. Sự biểu đạt của họ thường mang tính nhân văn, truyền cảm hứng mạnh mẽ, giúp cải thiện cuộc sống của những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Nhân hậu, bao dung, có tầm nhìn sâu rộng và khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị lợi dụng vì lòng tốt, cần học cách tự bảo vệ bản thân trong quá trình cống hiến.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự cân bằng giữa lý tưởng và thực tế, bảo vệ năng lượng cá nhân trong khi vẫn cống hiến cho cộng đồng.</p>\" \n  }\n}\n",
   },
 };
-
