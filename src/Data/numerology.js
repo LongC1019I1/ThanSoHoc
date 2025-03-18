@@ -108,6 +108,116 @@ export const NUMEROLOGY_KARMA = {
     },
   },
 
+  5: {
+    SO_CHU_DAO: "5",
+    DAC_DIEM:
+      "<p>Số 5 đại diện cho sự tự do, linh hoạt và khả năng thích nghi. Những người mang số 5 thường yêu thích trải nghiệm, khám phá và không ngại thay đổi. Họ có tư duy cởi mở, sáng tạo và luôn tìm kiếm những điều mới mẻ.</p>",
+    CAN_BANG: {
+      noidung:
+        "<h4>1️⃣ Rung động cân bằng – Khi số 5 phát triển hài hòa</h4><ul><li>🔹 Yêu thích sự tự do nhưng vẫn có trách nhiệm.</li><li>🔹 Sáng tạo, linh hoạt trong mọi tình huống.</li><li>🔹 Cởi mở, có khả năng giao tiếp và thuyết phục tốt.</li></ul>",
+    },
+    YEU: {
+      noidung:
+        "<h4>2️⃣ Rung động yếu – Khi số 5 mất cân bằng</h4><ul><li>🔻 Thiếu kiên định, dễ mất phương hướng.</li><li>🔻 Dễ bị phân tán, khó duy trì tập trung lâu dài.</li><li>🔻 Thích chạy theo cảm xúc, thiếu ổn định.</li></ul>",
+    },
+    QUA_MANH: {
+      noidung:
+        "<h4>3️⃣ Rung động quá mạnh – Khi số 5 mất kiểm soát</h4><ul><li>💥 Quá ham thích tự do, không chấp nhận ràng buộc.</li><li>💥 Dễ trở nên bốc đồng, thiếu kiểm soát bản thân.</li><li>💥 Không kiên trì, dễ bỏ cuộc giữa chừng.</li></ul>",
+    },
+    TOM_TAT: {
+      noidung:
+        "<h4>4️⃣ Tóm tắt</h4><ul><li>🔴 Chưa phát triển: Thiếu định hướng, dễ mất kiểm soát.</li><li>🟠 Cơ bản: Thích khám phá nhưng cần kiên nhẫn hơn.</li><li>🟢 Phát triển: Biết cách tận dụng sự linh hoạt để tạo giá trị.</li><li>🔵 Dẫn đầu: Trở thành người dẫn dắt, truyền cảm hứng về sự đổi mới.</li></ul>",
+    },
+    KET_LUAN: {
+      noidung:
+        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 5 là biểu tượng của tự do và sáng tạo.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành nhà tiên phong trong nhiều lĩnh vực.</li><li>🔄 Cần học cách kiên nhẫn, tập trung để đạt được mục tiêu bền vững.</li></ul>",
+      thong_diep:
+        "<blockquote class='text-success fw-bold'>💡 Hãy tận dụng sự tự do của bạn để khám phá và tạo ra những giá trị bền vững! 🌿💙</blockquote>",
+    },
+  },
+  6: {
+    SO_CHU_DAO: "6",
+    DAC_DIEM:
+      "<p>Số 6 tượng trưng cho trách nhiệm, tình yêu thương và sự quan tâm đến người khác. Những người mang số 6 thường có trái tim nhân hậu, luôn mong muốn mang lại sự hòa hợp và hạnh phúc cho mọi người.</p>",
+    CAN_BANG: {
+      noidung:
+        "<h4>1️⃣ Rung động cân bằng</h4><ul><li>🔹 Quan tâm, chăm sóc và hỗ trợ người khác.</li><li>🔹 Có trách nhiệm cao, đáng tin cậy.</li><li>🔹 Biết cân bằng giữa cuộc sống cá nhân và công việc.</li></ul>",
+    },
+    YEU: {
+      noidung:
+        "<h4>2️⃣ Rung động yếu</h4><ul><li>🔻 Quá phụ thuộc vào người khác, dễ bị lợi dụng.</li><li>🔻 Thiếu sự quyết đoán, dễ cảm thấy bị tổn thương.</li><li>🔻 Cố chấp, đôi khi áp đặt quan điểm của mình lên người khác.</li></ul>",
+    },
+    QUA_MANH: {
+      noidung:
+        "<h4>3️⃣ Rung động quá mạnh</h4><ul><li>💥 Quá lo lắng và kiểm soát người khác.</li><li>💥 Dễ trở nên bảo thủ, khó tiếp thu ý kiến mới.</li><li>💥 Hy sinh quá mức đến mức quên đi bản thân.</li></ul>",
+    },
+    TOM_TAT: {
+      noidung:
+        "<h4>4️⃣ Tóm tắt</h4><ul><li>🔴 Chưa phát triển: Phụ thuộc, dễ bị tổn thương.</li><li>🟠 Cơ bản: Quan tâm nhưng cần học cách tự chủ.</li><li>🟢 Phát triển: Biết cân bằng giữa cho đi và nhận lại.</li><li>🔵 Dẫn đầu: Trở thành người truyền cảm hứng về tình yêu thương.</li></ul>",
+    },
+    KET_LUAN: {
+      noidung:
+        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 6 là người của gia đình, trách nhiệm và sự yêu thương.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành trụ cột tinh thần cho nhiều người.</li><li>🔄 Cần học cách buông bỏ, không kiểm soát quá mức.</li></ul>",
+      thong_diep:
+        "<blockquote class='text-success fw-bold'>💡 Hãy yêu thương một cách khôn ngoan để tạo ra sự cân bằng! 🌿💙</blockquote>",
+    },
+  },
+  7: {
+    SO_CHU_DAO: "7",
+    DAC_DIEM:
+      "<p>Số 7 đại diện cho trí tuệ, sự chiêm nghiệm và tinh thần nghiên cứu. Những người mang số 7 thường có tư duy sâu sắc, thích tìm hiểu về bản chất cuộc sống và có xu hướng hướng nội.</p>",
+    CAN_BANG: {
+      noidung:
+        "<h4>1️⃣ Rung động cân bằng</h4><ul><li>🔹 Ham học hỏi, thích nghiên cứu.</li><li>🔹 Có tư duy logic, sắc bén.</li><li>🔹 Hòa hợp giữa khoa học và tâm linh.</li></ul>",
+    },
+    YEU: {
+      noidung:
+        "<h4>2️⃣ Rung động yếu</h4><ul><li>🔻 Thu mình, ít giao tiếp.</li><li>🔻 Khó mở lòng, dễ bị cô lập.</li><li>🔻 Thiếu thực tế, đôi khi quá mơ mộng.</li></ul>",
+    },
+    QUA_MANH: {
+      noidung:
+        "<h4>3️⃣ Rung động quá mạnh</h4><ul><li>💥 Quá bí ẩn, khó tiếp cận.</li><li>💥 Thiếu kết nối với thực tế.</li><li>💥 Hoài nghi, không tin tưởng người khác.</li></ul>",
+    },
+    TOM_TAT: {
+      noidung:
+        "<h4>4️⃣ Tóm tắt</h4><ul><li>🔴 Chưa phát triển: Khép kín, không thực tế.</li><li>🟠 Cơ bản: Ham học hỏi nhưng cần giao tiếp nhiều hơn.</li><li>🟢 Phát triển: Kết hợp giữa trí tuệ và sự kết nối.</li><li>🔵 Dẫn đầu: Trở thành người hướng dẫn, khai sáng.</li></ul>",
+    },
+    KET_LUAN: {
+      noidung:
+        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 7 là người của trí tuệ và sự chiêm nghiệm.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành người dẫn dắt về tri thức.</li><li>🔄 Cần học cách cởi mở, kết nối nhiều hơn.</li></ul>",
+      thong_diep:
+        "<blockquote class='text-success fw-bold'>💡 Hãy dùng trí tuệ để soi sáng con đường của bạn và người khác! 🌿💙</blockquote>",
+    },
+  },
+  "8": {
+    SO_CHU_DAO: "8",
+    DAC_DIEM:
+      "<p>Số 8 đại diện cho quyền lực, sự quyết đoán và thành công vật chất. Những người mang số 8 thường có ý chí mạnh mẽ, khả năng lãnh đạo và tinh thần trách nhiệm cao. Họ là những người thực tế, biết đặt mục tiêu rõ ràng và theo đuổi nó một cách kiên trì.</p>",
+    CAN_BANG: {
+      noidung:
+        "<h4>1️⃣ Rung động cân bằng – Khi số 8 phát triển hài hòa</h4><ul><li>🔹 Kiên trì, quyết đoán và có trách nhiệm.</li><li>🔹 Có tư duy kinh doanh, khả năng tổ chức tốt.</li><li>🔹 Biết cân bằng giữa công việc và cuộc sống.</li></ul>",
+    },
+    YEU: {
+      noidung:
+        "<h4>2️⃣ Rung động yếu – Khi số 8 mất cân bằng</h4><ul><li>🔻 Quá thực dụng, đôi khi chỉ tập trung vào vật chất.</li><li>🔻 Khó bày tỏ cảm xúc, dễ xa cách với người khác.</li><li>🔻 Cố chấp, cứng nhắc trong suy nghĩ.</li></ul>",
+    },
+    QUA_MANH: {
+      noidung:
+        "<h4>3️⃣ Rung động quá mạnh – Khi số 8 mất kiểm soát</h4><ul><li>💥 Tham vọng quá mức, không quan tâm đến cảm xúc người khác.</li><li>💥 Có thể trở nên độc đoán, thích kiểm soát.</li><li>💥 Quá đặt nặng thành công, dễ bị áp lực.</li></ul>",
+    },
+    TOM_TAT: {
+      noidung:
+        "<h4>4️⃣ Tóm tắt</h4><ul><li>🔴 Chưa phát triển: Cứng nhắc, thiếu cảm xúc.</li><li>🟠 Cơ bản: Có tham vọng nhưng cần mềm mỏng hơn.</li><li>🟢 Phát triển: Biết kết hợp giữa lý trí và cảm xúc.</li><li>🔵 Dẫn đầu: Trở thành nhà lãnh đạo tài giỏi và truyền cảm hứng.</li></ul>",
+    },
+    KET_LUAN: {
+      noidung:
+        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 8 là biểu tượng của sức mạnh và sự thành công.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành những nhà lãnh đạo xuất sắc.</li><li>🔄 Cần học cách cân bằng giữa tham vọng và đời sống tinh thần.</li></ul>",
+      thong_diep:
+        "<blockquote class='text-success fw-bold'>💡 Hãy sử dụng quyền lực và thành công để giúp đỡ người khác! 🌿💙</blockquote>",
+    },
+  },
+
+
   9: {
     SO_CHU_DAO: "9",
     DAC_DIEM:
@@ -133,6 +243,60 @@ export const NUMEROLOGY_KARMA = {
         "<h4>🔹 Kết luận</h4><ul> <li>🌿 Người có số đường đời 9 mang trong mình sứ mệnh cao cả là lan tỏa yêu thương, trí tuệ và sự bao dung.</li> <li>🌍 Khi phát triển đúng hướng, họ có thể trở thành người lãnh đạo, người truyền cảm hứng và để lại dấu ấn sâu sắc trong lòng người khác.</li> <li>🔄 Tuy nhiên, để đạt được điều đó, họ cần vượt qua những giới hạn của bản thân.</li> <li>⚖️ Học cách cân bằng giữa lý tưởng và thực tế, kiểm soát cảm xúc và biết khi nào nên cho đi, khi nào cần giữ lại.</li> </ul>",
       thong_diep:
         "<blockquote class='text-success fw-bold'> 💡 Hãy học cách yêu thương và giúp đỡ đúng cách, để vừa giúp người, vừa hoàn thiện chính mình. 🌿💙 </blockquote>",
+    },
+  },
+  10: {
+    SO_CHU_DAO: "10",
+    DAC_DIEM:
+      "<p>Số 10 đại diện cho sự tự tin, quyết đoán và sáng tạo. Những người có số chủ đạo 10 thường là những người tiên phong, có khả năng lãnh đạo và tầm nhìn xa. Họ độc lập, linh hoạt trong tư duy và sẵn sàng đối mặt với thử thách.</p>",
+    CAN_BANG: {
+      noidung:
+        "<h4>1️⃣ Rung động cân bằng – Khi số 10 phát triển hài hòa</h4><ul><li>🔹 Tự tin và quyết đoán.</li><li>🔹 Sáng tạo và linh hoạt.</li><li>🔹 Khả năng lãnh đạo và truyền cảm hứng.</li></ul>",
+    },
+    YEU: {
+      noidung:
+        "<h4>2️⃣ Rung động yếu – Khi số 10 mất cân bằng</h4><ul><li>🔻 Thiếu kiên nhẫn và dễ nản lòng.</li><li>🔻 Thiếu tập trung và dễ bị phân tâm.</li><li>🔻 Thiếu tự tin và sợ thất bại.</li></ul>",
+    },
+    QUA_MANH: {
+      noidung:
+        "<h4>3️⃣ Rung động quá mạnh – Khi số 10 mất kiểm soát</h4><ul><li>💥 Quá tự tin đến mức kiêu ngạo.</li><li>💥 Áp đặt và không lắng nghe người khác.</li><li>💥 Mạo hiểm quá mức và thiếu cân nhắc.</li></ul>",
+    },
+    TOM_TAT: {
+      noidung:
+        "<h4 class='mb-3'>4️⃣ Tóm tắt</h4><ul><li>🔴 Tầng chưa phát triển: Thiếu tự tin và dễ bị ảnh hưởng.</li><li>🟠 Tầng cơ bản: Tự tin nhưng cần học cách kiên nhẫn.</li><li>🟢 Tầng phát triển: Lãnh đạo hiệu quả và truyền cảm hứng.</li><li>🔵 Tầng dẫn đầu: Tiên phong và tạo ra sự thay đổi tích cực.</li></ul>",
+    },
+    KET_LUAN: {
+      noidung:
+        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 10 là người lãnh đạo tự nhiên với sự tự tin và sáng tạo.</li><li>🌍 Khi phát triển đúng hướng, họ có thể tạo ra ảnh hưởng tích cực lớn.</li><li>🔄 Cần học cách kiên nhẫn và lắng nghe để đạt được thành công bền vững.</li></ul>",
+      thong_diep:
+        "<blockquote class='text-success fw-bold'>💡 Hãy sử dụng sự tự tin và sáng tạo của bạn để dẫn dắt và truyền cảm hứng cho người khác! 🌿💙</blockquote>",
+    },
+  },
+  11: {
+    SO_CHU_DAO: "11",
+    DAC_DIEM:
+      "<p>Số 11 là con số của sự nhạy cảm, trực giác và tâm linh. Những người có số chủ đạo 11 thường có khả năng thấu hiểu sâu sắc về tâm lý con người và dễ dàng kết nối với các giá trị tinh thần. Họ có trực giác nhạy bén và khả năng thấu cảm cao.</p>",
+    CAN_BANG: {
+      noidung:
+        "<h4>1️⃣ Rung động cân bằng – Khi số 11 phát triển hài hòa</h4><ul><li>🔹 Trực giác mạnh mẽ và nhạy bén.</li><li>🔹 Thấu hiểu và đồng cảm với người khác.</li><li>🔹 Kết nối sâu sắc với tâm linh và giá trị tinh thần.</li></ul>",
+    },
+    YEU: {
+      noidung:
+        "<h4>2️⃣ Rung động yếu – Khi số 11 mất cân bằng</h4><ul><li>🔻 Quá nhạy cảm và dễ bị tổn thương.</li><li>🔻 Thiếu tự tin và dễ bị ảnh hưởng bởi người khác.</li><li>🔻 Mất kết nối với thực tế và sống trong mơ mộng.</li></ul>",
+    },
+    QUA_MANH: {
+      noidung:
+        "<h4>3️⃣ Rung động quá mạnh – Khi số 11 mất kiểm soát</h4><ul><li>💥 Trực giác quá mạnh dẫn đến lo lắng và căng thẳng.</li><li>💥 Quá tập trung vào tâm linh mà bỏ qua thực tế.</li><li>💥 Dễ bị lôi kéo vào các hoạt động tâm linh tiêu cực.</li></ul>",
+    },
+    TOM_TAT: {
+      noidung:
+        "<h4 class='mb-3'>4️⃣ Tóm tắt</h4><ul><li>🔴 Tầng chưa phát triển: Thiếu tự tin và dễ bị ảnh hưởng.</li><li>🟠 Tầng cơ bản: Nhạy cảm nhưng cần học cách bảo vệ bản thân.</li><li>🟢 Tầng phát triển: Sử dụng trực giác để giúp đỡ người khác.</li><li>🔵 Tầng dẫn đầu: Trở thành người hướng dẫn tinh thần và truyền cảm hứng.</li></ul>",
+    },
+    KET_LUAN: {
+      noidung:
+        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 11 là người nhạy cảm và có trực giác mạnh mẽ.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành người hướng dẫn tinh thần và giúp đỡ cộng đồng.</li><li>🔄 Cần học cách cân bằng giữa tâm linh và thực tế để đạt được sự hài hòa trong cuộc sống.</li></ul>",
+      thong_diep:
+        "<blockquote class='text-success fw-bold'>💡 Hãy sử dụng trực giác và sự nhạy cảm của bạn để mang lại lợi ích cho cộng đồng và thế giới xung quanh! 🌿💙</blockquote>",
     },
   },
 };

@@ -13,19 +13,19 @@ function FormInfor() {
   const dispatch = useDispatch();
 
   const onFinish = (values) => {
-    const name = removeVietnameseTones(values.name.trim()).split(" ").join("");
-    console.log({ name });
-    const nameNumber = stringToNumber(name);
-    console.log({ nameNumber });
-    const detinyNumber = mergeNumberString(nameNumber, true);
-    console.log({ detinyNumber });
-    dispatch(numberNameActions.setNumberDestiny(detinyNumber));
-
+    // main number
     const birthString =
       values.date.$D + "" + (values.date.$M + 1) + values.date.$y;
-
     const main = mergeNumberString(birthString);
     dispatch(numberKarmaActions.setKamarNumeroMain(main));
+
+    // destiny number
+
+    const name = removeVietnameseTones(values.name.trim()).toUpperCase();
+
+    const detinyNumber = mergeNumberString(stringToNumber(name));
+
+    dispatch(numberNameActions.setNumberDestiny(detinyNumber));
   };
 
   return (
@@ -35,6 +35,7 @@ function FormInfor() {
           <Input
             class="form-control border-success"
             placeholder="Nhập Họ Tên "
+            required
           />
         </Form.Item>
 
@@ -51,6 +52,7 @@ function FormInfor() {
             style={{
               width: "100%",
             }}
+            required
           />
         </Form.Item>
         <div class="d-flex justify-content-center">

@@ -29,7 +29,7 @@ function DetailNumber() {
   return (
     <Fragment>
       <div id="detail_number">
-        <div class="border rounded p-3 m-3 row ">
+        {/* <div class="border rounded p-3 m-3 row ">
           <ChartDateName
             numbersData={[
               { num: 6, x: 1, y: 0 },
@@ -58,7 +58,7 @@ function DetailNumber() {
           <ChartDateName
             numbersData={[
               { num: 6, x: 1, y: 0 },
-              { num: 99, x:3, y: 1 },
+              { num: 99, x: 3, y: 1 },
               { num: 111, x: 0, y: 2 },
             ]}
             color="red"
@@ -86,16 +86,16 @@ function DetailNumber() {
               noi_dung: "BIỂU ĐỒ THỬ THÁCH",
             }}
           />
-        </div>
+        </div> */}
         <MainNumber />
-        <NameNumber />
+        {/* <NameNumber /> */}
         <DestinyNumber />
-        <AtituteNumber />
+        {/* <AtituteNumber />
         <MatureNumber />
         <BirthNumber />
         <SoulNumber />
         <ExpressNumber />
-        <InnerNumber />
+        <InnerNumber /> */}
       </div>
     </Fragment>
   );
