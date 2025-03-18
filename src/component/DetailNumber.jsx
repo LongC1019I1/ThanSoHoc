@@ -29,9 +29,7 @@ function DetailNumber() {
   return (
     <Fragment>
       <div id="detail_number">
-        <div
-          class="border rounded p-3 m-3 row "
-        >
+        <div class="border rounded p-3 m-3 row ">
           <ChartDateName
             numbersData={[
               { num: 6, x: 1, y: 0 },
@@ -53,6 +51,19 @@ function DetailNumber() {
             color="purple"
             buttonText="BIỂU ĐỒ HỌ TÊN"
             buttonColor="purple"
+          />
+        </div>
+
+        <div class="border rounded p-3 m-3 d-flex justify-content-center">
+          <ChartDateName
+            numbersData={[
+              { num: 6, x: 1, y: 0 },
+              { num: 99, x:3, y: 1 },
+              { num: 111, x: 0, y: 2 },
+            ]}
+            color="red"
+            buttonText="BIỂU ĐỒ  TỔNG HỢP"
+            buttonColor="#3cbc9b"
           />
         </div>
         <div

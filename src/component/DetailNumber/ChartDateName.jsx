@@ -58,8 +58,12 @@ const ChartDateName = ({ numbersData, color, buttonText, buttonColor }) => {
                 text={num.toString()}
                 x={x * gridSize}
                 y={y * gridSize}
+                width={gridSize - padding}
+                height={gridSize - padding}
                 fontSize={24}
                 fontStyle="bold"
+                align="center"
+                verticalAlign="middle"
                 fill={color}
               />
             ))}
