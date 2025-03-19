@@ -88,14 +88,14 @@ function DetailNumber() {
           />
         </div> */}
         <MainNumber />
-        {/* <NameNumber /> */}
+        <NameNumber />
         <DestinyNumber />
         {/* <AtituteNumber />
         <MatureNumber />
         <BirthNumber />
-        <SoulNumber />
+        <SoulNumber /> */}
         <ExpressNumber />
-        <InnerNumber /> */}
+        <InnerNumber />
       </div>
     </Fragment>
   );

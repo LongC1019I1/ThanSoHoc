@@ -5,6 +5,7 @@ import {
   mergeNumberString,
   removeVietnameseTones,
   stringToNumber,
+  innerAndExpress,
 } from "../service/numerlogy";
 import { numberKarmaActions } from "../store/numberKarma";
 import { numberNameActions } from "../store/numberName";
@@ -13,6 +14,7 @@ function FormInfor() {
   const dispatch = useDispatch();
 
   const onFinish = (values) => {
+    const spaceRegex = /\s+/g;
     // main number
     const birthString =
       values.date.$D + "" + (values.date.$M + 1) + values.date.$y;
@@ -21,11 +23,33 @@ function FormInfor() {
 
     // destiny number
 
-    const name = removeVietnameseTones(values.name.trim()).toUpperCase();
+    const full_name = removeVietnameseTones(values.name.trim()).toUpperCase();
 
-    const detinyNumber = mergeNumberString(stringToNumber(name));
+    const detinyNumber = mergeNumberString(stringToNumber(full_name));
 
     dispatch(numberNameActions.setNumberDestiny(detinyNumber));
+
+    // name number
+
+    const full_name_split = full_name.split(" ");
+
+    const name = full_name_split[full_name_split.length - 1];
+    const nameNumber = mergeNumberString(stringToNumber(name));
+
+    dispatch(numberNameActions.setNumberName(nameNumber));
+
+    // express inner number
+
+    const prename = full_name_split.slice(0, -1).join("");
+
+    const { inner, express } = innerAndExpress([
+      ...prename.split(spaceRegex),
+      ...name.split(spaceRegex),
+    ]);
+    dispatch(numberNameActions.setNumberInner(inner));
+    dispatch(numberNameActions.setNumberExpress(express));
+
+    
   };
 
   return (

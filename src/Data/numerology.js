@@ -189,7 +189,7 @@ export const NUMEROLOGY_KARMA = {
         "<blockquote class='text-success fw-bold'>💡 Hãy dùng trí tuệ để soi sáng con đường của bạn và người khác! 🌿💙</blockquote>",
     },
   },
-  "8": {
+  8: {
     SO_CHU_DAO: "8",
     DAC_DIEM:
       "<p>Số 8 đại diện cho quyền lực, sự quyết đoán và thành công vật chất. Những người mang số 8 thường có ý chí mạnh mẽ, khả năng lãnh đạo và tinh thần trách nhiệm cao. Họ là những người thực tế, biết đặt mục tiêu rõ ràng và theo đuổi nó một cách kiên trì.</p>",
@@ -216,7 +216,6 @@ export const NUMEROLOGY_KARMA = {
         "<blockquote class='text-success fw-bold'>💡 Hãy sử dụng quyền lực và thành công để giúp đỡ người khác! 🌿💙</blockquote>",
     },
   },
-
 
   9: {
     SO_CHU_DAO: "9",
@@ -302,9 +301,21 @@ export const NUMEROLOGY_KARMA = {
 };
 
 export const NUMEROLOGY_NAME = {
+  1: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 1, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người có cá tính mạnh mẽ, độc lập và mang trong mình tinh thần thủ lĩnh bẩm sinh. Bạn luôn mong muốn kiểm soát cuộc sống của mình và không thích dựa dẫm vào người khác.</p> <p>Bạn có sự quyết đoán, thực tế và đôi khi khá cứng rắn. Điều này giúp bạn dễ dàng dẫn dắt người khác và đạt được thành công trong công việc. Tuy nhiên, đôi lúc bạn có thể hơi bảo thủ, cố chấp và không dễ dàng chấp nhận quan điểm của người khác.</p> <p>Trong môi trường có tính cạnh tranh hoặc cần sự chủ động, bạn tỏa sáng hơn cả. Tuy nhiên, bạn cần học cách lắng nghe, đồng cảm và kiềm chế cái tôi của mình để không tạo khoảng cách với mọi người.</p>",
+  },
+  2: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 2, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người có trực giác nhạy bén, giàu cảm xúc và luôn biết cách kết nối với những người xung quanh. Bạn mang trong mình sự nhân ái và lòng vị tha, luôn muốn mang lại hòa bình, tình yêu và sự gắn kết.</p> <p>Bạn thích hợp với những môi trường có sự hỗ trợ lẫn nhau, ít cạnh tranh và có yếu tố cộng đồng cao. Tuy nhiên, bạn có thể dễ bị ảnh hưởng bởi cảm xúc, đôi khi thiếu quyết đoán và dễ bị tổn thương.</p> <p>Bạn cần học cách đặt ra ranh giới, kiểm soát cảm xúc của mình và không để bản thân bị lệ thuộc vào người khác quá nhiều.</p>",
+  },
   3: {
     noidung:
       "<h4 class='mt-3'>Số tên riêng của bạn là 3 bạn có những đặc điểm sau: </h4> <p class='mt-3'>Năng lực tự nhiên này khiến họ trở nên tích cực cởi mở và có thể mang tới niềm vui cho mọi người bất cứ lúc nào ở bất kỳ đâu. Họ có khả năng truyền đạt thông tin rất tốt và luôn muốn chia sẻ quan điểm, cảm nhận hay suy nghĩ của mình.</p> <p>Thông minh nhanh nhẹn, học hỏi nắm bắt rất nhanh, sáng tạo và cũng yêu thích những thứ mới mẻ. Với phụ nữ thì có thể tốn tiền thời trang, mỹ phẩm vì muốn bản thân mình xinh đẹp, với nam giới thì có thể là tốn tiền cho những buổi tiệc tùng liên hoan tụ tập vì ham vui. Nhìn chung họ không quá tiết kiệm vì quan điểm của họ là sống để hưởng thụ.</p> <p> Những người này có thể chưa thấy người đã thấy tiếng, trong tổ chức thường được mọi người yêu quý vì tinh thần tích cực của mình. Họ ít khi ở nhà vì bạn rủ cái là đi, đôi khi thì chính họ sẽ là người lôi bạn bè ra khỏi nhà. Ít khi thấy họ vắng mặt trong đám đông, độ hóng cao.</p>",
+  },
+  4: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 4, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người thực tế, có tư duy tổ chức tốt và luôn làm việc một cách cẩn thận, có kế hoạch. Bạn là người đáng tin cậy, có trách nhiệm và kiên trì trong mọi việc.</p> <p>Bạn phù hợp với những công việc yêu cầu sự chi tiết, kỷ luật và có tính hệ thống cao. Tuy nhiên, đôi lúc bạn có thể trở nên cứng nhắc, bảo thủ và khó thích nghi với sự thay đổi.</p> <p>Bạn cần học cách linh hoạt hơn, sẵn sàng mở lòng với những điều mới mẻ để có thể phát triển bản thân một cách toàn diện.</p>",
   },
 };
 

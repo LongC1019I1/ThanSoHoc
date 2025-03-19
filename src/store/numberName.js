@@ -2,6 +2,9 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialNumberState = {
   destiny: 1,
+  name: 0,
+  inner: 0,
+  express: 0,
 };
 
 const numberNameSlice = createSlice({
@@ -9,9 +12,16 @@ const numberNameSlice = createSlice({
   initialState: initialNumberState,
   reducers: {
     setNumberDestiny(state, action) {
-      console.log({ action });
-
       state.destiny = action.payload; // ✅ Gán giá trị đúng
+    },
+    setNumberName(state, action) {
+      state.name = action.payload; // ✅ Gán giá trị đúng
+    },
+    setNumberInner(state, action) {
+      state.inner = action.payload; // ✅ Gán giá trị đúng
+    },
+    setNumberExpress(state, action) {
+      state.express = action.payload; // ✅ Gán giá trị đúng
     },
   },
 });

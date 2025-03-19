@@ -7,8 +7,10 @@ import { useSelector } from "react-redux";
 function OverviewNumber() {
   const numberKarma = useSelector((state) => state.numberKarmaMain.number);
   const numberDestiny = useSelector((state) => state.numberName.destiny);
-
-  useEffect(() => {}, [numberKarma, numberDestiny]);
+  const numberName = useSelector((state) => state.numberName.name);
+  const numberExpress = useSelector((state) => state.numberName.express);
+  const numberInner = useSelector((state) => state.numberName.inner);
+  useEffect(() => {}, [numberKarma, numberDestiny,numberName,numberExpress,numberInner]);
 
   let numbers = [
     [
@@ -18,12 +20,12 @@ function OverviewNumber() {
         color: " text-white",
         style: "#3cbc9b",
       },
-      // {
-      //   label: "Số Tên Riêng",
-      //   value: "21/3",
-      //   color: " text-white",
-      //   style: "#53cd73",
-      // },
+      {
+        label: "Số Tên Riêng",
+        value: numberName,
+        color: " text-white",
+        style: "#53cd73",
+      },
       {
         label: "Số Đường Đời",
         value: numberKarma,
@@ -62,18 +64,18 @@ function OverviewNumber() {
       //     color: " text-white",
       //     style: "#31a086",
       //   },
-      //   {
-      //     label: "Số Biểu Đạt",
-      //     value: "51/6",
-      //     color: " text-white",
-      //     style: "#2a80b9",
-      //   },
-      //   {
-      //     label: "Số Nội Cảm",
-      //     value: "8",
-      //     color: " text-white",
-      //     style: "#3cbc9b",
-      //   },
+        {
+          label: "Số Biểu Đạt",
+          value: numberExpress,
+          color: " text-white",
+          style: "#2a80b9",
+        },
+        {
+          label: "Số Nội Cảm",
+          value: numberInner,
+          color: " text-white",
+          style: "#3cbc9b",
+        },
       //   {
       //     label: "Số Thiếu",
       //     value: "4 9",
