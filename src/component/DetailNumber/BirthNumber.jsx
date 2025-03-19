@@ -1,15 +1,23 @@
+import { useSelector } from "react-redux";
 import songaysinh from "../../assets/img/songaysinh.png";
 import { NUMEROLOGY_BIRTHDAY_NUMBER } from "../../Data/numerology";
 import parse from "html-react-parser";
+
 function BirthNumber() {
+  const numberDayBirth = useSelector(
+    (state) => state.numberKarmaMain.day_birth
+  );
   return (
     <div id="birth_number">
       <div className="container">
         <h1 className=" h1 my-5 px-2">
-          6{") "} Chỉ Số Ngày Sinh <b className="text-danger">Số 10 </b>
+          6{") "} Chỉ Số Ngày Sinh{" "}
+          <b className="text-danger">Số {numberDayBirth} </b>
         </h1>
         <img className=" my-1 w-100" src={songaysinh} />
-        {parse(NUMEROLOGY_BIRTHDAY_NUMBER[10].noidung)}
+        {NUMEROLOGY_BIRTHDAY_NUMBER[numberDayBirth]
+          ? parse(NUMEROLOGY_BIRTHDAY_NUMBER[numberDayBirth].noidung)
+          : ""}
       </div>
     </div>
   );

@@ -1,15 +1,20 @@
+import { useSelector } from "react-redux";
 import solinhhon from "../../assets/img/solinhhon.png";
 import { NUMEROLOGY_SOUL_NUMBER } from "../../Data/numerology";
 import parse from "html-react-parser";
 function SoulNumber() {
+  const numberSoul = useSelector((state) => state.numberName.soul);
   return (
     <div id="soul_number">
       <div className="container">
         <h1 className=" h1 my-5 px-2">
-          7{") "} Chỉ Số Linh Hồn <b className="text-danger">Số 8 </b>
+          7{") "} Chỉ Số Linh Hồn <b className="text-danger">Số {numberSoul}</b>
         </h1>
         <img className=" my-1 w-100" src={solinhhon} />
-        {parse(NUMEROLOGY_SOUL_NUMBER[8].noidung)}
+        {NUMEROLOGY_SOUL_NUMBER[numberSoul] &&
+        NUMEROLOGY_SOUL_NUMBER[numberSoul].noidung
+          ? parse(NUMEROLOGY_SOUL_NUMBER[numberSoul].noidung)
+          : ""}
       </div>
     </div>
   );

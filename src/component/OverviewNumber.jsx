@@ -6,11 +6,26 @@ import { useSelector } from "react-redux";
 
 function OverviewNumber() {
   const numberKarma = useSelector((state) => state.numberKarmaMain.number);
+  const numbeAtitute = useSelector((state) => state.numberKarmaMain.atitute);
   const numberDestiny = useSelector((state) => state.numberName.destiny);
   const numberName = useSelector((state) => state.numberName.name);
   const numberExpress = useSelector((state) => state.numberName.express);
   const numberInner = useSelector((state) => state.numberName.inner);
-  useEffect(() => {}, [numberKarma, numberDestiny,numberName,numberExpress,numberInner]);
+  const numberSoul = useSelector((state) => state.numberName.soul);
+  const numberMature = useSelector((state) => state.numberName.mature);
+  const numberDayBirth = useSelector((state) => state.numberKarmaMain.day_birth);
+
+  useEffect(() => {}, [
+    numberKarma,
+    numbeAtitute,
+    numberDestiny,
+    numberName,
+    numberExpress,
+    numberSoul,
+    numberInner,
+    numberMature,
+    numberDayBirth
+  ]);
 
   let numbers = [
     [
@@ -38,68 +53,66 @@ function OverviewNumber() {
         color: " text-white",
         style: "#9c5fb6",
       },
-      //   {
-      //     label: "Số Thái Độ",
-      //     value: "2",
-      //     color: "text-white",
-      //     style: "#e74d3c",
-      //   },
-      //   {
-      //     label: "Trưởng Thành",
-      //     value: "5",
-      //     color: " text-white",
-      //     style: "#2a80b9",
-      //   },
-      //   {
-      //     label: "Số Ngày Sinh",
-      //     value: "10",
-      //     color: " text-white",
-      //     style: "#46ae5f",
-      //   },
-      // ],
-      // [
-      //   {
-      //     label: "Số Linh Hồn",
-      //     value: "8",
-      //     color: " text-white",
-      //     style: "#31a086",
-      //   },
+      {
+        label: "Số Thái Độ",
+        value: numbeAtitute,
+        color: "text-white",
+        style: "#e74d3c",
+      },
+      {
+        label: "Trưởng Thành",
+        value: numberMature,
+        color: " text-white",
+        style: "#2a80b9",
+      },
         {
-          label: "Số Biểu Đạt",
-          value: numberExpress,
+          label: "Số Ngày Sinh",
+          value: numberDayBirth,
           color: " text-white",
-          style: "#2a80b9",
+          style: "#46ae5f",
+        },
+      {
+        label: "Số Linh Hồn",
+        value: numberSoul,
+        color: " text-white",
+        style: "#31a086",
+      },
+      {
+        label: "Số Biểu Đạt",
+        value: numberExpress,
+        color: " text-white",
+        style: "#2a80b9",
+      },
+      {
+        label: "Số Nội Cảm",
+        value: numberInner,
+        color: " text-white",
+        style: "#3cbc9b",
+      },
+        {
+          label: "Số Thiếu",
+          value: "4 9",
+          color: " text-white",
+          style: "#53cd73",
         },
         {
-          label: "Số Nội Cảm",
-          value: numberInner,
-          color: " text-white",
-          style: "#3cbc9b",
+          label: "Số Năm 2025",
+          value: "2",
+          color: "text-white",
+          style: "#e74d3c",
         },
-      //   {
-      //     label: "Số Thiếu",
-      //     value: "4 9",
-      //     color: " text-white",
-      //     style: "#53cd73",
-      //   },
-      //   {
-      //     label: "Số Năm 2025",
-      //     value: "2",
-      //     color: "text-white",
-      //     style: "#e74d3c",
-      //   },
-      //   {
-      //     label: "Tháng 3/2025",
-      //     value: "5",
-      //     color: " text-white",
-      //     style: "#e57e29",
-      //   },
-      //   {
-      //     label: "Tháng 4/2025",
-      //     value: "6",
-      //     color: " text-white",
-      //     style: "#f39d2f",
-      //   },
+        {
+          label: "Tháng 3/2025",
+          value: "5",
+          color: " text-white",
+          style: "#e57e29",
+        },
+        {
+          label: "Tháng 4/2025",
+          value: "6",
+          color: " text-white",
+          style: "#f39d2f",
+        },
     ],
   ];
 

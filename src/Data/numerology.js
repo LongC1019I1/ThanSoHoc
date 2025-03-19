@@ -317,6 +317,42 @@ export const NUMEROLOGY_NAME = {
     noidung:
       "<h4 class='mt-3'>Số tên riêng của bạn là 4, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người thực tế, có tư duy tổ chức tốt và luôn làm việc một cách cẩn thận, có kế hoạch. Bạn là người đáng tin cậy, có trách nhiệm và kiên trì trong mọi việc.</p> <p>Bạn phù hợp với những công việc yêu cầu sự chi tiết, kỷ luật và có tính hệ thống cao. Tuy nhiên, đôi lúc bạn có thể trở nên cứng nhắc, bảo thủ và khó thích nghi với sự thay đổi.</p> <p>Bạn cần học cách linh hoạt hơn, sẵn sàng mở lòng với những điều mới mẻ để có thể phát triển bản thân một cách toàn diện.</p>",
   },
+  5: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 5, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người yêu thích tự do, phóng khoáng và luôn khao khát trải nghiệm mới. Bạn có khả năng thích nghi tốt, giao tiếp khéo léo và có khiếu nghệ thuật.</p> <p>Bạn có xu hướng tìm kiếm sự thay đổi và không thích bị ràng buộc bởi bất cứ điều gì. Tuy nhiên, điều này cũng có thể khiến bạn dễ bị phân tâm, khó kiên trì với một mục tiêu nhất định.</p> <p>Bạn cần học cách kiểm soát bản thân, duy trì kỷ luật và biết cách cân bằng giữa sự tự do và trách nhiệm.</p>",
+  },
+  6: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 6, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người có trái tim nhân hậu, yêu thương và luôn sẵn sàng giúp đỡ người khác. Bạn có xu hướng bảo vệ, chăm sóc và mang lại sự an toàn cho những người xung quanh.</p> <p>Bạn có khiếu sáng tạo và thích cống hiến cho cộng đồng. Tuy nhiên, đôi lúc bạn có thể trở nên quá kiểm soát, dính mắc và quên đi nhu cầu của chính mình.</p> <p>Bạn cần học cách buông bỏ, tin tưởng vào người khác và cân bằng giữa việc chăm sóc người khác và bản thân.</p>",
+  },
+  7: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 7, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người có tư duy sâu sắc, thích nghiên cứu, tìm tòi và khám phá những triết lý cuộc sống. Bạn thường bị thu hút bởi những lĩnh vực liên quan đến tri thức, tâm linh hoặc triết học.</p> <p>Bạn có xu hướng khép mình, thích quan sát hơn là tham gia vào các hoạt động sôi nổi. Tuy nhiên, điều này đôi khi khiến bạn trở nên cô lập và khó mở lòng với người khác.</p> <p>Bạn cần học cách cân bằng giữa thế giới nội tâm và thế giới bên ngoài, sẵn sàng giao tiếp và kết nối với mọi người nhiều hơn.</p>",
+  },
+  8: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 8, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người có tư duy lãnh đạo, mạnh mẽ, quyết đoán và có khả năng tạo ra sự thành công lớn trong lĩnh vực tài chính, kinh doanh.</p> <p>Bạn có tinh thần độc lập, không thích bị kiểm soát và luôn muốn tự mình quyết định cuộc sống. Tuy nhiên, bạn có thể dễ bị cuốn vào tham vọng vật chất và đôi khi trở nên quá cứng rắn.</p> <p>Bạn cần học cách kiểm soát tham vọng, phát triển lòng trắc ẩn và sử dụng quyền lực của mình một cách đúng đắn.</p>",
+  },
+  9: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 9, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người mang lý tưởng cao đẹp, luôn muốn cống hiến cho cộng đồng và giúp đỡ người khác. Bạn có tầm nhìn xa, có trái tim nhân ái và luôn hướng tới những điều tốt đẹp.</p> <p>Bạn có xu hướng đặt lợi ích chung lên trên lợi ích cá nhân, nhưng điều này đôi khi khiến bạn bị lợi dụng hoặc cảm thấy thiệt thòi.</p> <p>Bạn cần học cách cân bằng giữa việc cho đi và giữ lại, cũng như đặt ra ranh giới để bảo vệ bản thân.</p>",
+  },
+  10: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 10, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người kết hợp giữa năng lượng của số 1 (thủ lĩnh) và số 0 (sự hoàn thiện, phát triển tâm linh). Điều này khiến bạn có khả năng sáng tạo, tiên phong và có thể đạt được những thành tựu lớn.</p> <p>Bạn có tinh thần mạnh mẽ, quyết đoán nhưng cũng có xu hướng độc lập và không thích bị ràng buộc. Điều này có thể khiến bạn trở nên cô độc hoặc gặp khó khăn trong việc hợp tác với người khác.</p> <p>Bạn cần học cách cân bằng giữa tham vọng cá nhân và sự kết nối với cộng đồng để phát triển bền vững.</p>",
+  },
+  11: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 11, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người có trực giác nhạy bén, mang năng lượng mạnh mẽ của sự giác ngộ và khai sáng. Bạn có khả năng truyền cảm hứng cho người khác và có xu hướng hướng đến các lĩnh vực tâm linh hoặc nghệ thuật.</p> <p>Bạn có thể trải qua nhiều thử thách trong cuộc sống để rèn luyện bản thân và học cách kiểm soát cảm xúc. Nếu không phát triển đúng hướng, bạn có thể trở nên nhạy cảm quá mức hoặc mất phương hướng.</p> <p>Bạn cần học cách kiên nhẫn, giữ vững niềm tin và sử dụng năng lượng của mình vào những mục đích cao cả.</p>",
+  },
+  22: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 22, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Số 22 là con số của sự kiến tạo, đại diện cho khả năng biến những ý tưởng lớn thành hiện thực. Bạn có tư duy tổ chức, kỷ luật và khả năng lãnh đạo bẩm sinh.</p> <p>Bạn kết hợp giữa trực giác nhạy bén (số 2) và tư duy thực tế, hành động hiệu quả (số 4). Điều này giúp bạn có thể xây dựng những công trình vĩ đại, tạo nên sự thay đổi lớn cho xã hội.</p> <p>Tuy nhiên, nếu chưa kiểm soát tốt năng lượng của mình, bạn có thể rơi vào tình trạng cầu toàn quá mức, thực dụng hoặc dễ bị áp lực bởi trách nhiệm lớn.</p> <p>Bài học của bạn là kiểm soát được cuộc sống, học cách cân bằng giữa lý tưởng và thực tế để phát huy tối đa sức mạnh bản thân.</p>",
+  },
+  33: {
+    noidung:
+      "<h4 class='mt-3'>Số tên riêng của bạn là 33, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Số 33 là con số của tình yêu thương và chữa lành. Bạn có khả năng truyền cảm hứng, mang lại sự an ủi và hỗ trợ cho những người xung quanh.</p> <p>Bạn mang trong mình năng lượng sáng tạo của số 3 kết hợp với sự trách nhiệm và tình cảm sâu sắc của số 6. Điều này khiến bạn trở thành người có trái tim rộng lớn, luôn mong muốn giúp đỡ người khác.</p> <p>Tuy nhiên, nếu chưa kiểm soát tốt, bạn có thể bị dính mắc vào cảm xúc, lo lắng quá nhiều hoặc dễ bị stress do đặt quá nhiều áp lực lên bản thân.</p> <p>Bài học của bạn là học cách trao đi yêu thương vô điều kiện, đồng thời biết giữ gìn năng lượng của mình để không bị cạn kiệt.</p>",
+  },
 };
 
 export const NUMEROLOGY_ATTITUDE = {
@@ -479,7 +515,7 @@ export const NUMEROLOGY_BIRTHDAY_NUMBER = {
     noidung:
       "<h4 class='my-3'>Chỉ Số Ngày Sinh 11 - Người trực giác và tâm linh</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn có trực giác mạnh mẽ, khả năng thấu hiểu sâu sắc và năng lượng tâm linh cao.</p> <p><strong>💡 Điểm mạnh:</strong> Nhạy cảm, sáng tạo và có khả năng truyền đạt cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Cần kiểm soát cảm xúc và tránh bị áp lực bởi sự nhạy cảm.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Nghệ thuật, giảng dạy, chữa lành, tâm linh.</p>",
   },
-  "22/4": {
+  22: {
     noidung:
       "<h4 class='mt-3'>Chỉ Số Ngày Sinh 22/4 - Người kiến tạo vĩ đại</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn có khả năng tổ chức, lãnh đạo và xây dựng những giá trị bền vững. Bạn là người có tầm nhìn xa và có thể biến những ước mơ lớn thành hiện thực.</p> <p><strong>💡 Điểm mạnh:</strong> Kiên định, trách nhiệm cao, khả năng lãnh đạo mạnh mẽ và thực tế.</p> <p><strong>⚠️ Thách thức:</strong> Cần học cách cân bằng giữa tham vọng và cuộc sống cá nhân, tránh quá tập trung vào công việc.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Doanh nhân, quản lý cấp cao, kiến trúc sư, kỹ sư, chính trị gia.</p>",
   },
@@ -527,40 +563,41 @@ export const NUMEROLOGY_SOUL_NUMBER = {
 export const INNER_NUMBER = {
   1: {
     noidung:
-      "<h4 class='my-3'>Chỉ số Nội Cảm 1 - Người chiến đấu và thủ lĩnh</h4> <p>Thần số học số 1 trong chỉ số nội cảm có tính chiến đấu rất mạnh mẽ, chỉ cần còn đủ sức lực, bạn luôn hướng về phía trước. Bạn có cái tôi lớn, cá tính, độc lập. Bạn luôn muốn chiến thắng và lao vào các cuộc đua, cuộc đấu. Bạn có tư chất thủ lĩnh cao. Số nội cảm 1 cũng có thể là người độc đoán, ích kỷ, đàn áp, máu ǎn thua.</p>",
+      "<h4 class='my-3'>Chỉ số Nội Cảm <span class='text-danger'>1</span> - Người chiến đấu và thủ lĩnh</h4> <p>Thần số học số <span class='text-danger'>1</span> trong chỉ số nội cảm có tính chiến đấu rất mạnh mẽ, chỉ cần còn đủ sức lực, bạn luôn hướng về phía trước. Bạn có cái tôi lớn, cá tính, độc lập. Bạn luôn muốn chiến thắng và lao vào các cuộc đua, cuộc đấu. Bạn có tư chất thủ lĩnh cao. Số nội cảm <span class='text-danger'>1</span> cũng có thể là người độc đoán, ích kỷ, đàn áp, máu ǎn thua.</p>",
   },
   2: {
     noidung:
-      "<h4 class='my-3'>Chỉ số Nội Cảm 2 - Người hướng về gia đình và cảm xúc sâu sắc</h4> <p>Thần số học số 2 trong chỉ số nội cảm có thiên hướng gia đình. Bạn luôn mong mỏi có một gia đình đầm ấm và hạnh phúc. Bạn cũng mong muốn có được môi trường sống, làm việc hòa hợp với bạn bè, đồng nghiệp. Bạn mong muốn cho mọi mối quan hệ được tình cảm và tốt đẹp. Nếu một mối quan hệ đổ vỡ hoặc rạn nứt, bạn sẽ cảm thấy bất an. Trẻ nhỏ có số nội cảm 2 thường dễ bị tổn thương và hay khóc. Bạn cũng là người giàu tình cảm và nhiều linh tính. Bạn có trực giác rất tốt. Cảm giác của bạn về con người, sự việc thường là chính xác. Biểu đồ tên trong thần số học rất đẹp nếu bạn có số 2 và đầy đủ các số khác.</p>",
+      "<h4 class='my-3'>Chỉ số Nội Cảm <span class='text-danger'>2</span> - Người hướng về gia đình và cảm xúc sâu sắc</h4> <p>Thần số học số <span class='text-danger'>2</span> trong chỉ số nội cảm có thiên hướng gia đình. Bạn luôn mong mỏi có một gia đình đầm ấm và hạnh phúc. Bạn cũng mong muốn có được môi trường sống, làm việc hòa hợp với bạn bè, đồng nghiệp. Bạn mong muốn cho mọi mối quan hệ được tình cảm và tốt đẹp. Nếu một mối quan hệ đổ vỡ hoặc rạn nứt, bạn sẽ cảm thấy bất an. Trẻ nhỏ có số nội cảm <span class='text-danger'>2</span> thường dễ bị tổn thương và hay khóc. Bạn cũng là người giàu tình cảm và nhiều linh tính. Bạn có trực giác rất tốt. Cảm giác của bạn về con người, sự việc thường là chính xác. Biểu đồ tên trong thần số học rất đẹp nếu bạn có số <span class='text-danger'>2</span> và đầy đủ các số khác.</p>",
   },
   3: {
     noidung:
-      "<h4 class='my-3'>Chỉ số Nội Cảm 3 - Người sáng tạo và tràn đầy năng lượng</h4> <p>Sáng tạo là đặc trưng của số nội cảm 3. Bạn đầy ắp sự liên tưởng, giải pháp mang tính sáng tạo. Bạn cũng là người vui vẻ, hài hước, thân thiện. Bạn giỏi giao tiếp, kết nối và thường đem đến niềm vui, cảm hứng và trí sáng tạo. Thần số học số 3 trong chỉ số nội cảm như một đứa trẻ, luôn tỏa sáng và được mọi người yêu mến. Bạn luôn cần sự tương tác với mọi người.</p>",
+      "<h4 class='my-3'>Chỉ số Nội Cảm <span class='text-danger'>3</span> - Người sáng tạo và tràn đầy năng lượng</h4> <p>Sáng tạo là đặc trưng của số nội cảm <span class='text-danger'>3</span>. Bạn đầy ắp sự liên tưởng, giải pháp mang tính sáng tạo. Bạn cũng là người vui vẻ, hài hước, thân thiện. Bạn giỏi giao tiếp, kết nối và thường đem đến niềm vui, cảm hứng và trí sáng tạo. Thần số học số <span class='text-danger'>3</span> trong chỉ số nội cảm như một đứa trẻ, luôn tỏa sáng và được mọi người yêu mến. Bạn luôn cần sự tương tác với mọi người.</p>",
   },
   4: {
     noidung:
-      "<h4 class='my-3'>Chỉ số Nội Cảm 4 - Người tìm kiếm chân lý và đấu tranh cho lẽ phải</h4> <p>Bạn là người tìm kiếm sự thật, lẽ phải, sự rõ ràng, chân lý. Bạn không chỉ tìm kiếm mà còn có thể đấu tranh cho điều đó. Thần số học số 4 trong chỉ số nội cảm là người trung thực, chân thành và hành động theo lẽ phải. Nhưng bạn cũng dễ rơi vào sự cố chấp, bảo thủ và hay sa đà vào tranh luận, cãi vã.</p>",
+      "<h4 class='my-3'>Chỉ số Nội Cảm <span class='text-danger'>4</span> - Người tìm kiếm chân lý và đấu tranh cho lẽ phải</h4> <p>Bạn là người tìm kiếm sự thật, lẽ phải, sự rõ ràng, chân lý. Bạn không chỉ tìm kiếm mà còn có thể đấu tranh cho điều đó. Thần số học số <span class='text-danger'>4</span> trong chỉ số nội cảm là người trung thực, chân thành và hành động theo lẽ phải. Nhưng bạn cũng dễ rơi vào sự cố chấp, bảo thủ và hay sa đà vào tranh luận, cãi vã.</p>",
   },
   5: {
     noidung:
-      "<h4 class='my-3'>Chỉ số Nội Cảm 5 - Người năng động, đam mê phiêu lưu và tận hưởng cuộc sống</h4> <p>Bạn là người năng động, có đam mê phiêu lưu, tận hưởng cuộc sống. Bạn thường xuyên có mặt trong các lễ hội, cuộc chơi, thích tụ tập bạn bè, thích du lịch, thích khám phá và trải nghiệm. Thần số học số 5 trong chỉ số nội cảm giàu năng lượng, thích phiêu lưu. Nhưng bạn nên thận trọng với những thú vui tiêu cực như tình dục, rượu chè, cờ bạc, v.v.. Bạn cũng nên thận trọng trong chi tiêu vì bạn dễ tiêu pha và ăn chơi quá đà.</p>",
+      "<h4 class='my-3'>Chỉ số Nội Cảm <span class='text-danger'>5</span> - Người năng động, đam mê phiêu lưu và tận hưởng cuộc sống</h4> <p>Bạn là người năng động, có đam mê phiêu lưu, tận hưởng cuộc sống. Bạn thường xuyên có mặt trong các lễ hội, cuộc chơi, thích tụ tập bạn bè, thích du lịch, thích khám phá và trải nghiệm. Thần số học số <span class='text-danger'>5</span> trong chỉ số nội cảm giàu năng lượng, thích phiêu lưu. Nhưng bạn nên thận trọng với những thú vui tiêu cực như tình dục, rượu chè, cờ bạc, v.v.. Bạn cũng nên thận trọng trong chi tiêu vì bạn dễ tiêu pha và ăn chơi quá đà.</p>",
   },
   6: {
     noidung:
-      "<h4 class='my-3'>Chỉ số Nội Cảm 6 - Người quan tâm và chăm sóc</h4> <p>Bạn là người có xu hướng quan tâm, giúp đỡ, chăm sóc người khác. Tuy quan tâm nhưng bạn luôn lo lắng, cảm thấy không yên tâm khi nhìn người khác làm việc gì đó, do đó bạn luôn bao đồng, làm thay họ và tự chuốc lấy bế tắc và mệt mỏi cho bản thân.</p>",
+      "<h4 class='my-3'>Chỉ số Nội Cảm <span class='text-danger'>6</span> - Người quan tâm và chăm sóc</h4> <p>Bạn là người có xu hướng quan tâm, giúp đỡ, chăm sóc người khác. Tuy quan tâm nhưng bạn luôn lo lắng, cảm thấy không yên tâm khi nhìn người khác làm việc gì đó, do đó bạn luôn bao đồng, làm thay họ và tự chuốc lấy bế tắc và mệt mỏi cho bản thân.</p>",
   },
   7: {
     noidung:
-      "<h4 class='my-3'>Chỉ số Nội Cảm 7 - Người sống tư duy sâu sắc và triết lý</h4> <p>Bạn là người sống rất tư duy, logic với tinh thần thép. Những suy nghĩ của bạn vượt xa người bình thường và đôi khi bạn làm cho người khác khó hiểu nếu bạn nói ra. Với những điều như thế, bạn thường im lặng, và chỉ chia sẻ với những ai cùng tư tưởng hoặc có thể hiểu và cầu thị. Thần số học số 7 trong chỉ số nội cảm có xu hướng triết lý, tư tưởng và có tinh thần mạnh mẽ. Khi bạn chia sẻ kiến thức, trí tuệ, sức thuyết phục của bạn rất lớn. Bạn hiểu biết, tình cảm và cũng khá dịu dàng, ngọt ngào. Nhưng cũng có lúc bạn đanh đá với những ngôn từ chua cay.</p>",
+      "<h4 class='my-3'>Chỉ số Nội Cảm <span class='text-danger'>7</span> - Người sống tư duy sâu sắc và triết lý</h4> <p>Bạn là người sống rất tư duy, logic với tinh thần thép. Những suy nghĩ của bạn vượt xa người bình thường và đôi khi bạn làm cho người khác khó hiểu nếu bạn nói ra. Với những điều như thế, bạn thường im lặng, và chỉ chia sẻ với những ai cùng tư tưởng hoặc có thể hiểu và cầu thị. Thần số học số <span class='text-danger'>7</span> trong chỉ số nội cảm có xu hướng triết lý, tư tưởng và có tinh thần mạnh mẽ. Khi bạn chia sẻ kiến thức, trí tuệ, sức thuyết phục của bạn rất lớn. Bạn hiểu biết, tình cảm và cũng khá dịu dàng, ngọt ngào. Nhưng cũng có lúc bạn đanh đá với những ngôn từ chua cay.</p>",
   },
   8: {
     noidung:
-      "<h4 class='my-3'>Chỉ số Nội Cảm 8 - Người kinh doanh và thực tiễn</h4> <p>Bạn là người có đầu óc kinh doanh và dành nhiều thời gian cho công việc. Bạn nên lắng nghe những lời khuyên, chia sẻ và học cách thấu hiểu người khác nhiều hơn thì thành công sẽ đến với bạn. Thần số học số 8 trong chỉ số nội cảm thể hiện khả năng thực tiễn, giúp bạn định hướng và phát triển sự nghiệp thông qua việc hiểu sâu sắc cảm xúc và nhu cầu của người xung quanh.</p>",
+      "<h4 class='my-3'>Chỉ số Nội Cảm <span class='text-danger'>8</span> - Người kinh doanh và thực tiễn</h4> <p>Bạn là người có đầu óc kinh doanh và dành nhiều thời gian cho công việc. Bạn nên lắng nghe những lời khuyên, chia sẻ và học cách thấu hiểu người khác nhiều hơn thì thành công sẽ đến với bạn. Thần số học số <span class='text-danger'>8</span> trong chỉ số nội cảm thể hiện khả năng thực tiễn, giúp bạn định hướng và phát triển sự nghiệp thông qua việc hiểu sâu sắc cảm xúc và nhu cầu của người xung quanh.</p>",
   },
   9: {
     noidung:
-      "<h4 class='my-3'>Chỉ số Nội Cảm 9 - Người nhân đạo và lãnh đạo</h4> <p>Bạn là người có tấm lòng rộng lượng, biết quan tâm đến những người xung quanh, vì thế bạn được nhiều người yêu mến và tin tưởng. Ngoài ra, bạn cũng thuộc nhóm người có tính chất của một nhà lãnh đạo có nhiều tài năng. Thần số học số 9 trong chỉ số nội cảm cho thấy bạn có khả năng lãnh đạo, truyền cảm hứng và cống hiến vì cộng đồng.</p>",
-  },
+      "<h4 class='my-3'>Chỉ số Nội Cảm <span class='text-danger'>9</span> - Người nhân đạo và lãnh đạo</h4> <p>Bạn là người có tấm lòng rộng lượng, biết quan tâm đến những người xung quanh, vì thế bạn được nhiều người yêu mến và tin tưởng. Ngoài ra, bạn cũng thuộc nhóm người có tính chất của một nhà lãnh đạo có nhiều tài năng. Thần số học số <span class='text-danger'>9</span> trong chỉ số nội cảm cho thấy bạn có khả năng lãnh đạo, truyền cảm hứng và cống hiến vì cộng đồng.</p>",
+  }
+
 };
 
 export const EXPRESSION_NUMBER = {

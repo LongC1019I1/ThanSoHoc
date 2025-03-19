@@ -43,8 +43,6 @@ export function removeVietnameseTones(str) {
 export const mergeNumberString = (numberStr, toOne = false) => {
   const arr = numberStr.split("").map((i) => parseInt(i));
   const total = sumArray(arr);
-  
- 
 
   if (!toOne) {
     if (
@@ -99,7 +97,7 @@ export const pickCharacter = (str, isGetVowel = true) => {
  * @param {*} nameArr array word of fullname
  * @returns object number of inner and express
  */
-export const innerAndExpress = (nameArr) => {
+export const soulAndExpress = (nameArr) => {
   let vowel = "";
   let unVowel = "";
   nameArr.forEach((item) => {
@@ -107,9 +105,21 @@ export const innerAndExpress = (nameArr) => {
     unVowel += pickCharacter(item, false);
   });
   return {
-    inner: mergeNumberString(stringToNumber(vowel), true),
+    soul: mergeNumberString(stringToNumber(vowel), true),
     express: mergeNumberString(stringToNumber(unVowel), true),
   };
+};
+
+//
+
+export const numberAtLeastThreeTimes = (arr) => {
+  const countMap = arr.reduce((acc, num) => {
+    acc[num] = (acc[num] || 0) + 1;
+    return acc;
+  }, {});
+
+  const result = [...new Set(arr.filter((num) => countMap[num] >= 3))];
+  return result.length > 1 ? result.join(" ") : "" + result;
 };
 
 /**

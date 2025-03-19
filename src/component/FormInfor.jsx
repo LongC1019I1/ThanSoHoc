@@ -5,7 +5,8 @@ import {
   mergeNumberString,
   removeVietnameseTones,
   stringToNumber,
-  innerAndExpress,
+  soulAndExpress,
+  numberAtLeastThreeTimes,
 } from "../service/numerlogy";
 import { numberKarmaActions } from "../store/numberKarma";
 import { numberNameActions } from "../store/numberName";
@@ -20,6 +21,18 @@ function FormInfor() {
       values.date.$D + "" + (values.date.$M + 1) + values.date.$y;
     const main = mergeNumberString(birthString);
     dispatch(numberKarmaActions.setKamarNumeroMain(main));
+
+    // atitute number  "" +
+    const atitute = mergeNumberString(
+      values.date.$D - 0 + (values.date.$M + 1) + ""
+    );
+
+    dispatch(numberKarmaActions.setKamarNumeroAtitute(atitute));
+
+    // day birth number  "" +
+    const day_birth = mergeNumberString(values.date.$D + "");
+
+    dispatch(numberKarmaActions.setKamarNumeroDayBirth(day_birth));
 
     // destiny number
 
@@ -38,18 +51,31 @@ function FormInfor() {
 
     dispatch(numberNameActions.setNumberName(nameNumber));
 
-    // express inner number
+    // express soul number
 
     const prename = full_name_split.slice(0, -1).join("");
 
-    const { inner, express } = innerAndExpress([
+    const { soul, express } = soulAndExpress([
       ...prename.split(spaceRegex),
       ...name.split(spaceRegex),
     ]);
-    dispatch(numberNameActions.setNumberInner(inner));
+
+    console.log({ soul });
+
+    dispatch(numberNameActions.setNumberSoul(soul));
     dispatch(numberNameActions.setNumberExpress(express));
 
-    
+    // inner number
+
+    const list_number_name = stringToNumber(full_name).split("");
+
+    const inner_number = numberAtLeastThreeTimes(list_number_name);
+
+    dispatch(numberNameActions.setNumberInner(inner_number));
+
+    // grow number
+    const mature = mergeNumberString(main - 0 + (detinyNumber - 0) + "");
+    dispatch(numberNameActions.setNumberMature(mature));
   };
 
   return (

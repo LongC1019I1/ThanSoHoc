@@ -90,10 +90,10 @@ function DetailNumber() {
         <MainNumber />
         <NameNumber />
         <DestinyNumber />
-        {/* <AtituteNumber />
+        <AtituteNumber />
         <MatureNumber />
         <BirthNumber />
-        <SoulNumber /> */}
+        <SoulNumber />
         <ExpressNumber />
         <InnerNumber />
       </div>
