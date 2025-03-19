@@ -13,7 +13,9 @@ function OverviewNumber() {
   const numberInner = useSelector((state) => state.numberName.inner);
   const numberSoul = useSelector((state) => state.numberName.soul);
   const numberMature = useSelector((state) => state.numberName.mature);
-  const numberDayBirth = useSelector((state) => state.numberKarmaMain.day_birth);
+  const numberDayBirth = useSelector(
+    (state) => state.numberKarmaMain.day_birth
+  );
 
   useEffect(() => {}, [
     numberKarma,
@@ -24,7 +26,7 @@ function OverviewNumber() {
     numberSoul,
     numberInner,
     numberMature,
-    numberDayBirth
+    numberDayBirth,
   ]);
 
   let numbers = [
@@ -65,12 +67,12 @@ function OverviewNumber() {
         color: " text-white",
         style: "#2a80b9",
       },
-        {
-          label: "Số Ngày Sinh",
-          value: numberDayBirth,
-          color: " text-white",
-          style: "#46ae5f",
-        },
+      {
+        label: "Số Ngày Sinh",
+        value: numberDayBirth,
+        color: " text-white",
+        style: "#46ae5f",
+      },
       {
         label: "Số Linh Hồn",
         value: numberSoul,
@@ -89,30 +91,30 @@ function OverviewNumber() {
         color: " text-white",
         style: "#3cbc9b",
       },
-        {
-          label: "Số Thiếu",
-          value: "4 9",
-          color: " text-white",
-          style: "#53cd73",
-        },
-        {
-          label: "Số Năm 2025",
-          value: "2",
-          color: "text-white",
-          style: "#e74d3c",
-        },
-        {
-          label: "Tháng 3/2025",
-          value: "5",
-          color: " text-white",
-          style: "#e57e29",
-        },
-        {
-          label: "Tháng 4/2025",
-          value: "6",
-          color: " text-white",
-          style: "#f39d2f",
-        },
+      // {
+      //   label: "Số Thiếu",
+      //   value: "4 9",
+      //   color: " text-white",
+      //   style: "#53cd73",
+      // },
+      // {
+      //   label: "Số Năm 2025",
+      //   value: "2",
+      //   color: "text-white",
+      //   style: "#e74d3c",
+      // },
+      // {
+      //   label: "Tháng 3/2025",
+      //   value: "5",
+      //   color: " text-white",
+      //   style: "#e57e29",
+      // },
+      // {
+      //   label: "Tháng 4/2025",
+      //   value: "6",
+      //   color: " text-white",
+      //   style: "#f39d2f",
+      // },
     ],
   ];
 
@@ -134,11 +136,11 @@ function OverviewNumber() {
           Xem Lại
         </button>
       </div>
-      <div className="w-75  mx-auto  p-3 border border-dark-subtle rounded mt-4 ">
+      <div className="m-3  p-3    border border-dark-subtle rounded  ">
         {numbers.map((numberRow, rowIndex) => (
-          <div className="row g-3 mb-4 ">
+          <div className="row  mb-4 ">
             {numberRow.map((item, index) => (
-              <div key={`${rowIndex}-${index}`} className="col">
+              <div key={`${rowIndex}-${index}`} className="col-2">
                 <div
                   className="text-center card-container"
                   onMouseEnter={() => setHoverIndex(`${rowIndex}-${index}`)}

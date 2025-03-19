@@ -7,6 +7,8 @@ import {
   stringToNumber,
   soulAndExpress,
   numberAtLeastThreeTimes,
+  checkArrow,
+  lackArrow,
 } from "../service/numerlogy";
 import { numberKarmaActions } from "../store/numberKarma";
 import { numberNameActions } from "../store/numberName";
@@ -22,6 +24,14 @@ function FormInfor() {
     const main = mergeNumberString(birthString);
     dispatch(numberKarmaActions.setKamarNumeroMain(main));
 
+    /**
+     * @kiemtra_muitendaydu_muitentrong
+     */
+
+    dispatch(numberKarmaActions.setArrow(checkArrow(birthString)));
+    dispatch(numberKarmaActions.setLackArrow(lackArrow(birthString)));
+
+    console.log({ check, lack });
     // atitute number  "" +
     const atitute = mergeNumberString(
       values.date.$D - 0 + (values.date.$M + 1) + ""

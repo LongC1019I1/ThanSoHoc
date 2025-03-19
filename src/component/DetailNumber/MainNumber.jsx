@@ -1,12 +1,15 @@
+import { Fragment } from "react";
 import sochudao from "../../assets/img/sochudao.png";
-import { NUMEROLOGY_KARMA } from "../../Data/numerology";
+import { NUMEROLOGY_KARMA, ARROW } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";
 
 function MainNumber() {
   const numberKarma = useSelector((state) => state.numberKarmaMain.number);
+  const arrow = useSelector((state) => state.numberKarmaMain.arrow);
+  const lack_arrow = useSelector((state) => state.numberKarmaMain.lack_arrow);
 
-  console.log({ numberKarma });
+  console.log({ lack_arrow, arrow });
   return (
     <div id="main_number">
       <div className="container">
@@ -53,9 +56,39 @@ function MainNumber() {
         </section>
 
         <section className="mt-4 text-center">
-          {/* {parse(NUMEROLOGY_KARMA[numberKarma].KET_LUAN.noidung)} */}
-          {/* {parse(NUMEROLOGY_KARMA[numberKarma].KET_LUAN.thong_diep)} */}
+          {NUMEROLOGY_KARMA[numberKarma] &&
+          NUMEROLOGY_KARMA[numberKarma].noidung
+            ? parse(NUMEROLOGY_KARMA[numberKarma].KET_LUAN.noidung)
+            : ""}
+          {NUMEROLOGY_KARMA[numberKarma] &&
+          NUMEROLOGY_KARMA[numberKarma].thong_diep
+            ? parse(NUMEROLOGY_KARMA[numberKarma].KET_LUAN.thong_diep)
+            : ""}
         </section>
+        {<Fragment>{arrow.length > 0 ? <h3>BẠN CÓ MŨI TÊN</h3> : ""}</Fragment>}
+        {arrow.length > 0 &&
+          arrow.map((arr, iAr) => {
+            return (
+              <Fragment key={`emp${iAr}`}>
+                <p>{ARROW[arr][1].Y_NGHIA.toUpperCase()}</p>
+              </Fragment>
+            );
+          })}
+
+        {
+          <Fragment>
+            {lack_arrow.length > 0 ? <h3>BẠN CÓ MŨI TÊN TRỐNG</h3> : ""}
+          </Fragment>
+        }
+
+        {lack_arrow.length > 0 &&
+          lack_arrow.map((arr, iAr) => {
+            return (
+              <Fragment key={`emp${iAr}`}>
+                <p>{ARROW[arr][0].Y_NGHIA.toUpperCase()}</p>
+              </Fragment>
+            );
+          })}
       </div>
     </div>
   );

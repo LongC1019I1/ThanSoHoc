@@ -6,7 +6,7 @@ const initialNumberState = {
   inner: "0",
   express: 0,
   soul: 0,
-  mature: 0,
+  mature: 0
 };
 
 const numberNameSlice = createSlice({
@@ -14,23 +14,23 @@ const numberNameSlice = createSlice({
   initialState: initialNumberState,
   reducers: {
     setNumberDestiny(state, action) {
-      state.destiny = action.payload; // ✅ Gán giá trị đúng
+      state.destiny = action.payload;
     },
     setNumberName(state, action) {
-      state.name = action.payload; // ✅ Gán giá trị đúng
+      state.name = action.payload;
     },
     setNumberSoul(state, action) {
-      state.soul = action.payload; // ✅ Gán giá trị đúng
+      state.soul = action.payload;
     },
     setNumberInner(state, action) {
-      state.inner = action.payload; // ✅ Gán giá trị đúng
+      state.inner = action.payload;
     },
     setNumberExpress(state, action) {
-      state.express = action.payload; // ✅ Gán giá trị đúng
+      state.express = action.payload;
     },
     setNumberMature(state, action) {
-      state.mature = action.payload; // ✅ Gán giá trị đúng
-    },
+      state.mature = action.payload;
+    }
   },
 });
 

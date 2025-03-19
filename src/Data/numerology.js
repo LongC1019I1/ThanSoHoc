@@ -638,3 +638,93 @@ export const EXPRESSION_NUMBER = {
       "<h4 class='my-3'>Chỉ Số Biểu Đạt 9 - Người nhân đạo và truyền cảm hứng</h4> <p>Người có chỉ số biểu đạt 9 có tấm lòng rộng lớn và luôn mong muốn cống hiến vì cộng đồng. Họ mang trong mình niềm tin vào những lý tưởng cao đẹp và luôn nỗ lực để lan tỏa yêu thương, giúp đỡ người khác. Sự biểu đạt của họ thường mang tính nhân văn, truyền cảm hứng mạnh mẽ, giúp cải thiện cuộc sống của những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Nhân hậu, bao dung, có tầm nhìn sâu rộng và khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị lợi dụng vì lòng tốt, cần học cách tự bảo vệ bản thân trong quá trình cống hiến.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự cân bằng giữa lý tưởng và thực tế, bảo vệ năng lượng cá nhân trong khi vẫn cống hiến cho cộng đồng.</p>\" \n  }\n}\n",
   },
 };
+export const ARROW = {
+  123: {
+    1: {
+      TEN: "Kế hoạch",
+      Y_NGHIA:
+        "sáng tạo, nhiều ý tưởng, tính trật tự, lên kế hoạch (nghĩ được chưa chắc đã làm được)",
+    },
+    0: {
+      TEN: "Trống kế hoạch",
+      Y_NGHIA: "thiếu trật tự, lộn xộn, cuộc sống vô lối…",
+    },
+  },
+  456: {
+    1: {
+      TEN: "Ý chí",
+      Y_NGHIA:
+        "lý tưởng, khát vọng theo đuổi mục tiêu, năng lượng vượt khổ mạnh mẽ",
+    },
+    0: {
+      TEN: "Sân hận",
+      Y_NGHIA:
+        "không có tham vọng, bùng nhanh chóng tắt, cả thèm chóng chán (cần có đội nhóm để bù khuyết)",
+    },
+  },
+  789: {
+    1: {
+      TEN: "Hoạt động",
+      Y_NGHIA:
+        "tâm huyết, nhiệt tình, có trách nhiệm cao, trải nghiệm học hỏi thực tế nhanh",
+    },
+    0: {
+      TEN: "Thụ động",
+      Y_NGHIA:
+        "thiếu năng lượng, sinh khí, thụ động, thiếu kỷ luật (tìm người có kỷ cương, lý tưởng mà chơi)",
+    },
+  },
+  147: {
+    1: {
+      TEN: "Thực tế",
+      Y_NGHIA:
+        "trục thân thể nên thiên về điểm mạnh trải nghiệm và giá trị thực tế, kỹ thuật, thực hành, khéo léo",
+    },
+    0: {
+      TEN: "Hỗn hợp",
+      Y_NGHIA:
+        "làm việc không có kế hoạch nên rủi ro cao, tùy hứng, thiếu logic",
+    },
+  },
+  258: {
+    1: {
+      TEN: "Cân bằng cảm xúc",
+      Y_NGHIA:
+        "trục tâm nên thiên về khả năng cân bằng cảm xúc, ôn hòa điềm tĩnh, biết lo nghĩ trước sau…",
+    },
+    0: {
+      TEN: "Nhạy cảm",
+      Y_NGHIA:
+        "cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ (nên tập chánh niệm)",
+    },
+  },
+  369: {
+    1: {
+      TEN: "Sáng trí",
+      Y_NGHIA: "phán đoán tốt, có tầm nhìn, sáng tạo, hiểu biết",
+    },
+    0: {
+      TEN: "Trí nhớ ngắn hạn",
+      Y_NGHIA: "tầm nhìn ngắn hạn, tham bát bỏ mâm, trí nhớ kém",
+    },
+  },
+  159: {
+    1: {
+      TEN: "Quyết tâm",
+      Y_NGHIA:
+        "bền bỉ, kiên định, có trách nhiệm, thúc đẩy dẫn dắt người khác phát triển",
+    },
+    0: { TEN: "Trì hoãn", Y_NGHIA: "phân tâm, bất an, thiếu quyết đoán" },
+  },
+  357: {
+    1: {
+      TEN: "Nhạy bén tâm linh",
+      Y_NGHIA:
+        "tư duy tốt, tự học nhanh, niềm tin đến từ sự hiểu biết, có khả năng phản biện",
+    },
+    0: {
+      TEN: "Hoài nghi",
+      Y_NGHIA: "đa nghi, đòi hỏi mọi thứ phải có bằng chứng",
+    },
+  },
+};
