@@ -9,6 +9,7 @@ import {
   numberAtLeastThreeTimes,
   checkArrow,
   lackArrow,
+  fourTop,
 } from "../service/numerlogy";
 import { numberKarmaActions } from "../store/numberKarma";
 import { numberNameActions } from "../store/numberName";
@@ -19,13 +20,26 @@ function FormInfor() {
   const onFinish = (values) => {
     const spaceRegex = /\s+/g;
     // main number
-    const birthString =
-      values.date.$D + "" + (values.date.$M + 1) + values.date.$y;
+
+    const { $D: day, $M, $y: year } = values.date;
+    const month = $M + 1;
+
+    const birthString = day + "" + month + year;
 
     const main = mergeNumberString(birthString);
     dispatch(numberKarmaActions.setKamarNumeroMain(main));
+    /** 
+     @setBirthDayNumber để cho vào bảng số tên
+     */
     dispatch(numberKarmaActions.setBirthDayNumber(birthString));
 
+    /** 
+     @setBirthDayNumber để cho vào bảng số tên
+     */
+    const top4 = fourTop(day, month, year);
+    dispatch(numberKarmaActions.setTop4Peak(top4));
+
+    console.log({ top4 });
     /**
      * @kiemtra_muitendaydu_muitentrong
      */

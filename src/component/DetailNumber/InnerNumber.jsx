@@ -8,9 +8,7 @@ function InnerNumber() {
   const spaceRegex = /\s+/g;
   const numberInner = useSelector((state) => state.numberName.inner);
 
-  console.log({ numberInner });
   const splitNumberInner = numberInner.split(spaceRegex);
-
 
   return (
     <div id="inner_number">

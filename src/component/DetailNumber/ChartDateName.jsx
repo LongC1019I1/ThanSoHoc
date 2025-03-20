@@ -87,7 +87,7 @@ const ChartDateName = ({
               y={yy}
               width={wMatrix / 3 - 10}
               height={hMatrix / 3 - 10}
-              fontStyle='bold'
+              fontStyle="bold"
               fill={color}
               align="center"
               text={
@@ -105,8 +105,6 @@ const ChartDateName = ({
 
     return rects;
   };
-
-  console.log(DrawCell());
 
   return (
     <div class="col-6 my-3" ref={canvasEl}>

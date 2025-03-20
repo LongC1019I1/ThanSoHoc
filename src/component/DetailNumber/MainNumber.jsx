@@ -9,7 +9,6 @@ function MainNumber() {
   const arrow = useSelector((state) => state.numberKarmaMain.arrow);
   const lack_arrow = useSelector((state) => state.numberKarmaMain.lack_arrow);
 
-  console.log({ lack_arrow, arrow });
   return (
     <div id="main_number">
       <div className="container">

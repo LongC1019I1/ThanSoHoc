@@ -85,8 +85,8 @@ export const stringToNumber = (s) => {
 export const pickCharacter = (str, isGetVowel = true) => {
   const keyVowel = str.match(/y$|y[^aeuio]+/gi) ? /[aeuioy]+/gi : /[aeuio]+/gi;
 
-  
-  
+
+
   if (isGetVowel && str) {
     return str.match(keyVowel).join("");
   }
@@ -145,27 +145,74 @@ export const fourTop = (dd, mm, year) => {
   const top03 = mergeNumberString(top01 + top02);
   const top04 = mergeNumberString(mm + "" + year);
 
+
+  const base1 = mergeNumberString(mm + "", true)
+  const base2 = mergeNumberString(dd + "", true)
+  const base3 = mergeNumberString(year + "", true)
+
+  const challenge_01 = Math.abs(base1 - base2);
+  const challenge_02 = Math.abs(base2 - base3);
+  const challenge_03 = Math.abs(challenge_02 - challenge_01);
+  const challenge_04 = Math.abs(base1 - base3);
+
+
+
   return {
-    top01: {
-      num: top01,
-      year: top01Year,
-      age: top01Age,
+    top4_peak: {
+      numberbase: {
+        num1: base1,
+        num2: base2,
+        num3: base3
+      },
+      top01: {
+        num: top01,
+        year: top01Year,
+        age: top01Age,
+      },
+      top02: {
+        num: top02,
+        year: top01Year + 9,
+        age: top01Age + 9,
+      },
+      top03: {
+        num: top03,
+        year: top01Year + 18,
+        age: top01Age + 18,
+      },
+      top04: {
+        num: top04,
+        year: top01Year + 27,
+        age: top01Age + 27,
+      },
     },
-    top02: {
-      num: top02,
-      year: top01Year + 9,
-      age: top01Age + 9,
-    },
-    top03: {
-      num: top03,
-      year: top01Year + 18,
-      age: top01Age + 18,
-    },
-    top04: {
-      num: top04,
-      year: top01Year + 27,
-      age: top01Age + 27,
-    },
+
+    top4_challenge: {
+      numberbase: {
+        num1: base1,
+        num2: base2,
+        num3: base3
+      },
+      top01: {
+        num: challenge_01,
+        year: top01Year,
+        age: top01Age,
+      },
+      top02: {
+        num: challenge_02,
+        year: top01Year + 9,
+        age: top01Age + 9,
+      },
+      top03: {
+        num: challenge_03,
+        year: top01Year + 18,
+        age: top01Age + 18,
+      },
+      top04: {
+        num: challenge_04,
+        year: top01Year + 27,
+        age: top01Age + 27,
+      }
+    }
   };
 };
 

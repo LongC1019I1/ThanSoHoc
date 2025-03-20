@@ -27,6 +27,9 @@ const sampleAges = {
 };
 
 function DetailNumber() {
+  const top4 = useSelector((state) => state.numberKarmaMain.top4);
+  console.log({ top4 });
+
   const birth_day = useSelector((state) => state.numberKarmaMain.birth_day);
   const full_name_numb = useSelector(
     (state) => state.numberName.full_name_number
@@ -59,27 +62,30 @@ function DetailNumber() {
             buttonColor="#3cbc9b"
           />
         </div>
-        {/* <div
-          id="lifepeak"
-          className="  border rounded  row d-flex  p-3 m-3 justify-content-center"
-        >
-          <LifePeak
-            numbers={sampleNumbers}
-            ages={sampleAges}
-            btn={{
-              class_name: "btn btn-danger",
-              noi_dung: "4 ĐỈNH CỦA CUỘC ĐỜI",
-            }}
-          />
-          <LifePeak
-            numbers={sampleNumbers}
-            ages={sampleAges}
-            btn={{
-              class_name: "btn jade-green",
-              noi_dung: "BIỂU ĐỒ THỬ THÁCH",
-            }}
-          />
-        </div> */}
+        {top4 && (
+          <Fragment>
+            <div
+              id="lifepeak"
+              className="  border rounded  row d-flex  p-3 m-3 justify-content-center"
+            >
+              <LifePeak
+                topFour={top4.top4_peak}
+                btn={{
+                  class_name: "btn btn-danger",
+                  noi_dung: "4 ĐỈNH CỦA CUỘC ĐỜI",
+                }}
+              />
+              <LifePeak
+                topFour={top4.top4_challenge}
+                btn={{
+                  class_name: "btn jade-green",
+                  noi_dung: "BIỂU ĐỒ THỬ THÁCH",
+                }}
+              />
+            </div>
+          </Fragment>
+        )}
+
         <MainNumber />
         <NameNumber />
         <DestinyNumber />

@@ -9,18 +9,12 @@ import {
   Line,
 } from "react-konva";
 import React, { useEffect, useRef, useState, Fragment } from "react";
-function LifePeak({ numbers, ages, btn }) {
+function LifePeak({ topFour, btn }) {
   const canvasEl = useRef(null);
   const [wRightPanel, setWLeftPanel] = useState();
   const [kamarNumeroMain, setKamarNumeroMain] = useState(9);
   // 4 dinh
-  const topFour = {
-    numberbase: { num1: "1", num2: "1", num3: "7" },
-    top01: { num: "2", year: 2023, age: 27 },
-    top02: { num: "8", year: 2032, age: 36 },
-    top03: { num: "10", year: 2041, age: 45 },
-    top04: { num: "8", year: 2050, age: 54 },
-  };
+
   const radius = 15;
 
   var gray_color = "#b2aea5";
@@ -175,7 +169,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="8"
+                  text={topFour.top04.num}
                   fill="red"
                   fontSize="15"
                 />
@@ -198,7 +192,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="54 "
+                  text={topFour.top04.age}
                   fill="red"
                   fontSize={15}
                 />
@@ -216,7 +210,7 @@ function LifePeak({ numbers, ages, btn }) {
                   align="center"
                   verticalAlign="middle"
                   x={+48}
-                  text="(2050)"
+                  text={topFour.top04.year}
                   fill="blue"
                   fontSize={15}
                 />
@@ -251,7 +245,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="8"
+                  text={topFour.top03.num}
                   fill="red"
                   fontSize="15"
                 />
@@ -273,7 +267,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="45 "
+                  text={topFour.top03.age}
                   fill="red"
                   fontSize={15}
                 />
@@ -291,7 +285,7 @@ function LifePeak({ numbers, ages, btn }) {
                   align="center"
                   verticalAlign="middle"
                   x={+48}
-                  text="(2041)"
+                  text={topFour.top03.year}
                   fill="blue"
                   fontSize={15}
                 />
@@ -326,7 +320,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="8"
+                  text={topFour.top02.num}
                   fill="red"
                   fontSize="15"
                 />
@@ -349,7 +343,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="36 "
+                  text={topFour.top02.age}
                   fill="red"
                   fontSize={15}
                 />
@@ -367,7 +361,7 @@ function LifePeak({ numbers, ages, btn }) {
                   align="center"
                   verticalAlign="middle"
                   x={+48}
-                  text="(2032)"
+                  text={topFour.top02.year}
                   fill="blue"
                   fontSize={15}
                 />
@@ -402,7 +396,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="8"
+                  text={topFour.top01.num}
                   fill="red"
                   fontSize="15"
                 />
@@ -426,7 +420,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="27 "
+                  text={topFour.top01.age}
                   fill="red"
                   fontSize={15}
                 />
@@ -444,7 +438,7 @@ function LifePeak({ numbers, ages, btn }) {
                   align="center"
                   verticalAlign="middle"
                   x={+48}
-                  text="(2023)"
+                  text={topFour.top01.year}
                   fill="blue"
                   fontSize={15}
                 />
@@ -466,7 +460,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="1"
+                  text={topFour.numberbase.num1}
                   fill={gray_color}
                   fontSize="15"
                 />
@@ -483,7 +477,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="9"
+                  text={topFour.numberbase.num2}
                   fill={gray_color}
                   fontSize="15"
                 />
@@ -500,7 +494,7 @@ function LifePeak({ numbers, ages, btn }) {
                 <Text
                   align="center"
                   verticalAlign="middle"
-                  text="7"
+                  text={topFour.numberbase.num3}
                   fill={gray_color}
                   fontSize="15"
                 />
