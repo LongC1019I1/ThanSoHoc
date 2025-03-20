@@ -1,9 +1,9 @@
 import React, { Fragment, useEffect } from "react";
 
 import { useState } from "react";
-import classes from "./OverviewNumber.module.css";
 import { useSelector } from "react-redux";
-
+import classes from "./OverviewNumber.module.css";
+import { motion, AnimatePresence } from "framer-motion";
 function OverviewNumber() {
   const numberKarma = useSelector((state) => state.numberKarmaMain.number);
   const numbeAtitute = useSelector((state) => state.numberKarmaMain.atitute);
@@ -87,7 +87,7 @@ function OverviewNumber() {
       },
       {
         label: "Số Nội Cảm",
-        value: numberInner,
+        value: numberInner ? numberInner : "Không có",
         color: " text-white",
         style: "#3cbc9b",
       },
@@ -147,18 +147,19 @@ function OverviewNumber() {
                 >
                   <span className={classes.title_number}>{item.label}</span>
                   <a href="#">
-                    <div
-                      className={`fw-bold py-2 px-3 rounded-3 transition ${
+                    <motion.div
+                      key={item.value} // Chỉ chữ số thay đổi mới render lại
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+                      className={`fw-bold py-2 px-3 rounded-3 transition mb-3 ${
                         item.color
                       } ${
                         hoverIndex === `${rowIndex}-${index}` ? "scale-up" : ""
-                      }
-                       ${classes.box_shadow}
-                      `}
+                      } ${classes.box_shadow}`}
                       style={{ backgroundColor: item.style }}
                     >
                       {item.value}
-                    </div>
+                    </motion.div>
                   </a>
                 </div>
               </div>

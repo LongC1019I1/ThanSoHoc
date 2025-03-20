@@ -85,7 +85,9 @@ export const stringToNumber = (s) => {
 export const pickCharacter = (str, isGetVowel = true) => {
   const keyVowel = str.match(/y$|y[^aeuio]+/gi) ? /[aeuioy]+/gi : /[aeuio]+/gi;
 
-  if (isGetVowel) {
+  
+  
+  if (isGetVowel && str) {
     return str.match(keyVowel).join("");
   }
 

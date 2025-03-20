@@ -52,7 +52,6 @@ function FormInfor() {
     const full_name_number = stringToNumber(full_name);
     const detinyNumber = mergeNumberString(full_name_number);
 
-    
     dispatch(numberNameActions.setNumberDestiny(detinyNumber));
     dispatch(numberNameActions.setFullNameNumber(full_name_number));
     // name number
@@ -67,7 +66,7 @@ function FormInfor() {
     // express soul number
 
     const prename = full_name_split.slice(0, -1).join("");
-
+    console.log({ prename });
     const { soul, express } = soulAndExpress([
       ...prename.split(spaceRegex),
       ...name.split(spaceRegex),
@@ -83,8 +82,10 @@ function FormInfor() {
     const list_number_name = stringToNumber(full_name).split("");
 
     const inner_number = numberAtLeastThreeTimes(list_number_name);
-
-    dispatch(numberNameActions.setNumberInner(inner_number));
+    console.log({ inner_number });
+    dispatch(
+      numberNameActions.setNumberInner(inner_number ? inner_number : "")
+    );
 
     // grow number
     const mature = mergeNumberString(main - 0 + (detinyNumber - 0) + "");
