@@ -4,6 +4,7 @@ const initialNumberState = {
   number: 0,
   atitute: 0,
   day_birth: 0,
+  birth_day:'',
   arrow: '',
   lack_arrow: ''
 };
@@ -13,13 +14,16 @@ const numberKarmaSlice = createSlice({
   initialState: initialNumberState,
   reducers: {
     setKamarNumeroMain(state, action) {
-      state.number = action.payload; // ✅ Gán giá trị đúng
+      state.number = action.payload; 
     },
     setKamarNumeroAtitute(state, action) {
-      state.atitute = action.payload; // ✅ Gán giá trị đúng
+      state.atitute = action.payload; 
     },
     setKamarNumeroDayBirth(state, action) {
-      state.day_birth = action.payload; // ✅ Gán giá trị đúng
+      state.day_birth = action.payload; 
+    },
+    setBirthDayNumber(state, action) {
+      state.birth_day = action.payload; 
     },
     setArrow(state, action) {
       state.arrow = action.payload;

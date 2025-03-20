@@ -21,8 +21,10 @@ function FormInfor() {
     // main number
     const birthString =
       values.date.$D + "" + (values.date.$M + 1) + values.date.$y;
+
     const main = mergeNumberString(birthString);
     dispatch(numberKarmaActions.setKamarNumeroMain(main));
+    dispatch(numberKarmaActions.setBirthDayNumber(birthString));
 
     /**
      * @kiemtra_muitendaydu_muitentrong
@@ -31,7 +33,6 @@ function FormInfor() {
     dispatch(numberKarmaActions.setArrow(checkArrow(birthString)));
     dispatch(numberKarmaActions.setLackArrow(lackArrow(birthString)));
 
-    console.log({ check, lack });
     // atitute number  "" +
     const atitute = mergeNumberString(
       values.date.$D - 0 + (values.date.$M + 1) + ""
@@ -48,10 +49,12 @@ function FormInfor() {
 
     const full_name = removeVietnameseTones(values.name.trim()).toUpperCase();
 
-    const detinyNumber = mergeNumberString(stringToNumber(full_name));
+    const full_name_number = stringToNumber(full_name);
+    const detinyNumber = mergeNumberString(full_name_number);
 
+    
     dispatch(numberNameActions.setNumberDestiny(detinyNumber));
-
+    dispatch(numberNameActions.setFullNameNumber(full_name_number));
     // name number
 
     const full_name_split = full_name.split(" ");
