@@ -2,7 +2,12 @@ import { Tag } from "antd";
 import React, { useEffect, useRef, useState } from "react";
 import { Stage, Layer, Rect, Text, Label } from "react-konva";
 
-const ChartDateName = ({ numbersData, color, buttonText, buttonColor }) => {
+const ChartDateName = ({
+  numbersData,
+  color = "red",
+  buttonText,
+  buttonColor,
+}) => {
   const [wRightPanel, setWLeftPanel] = useState();
 
   // const numbersPosition = [
@@ -33,8 +38,6 @@ const ChartDateName = ({ numbersData, color, buttonText, buttonColor }) => {
     }
   }
 
-  
-
   const canvasEl = useRef(null);
 
   useEffect(() => {
@@ -49,7 +52,7 @@ const ChartDateName = ({ numbersData, color, buttonText, buttonColor }) => {
     const rects = [];
 
     for (let x = 0; x < 3; x++) {
-      const xx = ((wMatrix ) / 3) * x + 3;
+      const xx = (wMatrix / 3) * x + 3;
       for (let y = 0; y < 3; y++) {
         const yy = hMatrix - (hMatrix / 3) * (y + 1) + 5;
 
@@ -84,7 +87,8 @@ const ChartDateName = ({ numbersData, color, buttonText, buttonColor }) => {
               y={yy}
               width={wMatrix / 3 - 10}
               height={hMatrix / 3 - 10}
-              fill="red"
+              fontStyle='bold'
+              fill={color}
               align="center"
               text={
                 amountNumber.hasOwnProperty(text)
@@ -109,11 +113,7 @@ const ChartDateName = ({ numbersData, color, buttonText, buttonColor }) => {
       <div className=" d-flex justify-content-center ">
         {/* Vẽ biểu đồ bằng React Konva */}
         {wMatrix && (
-          <Stage
-            width={wMatrix}
-            height={hMatrix}
-        
-          >
+          <Stage width={wMatrix} height={hMatrix}>
             <Layer>{DrawCell()}</Layer>
           </Stage>
         )}
