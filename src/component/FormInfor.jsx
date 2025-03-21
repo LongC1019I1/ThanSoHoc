@@ -35,7 +35,6 @@ function FormInfor() {
      */
     dispatch(numberKarmaActions.setBirthDayNumber(birthString));
 
-
     /** 
      @setBirthDayNumber để cho vào bảng số tên
      */
@@ -71,10 +70,6 @@ function FormInfor() {
     dispatch(numberNameActions.setNumberDestiny(detinyNumber));
     dispatch(numberNameActions.setFullNameNumber(full_name_number));
 
-
-
-
-
     // name number
 
     const full_name_split = full_name.split(" ");
@@ -109,10 +104,6 @@ function FormInfor() {
     // grow number
     const mature = mergeNumberString(main - 0 + (detinyNumber - 0) + "");
     dispatch(numberNameActions.setNumberMature(mature));
-
-    // combineChart
-   const strongBirthNumb =  filterRealNumber(birthString, 2);
-   const strongNameNumb =  filterRealNumber(full_name_number, 3);
   };
 
   return (

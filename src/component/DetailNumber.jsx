@@ -11,6 +11,7 @@ import InnerNumber from "./DetailNumber/InnerNumber";
 import LifePeak from "./DetailNumber/LifePeak";
 import ChartDateName from "./DetailNumber/ChartDateName";
 import { useSelector } from "react-redux";
+import ChartCombineEnergy from "./DetailNumber/ChartCombineEnergy";
 // 🟢 Dữ liệu mẫu để truyền vào component
 const sampleNumbers = {
   top: 8,
@@ -34,6 +35,7 @@ function DetailNumber() {
     (state) => state.numberName.full_name_number
   );
   const combine_numb_birth_name = birth_day + "" + full_name_numb;
+
   return (
     <Fragment>
       <div id="detail_number">
@@ -61,6 +63,19 @@ function DetailNumber() {
             buttonColor="#3cbc9b"
           />
         </div>
+
+        <div class="border rounded p-3 m-3 d-flex justify-content-center">
+          {combine_numb_birth_name && (
+            <Fragment>
+              <ChartCombineEnergy
+                color="blue"
+                buttonText="BIỂU ĐỒ TỔNG HỢP"
+                buttonColor="#3cbc9b"
+              />
+            </Fragment>
+          )}
+        </div>
+
         {top4 && (
           <Fragment>
             <div
