@@ -10,10 +10,12 @@ import {
   checkArrow,
   lackArrow,
   fourTop,
+  filterRealNumber,
 } from "../service/numerlogy";
 import { numberKarmaActions } from "../store/numberKarma";
 import { numberNameActions } from "../store/numberName";
 import { useDispatch } from "react-redux";
+import { a } from "framer-motion/client";
 function FormInfor() {
   const dispatch = useDispatch();
 
@@ -33,13 +35,13 @@ function FormInfor() {
      */
     dispatch(numberKarmaActions.setBirthDayNumber(birthString));
 
+
     /** 
      @setBirthDayNumber để cho vào bảng số tên
      */
     const top4 = fourTop(day, month, year);
     dispatch(numberKarmaActions.setTop4Peak(top4));
 
-    console.log({ top4 });
     /**
      * @kiemtra_muitendaydu_muitentrong
      */
@@ -68,6 +70,11 @@ function FormInfor() {
 
     dispatch(numberNameActions.setNumberDestiny(detinyNumber));
     dispatch(numberNameActions.setFullNameNumber(full_name_number));
+
+
+
+
+
     // name number
 
     const full_name_split = full_name.split(" ");
@@ -80,13 +87,11 @@ function FormInfor() {
     // express soul number
 
     const prename = full_name_split.slice(0, -1).join("");
-    console.log({ prename });
+
     const { soul, express } = soulAndExpress([
       ...prename.split(spaceRegex),
       ...name.split(spaceRegex),
     ]);
-
-    console.log({ soul });
 
     dispatch(numberNameActions.setNumberSoul(soul));
     dispatch(numberNameActions.setNumberExpress(express));
@@ -96,7 +101,7 @@ function FormInfor() {
     const list_number_name = stringToNumber(full_name).split("");
 
     const inner_number = numberAtLeastThreeTimes(list_number_name);
-    console.log({ inner_number });
+
     dispatch(
       numberNameActions.setNumberInner(inner_number ? inner_number : "")
     );
@@ -104,6 +109,10 @@ function FormInfor() {
     // grow number
     const mature = mergeNumberString(main - 0 + (detinyNumber - 0) + "");
     dispatch(numberNameActions.setNumberMature(mature));
+
+    // combineChart
+   const strongBirthNumb =  filterRealNumber(birthString, 2);
+   const strongNameNumb =  filterRealNumber(full_name_number, 3);
   };
 
   return (

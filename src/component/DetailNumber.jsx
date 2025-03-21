@@ -28,7 +28,6 @@ const sampleAges = {
 
 function DetailNumber() {
   const top4 = useSelector((state) => state.numberKarmaMain.top4);
-  console.log({ top4 });
 
   const birth_day = useSelector((state) => state.numberKarmaMain.birth_day);
   const full_name_numb = useSelector(

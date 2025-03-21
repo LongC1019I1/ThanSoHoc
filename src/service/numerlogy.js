@@ -85,8 +85,6 @@ export const stringToNumber = (s) => {
 export const pickCharacter = (str, isGetVowel = true) => {
   const keyVowel = str.match(/y$|y[^aeuio]+/gi) ? /[aeuioy]+/gi : /[aeuio]+/gi;
 
-
-
   if (isGetVowel && str) {
     return str.match(keyVowel).join("");
   }
@@ -145,24 +143,21 @@ export const fourTop = (dd, mm, year) => {
   const top03 = mergeNumberString(top01 + top02);
   const top04 = mergeNumberString(mm + "" + year);
 
-
-  const base1 = mergeNumberString(mm + "", true)
-  const base2 = mergeNumberString(dd + "", true)
-  const base3 = mergeNumberString(year + "", true)
+  const base1 = mergeNumberString(mm + "", true);
+  const base2 = mergeNumberString(dd + "", true);
+  const base3 = mergeNumberString(year + "", true);
 
   const challenge_01 = Math.abs(base1 - base2);
   const challenge_02 = Math.abs(base2 - base3);
   const challenge_03 = Math.abs(challenge_02 - challenge_01);
   const challenge_04 = Math.abs(base1 - base3);
 
-
-
   return {
     top4_peak: {
       numberbase: {
         num1: base1,
         num2: base2,
-        num3: base3
+        num3: base3,
       },
       top01: {
         num: top01,
@@ -190,7 +185,7 @@ export const fourTop = (dd, mm, year) => {
       numberbase: {
         num1: base1,
         num2: base2,
-        num3: base3
+        num3: base3,
       },
       top01: {
         num: challenge_01,
@@ -211,8 +206,8 @@ export const fourTop = (dd, mm, year) => {
         num: challenge_04,
         year: top01Year + 27,
         age: top01Age + 27,
-      }
-    }
+      },
+    },
   };
 };
 
@@ -267,4 +262,37 @@ export const lackArrow = (strNumber) => {
   const lackNumber = emptyNumber(strNumber);
 
   return checkArrow(lackNumber);
+};
+
+export const filterRealNumber = (string, realnumb) => {
+  const amountNumber = {};
+  for (let chr of string.replaceAll("0", "")) {
+    if (amountNumber[chr]) {
+      amountNumber[chr] += 1;
+    } else {
+      amountNumber[chr] = 1;
+    }
+  }
+
+  for (let numb in amountNumber) {
+    if (amountNumber[numb] >= realnumb) {
+      {
+        amountNumber[numb] = Math.floor(amountNumber[numb] / 2);
+      }
+    } else {
+      delete amountNumber[numb];
+    }
+  }
+
+  const result = Object.entries(amountNumber).reduce(
+    (acc, [key, value]) => acc + key.repeat(value),
+    ""
+  );
+
+  console.log({ result });
+  return result;
+};
+
+export const multiNumbStr = (numb, multi) => {
+  return String(numb).repeat(multi);
 };
