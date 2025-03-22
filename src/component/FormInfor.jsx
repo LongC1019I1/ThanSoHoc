@@ -50,7 +50,8 @@ function FormInfor() {
 
     // atitute number  "" +
     const atitute = mergeNumberString(
-      values.date.$D - 0 + (values.date.$M + 1) + ""
+      values.date.$D - 0 + (values.date.$M + 1) + "",
+      true
     );
 
     dispatch(numberKarmaActions.setKamarNumeroAtitute(atitute));
@@ -75,7 +76,7 @@ function FormInfor() {
     const full_name_split = full_name.split(" ");
 
     const name = full_name_split[full_name_split.length - 1];
-    const nameNumber = mergeNumberString(stringToNumber(name));
+    const nameNumber = mergeNumberString(stringToNumber(name), true);
 
     dispatch(numberNameActions.setNumberName(nameNumber));
 

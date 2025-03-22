@@ -1,15 +1,16 @@
 import { Tag } from "antd";
 import React, { useEffect, useRef, useState } from "react";
 import { Stage, Layer, Rect, Text, Label } from "react-konva";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { filterRealNumber } from "../../service/numerlogy";
+import { numberKarmaActions } from "../../store/numberKarma";
 const ChartCombineEnergy = function ({
   color = "red",
   buttonText,
   buttonColor,
 }) {
   const [wRightPanel, setWLeftPanel] = useState();
-
+  const dispatch = useDispatch();
   // combineChart
   const birthString = useSelector((state) => state.numberKarmaMain.birth_day);
   const full_name_number = useSelector(
@@ -47,6 +48,9 @@ const ChartCombineEnergy = function ({
   }
 
   for (let top in top4) {
+    if (!top4[top].num) {
+      continue;
+    }
     if (amountNumber[top4[top].num]) {
       amountNumber[top4[top].num] += 2;
     } else {
@@ -59,20 +63,22 @@ const ChartCombineEnergy = function ({
   amountNumber[destiny] = amountNumber[destiny] ? amountNumber[destiny] + 3 : 3;
   amountNumber[mature] = amountNumber[mature] ? amountNumber[mature] + 3 : 3;
 
-  console.log({
-    top4,
-    strongBirthNumb,
-    strongNameNumb,
-    atitute,
-    day_birth,
-    nameNumber,
-    soul,
-    express,
-    main,
-    destiny,
-    mature,
-  });
+  // start Kiem tra so manh va yeu
+  const weak_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const weakNumbers = weak_arr.filter(
+    (num) => !amountNumber.hasOwnProperty(num)
+  );
+  const stong_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 20, 22, 30, 33];
+  const strongNumber = stong_arr.filter((num) => amountNumber[num] >= 4);
 
+  dispatch(numberKarmaActions.setWeakListNumb(weakNumbers));
+
+  console.log({ weakNumbers });
+
+  dispatch(numberKarmaActions.setStrongListNumb(strongNumber));
+  console.log({ strongNumber });
+
+  // end
   const canvasEl = useRef(null);
 
   useEffect(() => {

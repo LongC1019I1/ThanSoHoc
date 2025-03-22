@@ -596,8 +596,7 @@ export const INNER_NUMBER = {
   9: {
     noidung:
       "<h4 class='my-3'>Chỉ số Nội Cảm <span class='text-danger'>9</span> - Người nhân đạo và lãnh đạo</h4> <p>Bạn là người có tấm lòng rộng lượng, biết quan tâm đến những người xung quanh, vì thế bạn được nhiều người yêu mến và tin tưởng. Ngoài ra, bạn cũng thuộc nhóm người có tính chất của một nhà lãnh đạo có nhiều tài năng. Thần số học số <span class='text-danger'>9</span> trong chỉ số nội cảm cho thấy bạn có khả năng lãnh đạo, truyền cảm hứng và cống hiến vì cộng đồng.</p>",
-  }
-
+  },
 };
 
 export const EXPRESSION_NUMBER = {
@@ -726,5 +725,83 @@ export const ARROW = {
       TEN: "Hoài nghi",
       Y_NGHIA: "đa nghi, đòi hỏi mọi thứ phải có bằng chứng",
     },
+  },
+};
+
+export const STRONG_NUMB = {
+  1: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 1 - Người lãnh đạo độc lập</h4> <p>Người có chỉ số biểu đạt 1 luôn thể hiện cá tính mạnh mẽ, độc lập và đầy quyết đoán. Họ có khả năng lãnh đạo tự nhiên, luôn tìm cách khẳng định bản thân và dẫn dắt người khác theo con đường riêng của mình. Họ đam mê sáng tạo và không ngại đứng ra đối mặt với thách thức, mong muốn đạt được thành công vượt trội.</p> <p><strong>💡 Điểm mạnh:</strong> Tính cách độc lập, quyết đoán, sáng tạo và khả năng lãnh đạo xuất sắc.</p> <p><strong>⚠️ Thách thức:</strong> Có thể quá tự phụ, ít lắng nghe ý kiến của người khác và có xu hướng cô lập khi bị phủ nhận.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cởi mở, lắng nghe đóng góp từ người khác và làm việc nhóm hiệu quả hơn để tận dụng tối đa tiềm năng lãnh đạo của mình.</p>",
+  },
+  2: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 2 - Người hòa giải và nhạy cảm</h4> <p>Người có chỉ số biểu đạt 2 thường rất nhạy cảm, tinh tế và có khả năng giao tiếp mềm dẻo. Họ là những người có tài hòa giải, biết cách làm dịu bầu không khí căng thẳng và tạo ra môi trường làm việc hòa bình. Họ luôn đề cao sự thấu hiểu và mong muốn xây dựng mối quan hệ bền vững với người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Khả năng đồng cảm, tinh tế và làm việc nhóm tốt.</p> <p><strong>⚠️ Thách thức:</strong> Có thể quá phụ thuộc vào người khác và gặp khó khăn khi phải đưa ra quyết định độc lập.</p> <p><strong>🚀 Định hướng phát triển:</strong> Cần rèn luyện sự tự tin và khả năng tự quyết để duy trì sự cân bằng giữa hòa nhập và độc lập.</p>",
+  },
+  3: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 3 - Người sáng tạo và biểu đạt</h4> <p>Người có chỉ số biểu đạt 3 là những người có tài nghệ thuật bẩm sinh. Họ có khả năng giao tiếp xuất sắc, mang đến nguồn năng lượng tích cực và luôn biết cách truyền cảm hứng cho người khác. Họ yêu thích sự tự do trong việc sáng tạo và thể hiện bản thân, đồng thời luôn tìm cách phá vỡ các khuôn mẫu truyền thống.</p> <p><strong>💡 Điểm mạnh:</strong> Sáng tạo, hài hước, giao tiếp tốt và có khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị phân tán, thiếu kiên trì và có xu hướng ưu tiên niềm vui ngắn hạn.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự tập trung và kiên trì theo đuổi mục tiêu lâu dài, đồng thời phát huy tối đa năng lực sáng tạo của mình.</p>",
+  },
+  4: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 4 - Người tổ chức và có trách nhiệm</h4> <p>Người có chỉ số biểu đạt 4 thường thể hiện tính cách thực tế, có tổ chức và có trách nhiệm cao. Họ luôn đề cao tính kỷ luật và làm việc có kế hoạch, tạo nên nền tảng vững chắc cho sự nghiệp cũng như các mối quan hệ cá nhân. Họ là người có tư duy logic, luôn chú trọng vào chi tiết để đảm bảo sự ổn định.</p> <p><strong>💡 Điểm mạnh:</strong> Tổ chức tốt, cẩn thận, kiên trì và đáng tin cậy.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị bảo thủ, cứng nhắc và không linh hoạt khi đối mặt với thay đổi.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách linh hoạt hơn, chấp nhận sáng tạo và điều chỉnh quan điểm khi cần thiết để phát triển bền vững.</p>",
+  },
+  5: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 5 - Người năng động, thích tự do và khám phá</h4> <p>Người có chỉ số biểu đạt 5 luôn tìm kiếm sự tự do và không ngại thử thách. Họ là những người thích khám phá, phiêu lưu và luôn mở rộng trải nghiệm sống của mình. Tài năng biểu đạt của họ được thể hiện qua cách giao tiếp, sáng tạo và khả năng thích ứng với mọi tình huống. Họ luôn khao khát đổi mới và không muốn bị ràng buộc bởi những giới hạn cũ kỹ.</p> <p><strong>💡 Điểm mạnh:</strong> Linh hoạt, năng động, sáng tạo và thích nghi tốt với môi trường thay đổi.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị mất phương hướng, thiếu sự ổn định và có xu hướng dao động trong cảm xúc.</p> <p><strong>🚀 Định hướng phát triển:</strong> Xây dựng mục tiêu rõ ràng, rèn luyện sự kiên trì và duy trì sự ổn định để phát huy tối đa tiềm năng sáng tạo.</p>",
+  },
+  6: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 6 - Người chăm sóc và tình cảm</h4> <p>Người có chỉ số biểu đạt 6 là những người có trái tim ấm áp, luôn đặt giá trị gia đình và tình cảm lên hàng đầu. Họ có khả năng tạo dựng mối quan hệ gắn bó và luôn mong muốn mang lại sự an toàn, yêu thương cho người thân và bạn bè. Họ là người có tính cách chu đáo và luôn muốn chăm sóc, bảo vệ những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Tận tâm, nhân hậu, biết quan tâm và xây dựng mối quan hệ bền chặt.</p> <p><strong>⚠️ Thách thức:</strong> Có thể dễ bị quá tải vì luôn đặt lợi ích của người khác lên trên bản thân.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách phân chia thời gian, năng lượng giữa việc chăm sóc người khác và tự chăm sóc bản thân để duy trì sự cân bằng.</p>",
+  },
+  7: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 7 - Người tư duy sâu sắc và triết lý</h4> <p>Người có chỉ số biểu đạt 7 thường có tâm hồn sâu sắc, yêu thích nghiên cứu, chiêm nghiệm và luôn tìm kiếm ý nghĩa đích thực của cuộc sống. Họ có triết lý sống riêng biệt và không dễ bị ảnh hưởng bởi số đông. Sự độc lập trong tư duy giúp họ có cái nhìn sâu sắc về bản chất của sự việc, nhưng cũng khiến họ đôi khi trở nên kín đáo và khó giao tiếp.</p> <p><strong>💡 Điểm mạnh:</strong> Sâu sắc, thông thái, có khả năng phân tích và trực giác mạnh mẽ.</p> <p><strong>⚠️ Thách thức:</strong> Dễ rơi vào cô lập, thiếu giao tiếp và khó chia sẻ cảm xúc với người khác.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách mở lòng, giao tiếp và chia sẻ kiến thức để làm phong phú thêm các mối quan hệ.</p>",
+  },
+  8: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 8 - Người lãnh đạo và hiện thực</h4> <p>Người có chỉ số biểu đạt 8 thường có khả năng lãnh đạo và có tầm nhìn rõ ràng về thành công. Họ có khả năng quản lý tốt và luôn theo đuổi mục tiêu một cách quyết đoán. Tinh thần thực tiễn và khả năng tổ chức của họ giúp định hướng sự nghiệp một cách hiệu quả, nhưng họ cũng cần chú ý không để lòng tham và áp lực làm lu mờ giá trị cảm xúc.</p> <p><strong>💡 Điểm mạnh:</strong> Quyết đoán, tham vọng, có khả năng lãnh đạo và định hướng sự nghiệp xuất sắc.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị cuốn vào quyền lực, thiếu sự linh hoạt và có xu hướng chỉ tập trung vào vật chất.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cân bằng giữa thành công cá nhân và trách nhiệm với xã hội, cũng như lắng nghe ý kiến từ người khác để hoàn thiện bản thân.</p>",
+  },
+  9: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 9 - Người nhân đạo và truyền cảm hứng</h4> <p>Người có chỉ số biểu đạt 9 có tấm lòng rộng lớn và luôn mong muốn cống hiến vì cộng đồng. Họ mang trong mình niềm tin vào những lý tưởng cao đẹp và luôn nỗ lực để lan tỏa yêu thương, giúp đỡ người khác. Sự biểu đạt của họ thường mang tính nhân văn, truyền cảm hứng mạnh mẽ, giúp cải thiện cuộc sống của những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Nhân hậu, bao dung, có tầm nhìn sâu rộng và khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị lợi dụng vì lòng tốt, cần học cách tự bảo vệ bản thân trong quá trình cống hiến.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự cân bằng giữa lý tưởng và thực tế, bảo vệ năng lượng cá nhân trong khi vẫn cống hiến cho cộng đồng.</p>\" \n  }\n}\n",
+  },
+};
+
+export const WEAK_NUMB = {
+  1: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 1 - Người lãnh đạo độc lập</h4> <p>Người có chỉ số biểu đạt 1 luôn thể hiện cá tính mạnh mẽ, độc lập và đầy quyết đoán. Họ có khả năng lãnh đạo tự nhiên, luôn tìm cách khẳng định bản thân và dẫn dắt người khác theo con đường riêng của mình. Họ đam mê sáng tạo và không ngại đứng ra đối mặt với thách thức, mong muốn đạt được thành công vượt trội.</p> <p><strong>💡 Điểm mạnh:</strong> Tính cách độc lập, quyết đoán, sáng tạo và khả năng lãnh đạo xuất sắc.</p> <p><strong>⚠️ Thách thức:</strong> Có thể quá tự phụ, ít lắng nghe ý kiến của người khác và có xu hướng cô lập khi bị phủ nhận.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cởi mở, lắng nghe đóng góp từ người khác và làm việc nhóm hiệu quả hơn để tận dụng tối đa tiềm năng lãnh đạo của mình.</p>",
+  },
+  2: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 2 - Người hòa giải và nhạy cảm</h4> <p>Người có chỉ số biểu đạt 2 thường rất nhạy cảm, tinh tế và có khả năng giao tiếp mềm dẻo. Họ là những người có tài hòa giải, biết cách làm dịu bầu không khí căng thẳng và tạo ra môi trường làm việc hòa bình. Họ luôn đề cao sự thấu hiểu và mong muốn xây dựng mối quan hệ bền vững với người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Khả năng đồng cảm, tinh tế và làm việc nhóm tốt.</p> <p><strong>⚠️ Thách thức:</strong> Có thể quá phụ thuộc vào người khác và gặp khó khăn khi phải đưa ra quyết định độc lập.</p> <p><strong>🚀 Định hướng phát triển:</strong> Cần rèn luyện sự tự tin và khả năng tự quyết để duy trì sự cân bằng giữa hòa nhập và độc lập.</p>",
+  },
+  3: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 3 - Người sáng tạo và biểu đạt</h4> <p>Người có chỉ số biểu đạt 3 là những người có tài nghệ thuật bẩm sinh. Họ có khả năng giao tiếp xuất sắc, mang đến nguồn năng lượng tích cực và luôn biết cách truyền cảm hứng cho người khác. Họ yêu thích sự tự do trong việc sáng tạo và thể hiện bản thân, đồng thời luôn tìm cách phá vỡ các khuôn mẫu truyền thống.</p> <p><strong>💡 Điểm mạnh:</strong> Sáng tạo, hài hước, giao tiếp tốt và có khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị phân tán, thiếu kiên trì và có xu hướng ưu tiên niềm vui ngắn hạn.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự tập trung và kiên trì theo đuổi mục tiêu lâu dài, đồng thời phát huy tối đa năng lực sáng tạo của mình.</p>",
+  },
+  4: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 4 - Người tổ chức và có trách nhiệm</h4> <p>Người có chỉ số biểu đạt 4 thường thể hiện tính cách thực tế, có tổ chức và có trách nhiệm cao. Họ luôn đề cao tính kỷ luật và làm việc có kế hoạch, tạo nên nền tảng vững chắc cho sự nghiệp cũng như các mối quan hệ cá nhân. Họ là người có tư duy logic, luôn chú trọng vào chi tiết để đảm bảo sự ổn định.</p> <p><strong>💡 Điểm mạnh:</strong> Tổ chức tốt, cẩn thận, kiên trì và đáng tin cậy.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị bảo thủ, cứng nhắc và không linh hoạt khi đối mặt với thay đổi.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách linh hoạt hơn, chấp nhận sáng tạo và điều chỉnh quan điểm khi cần thiết để phát triển bền vững.</p>",
+  },
+  5: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 5 - Người năng động, thích tự do và khám phá</h4> <p>Người có chỉ số biểu đạt 5 luôn tìm kiếm sự tự do và không ngại thử thách. Họ là những người thích khám phá, phiêu lưu và luôn mở rộng trải nghiệm sống của mình. Tài năng biểu đạt của họ được thể hiện qua cách giao tiếp, sáng tạo và khả năng thích ứng với mọi tình huống. Họ luôn khao khát đổi mới và không muốn bị ràng buộc bởi những giới hạn cũ kỹ.</p> <p><strong>💡 Điểm mạnh:</strong> Linh hoạt, năng động, sáng tạo và thích nghi tốt với môi trường thay đổi.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị mất phương hướng, thiếu sự ổn định và có xu hướng dao động trong cảm xúc.</p> <p><strong>🚀 Định hướng phát triển:</strong> Xây dựng mục tiêu rõ ràng, rèn luyện sự kiên trì và duy trì sự ổn định để phát huy tối đa tiềm năng sáng tạo.</p>",
+  },
+  6: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 6 - Người chăm sóc và tình cảm</h4> <p>Người có chỉ số biểu đạt 6 là những người có trái tim ấm áp, luôn đặt giá trị gia đình và tình cảm lên hàng đầu. Họ có khả năng tạo dựng mối quan hệ gắn bó và luôn mong muốn mang lại sự an toàn, yêu thương cho người thân và bạn bè. Họ là người có tính cách chu đáo và luôn muốn chăm sóc, bảo vệ những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Tận tâm, nhân hậu, biết quan tâm và xây dựng mối quan hệ bền chặt.</p> <p><strong>⚠️ Thách thức:</strong> Có thể dễ bị quá tải vì luôn đặt lợi ích của người khác lên trên bản thân.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách phân chia thời gian, năng lượng giữa việc chăm sóc người khác và tự chăm sóc bản thân để duy trì sự cân bằng.</p>",
+  },
+  7: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 7 - Người tư duy sâu sắc và triết lý</h4> <p>Người có chỉ số biểu đạt 7 thường có tâm hồn sâu sắc, yêu thích nghiên cứu, chiêm nghiệm và luôn tìm kiếm ý nghĩa đích thực của cuộc sống. Họ có triết lý sống riêng biệt và không dễ bị ảnh hưởng bởi số đông. Sự độc lập trong tư duy giúp họ có cái nhìn sâu sắc về bản chất của sự việc, nhưng cũng khiến họ đôi khi trở nên kín đáo và khó giao tiếp.</p> <p><strong>💡 Điểm mạnh:</strong> Sâu sắc, thông thái, có khả năng phân tích và trực giác mạnh mẽ.</p> <p><strong>⚠️ Thách thức:</strong> Dễ rơi vào cô lập, thiếu giao tiếp và khó chia sẻ cảm xúc với người khác.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách mở lòng, giao tiếp và chia sẻ kiến thức để làm phong phú thêm các mối quan hệ.</p>",
+  },
+  8: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 8 - Người lãnh đạo và hiện thực</h4> <p>Người có chỉ số biểu đạt 8 thường có khả năng lãnh đạo và có tầm nhìn rõ ràng về thành công. Họ có khả năng quản lý tốt và luôn theo đuổi mục tiêu một cách quyết đoán. Tinh thần thực tiễn và khả năng tổ chức của họ giúp định hướng sự nghiệp một cách hiệu quả, nhưng họ cũng cần chú ý không để lòng tham và áp lực làm lu mờ giá trị cảm xúc.</p> <p><strong>💡 Điểm mạnh:</strong> Quyết đoán, tham vọng, có khả năng lãnh đạo và định hướng sự nghiệp xuất sắc.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị cuốn vào quyền lực, thiếu sự linh hoạt và có xu hướng chỉ tập trung vào vật chất.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cân bằng giữa thành công cá nhân và trách nhiệm với xã hội, cũng như lắng nghe ý kiến từ người khác để hoàn thiện bản thân.</p>",
+  },
+  9: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Biểu Đạt 9 - Người nhân đạo và truyền cảm hứng</h4> <p>Người có chỉ số biểu đạt 9 có tấm lòng rộng lớn và luôn mong muốn cống hiến vì cộng đồng. Họ mang trong mình niềm tin vào những lý tưởng cao đẹp và luôn nỗ lực để lan tỏa yêu thương, giúp đỡ người khác. Sự biểu đạt của họ thường mang tính nhân văn, truyền cảm hứng mạnh mẽ, giúp cải thiện cuộc sống của những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Nhân hậu, bao dung, có tầm nhìn sâu rộng và khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị lợi dụng vì lòng tốt, cần học cách tự bảo vệ bản thân trong quá trình cống hiến.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự cân bằng giữa lý tưởng và thực tế, bảo vệ năng lượng cá nhân trong khi vẫn cống hiến cho cộng đồng.</p>\" \n  }\n}\n",
   },
 };

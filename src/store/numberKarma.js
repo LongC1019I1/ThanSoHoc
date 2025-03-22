@@ -4,10 +4,12 @@ const initialNumberState = {
   number: 0,
   atitute: 0,
   day_birth: 0,
-  birth_day: '',
-  arrow: '',
-  lack_arrow: '',
-  top4: ''
+  birth_day: "",
+  arrow: "",
+  lack_arrow: "",
+  top4: "",
+  strong_list: [],
+  weak_list: [],
 };
 
 const numberKarmaSlice = createSlice({
@@ -34,6 +36,13 @@ const numberKarmaSlice = createSlice({
     },
     setTop4Peak(state, action) {
       state.top4 = action.payload;
+    },
+    setStrongListNumb(state, action) {
+      console.log({action})
+      state.strong_list = action.payload;
+    },
+    setWeakListNumb(state, action) {
+      state.weak_list = action.payload;
     },
   },
 });

@@ -12,6 +12,7 @@ import LifePeak from "./DetailNumber/LifePeak";
 import ChartDateName from "./DetailNumber/ChartDateName";
 import { useSelector } from "react-redux";
 import ChartCombineEnergy from "./DetailNumber/ChartCombineEnergy";
+import SummaryAll from "./DetailNumber/SummaryAll";
 // 🟢 Dữ liệu mẫu để truyền vào component
 const sampleNumbers = {
   top: 8,
@@ -109,6 +110,7 @@ function DetailNumber() {
         <SoulNumber />
         <ExpressNumber />
         <InnerNumber />
+        <SummaryAll/>
       </div>
     </Fragment>
   );
