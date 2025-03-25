@@ -704,195 +704,216 @@ export const NUMERLOGY_COMMON = {
 export const NUMEROLOGY_NAME = {
   1: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 1, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Tên gọi số 1 giúp ta thúc đẩy cá tính, năng lực lãnh đạo và sự đổi mới. Đây là con số lý tưởng cho ai muốn tìm kiếm sự độc đáo và sáng tạo. Tên gọi này được đặt cho ai muốn dẫn đầu hay thống trị trong lĩnh vực của mình. Con số này phù hợp nhất cho những gì muốn tự đứng lên bằng sức lực của mình hay có liên quan đến bất kỳ năng lượng đối tác nào bởi năng lượng của chỉ số tên gọi 1 rất độc lập. Đây là con số mang tính tiên phong có khả năng hành động và sáng tạo cao.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 1: </h4> <p class='mt-3'>Tên gọi số 1 giúp ta thúc đẩy cá tính, năng lực lãnh đạo và sự đổi mới. Đây là con số lý tưởng cho ai muốn tìm kiếm sự độc đáo và sáng tạo. Tên gọi này được đặt cho ai muốn dẫn đầu hay thống trị trong lĩnh vực của mình. Con số này phù hợp nhất cho những gì muốn tự đứng lên bằng sức lực của mình hay có liên quan đến bất kỳ năng lượng đối tác nào bởi năng lượng của chỉ số tên gọi 1 rất độc lập. Đây là con số mang tính tiên phong có khả năng hành động và sáng tạo cao.</p>",
   },
   2: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 2, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Chỉ số tên gọi 2 nói lên về sự chữa lành và hàn gắn mối quan hệ có ý nghĩa đối với người khác. Đây là chỉ số tên gọi lý tưởng cho một thứ gì đó có chức năng chữa lành cho con người, con vật, đất đai, hoặc môi trường nào đó. Con số này cũng liên quan đến âm nhạc hay những thứ liên quan đến sáng tạo, hoặc bất cứ thứ gì liên quan đến sự cân bằng hoặc chiêm nghiệm và hợp tác.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 2: </h4> <p class='mt-3'>Chỉ số tên gọi 2 nói lên về sự chữa lành và hàn gắn mối quan hệ có ý nghĩa đối với người khác. Đây là chỉ số tên gọi lý tưởng cho một thứ gì đó có chức năng chữa lành cho con người, con vật, đất đai, hoặc môi trường nào đó. Con số này cũng liên quan đến âm nhạc hay những thứ liên quan đến sáng tạo, hoặc bất cứ thứ gì liên quan đến sự cân bằng hoặc chiêm nghiệm và hợp tác.</p>",
   },
   3: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 3 bạn có những đặc điểm sau: </h4> <p class='mt-3'>Chỉ số tên gọi 3 thúc đẩy sự giao tiếp, thể hiện bản thân và sự sáng tạo. Đây là con số phù hợp cho sự giao tiếp và bán hàng. Con số này phù hợp với hoạt động mang tính sáng tạo cao hay bất cứ hoạt động nào liên quan đến nghệ thuật như văn học, hình ảnh biểu diễn. Đây là con số của sự hài hước, niềm vui và sự lạc quan nên sẽ rất phù hợp với sự việc, sự vật liên quan đến trẻ em, âm nhạc và màu sắc.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 3: bạn có những đặc điểm sau: </h4> <p class='mt-3'>Chỉ số tên gọi 3 thúc đẩy sự giao tiếp, thể hiện bản thân và sự sáng tạo. Đây là con số phù hợp cho sự giao tiếp và bán hàng. Con số này phù hợp với hoạt động mang tính sáng tạo cao hay bất cứ hoạt động nào liên quan đến nghệ thuật như văn học, hình ảnh biểu diễn. Đây là con số của sự hài hước, niềm vui và sự lạc quan nên sẽ rất phù hợp với sự việc, sự vật liên quan đến trẻ em, âm nhạc và màu sắc.</p>",
   },
   4: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 4, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Tên gọi số 4 thúc đẩy sự ổn định và phát triển, con số này sinh ra để dành cho việc quản trị và lên kế hoạch, phân tích là hoạch định ra mục tiêu. Chỉ số tên gọi này phù hợp đi với bất cứ thứ gì liên quan đến cấu trúc đất đai, hoặc thi công các công trình, cải tạo cảnh quan hay xây dựng các kho tàng kiến trúc. Bất cứ thứ nào có khả năng bảo vệ trật tự như cảnh sát, kế toán, ngân hàng đều sẽ phát triển đi cùng với sự rung động của con số này.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 4: </h4> <p class='mt-3'>Tên gọi số 4 thúc đẩy sự ổn định và phát triển, con số này sinh ra để dành cho việc quản trị và lên kế hoạch, phân tích là hoạch định ra mục tiêu. Chỉ số tên gọi này phù hợp đi với bất cứ thứ gì liên quan đến cấu trúc đất đai, hoặc thi công các công trình, cải tạo cảnh quan hay xây dựng các kho tàng kiến trúc. Bất cứ thứ nào có khả năng bảo vệ trật tự như cảnh sát, kế toán, ngân hàng đều sẽ phát triển đi cùng với sự rung động của con số này.</p>",
   },
   5: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 5, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Con số này đại diện cho sự đổi mới, thay đổi và đột phá. Nó phù hợp với các lĩnh vực như tổ chức sự kiện, quản trị dự án, du lịch, truyền thông, quảng cáo, xây dựng mạng lưới, hoặc quan hệ công chúng. Đặc biệt, chỉ số này rất lý tưởng cho ngành khách sạn, giải trí hoặc diễn thuyết. Những người làm trong lĩnh vực marketing hoặc phân phối thông tin, mở rộng mạng lưới kinh doanh sẽ cảm nhận được năng lượng mạnh mẽ từ con số này.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 5: </h4> <p class='mt-3'>Con số này đại diện cho sự đổi mới, thay đổi và đột phá. Nó phù hợp với các lĩnh vực như tổ chức sự kiện, quản trị dự án, du lịch, truyền thông, quảng cáo, xây dựng mạng lưới, hoặc quan hệ công chúng. Đặc biệt, chỉ số này rất lý tưởng cho ngành khách sạn, giải trí hoặc diễn thuyết. Những người làm trong lĩnh vực marketing hoặc phân phối thông tin, mở rộng mạng lưới kinh doanh sẽ cảm nhận được năng lượng mạnh mẽ từ con số này.</p>",
   },
   6: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 6, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Chỉ số này thúc đẩy sự chữa lành và yêu thương. Nó gắn liền với những hoạt động sáng tạo, nuôi dưỡng con người, sự vật hoặc môi trường. Các lĩnh vực kinh doanh phù hợp bao gồm chăm sóc trẻ em, giáo dục, y học, trang trí nội thất, thiết kế, âm nhạc, diễn xuất và nghệ thuật. Con số này thường xuất hiện trong tên gọi của các doanh nghiệp, công ty hoặc bất kỳ tổ chức nào liên quan đến ngành dịch vụ.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 6: </h4> <p class='mt-3'>Chỉ số này thúc đẩy sự chữa lành và yêu thương. Nó gắn liền với những hoạt động sáng tạo, nuôi dưỡng con người, sự vật hoặc môi trường. Các lĩnh vực kinh doanh phù hợp bao gồm chăm sóc trẻ em, giáo dục, y học, trang trí nội thất, thiết kế, âm nhạc, diễn xuất và nghệ thuật. Con số này thường xuất hiện trong tên gọi của các doanh nghiệp, công ty hoặc bất kỳ tổ chức nào liên quan đến ngành dịch vụ.</p>",
   },
   7: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 7, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Con số này đại diện cho trí tuệ sâu sắc, sự phát triển bản thân và giáo dục nâng cao. Nó phù hợp với các lĩnh vực khoa học, tâm linh, nghiên cứu tâm lý học, tư vấn, huấn luyện hoặc bất kỳ hoạt động nào liên quan đến phân tích chiến lược. Số 7 thúc đẩy con người tìm kiếm chân lý, nên rất lý tưởng cho những ngành đòi hỏi sự khám phá và sáng tạo tri thức.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 7: </h4> <p class='mt-3'>Con số này đại diện cho trí tuệ sâu sắc, sự phát triển bản thân và giáo dục nâng cao. Nó phù hợp với các lĩnh vực khoa học, tâm linh, nghiên cứu tâm lý học, tư vấn, huấn luyện hoặc bất kỳ hoạt động nào liên quan đến phân tích chiến lược. Số 7 thúc đẩy con người tìm kiếm chân lý, nên rất lý tưởng cho những ngành đòi hỏi sự khám phá và sáng tạo tri thức.</p>",
   },
   8: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 8, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Số 8 tượng trưng cho quyền lực, khả năng lãnh đạo và tầm nhìn dài hạn. Nó gắn liền với sự công bằng, phù hợp với lĩnh vực luật pháp, đàm phán, quản lý tài chính hoặc kinh doanh. Đây là con số của sự trung thực và liêm chính, đòi hỏi người sở hữu phải hành động minh bạch để đạt được thành công bền vững. Số 8 cũng phù hợp với những người làm việc tự do hoặc khởi nghiệp.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 8: </h4> <p class='mt-3'>Số 8 tượng trưng cho quyền lực, khả năng lãnh đạo và tầm nhìn dài hạn. Nó gắn liền với sự công bằng, phù hợp với lĩnh vực luật pháp, đàm phán, quản lý tài chính hoặc kinh doanh. Đây là con số của sự trung thực và liêm chính, đòi hỏi người sở hữu phải hành động minh bạch để đạt được thành công bền vững. Số 8 cũng phù hợp với những người làm việc tự do hoặc khởi nghiệp.</p>",
   },
   9: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 9, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Con số này thể hiện tình yêu thương vô điều kiện, lòng nhân ái và tinh thần phục vụ cộng đồng. Nó lý tưởng cho các ngành giáo dục, y tế, thiện nguyện, nghệ thuật (thiết kế, văn chương, diễn xuất) hoặc các chiến dịch xã hội. Số 9 còn mang năng lượng sáng tạo mạnh mẽ, thúc đẩy những hoạt động hướng đến lợi ích chung và truyền cảm hứng cho người khác.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 9: </h4> <p class='mt-3'>Con số này thể hiện tình yêu thương vô điều kiện, lòng nhân ái và tinh thần phục vụ cộng đồng. Nó lý tưởng cho các ngành giáo dục, y tế, thiện nguyện, nghệ thuật (thiết kế, văn chương, diễn xuất) hoặc các chiến dịch xã hội. Số 9 còn mang năng lượng sáng tạo mạnh mẽ, thúc đẩy những hoạt động hướng đến lợi ích chung và truyền cảm hứng cho người khác.</p>",
   },
   10: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 10, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người kết hợp giữa năng lượng của số 1 (thủ lĩnh) và số 0 (sự hoàn thiện, phát triển tâm linh). Điều này khiến bạn có khả năng sáng tạo, tiên phong và có thể đạt được những thành tựu lớn.</p> <p>Bạn có tinh thần mạnh mẽ, quyết đoán nhưng cũng có xu hướng độc lập và không thích bị ràng buộc. Điều này có thể khiến bạn trở nên cô độc hoặc gặp khó khăn trong việc hợp tác với người khác.</p> <p>Bạn cần học cách cân bằng giữa tham vọng cá nhân và sự kết nối với cộng đồng để phát triển bền vững.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 10: </h4> <p class='mt-3'>Bạn là người kết hợp giữa năng lượng của số 1 (thủ lĩnh) và số 0 (sự hoàn thiện, phát triển tâm linh). Điều này khiến bạn có khả năng sáng tạo, tiên phong và có thể đạt được những thành tựu lớn.</p> <p>Bạn có tinh thần mạnh mẽ, quyết đoán nhưng cũng có xu hướng độc lập và không thích bị ràng buộc. Điều này có thể khiến bạn trở nên cô độc hoặc gặp khó khăn trong việc hợp tác với người khác.</p> <p>Bạn cần học cách cân bằng giữa tham vọng cá nhân và sự kết nối với cộng đồng để phát triển bền vững.</p>",
   },
   11: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 11, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Bạn là người có trực giác nhạy bén, mang năng lượng mạnh mẽ của sự giác ngộ và khai sáng. Bạn có khả năng truyền cảm hứng cho người khác và có xu hướng hướng đến các lĩnh vực tâm linh hoặc nghệ thuật.</p> <p>Bạn có thể trải qua nhiều thử thách trong cuộc sống để rèn luyện bản thân và học cách kiểm soát cảm xúc. Nếu không phát triển đúng hướng, bạn có thể trở nên nhạy cảm quá mức hoặc mất phương hướng.</p> <p>Bạn cần học cách kiên nhẫn, giữ vững niềm tin và sử dụng năng lượng của mình vào những mục đích cao cả.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 11: </h4> <p class='mt-3'>Bạn là người có trực giác nhạy bén, mang năng lượng mạnh mẽ của sự giác ngộ và khai sáng. Bạn có khả năng truyền cảm hứng cho người khác và có xu hướng hướng đến các lĩnh vực tâm linh hoặc nghệ thuật.</p> <p>Bạn có thể trải qua nhiều thử thách trong cuộc sống để rèn luyện bản thân và học cách kiểm soát cảm xúc. Nếu không phát triển đúng hướng, bạn có thể trở nên nhạy cảm quá mức hoặc mất phương hướng.</p> <p>Bạn cần học cách kiên nhẫn, giữ vững niềm tin và sử dụng năng lượng của mình vào những mục đích cao cả.</p>",
   },
   22: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 22, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Số 22 là con số của sự kiến tạo, đại diện cho khả năng biến những ý tưởng lớn thành hiện thực. Bạn có tư duy tổ chức, kỷ luật và khả năng lãnh đạo bẩm sinh.</p> <p>Bạn kết hợp giữa trực giác nhạy bén (số 2) và tư duy thực tế, hành động hiệu quả (số 4). Điều này giúp bạn có thể xây dựng những công trình vĩ đại, tạo nên sự thay đổi lớn cho xã hội.</p> <p>Tuy nhiên, nếu chưa kiểm soát tốt năng lượng của mình, bạn có thể rơi vào tình trạng cầu toàn quá mức, thực dụng hoặc dễ bị áp lực bởi trách nhiệm lớn.</p> <p>Bài học của bạn là kiểm soát được cuộc sống, học cách cân bằng giữa lý tưởng và thực tế để phát huy tối đa sức mạnh bản thân.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 22: </h4> <p class='mt-3'>Số 22 là con số của sự kiến tạo, đại diện cho khả năng biến những ý tưởng lớn thành hiện thực. Bạn có tư duy tổ chức, kỷ luật và khả năng lãnh đạo bẩm sinh.</p> <p>Bạn kết hợp giữa trực giác nhạy bén (số 2) và tư duy thực tế, hành động hiệu quả (số 4). Điều này giúp bạn có thể xây dựng những công trình vĩ đại, tạo nên sự thay đổi lớn cho xã hội.</p> <p>Tuy nhiên, nếu chưa kiểm soát tốt năng lượng của mình, bạn có thể rơi vào tình trạng cầu toàn quá mức, thực dụng hoặc dễ bị áp lực bởi trách nhiệm lớn.</p> <p>Bài học của bạn là kiểm soát được cuộc sống, học cách cân bằng giữa lý tưởng và thực tế để phát huy tối đa sức mạnh bản thân.</p>",
   },
   33: {
     noidung:
-      "<h4 class='mt-3'>Số tên riêng của bạn là 33, bạn có những đặc điểm sau: </h4> <p class='mt-3'>Số 33 là con số của tình yêu thương và chữa lành. Bạn có khả năng truyền cảm hứng, mang lại sự an ủi và hỗ trợ cho những người xung quanh.</p> <p>Bạn mang trong mình năng lượng sáng tạo của số 3 kết hợp với sự trách nhiệm và tình cảm sâu sắc của số 6. Điều này khiến bạn trở thành người có trái tim rộng lớn, luôn mong muốn giúp đỡ người khác.</p> <p>Tuy nhiên, nếu chưa kiểm soát tốt, bạn có thể bị dính mắc vào cảm xúc, lo lắng quá nhiều hoặc dễ bị stress do đặt quá nhiều áp lực lên bản thân.</p> <p>Bài học của bạn là học cách trao đi yêu thương vô điều kiện, đồng thời biết giữ gìn năng lượng của mình để không bị cạn kiệt.</p>",
+      "<h4 class='mt-3'>Số tên riêng của bạn là 33: </h4> <p class='mt-3'>Số 33 là con số của tình yêu thương và chữa lành. Bạn có khả năng truyền cảm hứng, mang lại sự an ủi và hỗ trợ cho những người xung quanh.</p> <p>Bạn mang trong mình năng lượng sáng tạo của số 3 kết hợp với sự trách nhiệm và tình cảm sâu sắc của số 6. Điều này khiến bạn trở thành người có trái tim rộng lớn, luôn mong muốn giúp đỡ người khác.</p> <p>Tuy nhiên, nếu chưa kiểm soát tốt, bạn có thể bị dính mắc vào cảm xúc, lo lắng quá nhiều hoặc dễ bị stress do đặt quá nhiều áp lực lên bản thân.</p> <p>Bài học của bạn là học cách trao đi yêu thương vô điều kiện, đồng thời biết giữ gìn năng lượng của mình để không bị cạn kiệt.</p>",
   },
 };
 
 export const NUMEROLOGY_ATTITUDE = {
   1: {
     noidung:
-      "<h4 class='mt-3'>Số thái độ của bạn là 1, bạn có những đặc điểm sau:</h4> <p>Những người có số thái độ 1 thường rất quyết đoán, mạnh mẽ và có tố chất lãnh đạo bẩm sinh. Họ là người tiên phong, không ngại đối mặt với thử thách và luôn chủ động trong công việc. Họ thích tự mình đưa ra quyết định và ít khi phụ thuộc vào người khác. Tuy nhiên, sự cứng đầu và bảo thủ có thể khiến họ khó tiếp nhận ý kiến mới. Để phát triển tốt hơn, họ cần học cách lắng nghe, linh hoạt và hợp tác với người khác.</p>",
+      "<h4 class='my-3'>Số thái độ của bạn là 1:</h4> <p>Bạn không thích nhờ người khác giúp đỡ.</p><p>Bạn tự chủ hoàn toàn.</p><p>Bạn thường có vấn đề về lòng tự trọng vì nghĩ rằng mình không đủ giỏi.</p><p>Vì vậy bạn cần được khen ngợi, nếu không được tin tưởng bạn sẽ nổi loạn.</p>",
   },
   2: {
     noidung:
-      "<h4 class='mt-3'>Số thái độ của bạn là 2, bạn có những đặc điểm sau:</h4> <p>Những người có số thái độ 2 rất nhẹ nhàng, nhạy cảm và có khả năng tạo dựng mối quan hệ tốt. Họ giỏi lắng nghe, hòa giải và luôn muốn duy trì sự cân bằng trong môi trường xung quanh. Họ thường tránh xung đột và luôn tìm cách để mọi thứ diễn ra êm đẹp. Tuy nhiên, họ có thể trở nên do dự, thiếu quyết đoán và dễ bị ảnh hưởng bởi cảm xúc của người khác. Họ cần học cách tự tin, quyết đoán hơn và không quá phụ thuộc vào sự chấp thuận của người khác.</p>",
+      "<h4 class='my-3'>Số thái độ của bạn là 2:</h4> <p>Bạn nhẹ dàng, có xu hướng trở thành người quan sát.</p><p>Bạn lãng mạn và tình yêu quan trọng với bạn.</p><p>Bạn bị lôi cuốn với những năng lực huyền bí.</p><p>Bạn có thể chạm đến trực giác và khía cạnh siêu hình.</p><p>Bạn có lòng trắc ẩn và thích chuyện của người khác.</p>",
   },
   3: {
     noidung:
-      "<h4 class='mt-3'>Số thái độ của bạn là 3, bạn có những đặc điểm sau:</h4> <p>Những người có số thái độ 3 thường rất hướng ngoại, sáng tạo và có khả năng giao tiếp tốt. Họ yêu thích sự vui vẻ, có khiếu hài hước và luôn mang đến năng lượng tích cực cho mọi người xung quanh. Họ giỏi thể hiện bản thân qua lời nói, nghệ thuật và biểu đạt cảm xúc. Tuy nhiên, họ cũng dễ bị phân tán tư tưởng, thiếu kiên nhẫn và đôi khi quá hời hợt trong các mối quan hệ. Họ cần học cách tập trung hơn, rèn luyện sự kỷ luật và tận dụng tốt tài năng sáng tạo của mình.</p>",
+      "<h4 class='my-3'>Số thái độ của bạn là 3:</h4> <p>Những người có số thái độ 3 thường rất hướng ngoại, sáng tạo và có khả năng giao tiếp tốt. Họ yêu thích sự vui vẻ, có khiếu hài hước và luôn mang đến năng lượng tích cực cho mọi người xung quanh. Họ giỏi thể hiện bản thân qua lời nói, nghệ thuật và biểu đạt cảm xúc. Tuy nhiên, họ cũng dễ bị phân tán tư tưởng, thiếu kiên nhẫn và đôi khi quá hời hợt trong các mối quan hệ. Họ cần học cách tập trung hơn, rèn luyện sự kỷ luật và tận dụng tốt tài năng sáng tạo của mình.</p>",
   },
   4: {
     noidung:
-      "<h4 class='mt-3'>Số thái độ của bạn là 4, bạn có những đặc điểm sau:</h4> <p>Những người có số thái độ 4 rất thực tế, kỷ luật và có trách nhiệm cao. Họ là những người chăm chỉ, kiên trì và có khả năng tổ chức tốt. Họ thích làm việc có kế hoạch, thích sự ổn định và luôn đặt nền tảng vững chắc cho tương lai. Tuy nhiên, họ có thể trở nên cứng nhắc, bảo thủ và thiếu linh hoạt khi phải thích nghi với những thay đổi bất ngờ. Họ cần học cách mở rộng tư duy, linh hoạt hơn trong cách tiếp cận vấn đề và không nên quá khắt khe với bản thân cũng như người khác.</p>",
+      "<h4 class='my-3'>Số thái độ của bạn là 4:</h4> <p>Những người có số thái độ 4 rất thực tế, kỷ luật và có trách nhiệm cao. Họ là những người chăm chỉ, kiên trì và có khả năng tổ chức tốt. Họ thích làm việc có kế hoạch, thích sự ổn định và luôn đặt nền tảng vững chắc cho tương lai. Tuy nhiên, họ có thể trở nên cứng nhắc, bảo thủ và thiếu linh hoạt khi phải thích nghi với những thay đổi bất ngờ. Họ cần học cách mở rộng tư duy, linh hoạt hơn trong cách tiếp cận vấn đề và không nên quá khắt khe với bản thân cũng như người khác.</p>",
   },
   5: {
     noidung:
-      "<h4 class='mt-3'>Số thái độ của bạn là 5, bạn có những đặc điểm sau:</h4> <p>Những người có số thái độ 5 yêu thích sự tự do, linh hoạt và luôn tìm kiếm những trải nghiệm mới. Họ có khả năng thích nghi nhanh, dễ dàng thay đổi và không thích bị ràng buộc bởi những nguyên tắc cứng nhắc. Họ có tinh thần phiêu lưu, tò mò và luôn sẵn sàng khám phá điều mới lạ. Tuy nhiên, họ có thể trở nên thiếu kiên nhẫn, dễ mất phương hướng nếu không có mục tiêu rõ ràng. Họ cần học cách rèn luyện sự tập trung, kỷ luật và tận dụng tốt năng lượng của mình để phát triển bản thân.</p>",
+      "<h4 class='my-3'>Số thái độ của bạn là 5:</h4> <p>Những người có số thái độ 5 yêu thích sự tự do, linh hoạt và luôn tìm kiếm những trải nghiệm mới. Họ có khả năng thích nghi nhanh, dễ dàng thay đổi và không thích bị ràng buộc bởi những nguyên tắc cứng nhắc. Họ có tinh thần phiêu lưu, tò mò và luôn sẵn sàng khám phá điều mới lạ. Tuy nhiên, họ có thể trở nên thiếu kiên nhẫn, dễ mất phương hướng nếu không có mục tiêu rõ ràng. Họ cần học cách rèn luyện sự tập trung, kỷ luật và tận dụng tốt năng lượng của mình để phát triển bản thân.</p>",
   },
   6: {
     noidung:
-      "<h4 class='mt-3'>Số thái độ của bạn là 6, bạn có những đặc điểm sau:</h4> <p>Những người có số thái độ 6 rất trách nhiệm, chu đáo và luôn quan tâm đến gia đình, cộng đồng. Họ có tấm lòng nhân hậu, thích giúp đỡ người khác và luôn muốn mang đến sự hòa hợp trong các mối quan hệ. Họ có xu hướng đặt lợi ích của người khác lên trên bản thân, đôi khi trở nên kiểm soát quá mức hoặc lo lắng quá nhiều. Họ cần học cách cân bằng giữa trách nhiệm và tự do cá nhân, đồng thời không để bản thân bị áp lực quá mức bởi mong muốn làm hài lòng mọi người.</p>",
+      "<h4 class='my-3'>Số thái độ của bạn là 6:</h4> <p>Những người có số thái độ 6 rất trách nhiệm, chu đáo và luôn quan tâm đến gia đình, cộng đồng. Họ có tấm lòng nhân hậu, thích giúp đỡ người khác và luôn muốn mang đến sự hòa hợp trong các mối quan hệ. Họ có xu hướng đặt lợi ích của người khác lên trên bản thân, đôi khi trở nên kiểm soát quá mức hoặc lo lắng quá nhiều. Họ cần học cách cân bằng giữa trách nhiệm và tự do cá nhân, đồng thời không để bản thân bị áp lực quá mức bởi mong muốn làm hài lòng mọi người.</p>",
   },
   7: {
     noidung:
-      "<h4 class='mt-3'>Số thái độ của bạn là 7, bạn có những đặc điểm sau:</h4> <p>Những người có số thái độ 7 là những người suy tư, thích nghiên cứu và tìm hiểu sâu về thế giới xung quanh. Họ có khả năng quan sát tinh tế, thích phân tích và thường có xu hướng hướng nội. Họ trân trọng sự riêng tư, thích đào sâu tri thức và đôi khi thích ở một mình để suy ngẫm. Tuy nhiên, họ có thể trở nên xa cách, khó gần và ít bày tỏ cảm xúc với người khác. Họ cần học cách cân bằng giữa sự phát triển trí tuệ và kết nối xã hội để có một cuộc sống hài hòa hơn.</p>",
+      "<h4 class='my-3'>Số thái độ của bạn là 7:</h4> <p>Những người có số thái độ 7 là những người suy tư, thích nghiên cứu và tìm hiểu sâu về thế giới xung quanh. Họ có khả năng quan sát tinh tế, thích phân tích và thường có xu hướng hướng nội. Họ trân trọng sự riêng tư, thích đào sâu tri thức và đôi khi thích ở một mình để suy ngẫm. Tuy nhiên, họ có thể trở nên xa cách, khó gần và ít bày tỏ cảm xúc với người khác. Họ cần học cách cân bằng giữa sự phát triển trí tuệ và kết nối xã hội để có một cuộc sống hài hòa hơn.</p>",
   },
   8: {
     noidung:
-      "<h4 class='mt-3'>Số thái độ của bạn là 8, bạn có những đặc điểm sau:</h4> <p>Những người có số thái độ 8 rất quyết tâm, mạnh mẽ và có tham vọng lớn. Họ có tố chất lãnh đạo, thích kiểm soát và mong muốn đạt được thành công về tài chính và quyền lực. Họ có tinh thần làm việc cao, luôn hướng đến sự phát triển và không ngại đối mặt với thử thách. Tuy nhiên, họ có thể trở nên quá tập trung vào vật chất, thiếu cảm xúc hoặc đôi khi cứng rắn trong cách đối xử với người khác. Họ cần học cách sử dụng quyền lực của mình một cách khôn ngoan, đồng thời phát triển lòng nhân ái và sự cân bằng trong cuộc sống.</p>",
+      "<h4 class='my-3'>Số thái độ của bạn là 8:</h4> <p>Những người có số thái độ 8 rất quyết tâm, mạnh mẽ và có tham vọng lớn. Họ có tố chất lãnh đạo, thích kiểm soát và mong muốn đạt được thành công về tài chính và quyền lực. Họ có tinh thần làm việc cao, luôn hướng đến sự phát triển và không ngại đối mặt với thử thách. Tuy nhiên, họ có thể trở nên quá tập trung vào vật chất, thiếu cảm xúc hoặc đôi khi cứng rắn trong cách đối xử với người khác. Họ cần học cách sử dụng quyền lực của mình một cách khôn ngoan, đồng thời phát triển lòng nhân ái và sự cân bằng trong cuộc sống.</p>",
   },
   9: {
     noidung:
-      "<h4 class='mt-3'>Số thái độ của bạn là 9, bạn có những đặc điểm sau:</h4> <p>Những người có số thái độ 9 mang trong mình lòng nhân ái, vị tha và luôn hướng đến những giá trị cao đẹp cho xã hội. Họ có tấm lòng rộng lượng, thích giúp đỡ người khác và thường có tầm nhìn bao quát. Họ dễ đồng cảm với nỗi đau của người khác, có tinh thần hy sinh vì lợi ích chung. Tuy nhiên, họ có thể quá lý tưởng hóa, dễ cảm thấy thất vọng khi thực tế không như mong đợi. Họ cần học cách chấp nhận những điều không hoàn hảo trong cuộc sống, đồng thời duy trì niềm tin vào giá trị của bản thân.</p>",
+      "<h4 class='my-3'>Số thái độ của bạn là 9:</h4> <p>Những người có số thái độ 9 mang trong mình lòng nhân ái, vị tha và luôn hướng đến những giá trị cao đẹp cho xã hội. Họ có tấm lòng rộng lượng, thích giúp đỡ người khác và thường có tầm nhìn bao quát. Họ dễ đồng cảm với nỗi đau của người khác, có tinh thần hy sinh vì lợi ích chung. Tuy nhiên, họ có thể quá lý tưởng hóa, dễ cảm thấy thất vọng khi thực tế không như mong đợi. Họ cần học cách chấp nhận những điều không hoàn hảo trong cuộc sống, đồng thời duy trì niềm tin vào giá trị của bản thân.</p>",
   },
 };
 
 export const NUMEROLOGY_MATURITY = {
   1: {
-    noidung:
-      "<h4 class='mt-3'>Số trưởng thành của bạn là 1, bạn có những đặc điểm sau:</h4> <p class='mt-3'>Những người có số trưởng thành 1 thường là những nhà lãnh đạo bẩm sinh. Trong quá trình trưởng thành, họ học được cách tự lập, kiên định và luôn tìm kiếm con đường riêng để phát triển bản thân. Họ có ý chí mạnh mẽ, không ngại đối mặt với thử thách và luôn đặt mục tiêu cao. Tuy nhiên, họ cần học cách linh hoạt hơn, biết lắng nghe ý kiến của người khác để không trở nên quá cứng nhắc hoặc độc đoán.</p>",
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 1</h4> <p class='mt-3'><b>Năng lực lãnh đạo, tiên phong</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực lãnh đạo và tiên phong. Khả năng dẫn dắt, khởi xướng sẽ giúp bạn tạo ra những con đường mới và truyền cảm hứng cho người khác. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách lắng nghe và tôn trọng ý kiến của người khác.</p>"
   },
+
   2: {
-    noidung:
-      "<h4 class='mt-3'>Số trưởng thành của bạn là 2, bạn có những đặc điểm sau:</h4> <p class='mt-3'>Những người có số trưởng thành 2 phát triển với sự tinh tế, nhẹ nhàng và khả năng hợp tác. Họ học được cách xây dựng các mối quan hệ, trở thành người hòa giải và luôn tìm cách tạo ra sự hài hòa trong cuộc sống. Khi trưởng thành, họ phát triển trực giác mạnh mẽ, nhạy cảm và có khả năng thấu hiểu sâu sắc. Tuy nhiên, họ cần học cách khẳng định bản thân, tránh phụ thuộc quá nhiều vào người khác.</p>",
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 2</h4> <p class='mt-3'><b>Năng lực hợp tác, hòa giải</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực hợp tác và hòa giải. Khả năng thấu hiểu, kết nối sẽ giúp bạn xây dựng những mối quan hệ tốt đẹp và tạo ra sự hài hòa. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách thiết lập ranh giới lành mạnh.</p>"
   },
+
   3: {
-    noidung:
-      "<h4 class='mt-3'>Số trưởng thành của bạn là 3, bạn có những đặc điểm sau:</h4> <p class='mt-3'>Những người có số trưởng thành 3 trở nên sáng tạo, vui vẻ và giỏi giao tiếp. Khi trưởng thành, họ phát triển tài năng nghệ thuật, khả năng truyền cảm hứng và tinh thần lạc quan. Họ thích thể hiện bản thân qua nghệ thuật, ngôn ngữ và các hình thức sáng tạo khác. Tuy nhiên, họ cần học cách kiên trì với mục tiêu dài hạn, tránh bị phân tán hoặc sống quá cảm tính.</p>",
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 3</h4> <p class='mt-3'><b>Năng lực sáng tạo, biểu đạt</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực sáng tạo và biểu đạt. Khả năng truyền tải ý tưởng, cảm xúc sẽ giúp bạn kết nối sâu sắc với mọi người và tạo ra những giá trị độc đáo. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kỷ luật bản thân để hoàn thành mục tiêu.</p>"
   },
+
   4: {
-    noidung:
-      "<h4 class='mt-3'>Số trưởng thành của bạn là 4, bạn có những đặc điểm sau:</h4> <p class='mt-3'>Những người có số trưởng thành 4 dần phát triển tính kỷ luật, kiên trì và khả năng tổ chức. Họ học được cách xây dựng nền tảng vững chắc, làm việc chăm chỉ và có trách nhiệm với cuộc sống. Khi trưởng thành, họ trở thành người đáng tin cậy, thích những điều thực tế và có phương pháp làm việc rõ ràng. Tuy nhiên, họ cần học cách linh hoạt hơn, tránh quá cứng nhắc hoặc bảo thủ.</p>",
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 4</h4> <p class='mt-3'><b>Năng lực tổ chức, kiên trì</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực tổ chức và kiên trì. Khả năng xây dựng hệ thống, làm việc bền bỉ sẽ giúp bạn tạo ra nền tảng vững chắc cho mọi dự án. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách linh hoạt trước những thay đổi.</p>"
   },
   5: {
-    noidung:
-      "<h4 class='mt-3'>Số trưởng thành của bạn là 5, bạn có những đặc điểm sau:</h4> <p class='mt-3'>Những người có số trưởng thành 5 phát triển tinh thần phiêu lưu, linh hoạt và thích khám phá. Khi trưởng thành, họ học được cách thích nghi với thay đổi, tận hưởng sự tự do và luôn tìm kiếm điều mới mẻ. Họ không thích bị ràng buộc bởi các giới hạn và luôn khao khát sự đổi mới. Tuy nhiên, họ cần học cách duy trì sự ổn định và tập trung để không bị mất phương hướng.</p>",
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 5</h4> <p class='mt-3'><b>Năng lực sáng tạo, đột phá</b></p> <p class='mt-3'> Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực sáng tạo và đột phá. Khả năng suy nghĩ sáng tạo, đột phát sẽ giúp bạn và cuộc sống của bạn trở nên thú vị và độc đáo hơn. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời tập trung và tránh phân tán năng lượng.</p>"
   },
   6: {
-    noidung:
-      "<h4 class='mt-3'>Số trưởng thành của bạn là 6, bạn có những đặc điểm sau:</h4> <p class='mt-3'>Những người có số trưởng thành 6 phát triển lòng nhân ái, trách nhiệm và sự quan tâm đến gia đình, cộng đồng. Khi trưởng thành, họ học được cách trở thành chỗ dựa tinh thần cho người khác, biết chăm sóc và xây dựng sự hòa hợp. Họ có xu hướng đặt hạnh phúc của người khác lên hàng đầu. Tuy nhiên, họ cần học cách cân bằng giữa việc giúp đỡ người khác và chăm sóc bản thân.</p>",
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 6</h4> <p class='mt-3'><b>Năng lực chăm sóc, trách nhiệm</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực chăm sóc và trách nhiệm. Khả năng nuôi dưỡng, bảo vệ sẽ giúp bạn tạo ra môi trường ấm áp và an toàn cho mọi người. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách yêu thương bản thân.</p>"
   },
+
   7: {
-    noidung:
-      "<h4 class='mt-3'>Số trưởng thành của bạn là 7, bạn có những đặc điểm sau:</h4> <p class='mt-3'>Những người có số trưởng thành 7 phát triển trí tuệ, chiều sâu nội tâm và khả năng phân tích. Khi trưởng thành, họ có xu hướng tìm kiếm tri thức, thích nghiên cứu và đào sâu vào những lĩnh vực chuyên môn. Họ thích sự riêng tư và có đời sống nội tâm phong phú. Tuy nhiên, họ cần học cách mở lòng hơn với thế giới bên ngoài để không trở nên quá xa cách.</p>",
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 7</h4> <p class='mt-3'><b>Năng lực phân tích, chiêm nghiệm</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực phân tích và chiêm nghiệm. Khả năng nghiên cứu, đào sâu sẽ giúp bạn khám phá những chân lý và quy luật của cuộc sống. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kết nối với thực tế.</p>"
   },
+
   8: {
-    noidung:
-      "<h4 class='mt-3'>Số trưởng thành của bạn là 8, bạn có những đặc điểm sau:</h4> <p class='mt-3'>Những người có số trưởng thành 8 phát triển tham vọng, ý chí mạnh mẽ và khả năng lãnh đạo. Khi trưởng thành, họ học được cách kiểm soát tài chính, xây dựng sự nghiệp và đạt được thành công vật chất. Họ có tố chất lãnh đạo, quyết đoán và kiên định. Tuy nhiên, họ cần học cách sử dụng quyền lực một cách công bằng, tránh bị cuốn vào tham vọng vật chất quá mức.</p>",
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 8</h4> <p class='mt-3'><b>Năng lực quản trị, điều hành</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực quản trị, điều hành. Bạn có thể đạt được sự thành công và độc lập về tài chính nếu như bạn học hỏi và phát huy được những khả năng này. Tuy nhiên hãy tránh bị lòng tham chi phối, bên cạnh đó bạn hãy tập trung vào các hoạt động nhân đạo để duy trì sự cân bằng trong cuộc sống.</p>"
   },
+
   9: {
-    noidung:
-      "<h4 class='mt-3'>Số trưởng thành của bạn là 9, bạn có những đặc điểm sau:</h4> <p class='mt-3'>Những người có số trưởng thành 9 phát triển lòng nhân ái, sự vị tha và mong muốn cống hiến cho xã hội. Khi trưởng thành, họ học được cách buông bỏ quá khứ, sống với sứ mệnh giúp đỡ người khác và lan tỏa tình yêu thương. Họ có tầm nhìn rộng, quan tâm đến những giá trị tinh thần và luôn tìm cách đóng góp cho thế giới. Tuy nhiên, họ cần học cách thực tế hơn, tránh để cảm xúc lấn át lý trí.</p>",
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 9</h4> <p class='mt-3'><b>Năng lực nhân đạo, vị tha</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực nhân đạo và vị tha. Khả năng yêu thương, phụng sự sẽ giúp bạn kết nối với cộng đồng và tạo ra những giá trị bền vững. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách cân bằng giữa cho đi và nhận lại.</p>"
   },
+
+  10: {
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 10</h4> <p class='mt-3'><b>Năng lực bạn cần rèn luyện:</b> Tư duy thủ lĩnh, quyết đoán, thực tế (lãnh đạo, chuyên gia, kiên định, đôi lúc không cần ai hiểu)</p><ul class='list-disc pl-5 mt-2'><li>Liên tục phát triển bản thân</li><li>Có tính thúc đẩy bản thân</li><li>Xây dựng lộ trình phát triển rõ ràng</li><li>Lãnh đạo chính mình</li><li>Quản trị cảm xúc hiệu quả</li><li>Thiết lập mục tiêu và kỷ luật</li><li>Học cách lắng nghe và thấu hiểu người khác</li></ul>"
+  },
+
+  11: {
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 11</h4> <p class='mt-3'><b>Trực giác, hòa giải, thủ lĩnh, tâm linh</b></p> <p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực lãnh đạo và tiên phong. Khả năng dẫn dắt, khởi xướng sẽ giúp bạn tạo ra những con đường mới và truyền cảm hứng cho người khác. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách lắng nghe và tôn trọng ý kiến của người khác.</p><p class='mt-3'><b>Năng lực hợp tác, hòa giải</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực hợp tác và hòa giải. Khả năng thấu hiểu, kết nối sẽ giúp bạn xây dựng những mối quan hệ tốt đẹp và tạo ra sự hài hòa. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách thiết lập ranh giới lành mạnh.</p> "
+  },
+
+  20: {
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 20</h4> <p class='mt-3'><b>Năng lực ngoại giao, nhạy cảm</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực ngoại giao và nhạy cảm. Khả năng thấu hiểu, hòa giải sẽ giúp bạn tạo ra sự cân bằng trong các mối quan hệ. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách bảo vệ cảm xúc cá nhân.</p>"
+  },
+
+  22: {
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 22</h4> <p class='mt-3'><b>Năng lực tổ chức, Kaizen, hợp tác, hòa giải </b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực tổ chức, Kaizen, hợp tác, hòa giải. Khả năng biến giấc mơ thành hiện thực ở quy mô lớn sẽ giúp bạn để lại dấu ấn cho nhân loại. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kiên nhẫn với quá trình.</p>"
+  },
+
+  30: {
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 30</h4> <p class='mt-3'><b>Năng lực truyền thông, sáng tạo, lạc quan</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực truyền thông, sáng tạo và lạc quan. Khả năng lan tỏa năng lượng tích cực, truyền cảm hứng sẽ giúp bạn kết nối mọi người. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách giữ vững niềm tin.</p>"
+  },
+
+  33: {
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 33</h4> <p class='mt-3'><b>Năng lực chữa lành tâm linh</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực chữa lành tâm linh. Khả năng yêu thương vô điều kiện, nâng đỡ tinh thần sẽ giúp bạn chữa lành cho cộng đồng. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách bảo vệ năng lượng cá nhân.</p>"
+  }
 };
 export const NUMEROLOGY_LIFE_PATH = {
   1: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 1 - Nhà lãnh đạo tiên phong</h4> <p>Sứ mệnh của bạn trong cuộc đời này là trau dồi bản thân và trở thành một người lãnh đạo. Mục đích cuộc đời bạn là kiên cường, độc lập, tiên phong, phát kiến và đưa vai gánh vác mọi việc – tất cả là để phát triển ý thức về bản ngã, ý chí và sự quyết tâm của bạn.</p><p>Học cách tự lập, suy nghĩ cho chính mình và khiến mình trở nên cá tính cũng như những điều mới, những tư tưởng mới và các hoạt động sáng tạo mang đến những cơ hội lớn để bạn vươn tới sứ mệnh của mình.</p><p>Bạn sinh ra là để lãnh đạo. Hãy là một người lãnh đạo và dạy cách trở thành một người lãnh đạo.</p>",
+      "<h4 class='my-4'>Số Định Mệnh 1 - Nhà lãnh đạo tiên phong</h4> <p>Sứ mệnh của bạn trong cuộc đời này là trau dồi bản thân và trở thành một người lãnh đạo. Mục đích cuộc đời bạn là kiên cường, độc lập, tiên phong, phát kiến và đưa vai gánh vác mọi việc – tất cả là để phát triển ý thức về bản ngã, ý chí và sự quyết tâm của bạn.</p><p>Học cách tự lập, suy nghĩ cho chính mình và khiến mình trở nên cá tính cũng như những điều mới, những tư tưởng mới và các hoạt động sáng tạo mang đến những cơ hội lớn để bạn vươn tới sứ mệnh của mình.</p><p>Bạn sinh ra là để lãnh đạo. Hãy là một người lãnh đạo và dạy cách trở thành một người lãnh đạo.</p>",
   },
   2: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 2 - Người kết nối và hòa giải</h4> <p>Sứ mệnh của bạn trong cuộc đời này là tạo ra sự hài hòa. Mục tiêu của bạn là tìm kiếm sự hợp tác, cân bằng và là một đối tác kiên nhẫn – tất cả là để phát triển ý thức của bạn về mối quan hệ.</p><p>Bạn cần học về lòng trắc ẩn và tiếp nhận mọi thứ bằng cảm xúc. Khả năng thích nghi và tạo sức thuyết phục sẽ đưa bạn đến gần sứ mệnh của mình hơn. Bạn sinh ra là để xây dựng hòa bình. Hãy tiến lên và chia sẻ về nó.</p>",
+      "<h4 class='my-4'>Số Định Mệnh 2 - Người kết nối và hòa giải</h4> <p>Sứ mệnh của bạn trong cuộc đời này là tạo ra sự hài hòa. Mục tiêu của bạn là tìm kiếm sự hợp tác, cân bằng và là một đối tác kiên nhẫn – tất cả là để phát triển ý thức của bạn về mối quan hệ.</p><p>Bạn cần học về lòng trắc ẩn và tiếp nhận mọi thứ bằng cảm xúc. Khả năng thích nghi và tạo sức thuyết phục sẽ đưa bạn đến gần sứ mệnh của mình hơn. Bạn sinh ra là để xây dựng hòa bình. Hãy tiến lên và chia sẻ về nó.</p>",
   },
   3: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 3 - Người truyền cảm hứng</h4> <p>Mục đích của bạn trong cuộc đời này là tiếp thêm sinh lực và sức mạnh. Mục đích của bạn là khuyến khích người khác thông qua những hi vọng và niềm tin của bạn, sử dụng sự sáng tạo đầy cảm hứng của bạn để giúp người khác cùng trải nghiệm niềm vui.</p><p>Học cách thể hiện cảm xúc của bạn thông qua tài năng sử dụng từ ngữ và sự sôi nổi, nhiệt huyết và thông minh sẽ giúp bạn tiến tới sứ mệnh của mình.</p><p>Bạn sinh ra là để thể hiện bản thân, hãy trò chuyện, luôn tích cực và khuyến khích mọi người.</p>",
+      "<h4 class='my-4'>Số Định Mệnh 3 - Người truyền cảm hứng</h4> <p>Mục đích của bạn trong cuộc đời này là tiếp thêm sinh lực và sức mạnh. Mục đích của bạn là khuyến khích người khác thông qua những hi vọng và niềm tin của bạn, sử dụng sự sáng tạo đầy cảm hứng của bạn để giúp người khác cùng trải nghiệm niềm vui.</p><p>Học cách thể hiện cảm xúc của bạn thông qua tài năng sử dụng từ ngữ và sự sôi nổi, nhiệt huyết và thông minh sẽ giúp bạn tiến tới sứ mệnh của mình.</p><p>Bạn sinh ra là để thể hiện bản thân, hãy trò chuyện, luôn tích cực và khuyến khích mọi người.</p>",
   },
   4: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 4 - Người xây dựng nền tảng</h4> <p>Sứ mệnh của bạn trong cuộc đời này là xây dựng một cái gì đó có giá trị lâu dài. Mục tiêu của bạn là trở nên thực tế, làm việc chăm chỉ đồng thời giữ mọi thứ trật tự, ngăn nắp để đảm bảo nhu cầu được an toàn.</p> <p>Học cách thể hiện những giá trị truyền thống và sự trung thành, kiên định sẽ giúp bạn hoàn thành sứ mệnh của mình. Bạn sinh ra là để quản lý và thiết lập trật tự. Hãy tạo dựng nền tảng và phát triển mọi thứ từ đó.</p>",
+      "<h4 class='my-4'>Số Định Mệnh 4 - Người xây dựng nền tảng</h4> <p>Sứ mệnh của bạn trong cuộc đời này là xây dựng một cái gì đó có giá trị lâu dài. Mục tiêu của bạn là trở nên thực tế, làm việc chăm chỉ đồng thời giữ mọi thứ trật tự, ngăn nắp để đảm bảo nhu cầu được an toàn.</p> <p>Học cách thể hiện những giá trị truyền thống và sự trung thành, kiên định sẽ giúp bạn hoàn thành sứ mệnh của mình. Bạn sinh ra là để quản lý và thiết lập trật tự. Hãy tạo dựng nền tảng và phát triển mọi thứ từ đó.</p>",
   },
   5: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 5 - Người giải phóng và tự do</h4> <p>Sứ mệnh của bạn trong cuộc đời này là điều chỉnh, phát triển và tiến bộ. Mục đích của bạn là nắm lấy các cơ hội và quyền tự chủ, và theo đuổi trí tò mò vô tận của mình, đồng thời vận dụng sự tháo vát cũng như sự cuốn hút để luôn tiến về phía trước.</p><p>Học cách thể hiện sự khéo léo và trở thành một linh hồn tự do sẽ giúp bạn tiến tới sứ mệnh của mình.</p><p>Bạn được sinh ra là để được giải phóng và tự do. Hãy tiến về phía trước và thích nghi uyển chuyển với mọi sự thay đổi.</p>",
+      "<h4 class='my-4'>Số Định Mệnh 5 - Người giải phóng và tự do</h4> <p>Sứ mệnh của bạn trong cuộc đời này là điều chỉnh, phát triển và tiến bộ. Mục đích của bạn là nắm lấy các cơ hội và quyền tự chủ, và theo đuổi trí tò mò vô tận của mình, đồng thời vận dụng sự tháo vát cũng như sự cuốn hút để luôn tiến về phía trước.</p><p>Học cách thể hiện sự khéo léo và trở thành một linh hồn tự do sẽ giúp bạn tiến tới sứ mệnh của mình.</p><p>Bạn được sinh ra là để được giải phóng và tự do. Hãy tiến về phía trước và thích nghi uyển chuyển với mọi sự thay đổi.</p>",
   },
   6: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 6 - Người chăm sóc và bảo vệ</h4> <p>Sứ mệnh của bạn trong cuộc đời này là phục vụ. Mục tiêu của bạn là chăm sóc gia đình và những người thương yêu đồng thời sử dụng sự ngưỡng mộ và yêu mến của bạn đối với mọi người và những điều tinh tế để thiết lập sự gần gũi, thân thiết xung quanh bạn.</p><p>Học cách để bày tỏ lòng vị tha cũng như mang lại cho người khác sự thoải mái, dễ chịu sẽ giúp bạn tiến tới mục tiêu của mình.</p><p>Bạn sinh ra là để nuôi dưỡng và làm đẹp. Hãy yêu thương bằng sự cân bằng và bình ổn.</p>",
+      "<h4 class='my-4'>Số Định Mệnh 6 - Người chăm sóc và bảo vệ</h4> <p>Sứ mệnh của bạn trong cuộc đời này là phục vụ. Mục tiêu của bạn là chăm sóc gia đình và những người thương yêu đồng thời sử dụng sự ngưỡng mộ và yêu mến của bạn đối với mọi người và những điều tinh tế để thiết lập sự gần gũi, thân thiết xung quanh bạn.</p><p>Học cách để bày tỏ lòng vị tha cũng như mang lại cho người khác sự thoải mái, dễ chịu sẽ giúp bạn tiến tới mục tiêu của mình.</p><p>Bạn sinh ra là để nuôi dưỡng và làm đẹp. Hãy yêu thương bằng sự cân bằng và bình ổn.</p>",
   },
   7: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 7 - Người tìm kiếm tri thức</h4> <p>Sứ mệnh của bạn trong cuộc đời này là tìm tòi và nghiên cứu. Mục đích của bạn là đào sâu vấn đề và chiêm nghiệm tất cả những gì xảy ra trong cuộc đời này. Sử dụng khả năng phân tích và sự tỉ mỉ của mình để tìm kiếm trí huệ.</p><p>Học cách thể hiện sự kỹ lưỡng sắc sảo của mình cũng như sự chu đáo và sáng suốt sẽ đưa bạn tới gần mục tiêu của mình. Bạn sinh ra là để khai mở thế giới. Hãy tập trung và rèn giũa sự thông thái của bạn</p>",
+      "<h4 class='my-4'>Số Định Mệnh 7 - Người tìm kiếm tri thức</h4> <p>Sứ mệnh của bạn trong cuộc đời này là tìm tòi và nghiên cứu. Mục đích của bạn là đào sâu vấn đề và chiêm nghiệm tất cả những gì xảy ra trong cuộc đời này. Sử dụng khả năng phân tích và sự tỉ mỉ của mình để tìm kiếm trí huệ.</p><p>Học cách thể hiện sự kỹ lưỡng sắc sảo của mình cũng như sự chu đáo và sáng suốt sẽ đưa bạn tới gần mục tiêu của mình. Bạn sinh ra là để khai mở thế giới. Hãy tập trung và rèn giũa sự thông thái của bạn</p>",
   },
   8: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 8 - Người kiểm soát và lãnh đạo</h4> <p>Sứ mệnh của bạn trong cuộc đời này là có được sự tự kiểm soát bản thân. Mục đích của bạn là tự hoàn thiện, sử dụng khả năng của bạn trong kinh doanh và tổ chức.</p><p>Học cách để thể hiện bản chất đích thực, khám phá sức mạnh của chính mình và tầm nhìn khoáng đạt sẽ đưa bạn tiến gần đến sứ mệnh của mình.</p><p>Bạn sinh ra là để có được sự thành công và giàu có vật chất. Hãy nhận thức được điều này và trở thành một nhà lãnh đạo kiệt xuất.</p>",
+      "<h4 class='my-4'>Số Định Mệnh 8 - Người kiểm soát và lãnh đạo</h4> <p>Sứ mệnh của bạn trong cuộc đời này là có được sự tự kiểm soát bản thân. Mục đích của bạn là tự hoàn thiện, sử dụng khả năng của bạn trong kinh doanh và tổ chức.</p><p>Học cách để thể hiện bản chất đích thực, khám phá sức mạnh của chính mình và tầm nhìn khoáng đạt sẽ đưa bạn tiến gần đến sứ mệnh của mình.</p><p>Bạn sinh ra là để có được sự thành công và giàu có vật chất. Hãy nhận thức được điều này và trở thành một nhà lãnh đạo kiệt xuất.</p>",
   },
   9: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 9 - Người nhân đạo và chữa lành</h4> <p>Sứ mệnh của cuộc đời bạn là vươn tới sự hoàn mỹ và yêu thương vô điều kiện. Mục tiêu của bạn là vươn tới những linh hồn tiến hóa cao hơn trong vũ trụ này bằng sự nhân đạo, lòng thương cảm và nghệ thuật chữa lành của mình.</p><p>Học cách chuyển hóa, chữa lành, sẵn sàng tiếp thu, lĩnh hội những ý tưởng mới và một tấm lòng khoan dung độ lượng sẽ đưa bạn lại gần sứ mệnh của mình.</p><p>Bạn sinh ra là để vươn tới những chân trời mới. Hãy vươn tay ra để giúp đỡ mọi người.</p>",
+      "<h4 class='my-4'>Số Định Mệnh 9 - Người nhân đạo và chữa lành</h4> <p>Sứ mệnh của cuộc đời bạn là vươn tới sự hoàn mỹ và yêu thương vô điều kiện. Mục tiêu của bạn là vươn tới những linh hồn tiến hóa cao hơn trong vũ trụ này bằng sự nhân đạo, lòng thương cảm và nghệ thuật chữa lành của mình.</p><p>Học cách chuyển hóa, chữa lành, sẵn sàng tiếp thu, lĩnh hội những ý tưởng mới và một tấm lòng khoan dung độ lượng sẽ đưa bạn lại gần sứ mệnh của mình.</p><p>Bạn sinh ra là để vươn tới những chân trời mới. Hãy vươn tay ra để giúp đỡ mọi người.</p>",
   },
   10: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 10 - Người Tiên Phong và Kiến Tạo</h4> <p>Sứ mệnh của bạn là khởi xướng những con đường mới, kết hợp tinh thần độc lập của số 1 với sự hoàn thiện của số 0. Bạn sinh ra để tạo ra những bước ngoặt, dùng ý chí sắt đá và tầm nhìn đột phá để xây dựng nền tảng vững chắc cho tương lai.</p><p>Hãy dùng sự tự tin và khả năng lãnh đạo bẩm sinh để truyền cảm hứng cho người khác dám bắt đầu. Vũ trụ ủng hộ bạn khi bạn hành động với lòng can đảm và sự chính trực.</p><p>Bạn là ngọn lửa thắp sáng những ý tưởng đầu tiên. Hãy tiến lên và tạo ra di sản của riêng mình!</p>",
+      "<h4 class='my-4'>Số Định Mệnh 10 - Người Tiên Phong và Kiến Tạo</h4> <p>Sứ mệnh của bạn là khởi xướng những con đường mới, kết hợp tinh thần độc lập của số 1 với sự hoàn thiện của số 0. Bạn sinh ra để tạo ra những bước ngoặt, dùng ý chí sắt đá và tầm nhìn đột phá để xây dựng nền tảng vững chắc cho tương lai.</p><p>Hãy dùng sự tự tin và khả năng lãnh đạo bẩm sinh để truyền cảm hứng cho người khác dám bắt đầu. Vũ trụ ủng hộ bạn khi bạn hành động với lòng can đảm và sự chính trực.</p><p>Bạn là ngọn lửa thắp sáng những ý tưởng đầu tiên. Hãy tiến lên và tạo ra di sản của riêng mình!</p>",
   },
   11: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 11 - Người Thầy Tâm Linh</h4> <p>Sứ mệnh của bạn là khai sáng và truyền cảm hứng. Bạn sinh ra để kết nối những tâm hồn với sự thông thái vũ trụ, dẫn dắt họ qua trực giác siêu nhiên và trái tim nhân ái. Mục đích của bạn là thắp lửa tri thức, biến ý tưởng thành thông điệp chạm đến hàng triệu người.</p><p>Hãy dùng năng lượng tâm linh và sự sáng tạo vô hạn của mình để trở thành cây cầu giữa thế giới hữu hình và vô hình. Đừng sợ ánh hào quang của bạn - vũ trụ chọn bạn để tỏa sáng!</p><p>Bạn là ngọn đuốc giữa bóng tối. Hãy tin vào sứ mệnh cao cả: Mang ánh sáng đến những nơi cần nhất.</p>",
+      "<h4 class='my-4'>Số Định Mệnh 11 - Người Thầy Tâm Linh</h4> <p>Sứ mệnh của bạn là khai sáng và truyền cảm hứng. Bạn sinh ra để kết nối những tâm hồn với sự thông thái vũ trụ, dẫn dắt họ qua trực giác siêu nhiên và trái tim nhân ái. Mục đích của bạn là thắp lửa tri thức, biến ý tưởng thành thông điệp chạm đến hàng triệu người.</p><p>Hãy dùng năng lượng tâm linh và sự sáng tạo vô hạn của mình để trở thành cây cầu giữa thế giới hữu hình và vô hình. Đừng sợ ánh hào quang của bạn - vũ trụ chọn bạn để tỏa sáng!</p><p>Bạn là ngọn đuốc giữa bóng tối. Hãy tin vào sứ mệnh cao cả: Mang ánh sáng đến những nơi cần nhất.</p>",
   },
   20: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 20 - Người Hòa Giải và Kết Nối</h4><p>Sứ mệnh của bạn là tạo ra sự hài hòa trong mọi mối quan hệ. Với năng lượng của số 2 (hợp tác) và số 0 (vô cực), bạn sinh ra để trở thành cầu nối giữa con người, giúp họ hiểu nhau sâu sắc hơn thông qua sự nhạy cảm và ngoại giao.</p><p>Hãy dùng trực giác tinh tế của mình để hàn gắn những rạn nứt. Thế giới cần bạn mang lại sự cân bằng!</p>",
+      "<h4 class='my-4'>Số Định Mệnh 20 - Người Hòa Giải và Kết Nối</h4><p>Sứ mệnh của bạn là tạo ra sự hài hòa trong mọi mối quan hệ. Với năng lượng của số 2 (hợp tác) và số 0 (vô cực), bạn sinh ra để trở thành cầu nối giữa con người, giúp họ hiểu nhau sâu sắc hơn thông qua sự nhạy cảm và ngoại giao.</p><p>Hãy dùng trực giác tinh tế của mình để hàn gắn những rạn nứt. Thế giới cần bạn mang lại sự cân bằng!</p>",
   },
   22: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 22 - Nhà Kiến Tạo Vĩ Đại</h4><p>Là 'Con số Vua' trong Thần số học, bạn mang sứ mệnh biến giấc mơ thành hiện thực. Với năng lượng gấp đôi số 11 (tầm nhìn) và tổng bằng 4 (thực tế), bạn có khả năng xây dựng những công trình trường tồn, từ doanh nghiệp đến hệ thống giúp đỡ cộng đồng.</p><p>Hãy dùng sự kiên nhẫn và tầm nhìn xa để kiến tạo di sản!</p>",
+      "<h4 class='my-4'>Số Định Mệnh 22 - Nhà Kiến Tạo Vĩ Đại</h4><p>Là 'Con số Vua' trong Thần số học, bạn mang sứ mệnh biến giấc mơ thành hiện thực. Với năng lượng gấp đôi số 11 (tầm nhìn) và tổng bằng 4 (thực tế), bạn có khả năng xây dựng những công trình trường tồn, từ doanh nghiệp đến hệ thống giúp đỡ cộng đồng.</p><p>Hãy dùng sự kiên nhẫn và tầm nhìn xa để kiến tạo di sản!</p>",
   },
   30: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 30 - Người Truyền Cảm Hứng Ngôn Từ</h4><p>Bạn được sinh ra để dùng ngôn từ và sự lạc quan (số 3) kết hợp với trí tuệ vũ trụ (số 0) để thắp lên niềm vui và sáng tạo. Sứ mệnh của bạn là truyền tải thông điệp tích cực, giúp người khác nhìn thấy vẻ đẹp cuộc sống qua nghệ thuật, giáo dục hoặc giao tiếp.</p><p>Hãy mở rộng trái tim và chia sẻ năng lượng hân hoan của mình!</p>",
+      "<h4 class='my-4'>Số Định Mệnh 30 - Người Truyền Cảm Hứng Ngôn Từ</h4><p>Bạn được sinh ra để dùng ngôn từ và sự lạc quan (số 3) kết hợp với trí tuệ vũ trụ (số 0) để thắp lên niềm vui và sáng tạo. Sứ mệnh của bạn là truyền tải thông điệp tích cực, giúp người khác nhìn thấy vẻ đẹp cuộc sống qua nghệ thuật, giáo dục hoặc giao tiếp.</p><p>Hãy mở rộng trái tim và chia sẻ năng lượng hân hoan của mình!</p>",
   },
   33: {
     noidung:
-      "<h4 class='mt-3'>Số Định Mệnh 33 - Người Chữa Lành Tâm Linh</h4><p>Là 'Con số Thầy giáo Tối cao', bạn được trao sứ mệnh chữa lành bằng tình yêu thương thuần khiết. Kết hợp sức mạnh gấp ba lần số 11, bạn sinh ra để nâng đỡ nhân loại qua giáo dục, nghệ thuật hoặc hoạt động nhân đạo.</p><p>Hãy để trái tim rộng mở dẫn đường - bạn là món quà của vũ trụ cho những ai đang đau khổ!</p>",
+      "<h4 class='my-4'>Số Định Mệnh 33 - Người Chữa Lành Tâm Linh</h4><p>Là 'Con số Thầy giáo Tối cao', bạn được trao sứ mệnh chữa lành bằng tình yêu thương thuần khiết. Kết hợp sức mạnh gấp ba lần số 11, bạn sinh ra để nâng đỡ nhân loại qua giáo dục, nghệ thuật hoặc hoạt động nhân đạo.</p><p>Hãy để trái tim rộng mở dẫn đường - bạn là món quà của vũ trụ cho những ai đang đau khổ!</p>",
   },
 };
 export const NUMEROLOGY_BIRTHDAY_NUMBER = {

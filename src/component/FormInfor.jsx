@@ -103,7 +103,7 @@ function FormInfor() {
     );
 
     // grow number
-    const mature = mergeNumberString(main - 0 + (detinyNumber - 0) + "");
+    const mature = mergeNumberString(main - 0 + (detinyNumber - 0) + "", true);
     dispatch(numberNameActions.setNumberMature(mature));
   };
 
