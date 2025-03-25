@@ -870,6 +870,30 @@ export const NUMEROLOGY_LIFE_PATH = {
     noidung:
       "<h4 class='mt-3'>Số Định Mệnh 9 - Người nhân đạo và chữa lành</h4> <p>Sứ mệnh của cuộc đời bạn là vươn tới sự hoàn mỹ và yêu thương vô điều kiện. Mục tiêu của bạn là vươn tới những linh hồn tiến hóa cao hơn trong vũ trụ này bằng sự nhân đạo, lòng thương cảm và nghệ thuật chữa lành của mình.</p><p>Học cách chuyển hóa, chữa lành, sẵn sàng tiếp thu, lĩnh hội những ý tưởng mới và một tấm lòng khoan dung độ lượng sẽ đưa bạn lại gần sứ mệnh của mình.</p><p>Bạn sinh ra là để vươn tới những chân trời mới. Hãy vươn tay ra để giúp đỡ mọi người.</p>",
   },
+  10: {
+    noidung:
+      "<h4 class='mt-3'>Số Định Mệnh 10 - Người Tiên Phong và Kiến Tạo</h4> <p>Sứ mệnh của bạn là khởi xướng những con đường mới, kết hợp tinh thần độc lập của số 1 với sự hoàn thiện của số 0. Bạn sinh ra để tạo ra những bước ngoặt, dùng ý chí sắt đá và tầm nhìn đột phá để xây dựng nền tảng vững chắc cho tương lai.</p><p>Hãy dùng sự tự tin và khả năng lãnh đạo bẩm sinh để truyền cảm hứng cho người khác dám bắt đầu. Vũ trụ ủng hộ bạn khi bạn hành động với lòng can đảm và sự chính trực.</p><p>Bạn là ngọn lửa thắp sáng những ý tưởng đầu tiên. Hãy tiến lên và tạo ra di sản của riêng mình!</p>",
+  },
+  11: {
+    noidung:
+      "<h4 class='mt-3'>Số Định Mệnh 11 - Người Thầy Tâm Linh</h4> <p>Sứ mệnh của bạn là khai sáng và truyền cảm hứng. Bạn sinh ra để kết nối những tâm hồn với sự thông thái vũ trụ, dẫn dắt họ qua trực giác siêu nhiên và trái tim nhân ái. Mục đích của bạn là thắp lửa tri thức, biến ý tưởng thành thông điệp chạm đến hàng triệu người.</p><p>Hãy dùng năng lượng tâm linh và sự sáng tạo vô hạn của mình để trở thành cây cầu giữa thế giới hữu hình và vô hình. Đừng sợ ánh hào quang của bạn - vũ trụ chọn bạn để tỏa sáng!</p><p>Bạn là ngọn đuốc giữa bóng tối. Hãy tin vào sứ mệnh cao cả: Mang ánh sáng đến những nơi cần nhất.</p>",
+  },
+  20: {
+    noidung:
+      "<h4 class='mt-3'>Số Định Mệnh 20 - Người Hòa Giải và Kết Nối</h4><p>Sứ mệnh của bạn là tạo ra sự hài hòa trong mọi mối quan hệ. Với năng lượng của số 2 (hợp tác) và số 0 (vô cực), bạn sinh ra để trở thành cầu nối giữa con người, giúp họ hiểu nhau sâu sắc hơn thông qua sự nhạy cảm và ngoại giao.</p><p>Hãy dùng trực giác tinh tế của mình để hàn gắn những rạn nứt. Thế giới cần bạn mang lại sự cân bằng!</p>",
+  },
+  22: {
+    noidung:
+      "<h4 class='mt-3'>Số Định Mệnh 22 - Nhà Kiến Tạo Vĩ Đại</h4><p>Là 'Con số Vua' trong Thần số học, bạn mang sứ mệnh biến giấc mơ thành hiện thực. Với năng lượng gấp đôi số 11 (tầm nhìn) và tổng bằng 4 (thực tế), bạn có khả năng xây dựng những công trình trường tồn, từ doanh nghiệp đến hệ thống giúp đỡ cộng đồng.</p><p>Hãy dùng sự kiên nhẫn và tầm nhìn xa để kiến tạo di sản!</p>",
+  },
+  30: {
+    noidung:
+      "<h4 class='mt-3'>Số Định Mệnh 30 - Người Truyền Cảm Hứng Ngôn Từ</h4><p>Bạn được sinh ra để dùng ngôn từ và sự lạc quan (số 3) kết hợp với trí tuệ vũ trụ (số 0) để thắp lên niềm vui và sáng tạo. Sứ mệnh của bạn là truyền tải thông điệp tích cực, giúp người khác nhìn thấy vẻ đẹp cuộc sống qua nghệ thuật, giáo dục hoặc giao tiếp.</p><p>Hãy mở rộng trái tim và chia sẻ năng lượng hân hoan của mình!</p>",
+  },
+  33: {
+    noidung:
+      "<h4 class='mt-3'>Số Định Mệnh 33 - Người Chữa Lành Tâm Linh</h4><p>Là 'Con số Thầy giáo Tối cao', bạn được trao sứ mệnh chữa lành bằng tình yêu thương thuần khiết. Kết hợp sức mạnh gấp ba lần số 11, bạn sinh ra để nâng đỡ nhân loại qua giáo dục, nghệ thuật hoặc hoạt động nhân đạo.</p><p>Hãy để trái tim rộng mở dẫn đường - bạn là món quà của vũ trụ cho những ai đang đau khổ!</p>",
+  },
 };
 export const NUMEROLOGY_BIRTHDAY_NUMBER = {
   1: {
