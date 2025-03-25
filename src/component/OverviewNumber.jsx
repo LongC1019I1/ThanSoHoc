@@ -138,7 +138,7 @@ function OverviewNumber() {
       </div>
       <div className="m-3  p-3    border border-dark-subtle rounded  ">
         {numbers.map((numberRow, rowIndex) => (
-          <div className="row  mb-4 ">
+          <div className="row  mb-4 row  d-flex border rounded p-3 m-3 d-flex justify-content-center  ">
             {numberRow.map((item, index) => (
               <div key={`${rowIndex}-${index}`} className="col-2">
                 <div
