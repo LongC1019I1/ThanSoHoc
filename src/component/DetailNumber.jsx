@@ -40,77 +40,81 @@ function DetailNumber() {
   return (
     <Fragment>
       <div id="detail_number">
-        <div class="border rounded p-3 m-3 row ">
-          <ChartDateName
-            numbersData={birth_day}
-            color="red"
-            buttonText="BIỂU ĐỒ NGÀY SINH"
-            buttonColor="green"
-          />
-
-          <ChartDateName
-            numbersData={full_name_numb}
-            color="#3498da"
-            buttonText="BIỂU ĐỒ HỌ TÊN"
-            buttonColor="purple"
-          />
-        </div>
-
-        <div class="border rounded p-3 m-3 d-flex justify-content-center">
-          <ChartDateName
-            numbersData={combine_numb_birth_name}
-            color="blue"
-            buttonText="BIỂU ĐỒ  TỔNG HỢP"
-            buttonColor="#3cbc9b"
-          />
-        </div>
-
-        <div class="border rounded p-3 m-3 d-flex justify-content-center">
-          {combine_numb_birth_name && (
-            <Fragment>
-              <ChartCombineEnergy
-                color="blue"
-                buttonText="BIỂU ĐỒ TỔNG HỢP"
-                buttonColor="#3cbc9b"
-              />
-            </Fragment>
-          )}
-        </div>
-
-        {top4 && (
+        {birth_day && (
           <Fragment>
-            <div
-              id="lifepeak"
-              className="  border rounded  row d-flex  p-3 m-3 justify-content-center"
-            >
-              <LifePeak
-                topFour={top4.top4_peak}
-                btn={{
-                  class_name: "btn btn-danger",
-                  noi_dung: "4 ĐỈNH CỦA CUỘC ĐỜI",
-                }}
+            <div class="border rounded p-3 m-3 row ">
+              <ChartDateName
+                numbersData={birth_day}
+                color="red"
+                buttonText="BIỂU ĐỒ NGÀY SINH"
+                buttonColor="green"
               />
-              <LifePeak
-                topFour={top4.top4_challenge}
-                btn={{
-                  class_name: "btn jade-green",
-                  noi_dung: "BIỂU ĐỒ THỬ THÁCH",
-                }}
+
+              <ChartDateName
+                numbersData={full_name_numb}
+                color="#3498da"
+                buttonText="BIỂU ĐỒ HỌ TÊN"
+                buttonColor="purple"
               />
             </div>
+
+            <div class="border rounded p-3 m-3 d-flex justify-content-center">
+              <ChartDateName
+                numbersData={combine_numb_birth_name}
+                color="blue"
+                buttonText="BIỂU ĐỒ  TỔNG HỢP"
+                buttonColor="#3cbc9b"
+              />
+            </div>
+
+            <div class="border rounded p-3 m-3 d-flex justify-content-center">
+              {combine_numb_birth_name && (
+                <Fragment>
+                  <ChartCombineEnergy
+                    color="blue"
+                    buttonText="BIỂU ĐỒ TỔNG HỢP"
+                    buttonColor="#3cbc9b"
+                  />
+                </Fragment>
+              )}
+            </div>
+
+            {top4 && (
+              <Fragment>
+                <div
+                  id="lifepeak"
+                  className="  border rounded  row d-flex  p-3 m-3 justify-content-center"
+                >
+                  <LifePeak
+                    topFour={top4.top4_peak}
+                    btn={{
+                      class_name: "btn btn-danger",
+                      noi_dung: "4 ĐỈNH CỦA CUỘC ĐỜI",
+                    }}
+                  />
+                  <LifePeak
+                    topFour={top4.top4_challenge}
+                    btn={{
+                      class_name: "btn jade-green",
+                      noi_dung: "BIỂU ĐỒ THỬ THÁCH",
+                    }}
+                  />
+                </div>
+              </Fragment>
+            )}
+
+            <MainNumber />
+            <NameNumber />
+            <DestinyNumber />
+            <AtituteNumber />
+            <MatureNumber />
+            <BirthNumber />
+            <SoulNumber />
+            <ExpressNumber />
+            <InnerNumber />
+            <SummaryAll />
           </Fragment>
         )}
-
-        <MainNumber />
-        <NameNumber />
-        <DestinyNumber />
-        <AtituteNumber />
-        <MatureNumber />
-        <BirthNumber />
-        <SoulNumber />
-        <ExpressNumber />
-        <InnerNumber />
-        <SummaryAll/>
       </div>
     </Fragment>
   );

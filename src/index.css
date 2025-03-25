@@ -92,8 +92,6 @@ button {
   transition: border-color 0.25s;
 }
 
-
-
 button:hover {
   border-color: #646cff;
 }
@@ -121,6 +119,10 @@ button:focus-visible {
     list-style: none;
     margin-left: -15px;
     margin-bottom: 10px;
+  }
+
+  .head-main {
+    margin-top: 35px ;
   }
 }
 
