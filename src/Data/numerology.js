@@ -827,7 +827,7 @@ export const NUMEROLOGY_MATURITY = {
   },
 
   9: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 9</h4> <p class='mt-3'><b>Năng lực nhân đạo, vị tha</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực nhân đạo và vị tha. Khả năng yêu thương, phụng sự sẽ giúp bạn kết nối với cộng đồng và tạo ra những giá trị bền vững. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách cân bằng giữa cho đi và nhận lại.</p>"
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 9</h4> <p class='mt-3'><b>Năng lực nhân đạo và tầm nhìn xa</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực nhân đạo và có tầm nhìn xa. Khả năng yêu thương, phụng sự sẽ giúp bạn kết nối với cộng đồng và tạo ra những giá trị bền vững. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách cân bằng giữa cho đi và nhận lại.</p>"
   },
 
   10: {
@@ -843,7 +843,7 @@ export const NUMEROLOGY_MATURITY = {
   },
 
   22: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 22</h4> <p class='mt-3'><b>Năng lực tổ chức, Kaizen, hợp tác, hòa giải </b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực tổ chức, Kaizen, hợp tác, hòa giải. Khả năng biến giấc mơ thành hiện thực ở quy mô lớn sẽ giúp bạn để lại dấu ấn cho nhân loại. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kiên nhẫn với quá trình.</p>"
+    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 22</h4> <p class='mt-3'><b>Năng lực xây dựng & kiến tạo </b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực tổ chức, Kaizen, hợp tác, hòa giải. Khả năng biến giấc mơ thành hiện thực ở quy mô lớn sẽ giúp bạn để lại dấu ấn cho nhân loại. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kiên nhẫn với quá trình.</p>"
   },
 
   30: {
@@ -919,52 +919,60 @@ export const NUMEROLOGY_LIFE_PATH = {
 export const NUMEROLOGY_BIRTHDAY_NUMBER = {
   1: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 1 - Người tiên phong độc lập</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn có khả năng lãnh đạo tự nhiên, độc lập và mạnh mẽ. Bạn luôn muốn dẫn đầu và không thích bị kiểm soát.</p> <p><strong>💡 Điểm mạnh:</strong> Quyết đoán, sáng tạo, có ý chí mạnh mẽ và luôn chủ động trong mọi việc.</p> <p><strong>⚠️ Thách thức:</strong> Cần học cách làm việc nhóm, kiểm soát cái tôi và tránh sự cô lập.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Lãnh đạo, quản lý, kinh doanh, sáng tạo, công nghệ.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 1</h4><p>Nhiệt tình, đầy năng lượng, dễ tính, vì thế cũng quảng giao, vui vẻ, có nhiều bạn bè, người quen thông qua các cuộc trò chuyện xã giao.</p> <p>Luôn cố gắng hết sức khi được làm việc một mình.</p> <p>Do thích tự nỗ lực và có xu hướng tập trung vào cá nhân, những người này có vẻ tách rời tập thể trong một số thời điểm nào đó.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p> <p>Năng lực thiết lập mục tiêu, chiến lược, kế hoạch.</p> <p>Năng lực lãnh đạo, quản trị.</p> <p>Năng lực tự lập, tự chủ, tự quyết.</p> <p>Năng lực quyết pệt hành động, theo đuổi mục tiêu.</p> ",
   },
   2: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 2 - Người hòa giải và nhạy cảm</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn có trực giác nhạy bén, dễ đồng cảm và luôn tìm kiếm sự hòa hợp.</p> <p><strong>💡 Điểm mạnh:</strong> Giỏi lắng nghe, biết cách hợp tác và tạo dựng mối quan hệ tốt.</p> <p><strong>⚠️ Thách thức:</strong> Cần học cách tự tin, không quá phụ thuộc vào người khác và tránh do dự.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Tư vấn, giáo viên, ngoại giao, nghệ thuật.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 2</h4><p>Là người đáng tin cậy, hữu ích, nhiệt tình giúp đỡ người khác. Nhìn chung, họ là những người sống nhẹ nhàng, chuộng những gì tự nhiên, không toan tính thâm sâu.</p> <p>Năng lực lắng nghe, thấu hiểu, đồng cảm, chia sẻ, xoa dịu người khác</p> <p>Năng lực nâng đỡ, kết nối, hòa giải các mối quan hệ </p> <p>Năng lực trực giác nhạy bén, đưa ra dự đoán, linh cảm, nhạy cảm với tâm lý, có khả năng chữa lành cho người khác </p> <p>Năng lực hỗ trợ, cố vấn, đàm phán thương thuyết</p>",
   },
   3: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 3 - Người truyền cảm hứng</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn vui vẻ, sáng tạo và có khả năng giao tiếp tốt.</p> <p><strong>💡 Điểm mạnh:</strong> Trí tưởng tượng phong phú, hài hước và có khả năng thể hiện bản thân.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị phân tâm, thiếu kiên nhẫn và đôi khi quá hời hợt.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Nghệ thuật, truyền thông, quảng cáo, giảng dạy.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 3</h4> <p>Rất yêu thích sự hài hước, đặc biệt là hài châm biếm.</p> <p>Họ cần nhớ rõ điểm này để kiềm chế thôi hay chê bai, thử để gây ra tranh cãi hoặc làm tổn thương cả hai bên. Thay vào đó, hãy tận dụng óc hài hước nhẹ nhàng để “chỉ điểm” cho người khác biết những gì cần điều chỉnh, nếu bạn thật sự nghĩ người ta cần sự giúp đỡ này.</p> <p>Năng lực truyền thụ, vui vẻ, hài hước, hoạt ngôn.</p> <p>Năng lực đưa ra giải pháp, ý tưởng sáng tạo để giải quyết các vấn đề.</p> <p>Năng lực sử dụng ngôn từ cực tốt, có khiếu là nghệ sĩ.</p> <p>Năng lực truyền cảm hứng tích cực cho người khác.</p>",
   },
   4: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 4 - Người xây dựng nền tảng</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn thực tế, đáng tin cậy và có khả năng tổ chức tốt.</p> <p><strong>💡 Điểm mạnh:</strong> Kiên trì, kỷ luật và có tư duy logic.</p> <p><strong>⚠️ Thách thức:</strong> Cần linh hoạt hơn, tránh bảo thủ và không quá khắt khe với bản thân.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Kỹ thuật, tài chính, quản lý, xây dựng.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 4 </h4> <p>Năng lực tính toán chi tiết, cẩn thận, chắc chắn.</p> <p>Năng lực lên kế hoạch, tổ chức, quy trình, quản lý chặt chẽ.</p> <p>Năng lực chịu áp lực, bền bỉ và ổn định.</p> <p>Năng lực giám sát, điều tra, quản lý chi tiêu chặt chẽ.</p>",
   },
   5: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 5 - Người tự do và linh hoạt</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn thích khám phá, ưa mạo hiểm và luôn tìm kiếm sự mới lạ.</p> <p><strong>💡 Điểm mạnh:</strong> Giỏi thích nghi, sáng tạo và có khả năng giao tiếp tốt.</p> <p><strong>⚠️ Thách thức:</strong> Cần học cách duy trì sự ổn định và kiểm soát cảm xúc.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Du lịch, truyền thông, kinh doanh, giải trí.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 5</h4> <p>Số 5 là những người giỏi quan tâm, chăm sóc người khác, giàu tình cảm, giàu lòng trắc ẩn và rất cần được tự do biểu đạt những cảm xúc này ra ngoài.</p> <p>Năng lực nhanh nhạy, linh hoạt, dễ thích nghi.</p> <p>Năng lực sáng tạo, đưa ra các ý tưởng mang tính cải cách, đổi mới.</p> <p>Năng lực truyền cảm hứng, truyền động lực cho người khác.</p> <p>Năng lực nắm bắt, tiếp cận nhanh, thông minh, đa tài, nhiều tài lẻ.</p> <p>Năng lực quảng giao, bán hàng, mở rộng thị trường, mối quan hệ.</p>",
   },
   6: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 6 - Người bảo vệ và chăm sóc</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn yêu thương, tận tâm và luôn quan tâm đến người khác.</p> <p><strong>💡 Điểm mạnh:</strong> Trách nhiệm, đáng tin cậy và có khả năng chữa lành.</p> <p><strong>⚠️ Thách thức:</strong> Tránh kiểm soát quá mức và học cách cân bằng bản thân.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Y tế, giáo dục, nghệ thuật, tâm lý học.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 6</h4><p>Năng lực gánh vác, chịu hy sinh, chịu thiệt thòi, và gánh vác trách nhiệm.</p> <p>Năng lực sáng tạo và nghệ thuật.</p> <p>Năng lực chữa lành, trao đi tình thương, giúp đỡ người khác.</p> <p>Năng lực quên mình, giúp đỡ cho cộng đồng.</p> <p>Năng lực là nhà lãnh đạo bằng trái tim, thủ lĩnh tinh thần.</p> <p>Năng lực xây dựng, kết nối, phụng sự, cống hiến cho cộng đồng.</p> <p>Năng lực lắng nghe, thấu hiểu, đồng cảm, chia sẻ, xoa dịu với người khác.</p> <p>Năng lực nâng đỡ, kết nối, hòa giải các mối quan hệ.</p>",
   },
   7: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 7 - Người tìm kiếm tri thức</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn thích nghiên cứu, có tư duy sâu sắc và luôn tìm kiếm sự thật.</p> <p><strong>💡 Điểm mạnh:</strong> Quan sát tinh tế, phân tích tốt và có trực giác mạnh.</p> <p><strong>⚠️ Thách thức:</strong> Cần mở lòng hơn và kết nối với mọi người xung quanh.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Khoa học, nghiên cứu, giáo dục, tâm linh.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 7</h4> <p>Năng lực chiêm nghiệm, phân tích, đúc kết, logic hóa vấn đề.</p> <p>Năng lực học tập, nghiên cứu, đào sâu bản chất vấn đề.</p> <p>Năng lực thông thái và đưa ra lời khuyên, chia sẻ cho người khác.</p> <p>Năng lực nhìn thấy chân tướng sự việc, đưa ra quyết định sáng suốt.</p> <p>Năng lực tính toán chi tiết, cẩn thận, chắc chắn.</p>",
   },
   8: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 8 - Người lãnh đạo quyền lực</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn tham vọng, có năng lực lãnh đạo và kiểm soát tốt.</p> <p><strong>💡 Điểm mạnh:</strong> Tư duy chiến lược, quyết đoán và có tố chất kinh doanh.</p> <p><strong>⚠️ Thách thức:</strong> Tránh quá kiểm soát và cần học cách điều tiết cảm xúc.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Tài chính, kinh doanh, quản lý, bất động sản.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 8</h4> <p>Không thích làm việc theo nhóm, cũng không thích thuộc về nhóm nào. Con người thường làm việc theo nhóm để họ có thể được tổ chức, phân công, định hướng. Nhưng điều này đi ngược với sự phát triển cá nhân, vốn là mục đích chính của những người có Con số ngày sinh là 8.</p> <p>Năng lực quản trị, điều hành, phán đoán tốt, nhạy cảm với sự biến động của thị trường.</p> <p>Năng lực đánh giá, nắm bắt các cơ hội tài chính, kinh doanh.</p> <p>Năng lực làm việc chăm chỉ, nghiêm túc, kỷ luật.</p> <p>Năng lực gây dựng thương hiệu cá nhân hay quyền lực bản thân.</p>",
   },
   9: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 9 - Người nhân đạo và vị tha</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn giàu lòng nhân ái, vị tha và hướng tới những giá trị cao đẹp.</p> <p><strong>💡 Điểm mạnh:</strong> Bao dung, sáng suốt và có khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Cần thực tế hơn và tránh bị lợi dụng bởi lòng tốt.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Từ thiện, nghệ thuật, giáo dục, tâm linh.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 9</h4> <p>Là những người đầy trách nhiệm với bản thân và với người khác, được thúc đẩy bởi lý tưởng và ước mơ.</p> <p>Một số người sẽ bị tham vọng quá mức, đặc biệt nếu Con số chủ đạo của họ cũng là 9. Nếu tham vọng này không được định hướng tốt, nó sẽ dẫn đến sự thất vọng và kéo theo nhiều bất ổn trong đời sống.</p> <p>Năng lực lan tỏa chia sẻ những điều giá trị đến với mọi người.</p> <p>Năng lực cho đi: kiến thức, thời gian, công sức, tài vật.</p> <p>Năng lực trực giác, nhạy bén về tâm lý, chữa lành, coaching.</p> <p>Năng lực xây dựng, lãnh đạo, kết nối, phụng sự, cống hiến cho cộng đồng.</p>",
   },
   10: {
+    noidung: " <h4 class='my-3'>Chỉ Số Ngày Sinh 10</h4> <p>Nhiệt tình, đầy năng lượng, dễ tính, vì thế cũng quảng giao, vui vẻ, có nhiều bạn bè, người quen thông qua các cuộc trò chuyện xã giao.</p> <p>Luôn cố gắng hết sức khi được làm việc một mình.</p> <p>Do thích tự nỗ lực và có xu hướng tập trung vào cá nhân, những người này có vẻ tách rời tập thể trong một số thời điểm nào đó.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p> <p>Năng lực thiết lập mục tiêu, chiến lược, kế hoạch.</p> <p>Năng lực lãnh đạo, quản trị.</p> <p>Năng lực tự lập, tự chủ, tự quyết.</p> <p>Năng lực quyết pệt hành động, theo đuổi mục tiêu.</p> ",
+  },
+  20: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 10 - Người năng động và linh hoạt</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn dễ thích nghi, tràn đầy năng lượng và luôn thu hút sự chú ý.</p> <p><strong>💡 Điểm mạnh:</strong> Giao tiếp tốt, có khả năng kết nối và truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Cần học cách duy trì tập trung và tránh lãng phí năng lượng.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Quản lý, truyền thông, kinh doanh, diễn giả.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 20</h4><p>Là người đáng tin cậy, hữu ích, nhiệt tình giúp đỡ người khác. Nhìn chung, họ là những người sống nhẹ nhàng, chuộng những gì tự nhiên, không toan tính thâm sâu.</p> <p>Năng lực lắng nghe, thấu hiểu, đồng cảm, chia sẻ, xoa dịu người khác</p> <p>Năng lực nâng đỡ, kết nối, hòa giải các mối quan hệ </p> <p>Năng lực trực giác nhạy bén, đưa ra dự đoán, linh cảm, nhạy cảm với tâm lý, có khả năng chữa lành cho người khác </p> <p>Năng lực hỗ trợ, cố vấn, đàm phán thương thuyết</p>",
+  },
+  30: {
+    noidung:
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 30</h4> <p>Rất yêu thích sự hài hước, đặc biệt là hài châm biếm.</p> <p>Họ cần nhớ rõ điểm này để kiềm chế thôi hay chê bai, thử để gây ra tranh cãi hoặc làm tổn thương cả hai bên. Thay vào đó, hãy tận dụng óc hài hước nhẹ nhàng để “chỉ điểm” cho người khác biết những gì cần điều chỉnh, nếu bạn thật sự nghĩ người ta cần sự giúp đỡ này.</p> <p>Năng lực truyền thụ, vui vẻ, hài hước, hoạt ngôn.</p> <p>Năng lực đưa ra giải pháp, ý tưởng sáng tạo để giải quyết các vấn đề.</p> <p>Năng lực sử dụng ngôn từ cực tốt, có khiếu là nghệ sĩ.</p> <p>Năng lực truyền cảm hứng tích cực cho người khác.</p>",
   },
   11: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 11 - Người trực giác và tâm linh</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn có trực giác mạnh mẽ, khả năng thấu hiểu sâu sắc và năng lượng tâm linh cao.</p> <p><strong>💡 Điểm mạnh:</strong> Nhạy cảm, sáng tạo và có khả năng truyền đạt cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Cần kiểm soát cảm xúc và tránh bị áp lực bởi sự nhạy cảm.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Nghệ thuật, giảng dạy, chữa lành, tâm linh.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 11</h4> <p>Năng lực lắng nghe, thấu hiểu, đồng cảm, chia sẻ, xoa dịu với người khác.</p> <p>Năng lực nâng đỡ, kết nối, hòa giải các mối quan hệ.</p> <p>Năng lực trực giác, đưa ra các dự đoán, linh cảm, nhạy cảm với tâm lý, chữa lành giúp người khác.</p> <p>Năng lực hỗ trợ, cố vấn, ngoại giao, đàm phán thương thuyết.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p>",
   },
   22: {
     noidung:
-      "<h4 class='mt-3'>Chỉ Số Ngày Sinh 22/4 - Người kiến tạo vĩ đại</h4> <p><strong>🌟 Đặc điểm nổi bật:</strong> Bạn có khả năng tổ chức, lãnh đạo và xây dựng những giá trị bền vững. Bạn là người có tầm nhìn xa và có thể biến những ước mơ lớn thành hiện thực.</p> <p><strong>💡 Điểm mạnh:</strong> Kiên định, trách nhiệm cao, khả năng lãnh đạo mạnh mẽ và thực tế.</p> <p><strong>⚠️ Thách thức:</strong> Cần học cách cân bằng giữa tham vọng và cuộc sống cá nhân, tránh quá tập trung vào công việc.</p> <p><strong>🚀 Nghề nghiệp phù hợp:</strong> Doanh nhân, quản lý cấp cao, kiến trúc sư, kỹ sư, chính trị gia.</p>",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 22/4</h4> <p>Không có con số nào có thể bị được với năng lượng tiềm ẩn của 22/4, vì nó kết hợp được trực giác với óc thực tế, từ đó khiến cho mọi khả năng đều có thể trở thành hiện thực - tất nhiên là nếu người sở hữu con số ngày sinh này thật sự mong muốn.</p> <p>Năng lực trực giác, nhạy bén về tâm lý, chữa lành, coaching.</p> <p>Năng lực xây dựng, lãnh đạo, kết nối, phụng sự, cống hiến cho cộng đồng.</p> <p>Năng lực tính toán chi tiết, cẩn thận, chắc chắn.</p> <p>Năng lực lên kế hoạch, tổ chức, quy trình, quản lý chặt chẽ.</p> <p>Năng lực chịu áp lực, bền bỉ và ổn định.</p> <p>Năng lực giám sát, điều tra, quản lý chi tiêu chặt chẽ.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p>",
   },
+
 };
 
 export const NUMEROLOGY_SOUL_NUMBER = {

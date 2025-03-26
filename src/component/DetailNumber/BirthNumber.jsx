@@ -14,7 +14,7 @@ function BirthNumber() {
           6{") "} Chỉ Số Ngày Sinh{" "}
           <b className="text-danger">Số {numberDayBirth} </b>
         </h1>
-        <img className=" my-1 w-100" src={songaysinh} />
+        <img className=" my-1  w-100" src={songaysinh} />
         {NUMEROLOGY_BIRTHDAY_NUMBER[numberDayBirth]
           ? parse(NUMEROLOGY_BIRTHDAY_NUMBER[numberDayBirth].noidung)
           : ""}
