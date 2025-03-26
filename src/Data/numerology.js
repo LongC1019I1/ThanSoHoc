@@ -797,62 +797,77 @@ export const NUMEROLOGY_ATTITUDE = {
 
 export const NUMEROLOGY_MATURITY = {
   1: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 1</h4> <p class='mt-3'><b>Năng lực lãnh đạo, tiên phong</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực lãnh đạo và tiên phong. Khả năng dẫn dắt, khởi xướng sẽ giúp bạn tạo ra những con đường mới và truyền cảm hứng cho người khác. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách lắng nghe và tôn trọng ý kiến của người khác.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 1</h4> <p class='mt-3'><b>Năng lực lãnh đạo, tiên phong</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực lãnh đạo và tiên phong. Khả năng dẫn dắt, khởi xướng sẽ giúp bạn tạo ra những con đường mới và truyền cảm hứng cho người khác. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách lắng nghe và tôn trọng ý kiến của người khác.</p>",
   },
 
   2: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 2</h4> <p class='mt-3'><b>Năng lực hợp tác, hòa giải</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực hợp tác và hòa giải. Khả năng thấu hiểu, kết nối sẽ giúp bạn xây dựng những mối quan hệ tốt đẹp và tạo ra sự hài hòa. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách thiết lập ranh giới lành mạnh.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 2</h4> <p class='mt-3'><b>Năng lực hợp tác, hòa giải</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực hợp tác và hòa giải. Khả năng thấu hiểu, kết nối sẽ giúp bạn xây dựng những mối quan hệ tốt đẹp và tạo ra sự hài hòa. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách thiết lập ranh giới lành mạnh.</p>",
   },
 
   3: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 3</h4> <p class='mt-3'><b>Năng lực sáng tạo, biểu đạt</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực sáng tạo và biểu đạt. Khả năng truyền tải ý tưởng, cảm xúc sẽ giúp bạn kết nối sâu sắc với mọi người và tạo ra những giá trị độc đáo. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kỷ luật bản thân để hoàn thành mục tiêu.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 3</h4> <p class='mt-3'><b>Năng lực sáng tạo, biểu đạt</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực sáng tạo và biểu đạt. Khả năng truyền tải ý tưởng, cảm xúc sẽ giúp bạn kết nối sâu sắc với mọi người và tạo ra những giá trị độc đáo. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kỷ luật bản thân để hoàn thành mục tiêu.</p>",
   },
 
   4: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 4</h4> <p class='mt-3'><b>Năng lực tổ chức, kiên trì</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực tổ chức và kiên trì. Khả năng xây dựng hệ thống, làm việc bền bỉ sẽ giúp bạn tạo ra nền tảng vững chắc cho mọi dự án. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách linh hoạt trước những thay đổi.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 4</h4> <p class='mt-3'><b>Năng lực tổ chức, kiên trì</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực tổ chức và kiên trì. Khả năng xây dựng hệ thống, làm việc bền bỉ sẽ giúp bạn tạo ra nền tảng vững chắc cho mọi dự án. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách linh hoạt trước những thay đổi.</p>",
   },
   5: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 5</h4> <p class='mt-3'><b>Năng lực sáng tạo, đột phá</b></p> <p class='mt-3'> Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực sáng tạo và đột phá. Khả năng suy nghĩ sáng tạo, đột phát sẽ giúp bạn và cuộc sống của bạn trở nên thú vị và độc đáo hơn. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời tập trung và tránh phân tán năng lượng.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 5</h4> <p class='mt-3'><b>Năng lực sáng tạo, đột phá</b></p> <p class='mt-3'> Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực sáng tạo và đột phá. Khả năng suy nghĩ sáng tạo, đột phát sẽ giúp bạn và cuộc sống của bạn trở nên thú vị và độc đáo hơn. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời tập trung và tránh phân tán năng lượng.</p>",
   },
   6: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 6</h4> <p class='mt-3'><b>Năng lực chăm sóc, trách nhiệm</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực chăm sóc và trách nhiệm. Khả năng nuôi dưỡng, bảo vệ sẽ giúp bạn tạo ra môi trường ấm áp và an toàn cho mọi người. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách yêu thương bản thân.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 6</h4> <p class='mt-3'><b>Năng lực chăm sóc, trách nhiệm</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực chăm sóc và trách nhiệm. Khả năng nuôi dưỡng, bảo vệ sẽ giúp bạn tạo ra môi trường ấm áp và an toàn cho mọi người. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách yêu thương bản thân.</p>",
   },
 
   7: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 7</h4> <p class='mt-3'><b>Năng lực phân tích, chiêm nghiệm</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực phân tích và chiêm nghiệm. Khả năng nghiên cứu, đào sâu sẽ giúp bạn khám phá những chân lý và quy luật của cuộc sống. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kết nối với thực tế.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 7</h4> <p class='mt-3'><b>Năng lực phân tích, chiêm nghiệm</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực phân tích và chiêm nghiệm. Khả năng nghiên cứu, đào sâu sẽ giúp bạn khám phá những chân lý và quy luật của cuộc sống. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kết nối với thực tế.</p>",
   },
 
   8: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 8</h4> <p class='mt-3'><b>Năng lực quản trị, điều hành</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực quản trị, điều hành. Bạn có thể đạt được sự thành công và độc lập về tài chính nếu như bạn học hỏi và phát huy được những khả năng này. Tuy nhiên hãy tránh bị lòng tham chi phối, bên cạnh đó bạn hãy tập trung vào các hoạt động nhân đạo để duy trì sự cân bằng trong cuộc sống.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 8</h4> <p class='mt-3'><b>Năng lực quản trị, điều hành</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực quản trị, điều hành. Bạn có thể đạt được sự thành công và độc lập về tài chính nếu như bạn học hỏi và phát huy được những khả năng này. Tuy nhiên hãy tránh bị lòng tham chi phối, bên cạnh đó bạn hãy tập trung vào các hoạt động nhân đạo để duy trì sự cân bằng trong cuộc sống.</p>",
   },
 
   9: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 9</h4> <p class='mt-3'><b>Năng lực nhân đạo và tầm nhìn xa</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực nhân đạo và có tầm nhìn xa. Khả năng yêu thương, phụng sự sẽ giúp bạn kết nối với cộng đồng và tạo ra những giá trị bền vững. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách cân bằng giữa cho đi và nhận lại.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 9</h4> <p class='mt-3'><b>Năng lực nhân đạo và tầm nhìn xa</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực nhân đạo và có tầm nhìn xa. Khả năng yêu thương, phụng sự sẽ giúp bạn kết nối với cộng đồng và tạo ra những giá trị bền vững. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách cân bằng giữa cho đi và nhận lại.</p>",
   },
 
   10: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 10</h4> <p class='mt-3'><b>Năng lực bạn cần rèn luyện:</b> Tư duy thủ lĩnh, quyết đoán, thực tế (lãnh đạo, chuyên gia, kiên định, đôi lúc không cần ai hiểu)</p><ul class='list-disc pl-5 mt-2'><li>Liên tục phát triển bản thân</li><li>Có tính thúc đẩy bản thân</li><li>Xây dựng lộ trình phát triển rõ ràng</li><li>Lãnh đạo chính mình</li><li>Quản trị cảm xúc hiệu quả</li><li>Thiết lập mục tiêu và kỷ luật</li><li>Học cách lắng nghe và thấu hiểu người khác</li></ul>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 10</h4> <p class='mt-3'><b>Năng lực bạn cần rèn luyện:</b> Tư duy thủ lĩnh, quyết đoán, thực tế (lãnh đạo, chuyên gia, kiên định, đôi lúc không cần ai hiểu)</p><ul class='list-disc pl-5 mt-2'><li>Liên tục phát triển bản thân</li><li>Có tính thúc đẩy bản thân</li><li>Xây dựng lộ trình phát triển rõ ràng</li><li>Lãnh đạo chính mình</li><li>Quản trị cảm xúc hiệu quả</li><li>Thiết lập mục tiêu và kỷ luật</li><li>Học cách lắng nghe và thấu hiểu người khác</li></ul>",
   },
 
   11: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 11</h4> <p class='mt-3'><b>Trực giác, hòa giải, thủ lĩnh, tâm linh</b></p> <p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực lãnh đạo và tiên phong. Khả năng dẫn dắt, khởi xướng sẽ giúp bạn tạo ra những con đường mới và truyền cảm hứng cho người khác. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách lắng nghe và tôn trọng ý kiến của người khác.</p><p class='mt-3'><b>Năng lực hợp tác, hòa giải</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực hợp tác và hòa giải. Khả năng thấu hiểu, kết nối sẽ giúp bạn xây dựng những mối quan hệ tốt đẹp và tạo ra sự hài hòa. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách thiết lập ranh giới lành mạnh.</p> "
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 11</h4> <p class='mt-3'><b>Trực giác, hòa giải, thủ lĩnh, tâm linh</b></p> <p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực lãnh đạo và tiên phong. Khả năng dẫn dắt, khởi xướng sẽ giúp bạn tạo ra những con đường mới và truyền cảm hứng cho người khác. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách lắng nghe và tôn trọng ý kiến của người khác.</p><p class='mt-3'><b>Năng lực hợp tác, hòa giải</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực hợp tác và hòa giải. Khả năng thấu hiểu, kết nối sẽ giúp bạn xây dựng những mối quan hệ tốt đẹp và tạo ra sự hài hòa. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách thiết lập ranh giới lành mạnh.</p> ",
   },
 
   20: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 20</h4> <p class='mt-3'><b>Năng lực ngoại giao, nhạy cảm</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực ngoại giao và nhạy cảm. Khả năng thấu hiểu, hòa giải sẽ giúp bạn tạo ra sự cân bằng trong các mối quan hệ. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách bảo vệ cảm xúc cá nhân.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 20</h4> <p class='mt-3'><b>Năng lực ngoại giao, nhạy cảm</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực ngoại giao và nhạy cảm. Khả năng thấu hiểu, hòa giải sẽ giúp bạn tạo ra sự cân bằng trong các mối quan hệ. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách bảo vệ cảm xúc cá nhân.</p>",
   },
 
   22: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 22</h4> <p class='mt-3'><b>Năng lực xây dựng & kiến tạo </b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực tổ chức, Kaizen, hợp tác, hòa giải. Khả năng biến giấc mơ thành hiện thực ở quy mô lớn sẽ giúp bạn để lại dấu ấn cho nhân loại. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kiên nhẫn với quá trình.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 22</h4> <p class='mt-3'><b>Năng lực xây dựng & kiến tạo </b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực tổ chức, Kaizen, hợp tác, hòa giải. Khả năng biến giấc mơ thành hiện thực ở quy mô lớn sẽ giúp bạn để lại dấu ấn cho nhân loại. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách kiên nhẫn với quá trình.</p>",
   },
 
   30: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 30</h4> <p class='mt-3'><b>Năng lực truyền thông, sáng tạo, lạc quan</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực truyền thông, sáng tạo và lạc quan. Khả năng lan tỏa năng lượng tích cực, truyền cảm hứng sẽ giúp bạn kết nối mọi người. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách giữ vững niềm tin.</p>"
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 30</h4> <p class='mt-3'><b>Năng lực truyền thông, sáng tạo, lạc quan</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực truyền thông, sáng tạo và lạc quan. Khả năng lan tỏa năng lượng tích cực, truyền cảm hứng sẽ giúp bạn kết nối mọi người. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách giữ vững niềm tin.</p>",
   },
 
   33: {
-    noidung: "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 33</h4> <p class='mt-3'><b>Năng lực chữa lành tâm linh</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực chữa lành tâm linh. Khả năng yêu thương vô điều kiện, nâng đỡ tinh thần sẽ giúp bạn chữa lành cho cộng đồng. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách bảo vệ năng lượng cá nhân.</p>"
-  }
+    noidung:
+      "<h4 class='mt-3'>SỞ TRƯỜNG THÀNH 33</h4> <p class='mt-3'><b>Năng lực chữa lành tâm linh</b></p><p class='mt-3'>Năng lực bạn cần rèn luyện để đạt được sự thành công, hạnh phúc hơn trong cuộc sống là Năng lực chữa lành tâm linh. Khả năng yêu thương vô điều kiện, nâng đỡ tinh thần sẽ giúp bạn chữa lành cho cộng đồng. Hãy sử dụng và phát huy nó vào công việc và cuộc sống của bạn, đồng thời học cách bảo vệ năng lượng cá nhân.</p>",
+  },
 };
 export const NUMEROLOGY_LIFE_PATH = {
   1: {
@@ -954,7 +969,8 @@ export const NUMEROLOGY_BIRTHDAY_NUMBER = {
       "<h4 class='my-3'>Chỉ Số Ngày Sinh 9</h4> <p>Là những người đầy trách nhiệm với bản thân và với người khác, được thúc đẩy bởi lý tưởng và ước mơ.</p> <p>Một số người sẽ bị tham vọng quá mức, đặc biệt nếu Con số chủ đạo của họ cũng là 9. Nếu tham vọng này không được định hướng tốt, nó sẽ dẫn đến sự thất vọng và kéo theo nhiều bất ổn trong đời sống.</p> <p>Năng lực lan tỏa chia sẻ những điều giá trị đến với mọi người.</p> <p>Năng lực cho đi: kiến thức, thời gian, công sức, tài vật.</p> <p>Năng lực trực giác, nhạy bén về tâm lý, chữa lành, coaching.</p> <p>Năng lực xây dựng, lãnh đạo, kết nối, phụng sự, cống hiến cho cộng đồng.</p>",
   },
   10: {
-    noidung: " <h4 class='my-3'>Chỉ Số Ngày Sinh 10</h4> <p>Nhiệt tình, đầy năng lượng, dễ tính, vì thế cũng quảng giao, vui vẻ, có nhiều bạn bè, người quen thông qua các cuộc trò chuyện xã giao.</p> <p>Luôn cố gắng hết sức khi được làm việc một mình.</p> <p>Do thích tự nỗ lực và có xu hướng tập trung vào cá nhân, những người này có vẻ tách rời tập thể trong một số thời điểm nào đó.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p> <p>Năng lực thiết lập mục tiêu, chiến lược, kế hoạch.</p> <p>Năng lực lãnh đạo, quản trị.</p> <p>Năng lực tự lập, tự chủ, tự quyết.</p> <p>Năng lực quyết pệt hành động, theo đuổi mục tiêu.</p> ",
+    noidung:
+      " <h4 class='my-3'>Chỉ Số Ngày Sinh 10</h4> <p>Nhiệt tình, đầy năng lượng, dễ tính, vì thế cũng quảng giao, vui vẻ, có nhiều bạn bè, người quen thông qua các cuộc trò chuyện xã giao.</p> <p>Luôn cố gắng hết sức khi được làm việc một mình.</p> <p>Do thích tự nỗ lực và có xu hướng tập trung vào cá nhân, những người này có vẻ tách rời tập thể trong một số thời điểm nào đó.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p> <p>Năng lực thiết lập mục tiêu, chiến lược, kế hoạch.</p> <p>Năng lực lãnh đạo, quản trị.</p> <p>Năng lực tự lập, tự chủ, tự quyết.</p> <p>Năng lực quyết pệt hành động, theo đuổi mục tiêu.</p> ",
   },
   20: {
     noidung:
@@ -972,7 +988,6 @@ export const NUMEROLOGY_BIRTHDAY_NUMBER = {
     noidung:
       "<h4 class='my-3'>Chỉ Số Ngày Sinh 22/4</h4> <p>Không có con số nào có thể bị được với năng lượng tiềm ẩn của 22/4, vì nó kết hợp được trực giác với óc thực tế, từ đó khiến cho mọi khả năng đều có thể trở thành hiện thực - tất nhiên là nếu người sở hữu con số ngày sinh này thật sự mong muốn.</p> <p>Năng lực trực giác, nhạy bén về tâm lý, chữa lành, coaching.</p> <p>Năng lực xây dựng, lãnh đạo, kết nối, phụng sự, cống hiến cho cộng đồng.</p> <p>Năng lực tính toán chi tiết, cẩn thận, chắc chắn.</p> <p>Năng lực lên kế hoạch, tổ chức, quy trình, quản lý chặt chẽ.</p> <p>Năng lực chịu áp lực, bền bỉ và ổn định.</p> <p>Năng lực giám sát, điều tra, quản lý chi tiêu chặt chẽ.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p>",
   },
-
 };
 
 export const NUMEROLOGY_SOUL_NUMBER = {
@@ -1143,7 +1158,7 @@ export const ARROW = {
     1: {
       TEN: "Cân bằng cảm xúc",
       Y_NGHIA:
-      "<p><b>Ôn hòa điềm tĩnh, biết lo nghĩ trước sau</b></p> <p>Bạn đại diện cho những gì liên quan đến cảm xúc, cảm giác của con người bao gồm: Trực giác, tình yêu thương, sự tự do, các cảm xúc tích cực, các biểu đạt nghệ thuật, sự độc lập về tinh thần, và trí tuệ/sự thông thái. Nhờ đó họ luôn giữ được bình tĩnh trong mọi tình huống, không để cảm xúc của bản thân làm ảnh hưởng đến công việc cũng như các mối quan hệ trong cuộc sống.</p>",
+        "<p><b>Ôn hòa điềm tĩnh, biết lo nghĩ trước sau</b></p> <p>Bạn đại diện cho những gì liên quan đến cảm xúc, cảm giác của con người bao gồm: Trực giác, tình yêu thương, sự tự do, các cảm xúc tích cực, các biểu đạt nghệ thuật, sự độc lập về tinh thần, và trí tuệ/sự thông thái. Nhờ đó họ luôn giữ được bình tĩnh trong mọi tình huống, không để cảm xúc của bản thân làm ảnh hưởng đến công việc cũng như các mối quan hệ trong cuộc sống.</p>",
     },
     0: {
       TEN: "Nhạy cảm",
@@ -1177,7 +1192,8 @@ export const ARROW = {
     },
     0: {
       TEN: "Hoài nghi ",
-      Y_NGHIA: "<p><b>Đa nghi, đòi hỏi mọi thứ phải có bằng chứng (Hoặc ngược lại dễ tin người)</b></p> <p>Thường hay hoài nghi nhiều việc hoặc người khác, không tin tưởng bất kỳ ai. Đa nghi dẫn đến rất nhiều hệ lụy trong cuộc sống. Hay soi mói mọi vấn đề khiến cuộc sống khá mệt mỏi, nóng nảy và dễ rơi vào thế bị động.</p>",
+      Y_NGHIA:
+        "<p><b>Đa nghi, đòi hỏi mọi thứ phải có bằng chứng (Hoặc ngược lại dễ tin người)</b></p> <p>Thường hay hoài nghi nhiều việc hoặc người khác, không tin tưởng bất kỳ ai. Đa nghi dẫn đến rất nhiều hệ lụy trong cuộc sống. Hay soi mói mọi vấn đề khiến cuộc sống khá mệt mỏi, nóng nảy và dễ rơi vào thế bị động.</p>",
     },
   },
 };
@@ -1263,4 +1279,65 @@ export const WEAK_NUMB = {
     noidung:
       "<h4 class='my-3'>Chỉ Số Biểu Đạt 9 - Người nhân đạo và truyền cảm hứng</h4> <p>Người có chỉ số biểu đạt 9 có tấm lòng rộng lớn và luôn mong muốn cống hiến vì cộng đồng. Họ mang trong mình niềm tin vào những lý tưởng cao đẹp và luôn nỗ lực để lan tỏa yêu thương, giúp đỡ người khác. Sự biểu đạt của họ thường mang tính nhân văn, truyền cảm hứng mạnh mẽ, giúp cải thiện cuộc sống của những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Nhân hậu, bao dung, có tầm nhìn sâu rộng và khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị lợi dụng vì lòng tốt, cần học cách tự bảo vệ bản thân trong quá trình cống hiến.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự cân bằng giữa lý tưởng và thực tế, bảo vệ năng lượng cá nhân trong khi vẫn cống hiến cho cộng đồng.</p>\" \n  }\n}\n",
   },
+};
+
+export const TOP_PEAK = {
+  1: {
+    noidung:
+      "<p><b>Độc lập, tự chủ, lãnh đạo.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn những cơ hội để rèn luyện sự độc lập, giai đoạn thể hiện cái tôi.</p> <p>Giai đoạn mà bạn rất tự tin về giá trị của bản thân và không quan tâm những điều người khác nói về mình.</p> <p>Giai đoạn mà bạn có thể đạt được những thành công hay thành tựu nào đó. Số 1 càng ở mốc cao thì càng đạt được những thành công càng cao.</p> <p>Giai đoạn khởi sự một điều gì đó mới, bạn có thể độc lập trên đôi chân của mình để trở thành một nhà lãnh đạo.</p> <p>Bạn có thể độc lập về tài chính hay độc lập trong các mối quan hệ (chia tay một mối quan hệ xấu).</p>",
+  },
+  2: {
+    noidung:
+      "<p><b>Giá trị tinh thần, trực giác, các mối quan hệ.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để phát triển giá trị tinh thần.</p> <p>Trực giác trong giai đoạn này sẽ phát triển mạnh mẽ, giai đoạn kết nối, tạo dựng mối quan hệ, tạo dựng những nhân duyên mới.</p> <p>Giai đoạn bạn có được một lối sống tinh tế. Bạn có khả năng nhận biết được những điều người khác cần và biết mình cần phải làm gì.</p> <p>Vật chất không phải là ưu tiên trong giai đoạn này. Đây là thời điểm thuận lợi để nghiên cứu về tâm lý, coaching, chữa lành, sức khỏe hay bất kỳ lĩnh vực nào có thể giúp đỡ người khác.</p>",
+  },
+  3: {
+    noidung:
+      "<p><b>Sáng tạo, khai trí, giao tiếp.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho tâm trí của bạn sự khai mở về trí tuệ mà nó có tầm ảnh hưởng lớn đến cuộc sống của bạn.</p> <p>Giai đoạn mở rộng nhận thức, sự hiểu biết, khao khát sáng tạo, thôi thúc tìm hiểu về một điều gì đó mới.</p> <p>Giai đoạn mà năng lực sáng tạo và nghệ thuật của bạn có cơ hội để phát triển. Bạn sẽ có được khả năng giao tiếp và thể hiện bản thân một cách dễ dàng.</p> <p>Kỷ luật và tập trung để tránh phân tán năng lượng và giảm bớt cảm xúc tùy hứng sẽ là chìa khóa thành công trong giai đoạn này của bạn.</p>",
+  },
+  4: {
+    noidung:
+      "<p><b>Kỷ luật, chắc chắn, tài chính.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội tăng trưởng về đời sống vật chất và sự ổn định trên một nền tảng vững chắc.</p> <p>Giai đoạn để tạo 1 kỷ luật mới, để sắp xếp lại cuộc sống hay tạo ra những thói quen mới, điều này sẽ giúp bạn đạt được những mục tiêu và mang lại ý nghĩa cho cuộc đời của mình.</p>",
+  },
+  5: {
+     noidung:
+      "<p><b>Thể hiện, thay đổi, trải nghiệm.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để mở mang sự hiểu biết và phát triển tâm linh. Bạn sẽ có được sự hiểu biết về chính bản thân mình và sự chuyển hóa trong tâm trí.</p> <p>Cuộc sống sẽ mang đến cho bạn nhiều trải nghiệm mới mẻ, thú vị. Giai đoạn mà bạn thể hiện đa năng lực của mình.</p> <p>Chìa khóa thành công trong giai đoạn này là sự tiết chế và kỷ luật, chỉ cần bạn linh hoạt, có kỷ luật và tập trung thì bạn sẽ có khả năng đạt được những thành công.</p>",
+  },
+  6: {
+    noidung:
+      "<p><b>Yêu thương, gia đình, trách nhiệm.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để phụng sự người thân, gia đình, bạn bè và cộng đồng, đồng thời trở thành người có trách nhiệm hơn.</p> <p>Đây là thời điểm thích hợp để thực hiện hoặc đưa ra cam kết điều gì đó cho gia đình như kết hôn, sinh con, chăm sóc gia đình.</p> <p>Giai đoạn bạn được công nhận về những gì đã làm, và học bài học về sự cho đi, cống hiến yêu thương.</p>",
+  },
+  7: {
+    noidung:
+      "<p><b>Tâm linh, phát triển bản thân, nghiên cứu.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để tìm tòi, nghiên cứu và trở thành một chuyên gia trong lĩnh vực của mình.</p> <p>Giai đoạn nhìn sâu vào bên trong mình để thấu hiểu sâu sắc hơn về bản thân, các năng lực và ý nghĩa của cuộc sống.</p> <p>Giai đoạn tốt để phát triển sâu sắc bản thân, để tìm kiếm những giáo lý tâm linh và phát triển trực giác mạnh mẽ.</p> <p>Giai đoạn bạn muốn tách khỏi với cuộc sống bên ngoài để hướng về chiều sâu bên trong để thực hành, phát triển một phương pháp tâm linh.</p>",
+  },
+  8: {
+    noidung:
+      "<p><b>Sức mạnh cá nhân, tài chính, sự nghiệp</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội, những thách thức về vấn đề tài chính, quản trị và sự độc lập.</p> <p>Giai đoạn này bạn có thể đạt được những thành công về tài chính, cơ hội để thể hiện sức mạnh của mình, cơ hội để độc lập đứng trên đôi chân của mình.</p> <p>Giai đoạn này bạn cần chú ý cân bằng giữa đời sống vật chất và đời sống tâm linh và sức khỏe của bạn để tránh bạn bị cuốn vào công việc nhiều quá. Hãy dành thời gian và tài chính cho các hoạt động nhân đạo, từ đó bạn sẽ được cân bằng hơn trong cuộc sống.</p>",
+  },
+  9: {
+    noidung:
+      "<p><b>Phụng sự, nhân đạo, lòng trắc ẩn.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội nuôi dưỡng lòng trắc ẩn và sự khoan dung bằng cách cống hiến và phụng sự người khác.</p> <p>Giai đoạn mà đời sống tinh thần phát triển mạnh mẽ, và hoạt động nhân đạo.</p> <p>Giai đoạn trực giác phát triển, bạn có khả năng thấu hiểu mọi người một cách sâu sắc và mong muốn giúp họ cải thiện, giải quyết vấn đề trong cuộc sống.</p> <p>Quay về sống trong hiện tại, cuộc sống sẽ khuyến khích bạn chấp nhận, tha thứ và giải phóng nỗi đau trong quá khứ của bản thân và người khác.</p>",
+  },
+  10: {
+    noidung:
+      "<p><b>Trưởng thành, phụng sự, dẫn dắt, sứ mệnh</b></p> <p>Trong giai đoạn đặc biệt này, cuộc sống mang đến cho bạn cơ hội phụng sự và dẫn dắt người khác để cùng đi trên con đường tỉnh thức.</p> <p>Giai đoạn bạn đã có được sự trưởng thành và sự trải nghiệm đủ đầy để có thể chia sẻ, dẫn dắt, cho đi và cống hiến vì cộng đồng.</p> <p>Để có được sự rung động năng lượng rất mạnh của số 10 này, thì ngay từ bây giờ, các bạn hãy tích cực rèn luyện và phát triển bản thân mỗi ngày để có thể gánh vác được sứ mệnh phụng sự và dẫn dắt người khác.</p>",
+  },
+  11: {
+    noidung:
+      "<p><b>Khai sáng, thức tỉnh tâm linh, truyền cảm hứng.</b></p> <p>Trong giai đoạn đặc biệt này, cuộc sống sẽ mang đến cho bạn cơ hội để đạt được tâm nhận thức cao hơn và truyền cảm hứng cho người khác.</p> <p>Giai đoạn phát triển mạnh mẽ về tâm linh, sự hiểu biết của bản thân, trực giác phát triển, gạt bỏ đi cái tôi.</p> <p>Giai đoạn đón nhận trách nhiệm và sứ mệnh lớn để dẫn dắt mọi người đi trên con đường tỉnh thức.</p>",
+  },
+  20: {
+    noidung:
+      "<p><b>Giá trị tinh thần, trực giác, các mối quan hệ.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để phát triển giá trị tinh thần.</p> <p>Trực giác trong giai đoạn này sẽ phát triển mạnh mẽ, giai đoạn kết nối, tạo dựng mối quan hệ, tạo dựng những nhân duyên mới.</p> <p>Giai đoạn bạn có được một lối sống tinh tế. Bạn có khả năng nhận biết được những điều người khác cần và biết mình cần phải làm gì.</p> <p>Vật chất không phải là ưu tiên trong giai đoạn này. Đây là thời điểm thuận lợi để nghiên cứu về tâm lý, coaching, chữa lành, sức khỏe hay bất kỳ lĩnh vực nào có thể giúp đỡ người khác.</p>",
+  },
+  30: {
+    noidung:
+      "<p><b>Sáng tạo, khai trí, giao tiếp.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho tâm trí của bạn sự khai mở về trí tuệ mà nó có tầm ảnh hưởng lớn đến cuộc sống của bạn.</p> <p>Giai đoạn mở rộng nhận thức, sự hiểu biết, khao khát sáng tạo, thôi thúc tìm hiểu về một điều gì đó mới.</p> <p>Giai đoạn mà năng lực sáng tạo và nghệ thuật của bạn có cơ hội để phát triển. Bạn sẽ có được khả năng giao tiếp và thể hiện bản thân một cách dễ dàng.</p> <p>Kỷ luật và tập trung để tránh phân tán năng lượng và giảm bớt cảm xúc tùy hứng sẽ là chìa khóa thành công trong giai đoạn này của bạn.</p>",
+  },
+  22: {
+    noidung:
+      "<p><b>Giai đoạn của những dự án lớn, đóng góp cho xã hội. Biểu tượng của sự vĩ đại và tầm nhìn xa.</b></p> <p>Bạn có những ý tưởng lớn lao, không chỉ cho bản thân mà còn cho xã hội.</p> <p> Bạn có khả năng lãnh đạo mạnh mẽ, dẫn dắt đội nhóm hoặc cộng đồng.</p> <p>Bạn muốn xây dựng thứ gì đó bền vững, như một công ty, tổ chức phi lợi nhuận, hoặc một di sản nào đó.</p> <p>Bạn cảm thấy mình có sứ mệnh, cần phải làm điều gì đó to lớn hơn chính mình.</p> <p>Bạn có thể thu hút những người tài giỏi, hợp tác với những cá nhân xuất sắc để thực hiện kế hoạch của mình.</p>",
+  },
+  33: {noidung:'<p><b>Tình yêu, lòng trắc ẩn và sự chữa lành</b></p><p>Khi trải qua đỉnh này, bạn sẽ có một nhiệm vụ lớn hơn, không chỉ cho bản thân mà còn cho những người xung quanh và cả cộng đồng. Đây là thời điểm quan trọng để bạn học cách phục vụ người khác, chia sẻ tình yêu thương và mang lại giá trị tinh thần sâu sắc cho xã hội.</p>'},
+  44: {noidung:'<p><b>Xây dựng, lãnh đạo và ổn định</b></p> <p>Nếu bạn có số 44 ở đỉnh cao, điều này có nghĩa là bạn đang bước vào một giai đoạn rất mạnh mẽ để tạo dựng sự nghiệp, tài chính và các giá trị bền vững. </p> <p>Đây là thời điểm bạn có thể trở thành người lãnh đạo xuất sắc, người kiến tạo xã hội, hoặc người tiên phong trong lĩnh vực của mình.</p>'},
 };
