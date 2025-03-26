@@ -13,6 +13,7 @@ import ChartDateName from "./DetailNumber/ChartDateName";
 import { useSelector } from "react-redux";
 import ChartCombineEnergy from "./DetailNumber/ChartCombineEnergy";
 import SummaryAll from "./DetailNumber/SummaryAll";
+import DateToKnown from "./DetailNumber/DateToKnown"
 // 🟢 Dữ liệu mẫu để truyền vào component
 const sampleNumbers = {
   top: 8,
@@ -104,6 +105,12 @@ function DetailNumber() {
             )}
 
             <MainNumber />
+            <DateToKnown
+                numbersData={birth_day}
+                color="red"
+                buttonText="BIỂU ĐỒ NGÀY SINH"
+                buttonColor="green"
+              />
             <NameNumber />
             <DestinyNumber />
             <AtituteNumber />

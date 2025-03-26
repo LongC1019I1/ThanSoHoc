@@ -1112,7 +1112,7 @@ export const ARROW = {
     0: {
       TEN: "Sân hận",
       Y_NGHIA:
-        "không có tham vọng, bùng nhanh chóng tắt, cả thèm chóng chán (cần có đội nhóm để bù khuyết)",
+        "Không có tham vọng, bùng nhanh chóng tắt, cả thèm chóng chán (cần có đội nhóm để bù khuyết)",
     },
   },
   789: {
@@ -1143,12 +1143,12 @@ export const ARROW = {
     1: {
       TEN: "Cân bằng cảm xúc",
       Y_NGHIA:
-        "trục tâm nên thiên về khả năng cân bằng cảm xúc, ôn hòa điềm tĩnh, biết lo nghĩ trước sau…",
+      "<p><b>Ôn hòa điềm tĩnh, biết lo nghĩ trước sau</b></p> <p>Bạn đại diện cho những gì liên quan đến cảm xúc, cảm giác của con người bao gồm: Trực giác, tình yêu thương, sự tự do, các cảm xúc tích cực, các biểu đạt nghệ thuật, sự độc lập về tinh thần, và trí tuệ/sự thông thái. Nhờ đó họ luôn giữ được bình tĩnh trong mọi tình huống, không để cảm xúc của bản thân làm ảnh hưởng đến công việc cũng như các mối quan hệ trong cuộc sống.</p>",
     },
     0: {
       TEN: "Nhạy cảm",
       Y_NGHIA:
-        "cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ (nên tập chánh niệm)",
+        "<p><b>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ (nên tập chánh niệm)</b></p><p>Bạn thường hay mơ mộng, bay bổng trong thế giới riêng của mình mà vô tình quên mất những giá trị thực tế khác cần có trong đời sống. Người sống trọng cảm xúc thường nhạy cảm và dễ tổn thương.</p>",
     },
   },
   369: {
@@ -1173,11 +1173,11 @@ export const ARROW = {
     1: {
       TEN: "Nhạy bén tâm linh",
       Y_NGHIA:
-        "tư duy tốt, tự học nhanh, niềm tin đến từ sự hiểu biết, có khả năng phản biện",
+        "<p><b>tư duy tốt, tự học nhanh, niềm tin đến từ sự hiểu biết, có khả năng phản biện</b></p><p>Khả năng thấu hiểu con người và nhạy bén trong việc nắm bắt tâm lý của người khác. Những người có mũi tên 357 này cũng có sự nhạy bén tâm linh nhất định, họ có đức tin để theo đuổi và dùng nó làm lý tưởng sống. Không thể phủ nhận nhờ đó mà họ giác quan thứ 6 của họ cực phát triển và nhạy bén trước mọi sự việc.</p>",
     },
     0: {
       TEN: "Hoài nghi",
-      Y_NGHIA: "đa nghi, đòi hỏi mọi thứ phải có bằng chứng",
+      Y_NGHIA: "<p><b>Đa nghi, đòi hỏi mọi thứ phải có bằng chứng</b></p> <p>Thường hay hoài nghi nhiều việc hoặc người khác, không tin tưởng bất kỳ ai. Đa nghi dẫn đến rất nhiều hệ lụy trong cuộc sống. Hay soi mói mọi vấn đề khiến cuộc sống khá mệt mỏi, nóng nảy và dễ rơi vào thế bị động.</p>",
     },
   },
 };
