@@ -1112,7 +1112,7 @@ export const ARROW = {
     0: {
       TEN: "Sân hận",
       Y_NGHIA:
-        "Không có tham vọng, bùng nhanh chóng tắt, cả thèm chóng chán (cần có đội nhóm để bù khuyết)",
+        "<p><b>Trống mũi tên Ý Chí</b></p><p>Không có tham vọng, bùng nhanh chóng tắt, cả thèm chóng chán (cần có đội nhóm để bù khuyết)</p><p>Cần học cách rèn luyện tính kỷ luật, kiên trì và chịu trách nhiệm với bản thân.</p>",
     },
   },
   789: {
@@ -1176,8 +1176,8 @@ export const ARROW = {
         "<p><b>tư duy tốt, tự học nhanh, niềm tin đến từ sự hiểu biết, có khả năng phản biện</b></p><p>Khả năng thấu hiểu con người và nhạy bén trong việc nắm bắt tâm lý của người khác. Những người có mũi tên 357 này cũng có sự nhạy bén tâm linh nhất định, họ có đức tin để theo đuổi và dùng nó làm lý tưởng sống. Không thể phủ nhận nhờ đó mà họ giác quan thứ 6 của họ cực phát triển và nhạy bén trước mọi sự việc.</p>",
     },
     0: {
-      TEN: "Hoài nghi",
-      Y_NGHIA: "<p><b>Đa nghi, đòi hỏi mọi thứ phải có bằng chứng</b></p> <p>Thường hay hoài nghi nhiều việc hoặc người khác, không tin tưởng bất kỳ ai. Đa nghi dẫn đến rất nhiều hệ lụy trong cuộc sống. Hay soi mói mọi vấn đề khiến cuộc sống khá mệt mỏi, nóng nảy và dễ rơi vào thế bị động.</p>",
+      TEN: "Hoài nghi ",
+      Y_NGHIA: "<p><b>Đa nghi, đòi hỏi mọi thứ phải có bằng chứng (Hoặc ngược lại dễ tin người)</b></p> <p>Thường hay hoài nghi nhiều việc hoặc người khác, không tin tưởng bất kỳ ai. Đa nghi dẫn đến rất nhiều hệ lụy trong cuộc sống. Hay soi mói mọi vấn đề khiến cuộc sống khá mệt mỏi, nóng nảy và dễ rơi vào thế bị động.</p>",
     },
   },
 };
