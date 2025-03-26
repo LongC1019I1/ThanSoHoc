@@ -1299,7 +1299,7 @@ export const TOP_PEAK = {
       "<p><b>Kỷ luật, chắc chắn, tài chính.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội tăng trưởng về đời sống vật chất và sự ổn định trên một nền tảng vững chắc.</p> <p>Giai đoạn để tạo 1 kỷ luật mới, để sắp xếp lại cuộc sống hay tạo ra những thói quen mới, điều này sẽ giúp bạn đạt được những mục tiêu và mang lại ý nghĩa cho cuộc đời của mình.</p>",
   },
   5: {
-     noidung:
+    noidung:
       "<p><b>Thể hiện, thay đổi, trải nghiệm.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để mở mang sự hiểu biết và phát triển tâm linh. Bạn sẽ có được sự hiểu biết về chính bản thân mình và sự chuyển hóa trong tâm trí.</p> <p>Cuộc sống sẽ mang đến cho bạn nhiều trải nghiệm mới mẻ, thú vị. Giai đoạn mà bạn thể hiện đa năng lực của mình.</p> <p>Chìa khóa thành công trong giai đoạn này là sự tiết chế và kỷ luật, chỉ cần bạn linh hoạt, có kỷ luật và tập trung thì bạn sẽ có khả năng đạt được những thành công.</p>",
   },
   6: {
@@ -1338,6 +1338,85 @@ export const TOP_PEAK = {
     noidung:
       "<p><b>Giai đoạn của những dự án lớn, đóng góp cho xã hội. Biểu tượng của sự vĩ đại và tầm nhìn xa.</b></p> <p>Bạn có những ý tưởng lớn lao, không chỉ cho bản thân mà còn cho xã hội.</p> <p> Bạn có khả năng lãnh đạo mạnh mẽ, dẫn dắt đội nhóm hoặc cộng đồng.</p> <p>Bạn muốn xây dựng thứ gì đó bền vững, như một công ty, tổ chức phi lợi nhuận, hoặc một di sản nào đó.</p> <p>Bạn cảm thấy mình có sứ mệnh, cần phải làm điều gì đó to lớn hơn chính mình.</p> <p>Bạn có thể thu hút những người tài giỏi, hợp tác với những cá nhân xuất sắc để thực hiện kế hoạch của mình.</p>",
   },
-  33: {noidung:'<p><b>Tình yêu, lòng trắc ẩn và sự chữa lành</b></p><p>Khi trải qua đỉnh này, bạn sẽ có một nhiệm vụ lớn hơn, không chỉ cho bản thân mà còn cho những người xung quanh và cả cộng đồng. Đây là thời điểm quan trọng để bạn học cách phục vụ người khác, chia sẻ tình yêu thương và mang lại giá trị tinh thần sâu sắc cho xã hội.</p>'},
-  44: {noidung:'<p><b>Xây dựng, lãnh đạo và ổn định</b></p> <p>Nếu bạn có số 44 ở đỉnh cao, điều này có nghĩa là bạn đang bước vào một giai đoạn rất mạnh mẽ để tạo dựng sự nghiệp, tài chính và các giá trị bền vững. </p> <p>Đây là thời điểm bạn có thể trở thành người lãnh đạo xuất sắc, người kiến tạo xã hội, hoặc người tiên phong trong lĩnh vực của mình.</p>'},
+  33: { noidung: '<p><b>Tình yêu, lòng trắc ẩn và sự chữa lành</b></p><p>Khi trải qua đỉnh này, bạn sẽ có một nhiệm vụ lớn hơn, không chỉ cho bản thân mà còn cho những người xung quanh và cả cộng đồng. Đây là thời điểm quan trọng để bạn học cách phục vụ người khác, chia sẻ tình yêu thương và mang lại giá trị tinh thần sâu sắc cho xã hội.</p>' },
+  44: { noidung: '<p><b>Xây dựng, lãnh đạo và ổn định</b></p> <p>Nếu bạn có số 44 ở đỉnh cao, điều này có nghĩa là bạn đang bước vào một giai đoạn rất mạnh mẽ để tạo dựng sự nghiệp, tài chính và các giá trị bền vững. </p> <p>Đây là thời điểm bạn có thể trở thành người lãnh đạo xuất sắc, người kiến tạo xã hội, hoặc người tiên phong trong lĩnh vực của mình.</p>' },
+};
+
+
+export const TOP_CHALLENGE = {
+
+  0: {
+    noidung: "<p><b>Thử thách tự lựa chọn, quyền tự quyết.</b></p> <p>Chỉ số thử thách 0 không mang đại diện cho thử thách cụ thể nào.</p> <p>Đại diện cho tất cả những thử thách của các con số và bao gồm tất cả những tiềm năng của những con số khác.</p> <p>Số 0 là con số khởi đầu, hành trình tìm về tâm linh. Cũng mang ý nghĩa trống rỗng, hỗn loạn, kết thúc, tiêu cực, thù hận, tiêu hủy.</p> <p>Khi gặp đỉnh số 0: Bạn có thể gặp một thử thách hoặc nhiều thử thách trong cùng lúc và chúng ta sẽ không biết rõ thử thách của mình là con số trong các con số (từ 1 đến 9). Cũng có thể bạn sẽ có nhiều bài học mang nhiều con số thử thách khác nhau đến cùng một lúc.</p>"
+  },
+  1: {
+    noidung: "<p><b>Độc lập, người lãnh đạo, tự tin, cương quyết</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải cương quyết, phải đứng lên để bảo vệ quyền lợi và sự độc lập tự chủ của mình.</p> <p>Cuộc sống sẽ thử thách bạn phải trở nên độc lập, tự tin và ít quan tâm đến suy nghĩ của người khác.</p> <p>Tự lập, sống mạnh mẽ, can đảm, đứng vững trên đôi chân của mình, lắng nghe tiếng nói từ bên trong của mình, lắng nghe trực giác. Đừng để mọi thứ xung quanh làm mình xao nhãng, mất tập trung để tìm ra phương hướng, tìm cách đi về phía trước.</p>"
+  },
+  3: {
+    noidung: "<p><b>Thể hiện bản thân, giao tiếp, tập trung</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải thể hiện bản thân một cách tích cực và hiệu quả.</p> <p>Đừng để tiêu cực cuốn bạn đi, thay đổi môi trường, tránh xa những người tiêu cực. Hãy tận hưởng cuộc sống, có mặt ở hiện tại, hài lòng với những gì mình đang có.</p> <p>Tự làm bản thân mình vui, tích cực lan tỏa đến cho mọi người. Điều này sẽ giúp bạn trở nên sáng tạo hơn trong việc giải quyết những rắc rối, mâu thuẫn đồng thời làm cho cuộc đời màu sắc hơn, thú vị hơn.</p> <p>Thử thách số 3 cần bạn tập trung hơn khi làm việc, tránh bị phân tâm và làm việc tùy hứng.</p> <p>Rèn luyện bản thân và tìm kiếm những người thầy, người bạn giúp bạn tạo ra giá trị cho cộng đồng nơi bạn mong muốn lan tỏa.</p>"
+  },
+  4: {
+    noidung: "<p><b>Kỷ luật, thực tế, tổ chức, kiên trì</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải có kỷ luật, lập kế hoạch và tập trung hơn trong mọi lĩnh vực của cuộc sống.</p> <p>Thay vì bỏ cuộc, bạn hãy kiên trì và làm việc chăm chỉ hơn để đối đầu trực tiếp với những trở ngại và thử thách.</p> <p>Cần tĩnh tâm, ổn định để thiết lập lại cuộc đời của mình. Tổ chức, sắp xếp cuộc sống và lên kế hoạch cho tương lai.</p> <p>Làm việc có quy trình, có phương pháp, tận tâm hoàn thành những gì mình đặt ra.</p>"
+  },
+  6: {
+    noidung:
+      "<p><b>Tình yêu thương, trách nhiệm, gia đình.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải yêu thương, khoan dung với tất cả những người khác và chính bản thân bạn.</p> <p>Có thể trong giai đoạn này, bạn sẽ gặp nhiều vấn đề về gia đình và cần sự quan tâm và trách nhiệm của bạn.</p> <p>Là giai đoạn mang đến cho bạn những trách nhiệm mới, những bài học mới mà bạn phải đối diện trong cuộc sống.</p> <p>Bài học cuộc sống là bài học về tình yêu, về những mối quan hệ, cách cư xử và làm bạn với chính bản thân mình.</p> <p>Từ đó hoàn thiện và phát triển bản thân, sử dụng nhận thức vượt qua bài học này.</p> <p>Khi đó, bạn sẽ có sức mạnh từ nguồn năng lượng đặc biệt để mình vừa hoàn thành bài học vừa đạt được đỉnh cao của mình. Cuộc sống của bạn sẽ hạnh phúc hơn, bình yên hơn.</p>",
+  },
+  7: {
+    noidung: "<p><b>Niềm tin, tâm linh, học tập</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải có cái nhìn sâu sắc hơn để khám phá ý nghĩa của cuộc sống.</p> <p>Là thời gian mà bạn tìm kiếm ý nghĩa, giá trị cuộc đời của mình và phải nghĩ đến những kế hoạch trong tương lai. Đây là thử thách đòi hỏi kết nối giữa thế giới bên ngoài và thế giới bên trong của bạn.</p> <p>Trong giai đoạn này bạn sẽ học được rằng: hạnh phúc đích thực chỉ có thể đến từ bên trong.</p> <p>Cần sự riêng tư, cần khoảng thời gian để tĩnh tâm suy nghĩ, những điều bí mật, chiêm nghiệm, trải nghiệm cho riêng mình nên giai đoạn này có thể bạn sẽ cảm thấy mình cô đơn, tách biệt khỏi đám đông, xã hội.</p> <p>Hãy là người quan sát, học hỏi từ những trải nghiệm của mình trước những thử thách này và khi đó hãy chia sẻ những điều mình đã học được, những điều mình đã khám phá để chia sẻ cho những người khác. Bạn sẽ có được điều đích thực của cuộc đời mình và cảm thấy cuộc sống vô cùng ý nghĩa và hạnh phúc.</p>"
+  },
+  // update more__
+  2: {
+    noidung:
+      "<p><b>Giá trị tinh thần, trực giác, các mối quan hệ.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để phát triển giá trị tinh thần.</p> <p>Trực giác trong giai đoạn này sẽ phát triển mạnh mẽ, giai đoạn kết nối, tạo dựng mối quan hệ, tạo dựng những nhân duyên mới.</p> <p>Giai đoạn bạn có được một lối sống tinh tế. Bạn có khả năng nhận biết được những điều người khác cần và biết mình cần phải làm gì.</p> <p>Vật chất không phải là ưu tiên trong giai đoạn này. Đây là thời điểm thuận lợi để nghiên cứu về tâm lý, coaching, chữa lành, sức khỏe hay bất kỳ lĩnh vực nào có thể giúp đỡ người khác.</p>",
+  },
+  3: {
+    noidung:
+      "<p><b>Sáng tạo, khai trí, giao tiếp.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho tâm trí của bạn sự khai mở về trí tuệ mà nó có tầm ảnh hưởng lớn đến cuộc sống của bạn.</p> <p>Giai đoạn mở rộng nhận thức, sự hiểu biết, khao khát sáng tạo, thôi thúc tìm hiểu về một điều gì đó mới.</p> <p>Giai đoạn mà năng lực sáng tạo và nghệ thuật của bạn có cơ hội để phát triển. Bạn sẽ có được khả năng giao tiếp và thể hiện bản thân một cách dễ dàng.</p> <p>Kỷ luật và tập trung để tránh phân tán năng lượng và giảm bớt cảm xúc tùy hứng sẽ là chìa khóa thành công trong giai đoạn này của bạn.</p>",
+  },
+  4: {
+    noidung:
+      "<p><b>Kỷ luật, chắc chắn, tài chính.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội tăng trưởng về đời sống vật chất và sự ổn định trên một nền tảng vững chắc.</p> <p>Giai đoạn để tạo 1 kỷ luật mới, để sắp xếp lại cuộc sống hay tạo ra những thói quen mới, điều này sẽ giúp bạn đạt được những mục tiêu và mang lại ý nghĩa cho cuộc đời của mình.</p>",
+  },
+  5: {
+    noidung:
+      "<p><b>Thể hiện, thay đổi, trải nghiệm.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để mở mang sự hiểu biết và phát triển tâm linh. Bạn sẽ có được sự hiểu biết về chính bản thân mình và sự chuyển hóa trong tâm trí.</p> <p>Cuộc sống sẽ mang đến cho bạn nhiều trải nghiệm mới mẻ, thú vị. Giai đoạn mà bạn thể hiện đa năng lực của mình.</p> <p>Chìa khóa thành công trong giai đoạn này là sự tiết chế và kỷ luật, chỉ cần bạn linh hoạt, có kỷ luật và tập trung thì bạn sẽ có khả năng đạt được những thành công.</p>",
+  },
+  6: {
+    noidung:
+      "<p><b>Yêu thương, gia đình, trách nhiệm.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để phụng sự người thân, gia đình, bạn bè và cộng đồng, đồng thời trở thành người có trách nhiệm hơn.</p> <p>Đây là thời điểm thích hợp để thực hiện hoặc đưa ra cam kết điều gì đó cho gia đình như kết hôn, sinh con, chăm sóc gia đình.</p> <p>Giai đoạn bạn được công nhận về những gì đã làm, và học bài học về sự cho đi, cống hiến yêu thương.</p>",
+  },
+  7: {
+    noidung:
+      "<p><b>Tâm linh, phát triển bản thân, nghiên cứu.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để tìm tòi, nghiên cứu và trở thành một chuyên gia trong lĩnh vực của mình.</p> <p>Giai đoạn nhìn sâu vào bên trong mình để thấu hiểu sâu sắc hơn về bản thân, các năng lực và ý nghĩa của cuộc sống.</p> <p>Giai đoạn tốt để phát triển sâu sắc bản thân, để tìm kiếm những giáo lý tâm linh và phát triển trực giác mạnh mẽ.</p> <p>Giai đoạn bạn muốn tách khỏi với cuộc sống bên ngoài để hướng về chiều sâu bên trong để thực hành, phát triển một phương pháp tâm linh.</p>",
+  },
+  8: {
+    noidung:
+      "<p><b>Sức mạnh cá nhân, tài chính, sự nghiệp</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội, những thách thức về vấn đề tài chính, quản trị và sự độc lập.</p> <p>Giai đoạn này bạn có thể đạt được những thành công về tài chính, cơ hội để thể hiện sức mạnh của mình, cơ hội để độc lập đứng trên đôi chân của mình.</p> <p>Giai đoạn này bạn cần chú ý cân bằng giữa đời sống vật chất và đời sống tâm linh và sức khỏe của bạn để tránh bạn bị cuốn vào công việc nhiều quá. Hãy dành thời gian và tài chính cho các hoạt động nhân đạo, từ đó bạn sẽ được cân bằng hơn trong cuộc sống.</p>",
+  },
+  9: {
+    noidung:
+      "<p><b>Phụng sự, nhân đạo, lòng trắc ẩn.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội nuôi dưỡng lòng trắc ẩn và sự khoan dung bằng cách cống hiến và phụng sự người khác.</p> <p>Giai đoạn mà đời sống tinh thần phát triển mạnh mẽ, và hoạt động nhân đạo.</p> <p>Giai đoạn trực giác phát triển, bạn có khả năng thấu hiểu mọi người một cách sâu sắc và mong muốn giúp họ cải thiện, giải quyết vấn đề trong cuộc sống.</p> <p>Quay về sống trong hiện tại, cuộc sống sẽ khuyến khích bạn chấp nhận, tha thứ và giải phóng nỗi đau trong quá khứ của bản thân và người khác.</p>",
+  },
+  10: {
+    noidung:
+      "<p><b>Trưởng thành, phụng sự, dẫn dắt, sứ mệnh</b></p> <p>Trong giai đoạn đặc biệt này, cuộc sống mang đến cho bạn cơ hội phụng sự và dẫn dắt người khác để cùng đi trên con đường tỉnh thức.</p> <p>Giai đoạn bạn đã có được sự trưởng thành và sự trải nghiệm đủ đầy để có thể chia sẻ, dẫn dắt, cho đi và cống hiến vì cộng đồng.</p> <p>Để có được sự rung động năng lượng rất mạnh của số 10 này, thì ngay từ bây giờ, các bạn hãy tích cực rèn luyện và phát triển bản thân mỗi ngày để có thể gánh vác được sứ mệnh phụng sự và dẫn dắt người khác.</p>",
+  },
+  11: {
+    noidung:
+      "<p><b>Khai sáng, thức tỉnh tâm linh, truyền cảm hứng.</b></p> <p>Trong giai đoạn đặc biệt này, cuộc sống sẽ mang đến cho bạn cơ hội để đạt được tâm nhận thức cao hơn và truyền cảm hứng cho người khác.</p> <p>Giai đoạn phát triển mạnh mẽ về tâm linh, sự hiểu biết của bản thân, trực giác phát triển, gạt bỏ đi cái tôi.</p> <p>Giai đoạn đón nhận trách nhiệm và sứ mệnh lớn để dẫn dắt mọi người đi trên con đường tỉnh thức.</p>",
+  },
+  20: {
+    noidung:
+      "<p><b>Giá trị tinh thần, trực giác, các mối quan hệ.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để phát triển giá trị tinh thần.</p> <p>Trực giác trong giai đoạn này sẽ phát triển mạnh mẽ, giai đoạn kết nối, tạo dựng mối quan hệ, tạo dựng những nhân duyên mới.</p> <p>Giai đoạn bạn có được một lối sống tinh tế. Bạn có khả năng nhận biết được những điều người khác cần và biết mình cần phải làm gì.</p> <p>Vật chất không phải là ưu tiên trong giai đoạn này. Đây là thời điểm thuận lợi để nghiên cứu về tâm lý, coaching, chữa lành, sức khỏe hay bất kỳ lĩnh vực nào có thể giúp đỡ người khác.</p>",
+  },
+  30: {
+    noidung:
+      "<p><b>Sáng tạo, khai trí, giao tiếp.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho tâm trí của bạn sự khai mở về trí tuệ mà nó có tầm ảnh hưởng lớn đến cuộc sống của bạn.</p> <p>Giai đoạn mở rộng nhận thức, sự hiểu biết, khao khát sáng tạo, thôi thúc tìm hiểu về một điều gì đó mới.</p> <p>Giai đoạn mà năng lực sáng tạo và nghệ thuật của bạn có cơ hội để phát triển. Bạn sẽ có được khả năng giao tiếp và thể hiện bản thân một cách dễ dàng.</p> <p>Kỷ luật và tập trung để tránh phân tán năng lượng và giảm bớt cảm xúc tùy hứng sẽ là chìa khóa thành công trong giai đoạn này của bạn.</p>",
+  },
+  22: {
+    noidung:
+      "<p><b>Giai đoạn của những dự án lớn, đóng góp cho xã hội. Biểu tượng của sự vĩ đại và tầm nhìn xa.</b></p> <p>Bạn có những ý tưởng lớn lao, không chỉ cho bản thân mà còn cho xã hội.</p> <p> Bạn có khả năng lãnh đạo mạnh mẽ, dẫn dắt đội nhóm hoặc cộng đồng.</p> <p>Bạn muốn xây dựng thứ gì đó bền vững, như một công ty, tổ chức phi lợi nhuận, hoặc một di sản nào đó.</p> <p>Bạn cảm thấy mình có sứ mệnh, cần phải làm điều gì đó to lớn hơn chính mình.</p> <p>Bạn có thể thu hút những người tài giỏi, hợp tác với những cá nhân xuất sắc để thực hiện kế hoạch của mình.</p>",
+  },
+  33: { noidung: '<p><b>Tình yêu, lòng trắc ẩn và sự chữa lành</b></p><p>Khi trải qua đỉnh này, bạn sẽ có một nhiệm vụ lớn hơn, không chỉ cho bản thân mà còn cho những người xung quanh và cả cộng đồng. Đây là thời điểm quan trọng để bạn học cách phục vụ người khác, chia sẻ tình yêu thương và mang lại giá trị tinh thần sâu sắc cho xã hội.</p>' },
+  44: { noidung: '<p><b>Xây dựng, lãnh đạo và ổn định</b></p> <p>Nếu bạn có số 44 ở đỉnh cao, điều này có nghĩa là bạn đang bước vào một giai đoạn rất mạnh mẽ để tạo dựng sự nghiệp, tài chính và các giá trị bền vững. </p> <p>Đây là thời điểm bạn có thể trở thành người lãnh đạo xuất sắc, người kiến tạo xã hội, hoặc người tiên phong trong lĩnh vực của mình.</p>' },
 };
