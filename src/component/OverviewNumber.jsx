@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import classes from "./OverviewNumber.module.css";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 function OverviewNumber() {
   const numberKarma = useSelector((state) => state.numberKarmaMain.number);
   const numbeAtitute = useSelector((state) => state.numberKarmaMain.atitute);
@@ -29,6 +30,13 @@ function OverviewNumber() {
     numberDayBirth,
   ]);
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   let numbers = [
     [
       {
@@ -36,60 +44,70 @@ function OverviewNumber() {
         value: numberKarma,
         color: " text-white",
         style: "#3cbc9b",
+        a: "main_number",
       },
       {
         label: "Số Tên Riêng",
         value: numberName,
         color: " text-white",
         style: "#53cd73",
+        a: "name_number",
       },
       {
         label: "Số Đường Đời",
         value: numberKarma,
         color: " text-white",
         style: "#3498da",
+        a: "main_number",
       },
       {
         label: "Số Định Mệnh",
         value: numberDestiny,
         color: " text-white",
         style: "#9c5fb6",
+        a: "destiny_number",
       },
       {
         label: "Số Thái Độ",
         value: numbeAtitute,
         color: "text-white",
         style: "#e74d3c",
+        a: "atitute_number",
       },
       {
         label: "Trưởng Thành",
         value: numberMature,
         color: " text-white",
         style: "#2a80b9",
+        a: "mature_number",
       },
       {
         label: "Số Ngày Sinh",
         value: numberDayBirth,
         color: " text-white",
         style: "#46ae5f",
+        a: "birth_number",
       },
       {
         label: "Số Linh Hồn",
         value: numberSoul,
         color: " text-white",
         style: "#31a086",
+        a: "soul_number",
       },
       {
         label: "Số Biểu Đạt",
         value: numberExpress,
         color: " text-white",
         style: "#2a80b9",
+        a: "express_number",
       },
       {
         label: "Số Nội Cảm",
         value: numberInner ? numberInner : "Không có",
         color: " text-white",
         style: "#3cbc9b",
+        a: "inner_number",
       },
       // {
       //   label: "Số Thiếu",
@@ -146,7 +164,10 @@ function OverviewNumber() {
                   onMouseEnter={() => setHoverIndex(`${rowIndex}-${index}`)}
                 >
                   <span className={classes.title_number}>{item.label}</span>
-                  <a href="#">
+                  <div
+                    onClick={() => scrollToSection(item.a)}
+                    style={{ cursor: "pointer" }}
+                  >
                     <motion.div
                       key={item.value} // Chỉ chữ số thay đổi mới render lại
                       initial={{ opacity: 0 }}
@@ -160,7 +181,7 @@ function OverviewNumber() {
                     >
                       {item.value}
                     </motion.div>
-                  </a>
+                  </div>
                 </div>
               </div>
             ))}
