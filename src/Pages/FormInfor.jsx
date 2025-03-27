@@ -118,7 +118,7 @@ function FormInfor() {
     <motion.div
 
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 2 } }}
+      animate={{ opacity: 1, transition: { duration: 1.5 } }}
     >
       <Fragment>
         <h2 className="text-center h2 pb-3">BÁO CÁO THẦN SỐ HỌC</h2>
