@@ -1169,11 +1169,11 @@ export const ARROW = {
   369: {
     1: {
       TEN: "Sáng trí",
-      Y_NGHIA: "phán đoán tốt, có tầm nhìn, sáng tạo, hiểu biết",
+      Y_NGHIA: "Phán đoán tốt, có tầm nhìn, sáng tạo, hiểu biết",
     },
     0: {
       TEN: "Trí nhớ ngắn hạn",
-      Y_NGHIA: "tầm nhìn ngắn hạn, tham bát bỏ mâm, trí nhớ kém",
+      Y_NGHIA: "Tầm nhìn ngắn hạn, tham bát bỏ mâm, trí nhớ kém",
     },
   },
   159: {
@@ -1188,7 +1188,7 @@ export const ARROW = {
     1: {
       TEN: "Nhạy bén tâm linh",
       Y_NGHIA:
-        "<p><b>tư duy tốt, tự học nhanh, niềm tin đến từ sự hiểu biết, có khả năng phản biện</b></p><p>Khả năng thấu hiểu con người và nhạy bén trong việc nắm bắt tâm lý của người khác. Những người có mũi tên 357 này cũng có sự nhạy bén tâm linh nhất định, họ có đức tin để theo đuổi và dùng nó làm lý tưởng sống. Không thể phủ nhận nhờ đó mà họ giác quan thứ 6 của họ cực phát triển và nhạy bén trước mọi sự việc.</p>",
+        "<p><b>Tư duy tốt, tự học nhanh, niềm tin đến từ sự hiểu biết, có khả năng phản biện</b></p><p>Khả năng thấu hiểu con người và nhạy bén trong việc nắm bắt tâm lý của người khác. Những người có mũi tên 357 này cũng có sự nhạy bén tâm linh nhất định, họ có đức tin để theo đuổi và dùng nó làm lý tưởng sống. Không thể phủ nhận nhờ đó mà họ giác quan thứ 6 của họ cực phát triển và nhạy bén trước mọi sự việc.</p>",
     },
     0: {
       TEN: "Hoài nghi ",

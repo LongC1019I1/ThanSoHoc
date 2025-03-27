@@ -152,10 +152,10 @@ const DateToKnown = ({
                         })}
                         <Arrow
                           points={[
-                            x0 + (hMatrix * 0.05) / 2,
-                            y0,
+                            x0 + (wMatrix * 0.05) / 2,
+                            y0 + 15,
                             x0 + hMatrix * 0.95 + 10,
-                            y0,
+                            y0 + 15,
                           ]}
                           stroke="red"
                           strokeWidth={4}
@@ -172,9 +172,7 @@ const DateToKnown = ({
           })}
         {/* MUI TEN DU */}
         {arrows.length > 0 && (
-          <div className="text-center fw-bold pt-3 pb-2 mt-3 border-top">
-            CÁC MŨI TÊN ĐỦ
-          </div>
+          <h5 className=" fw-bold pt-3 pb-2 mx-3 ">CÁC MŨI TÊN ĐỦ</h5>
         )}
         {wRightPanel &&
           arrows.length > 0 &&
@@ -185,7 +183,7 @@ const DateToKnown = ({
             return (
               <React.Fragment key={iAr}>
                 <div className="row my-2 py-1">
-                <div className="col-12">
+                  <div className="col-12">
                     <Stage width={wMatrix + 20} height={hMatrix * 0.2}>
                       <Layer>
                         <Text
@@ -205,7 +203,7 @@ const DateToKnown = ({
                             >
                               <Text
                                 width={arrW / 6}
-                                align="center"
+                                align="left"
                                 text={arr[iNum]}
                                 fontStyle="bold"
                                 fontSize={arrW * 0.05}
@@ -216,9 +214,9 @@ const DateToKnown = ({
                         <Arrow
                           points={[
                             x0 + (wMatrix * 0.05) / 2,
-                            y0,
+                            y0 + 15,
                             x0 + hMatrix * 0.95 + 10,
-                            y0,
+                            y0 + 15,
                           ]}
                           stroke="green"
                           strokeWidth={4}
@@ -226,10 +224,9 @@ const DateToKnown = ({
                       </Layer>
                     </Stage>
                   </div>
-                  <div className="col-12 text-center pb-auto px-4">
-                    { parse(ARROW[arr][1].Y_NGHIA)}
+                  <div className="col-12 pb-auto px-4">
+                    {parse(ARROW[arr][1].Y_NGHIA)}
                   </div>
-               
                 </div>
               </React.Fragment>
             );
