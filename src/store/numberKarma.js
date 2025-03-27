@@ -5,6 +5,7 @@ const initialNumberState = {
   atitute: 0,
   day_birth: 0,
   birth_day: "",
+  birth_day_list: "",
   arrow: "",
   lack_arrow: "",
   top4: "",
@@ -28,6 +29,9 @@ const numberKarmaSlice = createSlice({
     setBirthDayNumber(state, action) {
       state.birth_day = action.payload;
     },
+    setBirthDayList(state, action) {
+      state.birth_day_list = action.payload;
+    },
     setArrow(state, action) {
       state.arrow = action.payload;
     },
@@ -38,7 +42,7 @@ const numberKarmaSlice = createSlice({
       state.top4 = action.payload;
     },
     setStrongListNumb(state, action) {
-      console.log({action})
+      console.log({ action });
       state.strong_list = action.payload;
     },
     setWeakListNumb(state, action) {

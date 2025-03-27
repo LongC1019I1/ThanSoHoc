@@ -17,28 +17,29 @@ import { numberNameActions } from "../store/numberName";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 function FormInfor() {
-  const [refreshKey, setRefreshKey] = useState(0);
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const onFinish = (values) => {
     const spaceRegex = /\s+/g;
 
- 
-
     // main number
 
     const { $D: day, $M, $y: year } = values.date;
     const month = $M + 1;
 
-    const birthString = day + "" + month + year;
+    const birthString =  day + "" + month + year;
 
     const main = mergeNumberString(birthString);
     dispatch(numberKarmaActions.setKamarNumeroMain(main));
     /** 
      @setBirthDayNumber để cho vào bảng số tên
      */
+
+     
     dispatch(numberKarmaActions.setBirthDayNumber(birthString));
+    const birthStringList =  day + "/" + month + "/" + year;
+    dispatch(numberKarmaActions.setBirthDayList(birthStringList));
 
     /** 
      @setBirthDayNumber để cho vào bảng số tên
@@ -116,7 +117,6 @@ function FormInfor() {
 
   return (
     <motion.div
-
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 1.5 } }}
     >

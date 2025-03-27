@@ -6,6 +6,9 @@ import classes from "./OverviewNumber.module.css";
 import { motion, AnimatePresence } from "framer-motion";
 
 function OverviewNumber() {
+  const birth_day_list = useSelector(
+    (state) => state.numberKarmaMain.birth_day_list
+  );
   const numberKarma = useSelector((state) => state.numberKarmaMain.number);
   const numbeAtitute = useSelector((state) => state.numberKarmaMain.atitute);
   const numberDestiny = useSelector((state) => state.numberName.destiny);
@@ -147,7 +150,7 @@ function OverviewNumber() {
             BACH THANH LONG
           </span>
           , ngày sinh{" "}
-          <span style={{ fontWeight: "bold", color: "blue" }}>10/10/1996</span>
+          <span style={{ fontWeight: "bold", color: "blue" }}>{birth_day_list}</span>
         </h2>
 
         <Link to="/" className="scale-up btn btn-danger mt-3 transition  ">
