@@ -1,10 +1,10 @@
 import React, { Fragment, useEffect } from "react";
-
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import classes from "./OverviewNumber.module.css";
 import { motion, AnimatePresence } from "framer-motion";
-import { Link } from "react-router-dom";
+
 function OverviewNumber() {
   const numberKarma = useSelector((state) => state.numberKarmaMain.number);
   const numbeAtitute = useSelector((state) => state.numberKarmaMain.atitute);
@@ -150,9 +150,9 @@ function OverviewNumber() {
           <span style={{ fontWeight: "bold", color: "blue" }}>10/10/1996</span>
         </h2>
 
-        <button className="scale-up btn btn-danger mt-3 transition ">
+        <Link to="/" className="scale-up btn btn-danger mt-3 transition  ">
           Xem Lại
-        </button>
+        </Link>
       </div>
       <div className="m-3  p-3    border border-dark-subtle rounded  ">
         {numbers.map((numberRow, rowIndex) => (

@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 
 import { Form, Input, DatePicker, Button } from "antd";
+import { motion } from "framer-motion";
 import {
   mergeNumberString,
   removeVietnameseTones,
@@ -10,17 +11,21 @@ import {
   checkArrow,
   lackArrow,
   fourTop,
-  filterRealNumber,
 } from "../service/numerlogy";
 import { numberKarmaActions } from "../store/numberKarma";
 import { numberNameActions } from "../store/numberName";
 import { useDispatch } from "react-redux";
-import { a } from "framer-motion/client";
+import { useNavigate } from "react-router-dom";
 function FormInfor() {
-  const dispatch = useDispatch();
+  const [refreshKey, setRefreshKey] = useState(0);
 
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const onFinish = (values) => {
     const spaceRegex = /\s+/g;
+
+ 
+
     // main number
 
     const { $D: day, $M, $y: year } = values.date;
@@ -105,47 +110,58 @@ function FormInfor() {
     // grow number
     const mature = mergeNumberString(main - 0 + (detinyNumber - 0) + "", true);
     dispatch(numberNameActions.setNumberMature(mature));
+
+    navigate("/detail-number");
   };
 
   return (
-    <div class="w-25 mx-auto pt-3" id="FormInfor">
-      <Form layout="vertical" onFinish={onFinish}>
-        <Form.Item class="mx-auto w-50" label="Họ Và Tên" name="name">
-          <Input
-            class="form-control border-success"
-            placeholder="Nhập Họ Tên "
-            required
-          />
-        </Form.Item>
+    <motion.div
 
-        <Form.Item
-          class="mx-auto w-50"
-          label="Ngày Sinh (Trên CMT)  "
-          name="date"
-        >
-          <DatePicker
-            name="prename"
-            format="DD/MM/YYYY"
-            placeholder="DD/MM/YYYY"
-            class="w-100"
-            style={{
-              width: "100%",
-            }}
-            required
-          />
-        </Form.Item>
-        <div class="d-flex justify-content-center">
-          <Button
-            className="w-100"
-            type="primary"
-            htmlType="submit"
-            size="medium"
-          >
-            Tra cứu
-          </Button>
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 2 } }}
+    >
+      <Fragment>
+        <h2 className="text-center h2 pb-3">BÁO CÁO THẦN SỐ HỌC</h2>
+        <div class="w-25 mx-auto pt-3" id="FormInfor">
+          <Form layout="vertical" onFinish={onFinish}>
+            <Form.Item class="mx-auto w-50" label="Họ Và Tên" name="name">
+              <Input
+                class="form-control border-success"
+                placeholder="Nhập Họ Tên "
+                required
+              />
+            </Form.Item>
+
+            <Form.Item
+              class="mx-auto w-50"
+              label="Ngày Sinh (Trên CMT)  "
+              name="date"
+            >
+              <DatePicker
+                name="prename"
+                format="DD/MM/YYYY"
+                placeholder="DD/MM/YYYY"
+                class="w-100"
+                style={{
+                  width: "100%",
+                }}
+                required
+              />
+            </Form.Item>
+            <div class="d-flex justify-content-center">
+              <Button
+                className="w-100"
+                type="primary"
+                htmlType="submit"
+                size="medium"
+              >
+                Tra cứu
+              </Button>
+            </div>
+          </Form>
         </div>
-      </Form>
-    </div>
+      </Fragment>
+    </motion.div>
   );
 }
 

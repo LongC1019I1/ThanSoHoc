@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from "react";
-import FormInfor from "../component/FormInfor";
+import React, { Fragment, useEffect, useState } from "react";
+
 import OverviewNumber from "../component/OverviewNumber";
 import DetailNumber from "../component/DetailNumber";
+import { FaChevronUp } from "react-icons/fa";
+import { useSelector } from "react-redux";
 const Numerlogy = () => {
+  const numberKarma = useSelector((state) => state.numberKarmaMain.number);
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
@@ -28,13 +31,9 @@ const Numerlogy = () => {
   };
 
   return (
-    <div class="container w-100">
-      <h2 class="text-center h2 pb-3">BÁO CÁO THẦN SỐ HỌC </h2>
-      <div id="root_content">
-        <FormInfor />
-        <OverviewNumber />
-        <DetailNumber />
-      </div>
+    <Fragment>
+       <OverviewNumber />
+      <DetailNumber />
 
       <button
         onClick={scrollToTop}
@@ -42,18 +41,20 @@ const Numerlogy = () => {
           position: "fixed",
           bottom: "50px",
           right: "30px",
-          backgroundColor: "#007bff",
+          backgroundColor: "rgba(0, 0, 0, 0.3)", // Màu xám mờ
           color: "white",
           border: "none",
+          borderRadius: "50%",
           padding: "10px 15px",
-          borderRadius: "5px",
           cursor: "pointer",
           display: showButton ? "block" : "none",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
-        ⬆ Lên Trên
+        <FaChevronUp size={20} />
       </button>
-    </div>
+    </Fragment>
   );
 };
 
