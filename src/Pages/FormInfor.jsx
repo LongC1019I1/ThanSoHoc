@@ -17,7 +17,6 @@ import { numberNameActions } from "../store/numberName";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 function FormInfor() {
-
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const onFinish = (values) => {
@@ -28,7 +27,7 @@ function FormInfor() {
     const { $D: day, $M, $y: year } = values.date;
     const month = $M + 1;
 
-    const birthString =  day + "" + month + year;
+    const birthString = day + "" + month + year;
 
     const main = mergeNumberString(birthString);
     dispatch(numberKarmaActions.setKamarNumeroMain(main));
@@ -36,9 +35,8 @@ function FormInfor() {
      @setBirthDayNumber để cho vào bảng số tên
      */
 
-     
     dispatch(numberKarmaActions.setBirthDayNumber(birthString));
-    const birthStringList =  day + "/" + month + "/" + year;
+    const birthStringList = day + "/" + month + "/" + year;
     dispatch(numberKarmaActions.setBirthDayList(birthStringList));
 
     /** 
@@ -68,7 +66,7 @@ function FormInfor() {
     dispatch(numberKarmaActions.setKamarNumeroDayBirth(day_birth));
 
     // destiny number
-
+    const full_name_list = values.name.trim();
     const full_name = removeVietnameseTones(values.name.trim()).toUpperCase();
 
     const full_name_number = stringToNumber(full_name);
@@ -76,7 +74,7 @@ function FormInfor() {
 
     dispatch(numberNameActions.setNumberDestiny(detinyNumber));
     dispatch(numberNameActions.setFullNameNumber(full_name_number));
-
+    dispatch(numberNameActions.setFullNameList(full_name_list));
     // name number
 
     const full_name_split = full_name.split(" ");

@@ -8,6 +8,7 @@ const initialNumberState = {
   soul: 0,
   mature: 0,
   full_name_number: "",
+  full_name_list: "",
 };
 
 const numberNameSlice = createSlice({
@@ -34,6 +35,9 @@ const numberNameSlice = createSlice({
     },
     setFullNameNumber(state, action) {
       state.full_name_number = action.payload;
+    },
+    setFullNameList(state, action) {
+      state.full_name_list = action.payload;
     },
   },
 });
