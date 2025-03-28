@@ -26,7 +26,10 @@ function SummaryAll() {
         </h1>
         <img className=" my-1 w-100" src={tomtat} />
         <div className="m-3  p-3    border border-dark-subtle rounded  ">
-          <h4 className=" my-5 px-2">ĐIỂM MẠNH CỦA BẠN</h4>
+          <h4 className=" mt-3 px-2">ĐIỂM MẠNH CỦA BẠN</h4>
+          <p class="text-danger">
+            Là tài năng, năng lực, khả năng, đặc điểm chủ đạo của bạn
+          </p>
           {strongNumb.map((numb, index) =>
             STRONG_NUMB[numb] && STRONG_NUMB[numb].noidung ? (
               <Fragment key={index}>
@@ -46,15 +49,42 @@ function SummaryAll() {
         </div>
 
         <div className="m-3  p-3    border border-dark-subtle rounded  ">
-          <h4 className=" my-5 px-2">ĐIỂM YẾU CỦA BẠN</h4>
+          <h4 className=" mt-3 px-2">ĐIỂM YẾU CỦA BẠN</h4>
+          <p class="text-primary">
+            Là nhược điểm, bài học, khuyết điểm của bạn
+          </p>
           <div>
-            {weakNumb.map((numb, index) =>
-              WEAK_NUMB[numb] && WEAK_NUMB[numb].noidung ? (
-                <Fragment key={index}>
-                  {parse(WEAK_NUMB[numb].noidung)}
-                </Fragment>
-              ) : null
-            )}
+            {weakNumb.map((numb, index) => {
+              // Danh sách số mạnh cần kiểm tra theo từng trường hợp của numb
+              const strongNumCheck = {
+                1: [11, 10],
+                2: [22, 11],
+                3: [33, 30],
+                6: [33],
+              };
+
+
+              console.log({strongNumb})
+
+              // Kiểm tra nếu strongNumb chứa bất kỳ số nào trong danh sách của numb
+              const hasStrongNum = strongNumCheck[numb]?.some((num) =>
+                strongNumb.includes(num)
+              );
+
+       
+
+              if (!hasStrongNum) {
+                return (
+                  <Fragment key={index}>
+                    {WEAK_NUMB[numb] && WEAK_NUMB[numb].noidung
+                      ? parse(WEAK_NUMB[numb].noidung)
+                      : null}
+                  </Fragment>
+                );
+              }
+
+              return null;
+            })}
           </div>
           <div>
             {lack_arrow.length > 0 &&
@@ -90,7 +120,6 @@ function SummaryAll() {
 
         <div className="m-3  p-3    border border-dark-subtle rounded  ">
           <h4 className=" my-5 px-2">XU HƯỚNG NGHỀ NGHIỆP</h4>
-
           VIET XU HUONG NGHE VOI CAC CHI SO MANH
         </div>
       </div>

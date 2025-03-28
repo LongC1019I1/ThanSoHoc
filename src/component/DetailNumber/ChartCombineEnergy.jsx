@@ -68,14 +68,22 @@ const ChartCombineEnergy = function ({
   const weakNumbers = weak_arr.filter(
     (num) => !amountNumber.hasOwnProperty(num)
   );
-  const stong_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 20, 22, 30, 33];
-  const strongNumber = stong_arr.filter((num) => amountNumber[num] >= 4);
 
   dispatch(numberKarmaActions.setWeakListNumb(weakNumbers));
 
   console.log({ weakNumbers });
 
-  dispatch(numberKarmaActions.setStrongListNumb(strongNumber));
+  const stong_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 20, 22, 30, 33];
+  const strongNumber = stong_arr.filter((num) => amountNumber[num] >= 4);
+
+  const strong_arr_sort = strongNumber.sort(
+    (a, b) => amountNumber[b] - amountNumber[a]
+  );
+
+  console.log({ strong_arr_sort });
+
+
+  dispatch(numberKarmaActions.setStrongListNumb(strong_arr_sort));
   console.log({ strongNumber });
 
   // end

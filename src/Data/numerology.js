@@ -147,307 +147,7 @@ export const NUMEROLOGY_KARMA = {
   },
 };
 
-export const NUMEROLOGY_KARMA_2 = {
-  1: {
-    SO_CHU_DAO: "1",
-    DAC_DIEM:
-      "<p>Số 1 tượng trưng cho sự độc lập, khả năng lãnh đạo và ý chí mạnh mẽ. Những người có số chủ đạo 1 thường là những người tiên phong, dám nghĩ dám làm và không ngại đối mặt với thử thách.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4>1️⃣ Rung động cân bằng – Khi số 1 phát triển hài hòa</h4><ul><li>🔹 Độc lập, tự chủ, có khả năng lãnh đạo.</li><li>🔹 Sáng tạo, không ngại đổi mới.</li><li>🔹 Quyết đoán, có chính kiến mạnh mẽ.</li></ul>",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu – Khi số 1 mất cân bằng</h4><ul><li>🔻 Cứng đầu, bướng bỉnh.</li><li>🔻 Khó tiếp thu ý kiến người khác.</li><li>🔻 Thiếu kiên nhẫn, dễ bỏ cuộc.</li></ul>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh – Khi số 1 mất kiểm soát năng lượng</h4><ul><li>💥 Quá độc đoán, gia trưởng.</li><li>💥 Áp đặt suy nghĩ lên người khác.</li><li>💥 Dễ cảm thấy cô đơn, xa cách với mọi người.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4>4️⃣ Tóm tắt các tầng phát triển dành cho số 1</h4><ul><li>🔴 <b>Tầng chưa phát triển:</b> Dễ bảo thủ, bướng bỉnh.</li><li>🟠 <b>Tầng cơ bản:</b> Có chính kiến nhưng thiếu linh hoạt.</li><li>🟢 <b>Tầng phát triển:</b> Lãnh đạo xuất sắc, có tầm nhìn.</li><li>🔵 <b>Tầng dẫn đầu:</b> Người truyền cảm hứng, dẫn dắt cộng đồng.</li></ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul><li>🌟 Người có số 1 chủ đạo có tiềm năng lãnh đạo mạnh mẽ.</li><li>🌍 Cần học cách lắng nghe và hợp tác để phát huy tốt nhất khả năng của mình.</li></ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'>💡 Hãy tự tin vào bản thân, nhưng đừng quên lắng nghe và thấu hiểu người khác. 🌿💙</blockquote>",
-    },
-  },
-  2: {
-    SO_CHU_DAO: "2",
-    DAC_DIEM:
-      "<p>Số 2 tượng trưng cho sự hòa hợp, tinh thần đồng đội và sự nhạy cảm. Những người mang số 2 có khả năng kết nối tốt với người khác, họ là người hòa giải và rất giỏi trong việc tạo ra sự cân bằng trong các mối quan hệ.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4>1️⃣ Rung động cân bằng – Khi số 2 phát triển hài hòa</h4><ul><li>🔹 Nhạy cảm, tinh tế, giỏi lắng nghe.</li><li>🔹 Thích hợp với công việc hợp tác, hòa giải.</li><li>🔹 Có khả năng ngoại giao tốt.</li></ul>",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu – Khi số 2 mất cân bằng</h4><ul><li>🔻 Dễ bị ảnh hưởng bởi cảm xúc.</li><li>🔻 Thiếu tự tin, dễ do dự.</li><li>🔻 Sợ đối đầu, né tránh xung đột.</li></ul>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh – Khi số 2 mất kiểm soát năng lượng</h4><ul><li>💥 Quá nhạy cảm, dễ bị tổn thương.</li><li>💥 Lệ thuộc vào người khác.</li><li>💥 Đặt lợi ích của người khác lên trên bản thân một cách cực đoan.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4>4️⃣ Tóm tắt các tầng phát triển dành cho số 2</h4><ul><li>🔴 <b>Tầng chưa phát triển:</b> Thiếu tự tin, dễ bị động.</li><li>🟠 <b>Tầng cơ bản:</b> Biết quan tâm, hòa hợp với mọi người.</li><li>🟢 <b>Tầng phát triển:</b> Người có khả năng hòa giải xuất sắc.</li><li>🔵 <b>Tầng dẫn đầu:</b> Nhà ngoại giao, người cố vấn tài ba.</li></ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul><li>🌿 Người có số 2 chủ đạo giỏi trong việc kết nối con người.</li><li>🌍 Cần học cách tự tin và khẳng định bản thân hơn.</li></ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'>💡 Hãy học cách cân bằng giữa việc giúp đỡ người khác và bảo vệ chính mình. 🌿💙</blockquote>",
-    },
-  },
-  3: {
-    SO_CHU_DAO: "3",
-    DAC_DIEM:
-      "<p>Số 3 đại diện cho sự sáng tạo, giao tiếp và sự vui vẻ. Những người có số chủ đạo 3 thường rất lạc quan, thông minh và có khả năng diễn đạt tốt. Họ có tinh thần cởi mở, thích giao tiếp và mang đến nguồn năng lượng tích cực cho mọi người xung quanh.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4>1️⃣ Rung động cân bằng – Khi số 3 phát triển hài hòa</h4><ul><li>🔹 Sáng tạo và có tư duy linh hoạt.</li><li>🔹 Giao tiếp tốt, truyền đạt ý tưởng rõ ràng.</li><li>🔹 Lạc quan, vui vẻ, truyền cảm hứng cho người khác.</li></ul>",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu – Khi số 3 mất cân bằng</h4><ul><li>🔻 Dễ mất tập trung, thiếu kiên nhẫn.</li><li>🔻 Hay trì hoãn, không thích đối mặt với khó khăn.</li><li>🔻 Nhạy cảm quá mức, dễ bị tổn thương.</li></ul>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh – Khi số 3 mất kiểm soát</h4><ul><li>💥 Quá lạc quan, đôi khi không thực tế.</li><li>💥 Dễ trở nên nói nhiều, không lắng nghe người khác.</li><li>💥 Có thể trở nên tự cao, thiếu khiêm tốn.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4 class='mb-3'>4️⃣ Tóm tắt</h4><ul><li>🔴 Tầng chưa phát triển: Thiếu kiên nhẫn, dễ chán nản.</li><li>🟠 Tầng cơ bản: Sáng tạo nhưng cần học cách tập trung.</li><li>🟢 Tầng phát triển: Biết cách kiểm soát năng lượng sáng tạo.</li><li>🔵 Tầng dẫn đầu: Trở thành người truyền cảm hứng cho cộng đồng.</li></ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 3 là người của sự sáng tạo và vui vẻ.</li><li>🌍 Khi phát triển đúng hướng, họ có thể truyền cảm hứng mạnh mẽ.</li><li>🔄 Cần học cách tập trung, tránh lan man để đạt được thành công bền vững.</li></ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'>💡 Hãy tận dụng sự sáng tạo của bạn để mang lại giá trị thực sự! 🌿💙</blockquote>",
-    },
-  },
-  4: {
-    SO_CHU_DAO: "4",
-    DAC_DIEM:
-      "<p>Số 4 tượng trưng cho sự kỷ luật, trách nhiệm và thực tế. Những người có số chủ đạo 4 thường là người chăm chỉ, kiên trì và có khả năng tổ chức tốt.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4>1️⃣ Rung động cân bằng</h4><ul><li>🔹 Có trách nhiệm, đáng tin cậy.</li><li>🔹 Làm việc chăm chỉ, kiên trì theo đuổi mục tiêu.</li><li>🔹 Tư duy thực tế, có hệ thống.</li></ul>",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu</h4><ul><li>🔻 Cứng nhắc, thiếu linh hoạt.</li><li>🔻 Quá tập trung vào chi tiết, dễ bỏ lỡ bức tranh lớn.</li><li>🔻 Dễ bị căng thẳng, áp lực.</li></ul>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh</h4><ul><li>💥 Quá kỷ luật, thiếu sáng tạo.</li><li>💥 Cố chấp, khó tiếp thu cái mới.</li><li>💥 Áp đặt bản thân và người khác.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4>4️⃣ Tóm tắt</h4><ul><li>🔴 Chưa phát triển: Bảo thủ, cứng nhắc.</li><li>🟠 Cơ bản: Có nguyên tắc nhưng cần linh hoạt hơn.</li><li>🟢 Phát triển: Cân bằng giữa thực tế và sáng tạo.</li><li>🔵 Dẫn đầu: Biết cách lãnh đạo và quản lý hiệu quả.</li></ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 4 là người có trách nhiệm, đáng tin cậy.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành nhà lãnh đạo thực thụ.</li><li>🔄 Cần học cách linh hoạt và sáng tạo hơn.</li></ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'>💡 Hãy giữ vững nguyên tắc nhưng cũng cần cởi mở với cái mới! 🌿💙</blockquote>",
-    },
-  },
 
-  5: {
-    SO_CHU_DAO: "5",
-    DAC_DIEM:
-      "<p>Số 5 đại diện cho sự tự do, linh hoạt và khả năng thích nghi. Những người mang số 5 thường yêu thích trải nghiệm, khám phá và không ngại thay đổi. Họ có tư duy cởi mở, sáng tạo và luôn tìm kiếm những điều mới mẻ.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4>1️⃣ Rung động cân bằng – Khi số 5 phát triển hài hòa</h4><ul><li>🔹 Yêu thích sự tự do nhưng vẫn có trách nhiệm.</li><li>🔹 Sáng tạo, linh hoạt trong mọi tình huống.</li><li>🔹 Cởi mở, có khả năng giao tiếp và thuyết phục tốt.</li></ul>",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu – Khi số 5 mất cân bằng</h4><ul><li>🔻 Thiếu kiên định, dễ mất phương hướng.</li><li>🔻 Dễ bị phân tán, khó duy trì tập trung lâu dài.</li><li>🔻 Thích chạy theo cảm xúc, thiếu ổn định.</li></ul>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh – Khi số 5 mất kiểm soát</h4><ul><li>💥 Quá ham thích tự do, không chấp nhận ràng buộc.</li><li>💥 Dễ trở nên bốc đồng, thiếu kiểm soát bản thân.</li><li>💥 Không kiên trì, dễ bỏ cuộc giữa chừng.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4>4️⃣ Tóm tắt</h4><ul><li>🔴 Chưa phát triển: Thiếu định hướng, dễ mất kiểm soát.</li><li>🟠 Cơ bản: Thích khám phá nhưng cần kiên nhẫn hơn.</li><li>🟢 Phát triển: Biết cách tận dụng sự linh hoạt để tạo giá trị.</li><li>🔵 Dẫn đầu: Trở thành người dẫn dắt, truyền cảm hứng về sự đổi mới.</li></ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 5 là biểu tượng của tự do và sáng tạo.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành nhà tiên phong trong nhiều lĩnh vực.</li><li>🔄 Cần học cách kiên nhẫn, tập trung để đạt được mục tiêu bền vững.</li></ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'>💡 Hãy tận dụng sự tự do của bạn để khám phá và tạo ra những giá trị bền vững! 🌿💙</blockquote>",
-    },
-  },
-  6: {
-    SO_CHU_DAO: "6",
-    DAC_DIEM:
-      "<p>Số 6 tượng trưng cho trách nhiệm, tình yêu thương và sự quan tâm đến người khác. Những người mang số 6 thường có trái tim nhân hậu, luôn mong muốn mang lại sự hòa hợp và hạnh phúc cho mọi người.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4>1️⃣ Rung động cân bằng</h4><ul><li>🔹 Quan tâm, chăm sóc và hỗ trợ người khác.</li><li>🔹 Có trách nhiệm cao, đáng tin cậy.</li><li>🔹 Biết cân bằng giữa cuộc sống cá nhân và công việc.</li></ul>",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu</h4><ul><li>🔻 Quá phụ thuộc vào người khác, dễ bị lợi dụng.</li><li>🔻 Thiếu sự quyết đoán, dễ cảm thấy bị tổn thương.</li><li>🔻 Cố chấp, đôi khi áp đặt quan điểm của mình lên người khác.</li></ul>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh</h4><ul><li>💥 Quá lo lắng và kiểm soát người khác.</li><li>💥 Dễ trở nên bảo thủ, khó tiếp thu ý kiến mới.</li><li>💥 Hy sinh quá mức đến mức quên đi bản thân.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4>4️⃣ Tóm tắt</h4><ul><li>🔴 Chưa phát triển: Phụ thuộc, dễ bị tổn thương.</li><li>🟠 Cơ bản: Quan tâm nhưng cần học cách tự chủ.</li><li>🟢 Phát triển: Biết cân bằng giữa cho đi và nhận lại.</li><li>🔵 Dẫn đầu: Trở thành người truyền cảm hứng về tình yêu thương.</li></ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 6 là người của gia đình, trách nhiệm và sự yêu thương.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành trụ cột tinh thần cho nhiều người.</li><li>🔄 Cần học cách buông bỏ, không kiểm soát quá mức.</li></ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'>💡 Hãy yêu thương một cách khôn ngoan để tạo ra sự cân bằng! 🌿💙</blockquote>",
-    },
-  },
-  7: {
-    SO_CHU_DAO: "7",
-    DAC_DIEM:
-      "<p>Số 7 đại diện cho trí tuệ, sự chiêm nghiệm và tinh thần nghiên cứu. Những người mang số 7 thường có tư duy sâu sắc, thích tìm hiểu về bản chất cuộc sống và có xu hướng hướng nội.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4>1️⃣ Rung động cân bằng</h4><ul><li>🔹 Ham học hỏi, thích nghiên cứu.</li><li>🔹 Có tư duy logic, sắc bén.</li><li>🔹 Hòa hợp giữa khoa học và tâm linh.</li></ul>",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu</h4><ul><li>🔻 Thu mình, ít giao tiếp.</li><li>🔻 Khó mở lòng, dễ bị cô lập.</li><li>🔻 Thiếu thực tế, đôi khi quá mơ mộng.</li></ul>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh</h4><ul><li>💥 Quá bí ẩn, khó tiếp cận.</li><li>💥 Thiếu kết nối với thực tế.</li><li>💥 Hoài nghi, không tin tưởng người khác.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4>4️⃣ Tóm tắt</h4><ul><li>🔴 Chưa phát triển: Khép kín, không thực tế.</li><li>🟠 Cơ bản: Ham học hỏi nhưng cần giao tiếp nhiều hơn.</li><li>🟢 Phát triển: Kết hợp giữa trí tuệ và sự kết nối.</li><li>🔵 Dẫn đầu: Trở thành người hướng dẫn, khai sáng.</li></ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 7 là người của trí tuệ và sự chiêm nghiệm.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành người dẫn dắt về tri thức.</li><li>🔄 Cần học cách cởi mở, kết nối nhiều hơn.</li></ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'>💡 Hãy dùng trí tuệ để soi sáng con đường của bạn và người khác! 🌿💙</blockquote>",
-    },
-  },
-  8: {
-    SO_CHU_DAO: "8",
-    DAC_DIEM:
-      "<p>Số 8 đại diện cho quyền lực, sự quyết đoán và thành công vật chất. Những người mang số 8 thường có ý chí mạnh mẽ, khả năng lãnh đạo và tinh thần trách nhiệm cao. Họ là những người thực tế, biết đặt mục tiêu rõ ràng và theo đuổi nó một cách kiên trì.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4>1️⃣ Rung động cân bằng – Khi số 8 phát triển hài hòa</h4><ul><li>🔹 Kiên trì, quyết đoán và có trách nhiệm.</li><li>🔹 Có tư duy kinh doanh, khả năng tổ chức tốt.</li><li>🔹 Biết cân bằng giữa công việc và cuộc sống.</li></ul>",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu – Khi số 8 mất cân bằng</h4><ul><li>🔻 Quá thực dụng, đôi khi chỉ tập trung vào vật chất.</li><li>🔻 Khó bày tỏ cảm xúc, dễ xa cách với người khác.</li><li>🔻 Cố chấp, cứng nhắc trong suy nghĩ.</li></ul>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh – Khi số 8 mất kiểm soát</h4><ul><li>💥 Tham vọng quá mức, không quan tâm đến cảm xúc người khác.</li><li>💥 Có thể trở nên độc đoán, thích kiểm soát.</li><li>💥 Quá đặt nặng thành công, dễ bị áp lực.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4>4️⃣ Tóm tắt</h4><ul><li>🔴 Chưa phát triển: Cứng nhắc, thiếu cảm xúc.</li><li>🟠 Cơ bản: Có tham vọng nhưng cần mềm mỏng hơn.</li><li>🟢 Phát triển: Biết kết hợp giữa lý trí và cảm xúc.</li><li>🔵 Dẫn đầu: Trở thành nhà lãnh đạo tài giỏi và truyền cảm hứng.</li></ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 8 là biểu tượng của sức mạnh và sự thành công.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành những nhà lãnh đạo xuất sắc.</li><li>🔄 Cần học cách cân bằng giữa tham vọng và đời sống tinh thần.</li></ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'>💡 Hãy sử dụng quyền lực và thành công để giúp đỡ người khác! 🌿💙</blockquote>",
-    },
-  },
-
-  9: {
-    SO_CHU_DAO: "9",
-    DAC_DIEM:
-      "<p> Số 9 đại diện cho nguồn năng lượng hoàn thiện nhất trong Thần số học, tượng trưng cho sự bao dung, nhân ái và lý tưởng cao đẹp. Người mang số 9 thường có tầm nhìn rộng, khao khát cống hiến cho xã hội và hướng đến những giá trị cao thượng.</p> <p>Tuy nhiên, không phải ai mang số 9 cũng tự nhiên có lòng yêu thương vô điều kiện. Nhiều người khởi đầu với một trái tim dễ tổn thương, mang trong mình nỗi đau và sự thấu hiểu sâu sắc về cuộc sống. Chính vì vậy, họ có thể mất thời gian để học cách yêu thương và phục vụ mà không cảm thấy thiệt thòi. Khi đã đạt đến sự phát triển cao nhất, số 9 có thể trở thành những nhà lãnh đạo tinh thần, người truyền cảm hứng và thay đổi cuộc sống của nhiều người khác.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4> 1️⃣ Rung động cân bằng – Khi số 9 phát triển hài hòa </h4> <p class='ps-3 mt-3 fw-bold text-danger' >Khi đạt được trạng thái rung động cân bằng, người số 9 bộc lộ những phẩm chất tốt đẹp nhất của mình.</p><ul><li>🔹Yêu tự do, thích trải nghiệm – Họ không ngại khám phá những điều mới, yêu thích sự tự do, thậm chí thích du lịch, học hỏi ở môi trường quốc tế. Đây là cách họ mở rộng thế giới quan và nâng cao trí tuệ.</li> <li>🔹 Yêu thương, ấm áp và dễ gần – Tình yêu thương của số 9 không chỉ giới hạn trong gia đình mà còn mở rộng đến toàn nhân loại. Họ đối xử với mọi người bằng sự chân thành và luôn mong muốn tạo ra tác động tích cực.</li><li>🔹 Trách nhiệm và cẩn thận – Họ là những người kiên trì, dám chịu trách nhiệm trong công việc. Họ không ngại khó, sẵn sàng nỗ lực để đạt được mục tiêu.</li> <li>🔹 Nhìn nhận quan sát, trực giác mạnh mẽ – Họ có khả năng cảm nhận nhanh chóng môi trường xung quanh, thậm chí có thể hiểu rõ lòng người mà không cần lời nói.</li>       <li>🔹 Chu đáo, thích chăm sóc, yêu gia đình – Dù mang tinh thần rộng lớn, số 9 vẫn coi trọng gia đình, quan tâm chăm sóc những người xung quanh bằng sự tận tâm.</li><li>🔹 Hiếu biết, thích chia sẻ – Họ yêu thích việc học hỏi và chia sẻ tri thức với mọi người, mong muốn giúp người khác phát triển.</li><li>🔹 Dễ thích nghi với hoàn cảnh – Họ không bị ràng buộc vào lối mòn, luôn tìm cách cải thiện bản thân và môi trường sống.</li><li>🔹 Làm việc chăm chỉ, cẩn mẫn – Khi đã xác định được mục tiêu, họ sẽ theo đuổi đến cùng và không dễ dàng bỏ cuộc.</li></ul> ",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu – Khi số 9 mất cân bằng</h4> <p class='ps-3 mt-3 fw-bold text-danger'>Ngược lại, nếu số 9 chưa đạt được sự cân bằng, họ sẽ gặp nhiều khó khăn trong cuộc sống và thể hiện những mặt hạn chế:</p> <ul> <li>🔻 Cục cằn, thô lỗ: Khi mất cân bằng, số 9 có thể trở nên khó gần, thiếu kiên nhẫn và dễ nổi nóng.</li> <li>🔻Tính tình nóng nảy: Họ dễ bị kích động và khó kiểm soát cảm xúc.</li> <li>🔻Có phần hướng nội, ít giao tiếp: Dù yêu thương người khác nhưng họ lại có xu hướng thu mình, không giỏi thể hiện cảm xúc.</li><li>🔻 Cố chấp, bảo thủ: Họ có thể bị mắc kẹt trong quan điểm cá nhân, khó tiếp thu ý kiến của người khác.</li><li>🔻 Thù dai, hay để bụng: Những tổn thương trong quá khứ có thể khiến họ trở nên phòng thủ và khó tha thứ.</li><li>🔻 Tâm lý dễ bất ổn: Họ có thể dễ buồn bã, lo âu, hoặc mang trong mình những tổn thương sâu sắc.</li> </ul>  <p class='ps-3 mt-3 fw-bold '>Những người có rung động yếu thường cảm thấy lạc lối, thiếu định hướng, hoặc bị mắc kẹt trong những cảm xúc tiêu cực của chính mình.</p>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh – Khi số 9 mất kiểm soát năng lượng</h4><p class='ps-3 mt-3 fw-bold text-danger'>Nếu số 9 có rung động quá mạnh, họ sẽ thể hiện nhiều đặc điểm cực đoan hơn:</p><ul> <li>💥 Quá cảm xúc, dễ bị chi phối bởi tình cảm.</li> <li>💥 Tính tình nóng nảy: Họ dễ bị kích động và khó kiểm soát cảm xúc.</li> <li>💥 Lý tưởng quá lớn, nhưng không thực tế.</li> <li>💥 Lý tưởng quá lớn, nhưng không thực tế.</li><li>💥 Thiếu kiểm soát cảm xúc, dễ thất vọng nếu mọi thứ không như ý.</li><li>💥 Dễ mộng mơ nhưng thiếu thực tế.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4 class='mb-3'> 4️⃣Tóm tắt các tầng phát triển dành cho số 9 </h4> <ul> <li>🔴 <b>Tầng chưa phát triển:</b> Dễ nóng nảy, bảo thủ, thụ động. Cần học hỏi nhiều hơn, mở rộng tư duy, giao tiếp nhiều hơn để hoàn thiện bản thân.</li> <li>🟠 <b>Tầng cơ bản:</b> Có lý tưởng, nhưng thiếu thực tế. Cần học cách ứng dụng thực tế và phát triển sự nghiệp ổn định.</li> <li>🟢 <b>Tầng phát triển:</b> Mạnh mẽ, vững vàng, hoàn thiện bản thân cả về trí tuệ và cảm xúc. Có khả năng dẫn dắt, giúp đỡ người khác.</li> <li>🔵 <b>Tầng dẫn đầu:</b> Người có thể chuyển hóa tâm thức, lan tỏa tri thức và giúp con người tiến bộ. Họ hướng đến sự phát triển về tâm linh và nhận thức cao hơn.</li> </ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul> <li>🌿 Người có số đường đời 9 mang trong mình sứ mệnh cao cả là lan tỏa yêu thương, trí tuệ và sự bao dung.</li> <li>🌍 Khi phát triển đúng hướng, họ có thể trở thành người lãnh đạo, người truyền cảm hứng và để lại dấu ấn sâu sắc trong lòng người khác.</li> <li>🔄 Tuy nhiên, để đạt được điều đó, họ cần vượt qua những giới hạn của bản thân.</li> <li>⚖️ Học cách cân bằng giữa lý tưởng và thực tế, kiểm soát cảm xúc và biết khi nào nên cho đi, khi nào cần giữ lại.</li> </ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'> 💡 Hãy học cách yêu thương và giúp đỡ đúng cách, để vừa giúp người, vừa hoàn thiện chính mình. 🌿💙 </blockquote>",
-    },
-  },
-  10: {
-    SO_CHU_DAO: "10",
-    DAC_DIEM:
-      "<p>Số 10 đại diện cho sự tự tin, quyết đoán và sáng tạo. Những người có số chủ đạo 10 thường là những người tiên phong, có khả năng lãnh đạo và tầm nhìn xa. Họ độc lập, linh hoạt trong tư duy và sẵn sàng đối mặt với thử thách.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4>1️⃣ Rung động cân bằng – Khi số 10 phát triển hài hòa</h4><ul><li>🔹 Tự tin và quyết đoán.</li><li>🔹 Sáng tạo và linh hoạt.</li><li>🔹 Khả năng lãnh đạo và truyền cảm hứng.</li></ul>",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu – Khi số 10 mất cân bằng</h4><ul><li>🔻 Thiếu kiên nhẫn và dễ nản lòng.</li><li>🔻 Thiếu tập trung và dễ bị phân tâm.</li><li>🔻 Thiếu tự tin và sợ thất bại.</li></ul>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh – Khi số 10 mất kiểm soát</h4><ul><li>💥 Quá tự tin đến mức kiêu ngạo.</li><li>💥 Áp đặt và không lắng nghe người khác.</li><li>💥 Mạo hiểm quá mức và thiếu cân nhắc.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4 class='mb-3'>4️⃣ Tóm tắt</h4><ul><li>🔴 Tầng chưa phát triển: Thiếu tự tin và dễ bị ảnh hưởng.</li><li>🟠 Tầng cơ bản: Tự tin nhưng cần học cách kiên nhẫn.</li><li>🟢 Tầng phát triển: Lãnh đạo hiệu quả và truyền cảm hứng.</li><li>🔵 Tầng dẫn đầu: Tiên phong và tạo ra sự thay đổi tích cực.</li></ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 10 là người lãnh đạo tự nhiên với sự tự tin và sáng tạo.</li><li>🌍 Khi phát triển đúng hướng, họ có thể tạo ra ảnh hưởng tích cực lớn.</li><li>🔄 Cần học cách kiên nhẫn và lắng nghe để đạt được thành công bền vững.</li></ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'>💡 Hãy sử dụng sự tự tin và sáng tạo của bạn để dẫn dắt và truyền cảm hứng cho người khác! 🌿💙</blockquote>",
-    },
-  },
-  11: {
-    SO_CHU_DAO: "11",
-    DAC_DIEM:
-      "<p>Số 11 là con số của sự nhạy cảm, trực giác và tâm linh. Những người có số chủ đạo 11 thường có khả năng thấu hiểu sâu sắc về tâm lý con người và dễ dàng kết nối với các giá trị tinh thần. Họ có trực giác nhạy bén và khả năng thấu cảm cao.</p>",
-    CAN_BANG: {
-      noidung:
-        "<h4>1️⃣ Rung động cân bằng – Khi số 11 phát triển hài hòa</h4><ul><li>🔹 Trực giác mạnh mẽ và nhạy bén.</li><li>🔹 Thấu hiểu và đồng cảm với người khác.</li><li>🔹 Kết nối sâu sắc với tâm linh và giá trị tinh thần.</li></ul>",
-    },
-    YEU: {
-      noidung:
-        "<h4>2️⃣ Rung động yếu – Khi số 11 mất cân bằng</h4><ul><li>🔻 Quá nhạy cảm và dễ bị tổn thương.</li><li>🔻 Thiếu tự tin và dễ bị ảnh hưởng bởi người khác.</li><li>🔻 Mất kết nối với thực tế và sống trong mơ mộng.</li></ul>",
-    },
-    QUA_MANH: {
-      noidung:
-        "<h4>3️⃣ Rung động quá mạnh – Khi số 11 mất kiểm soát</h4><ul><li>💥 Trực giác quá mạnh dẫn đến lo lắng và căng thẳng.</li><li>💥 Quá tập trung vào tâm linh mà bỏ qua thực tế.</li><li>💥 Dễ bị lôi kéo vào các hoạt động tâm linh tiêu cực.</li></ul>",
-    },
-    TOM_TAT: {
-      noidung:
-        "<h4 class='mb-3'>4️⃣ Tóm tắt</h4><ul><li>🔴 Tầng chưa phát triển: Thiếu tự tin và dễ bị ảnh hưởng.</li><li>🟠 Tầng cơ bản: Nhạy cảm nhưng cần học cách bảo vệ bản thân.</li><li>🟢 Tầng phát triển: Sử dụng trực giác để giúp đỡ người khác.</li><li>🔵 Tầng dẫn đầu: Trở thành người hướng dẫn tinh thần và truyền cảm hứng.</li></ul>",
-    },
-    KET_LUAN: {
-      noidung:
-        "<h4>🔹 Kết luận</h4><ul><li>🌟 Số 11 là người nhạy cảm và có trực giác mạnh mẽ.</li><li>🌍 Khi phát triển đúng hướng, họ có thể trở thành người hướng dẫn tinh thần và giúp đỡ cộng đồng.</li><li>🔄 Cần học cách cân bằng giữa tâm linh và thực tế để đạt được sự hài hòa trong cuộc sống.</li></ul>",
-      thong_diep:
-        "<blockquote class='text-success fw-bold'>💡 Hãy sử dụng trực giác và sự nhạy cảm của bạn để mang lại lợi ích cho cộng đồng và thế giới xung quanh! 🌿💙</blockquote>",
-    },
-  },
-};
 
 export const NUMERLOGY_COMMON = {
   DUONG_DOI: {
@@ -934,7 +634,7 @@ export const NUMEROLOGY_LIFE_PATH = {
 export const NUMEROLOGY_BIRTHDAY_NUMBER = {
   1: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Ngày Sinh 1</h4><p>Nhiệt tình, đầy năng lượng, dễ tính, vì thế cũng quảng giao, vui vẻ, có nhiều bạn bè, người quen thông qua các cuộc trò chuyện xã giao.</p> <p>Luôn cố gắng hết sức khi được làm việc một mình.</p> <p>Do thích tự nỗ lực và có xu hướng tập trung vào cá nhân, những người này có vẻ tách rời tập thể trong một số thời điểm nào đó.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p> <p>Năng lực thiết lập mục tiêu, chiến lược, kế hoạch.</p> <p>Năng lực lãnh đạo, quản trị.</p> <p>Năng lực tự lập, tự chủ, tự quyết.</p> <p>Năng lực quyết pệt hành động, theo đuổi mục tiêu.</p> ",
+      "<h4 class='my-3'>Chỉ Số Ngày Sinh 1</h4><p>Nhiệt tình, đầy năng lượng, dễ tính, vì thế cũng quảng giao, vui vẻ, có nhiều bạn bè, người quen thông qua các cuộc trò chuyện xã giao.</p> <p>Luôn cố gắng hết sức khi được làm việc một mình.</p> <p>Do thích tự nỗ lực và có xu hướng tập trung vào cá nhân, những người này có vẻ tách rời tập thể trong một số thời điểm nào đó.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p> <p>Năng lực thiết lập mục tiêu, chiến lược, kế hoạch.</p> <p>Năng lực lãnh đạo, quản trị.</p> <p>Năng lực tự lập, tự chủ, tự quyết.</p> <p>Năng lực quyết liệt hành động, theo đuổi mục tiêu.</p> ",
   },
   2: {
     noidung:
@@ -970,7 +670,7 @@ export const NUMEROLOGY_BIRTHDAY_NUMBER = {
   },
   10: {
     noidung:
-      " <h4 class='my-3'>Chỉ Số Ngày Sinh 10</h4> <p>Nhiệt tình, đầy năng lượng, dễ tính, vì thế cũng quảng giao, vui vẻ, có nhiều bạn bè, người quen thông qua các cuộc trò chuyện xã giao.</p> <p>Luôn cố gắng hết sức khi được làm việc một mình.</p> <p>Do thích tự nỗ lực và có xu hướng tập trung vào cá nhân, những người này có vẻ tách rời tập thể trong một số thời điểm nào đó.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p> <p>Năng lực thiết lập mục tiêu, chiến lược, kế hoạch.</p> <p>Năng lực lãnh đạo, quản trị.</p> <p>Năng lực tự lập, tự chủ, tự quyết.</p> <p>Năng lực quyết pệt hành động, theo đuổi mục tiêu.</p> ",
+      " <h4 class='my-3'>Chỉ Số Ngày Sinh 10</h4> <p>Nhiệt tình, đầy năng lượng, dễ tính, vì thế cũng quảng giao, vui vẻ, có nhiều bạn bè, người quen thông qua các cuộc trò chuyện xã giao.</p> <p>Luôn cố gắng hết sức khi được làm việc một mình.</p> <p>Do thích tự nỗ lực và có xu hướng tập trung vào cá nhân, những người này có vẻ tách rời tập thể trong một số thời điểm nào đó.</p> <p>Năng lực gây ảnh hưởng đến người khác.</p> <p>Năng lực thiết lập mục tiêu, chiến lược, kế hoạch.</p> <p>Năng lực lãnh đạo, quản trị.</p> <p>Năng lực tự lập, tự chủ, tự quyết.</p> <p>Năng lực quyết liệt hành động, theo đuổi mục tiêu.</p> ",
   },
   20: {
     noidung:
@@ -1111,18 +811,18 @@ export const ARROW = {
     1: {
       TEN: "Kế hoạch",
       Y_NGHIA:
-        "sáng tạo, nhiều ý tưởng, tính trật tự, lên kế hoạch (nghĩ được chưa chắc đã làm được)",
+        "Sáng tạo, nhiều ý tưởng, tính trật tự, lên kế hoạch (nghĩ được chưa chắc đã làm được)",
     },
     0: {
       TEN: "Trống kế hoạch",
-      Y_NGHIA: "thiếu trật tự, lộn xộn, cuộc sống vô lối…",
+      Y_NGHIA: "Thiếu trật tự, lộn xộn, cuộc sống vô lối…",
     },
   },
   456: {
     1: {
       TEN: "Ý chí",
       Y_NGHIA:
-        "lý tưởng, khát vọng theo đuổi mục tiêu, năng lượng vượt khổ mạnh mẽ",
+        "Lý tưởng, khát vọng theo đuổi mục tiêu, năng lượng vượt khổ mạnh mẽ",
     },
     0: {
       TEN: "Sân hận",
@@ -1134,24 +834,24 @@ export const ARROW = {
     1: {
       TEN: "Hoạt động",
       Y_NGHIA:
-        "tâm huyết, nhiệt tình, có trách nhiệm cao, trải nghiệm học hỏi thực tế nhanh",
+        "Tâm huyết, nhiệt tình, có trách nhiệm cao, trải nghiệm học hỏi thực tế nhanh",
     },
     0: {
       TEN: "Thụ động",
       Y_NGHIA:
-        "thiếu năng lượng, sinh khí, thụ động, thiếu kỷ luật (tìm người có kỷ cương, lý tưởng mà chơi)",
+        "Thiếu năng lượng, sinh khí, thụ động, thiếu kỷ luật (tìm người có kỷ cương, lý tưởng mà chơi)",
     },
   },
   147: {
     1: {
       TEN: "Thực tế",
       Y_NGHIA:
-        "trục thân thể nên thiên về điểm mạnh trải nghiệm và giá trị thực tế, kỹ thuật, thực hành, khéo léo",
+        "Trục thân thể nên thiên về điểm mạnh trải nghiệm và giá trị thực tế, kỹ thuật, thực hành, khéo léo",
     },
     0: {
       TEN: "Hỗn hợp",
       Y_NGHIA:
-        "làm việc không có kế hoạch nên rủi ro cao, tùy hứng, thiếu logic",
+        "Làm việc không có kế hoạch nên rủi ro cao, tùy hứng, thiếu logic",
     },
   },
   258: {
@@ -1180,7 +880,7 @@ export const ARROW = {
     1: {
       TEN: "Quyết tâm",
       Y_NGHIA:
-        "bền bỉ, kiên định, có trách nhiệm, thúc đẩy dẫn dắt người khác phát triển",
+        "Bền bỉ, kiên định, có trách nhiệm, thúc đẩy dẫn dắt người khác phát triển",
     },
     0: { TEN: "Trì hoãn", Y_NGHIA: "phân tâm, bất an, thiếu quyết đoán" },
   },
@@ -1201,83 +901,103 @@ export const ARROW = {
 export const STRONG_NUMB = {
   1: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 1 - Người lãnh đạo độc lập</h4> <p>Người có chỉ số biểu đạt 1 luôn thể hiện cá tính mạnh mẽ, độc lập và đầy quyết đoán. Họ có khả năng lãnh đạo tự nhiên, luôn tìm cách khẳng định bản thân và dẫn dắt người khác theo con đường riêng của mình. Họ đam mê sáng tạo và không ngại đứng ra đối mặt với thách thức, mong muốn đạt được thành công vượt trội.</p> <p><strong>💡 Điểm mạnh:</strong> Tính cách độc lập, quyết đoán, sáng tạo và khả năng lãnh đạo xuất sắc.</p> <p><strong>⚠️ Thách thức:</strong> Có thể quá tự phụ, ít lắng nghe ý kiến của người khác và có xu hướng cô lập khi bị phủ nhận.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cởi mở, lắng nghe đóng góp từ người khác và làm việc nhóm hiệu quả hơn để tận dụng tối đa tiềm năng lãnh đạo của mình.</p>",
+      "<p class='mt-5'><strong class='text-primary'> Lãnh đạo & dẫn dắt</strong> – Có tố chất lãnh đạo bẩm sinh, luôn tiên phong và chủ động trong mọi việc.</p> <p><strong class='text-primary'>Tư duy độc lập</strong> – Tự chủ, quyết đoán, không thích sự ràng buộc hay phụ thuộc vào người khác.</p> <p><strong class='text-primary'> Tư duy đổi mới</strong> – Không ngại thử nghiệm điều mới, luôn tìm cách làm khác biệt.</p> <p><strong class='text-primary'>Tạo ảnh hưởng mạnh mẽ</strong> – Truyền động lực, có sức hút và ảnh hưởng đến những người xung quanh.</p>",
   },
   2: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 2 - Người hòa giải và nhạy cảm</h4> <p>Người có chỉ số biểu đạt 2 thường rất nhạy cảm, tinh tế và có khả năng giao tiếp mềm dẻo. Họ là những người có tài hòa giải, biết cách làm dịu bầu không khí căng thẳng và tạo ra môi trường làm việc hòa bình. Họ luôn đề cao sự thấu hiểu và mong muốn xây dựng mối quan hệ bền vững với người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Khả năng đồng cảm, tinh tế và làm việc nhóm tốt.</p> <p><strong>⚠️ Thách thức:</strong> Có thể quá phụ thuộc vào người khác và gặp khó khăn khi phải đưa ra quyết định độc lập.</p> <p><strong>🚀 Định hướng phát triển:</strong> Cần rèn luyện sự tự tin và khả năng tự quyết để duy trì sự cân bằng giữa hòa nhập và độc lập.</p>",
+      "<p class='mt-5'><strong class='text-primary'>Giỏi kết nối và hòa giải</strong>, giúp tạo ra sự hòa hợp trong các mối quan hệ.</p> <p><strong class='text-primary'>Trực giác nhạy bén</strong>, có khả năng thấu hiểu cảm xúc và suy nghĩ của người khác.</p> <p><strong class='text-primary'>Sống tình cảm, biết quan tâm</strong>, luôn đặt lợi ích tập thể và người thân lên trên.</p> <p><strong class='text-primary'>Khả năng ngoại giao xuất sắc</strong>, phù hợp với các lĩnh vực cần sự khéo léo và tinh tế.</p>",
   },
   3: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 3 - Người sáng tạo và biểu đạt</h4> <p>Người có chỉ số biểu đạt 3 là những người có tài nghệ thuật bẩm sinh. Họ có khả năng giao tiếp xuất sắc, mang đến nguồn năng lượng tích cực và luôn biết cách truyền cảm hứng cho người khác. Họ yêu thích sự tự do trong việc sáng tạo và thể hiện bản thân, đồng thời luôn tìm cách phá vỡ các khuôn mẫu truyền thống.</p> <p><strong>💡 Điểm mạnh:</strong> Sáng tạo, hài hước, giao tiếp tốt và có khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị phân tán, thiếu kiên trì và có xu hướng ưu tiên niềm vui ngắn hạn.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự tập trung và kiên trì theo đuổi mục tiêu lâu dài, đồng thời phát huy tối đa năng lực sáng tạo của mình.</p>",
+      "<p class='mt-5'><strong class='text-primary'>Sáng tạo và giàu trí tưởng tượng</strong>, luôn có ý tưởng mới mẻ và độc đáo.</p><p><strong class='text-primary'>Khả năng biểu đạt tốt</strong>Truyền đạt ý tưởng rõ ràng và thu hút, dễ dàng thể hiện cảm xúc qua ngôn ngữ, nghệ thuật.</p><p><strong class='text-primary'>Tinh thần lạc quan</strong>, mang lại năng lượng tích cực cho mọi người.</p> ",
   },
   4: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 4 - Người tổ chức và có trách nhiệm</h4> <p>Người có chỉ số biểu đạt 4 thường thể hiện tính cách thực tế, có tổ chức và có trách nhiệm cao. Họ luôn đề cao tính kỷ luật và làm việc có kế hoạch, tạo nên nền tảng vững chắc cho sự nghiệp cũng như các mối quan hệ cá nhân. Họ là người có tư duy logic, luôn chú trọng vào chi tiết để đảm bảo sự ổn định.</p> <p><strong>💡 Điểm mạnh:</strong> Tổ chức tốt, cẩn thận, kiên trì và đáng tin cậy.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị bảo thủ, cứng nhắc và không linh hoạt khi đối mặt với thay đổi.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách linh hoạt hơn, chấp nhận sáng tạo và điều chỉnh quan điểm khi cần thiết để phát triển bền vững.</p>",
+      "<p class='mt-5'><strong class='text-primary'>Kỷ luật và có tổ chức</strong>, luôn làm việc một cách có kế hoạch.</p> <p><strong class='text-primary'>Kiên trì và bền bỉ</strong>, không dễ dàng bỏ cuộc trước khó khăn.</p> <p><strong class='text-primary'>Đáng tin cậy</strong>, luôn tạo cảm giác an toàn và vững chắc cho người khác.</p> <p><strong class='text-primary'>Tư duy logic</strong>, giỏi phân tích và giải quyết vấn đề thực tế.</p> <p><strong class='text-primary'>Thực tế và ổn định</strong>, không bị cuốn theo những thứ viển vông.</p>",
   },
   5: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 5 - Người năng động, thích tự do và khám phá</h4> <p>Người có chỉ số biểu đạt 5 luôn tìm kiếm sự tự do và không ngại thử thách. Họ là những người thích khám phá, phiêu lưu và luôn mở rộng trải nghiệm sống của mình. Tài năng biểu đạt của họ được thể hiện qua cách giao tiếp, sáng tạo và khả năng thích ứng với mọi tình huống. Họ luôn khao khát đổi mới và không muốn bị ràng buộc bởi những giới hạn cũ kỹ.</p> <p><strong>💡 Điểm mạnh:</strong> Linh hoạt, năng động, sáng tạo và thích nghi tốt với môi trường thay đổi.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị mất phương hướng, thiếu sự ổn định và có xu hướng dao động trong cảm xúc.</p> <p><strong>🚀 Định hướng phát triển:</strong> Xây dựng mục tiêu rõ ràng, rèn luyện sự kiên trì và duy trì sự ổn định để phát huy tối đa tiềm năng sáng tạo.</p>",
+      "<p class='mt-5'><strong class='text-primary'>Yêu thích tự do</strong>, không thích bị ràng buộc, luôn muốn khám phá điều mới.</p> <p><strong class='text-primary'>Dễ thích nghi</strong>, có thể nhanh chóng hòa nhập với môi trường mới.</p> <p><strong class='text-primary'>Dám thử thách</strong>, không sợ rủi ro, luôn muốn trải nghiệm điều mới lạ.</p> <p><strong class='text-primary'>Giỏi kết nối</strong>, có sự thu hút, dễ gây ảnh hưởng và tạo dựng mối quan hệ.</p> <p><strong class='text-primary'>Nhiệt huyết và năng động</strong>, luôn tràn đầy năng lượng và đam mê.</p>",
   },
   6: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 6 - Người chăm sóc và tình cảm</h4> <p>Người có chỉ số biểu đạt 6 là những người có trái tim ấm áp, luôn đặt giá trị gia đình và tình cảm lên hàng đầu. Họ có khả năng tạo dựng mối quan hệ gắn bó và luôn mong muốn mang lại sự an toàn, yêu thương cho người thân và bạn bè. Họ là người có tính cách chu đáo và luôn muốn chăm sóc, bảo vệ những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Tận tâm, nhân hậu, biết quan tâm và xây dựng mối quan hệ bền chặt.</p> <p><strong>⚠️ Thách thức:</strong> Có thể dễ bị quá tải vì luôn đặt lợi ích của người khác lên trên bản thân.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách phân chia thời gian, năng lượng giữa việc chăm sóc người khác và tự chăm sóc bản thân để duy trì sự cân bằng.</p>",
+      "<p class='mt-5'><strong class='text-primary'>Sống trách nhiệm</strong>, luôn quan tâm và chăm sóc mọi người xung quanh.</p> <p><strong class='text-primary'>Tinh thần yêu thương</strong>, mang lại sự ấm áp và an toàn trong các mối quan hệ.</p> <p><strong class='text-primary'>Giỏi duy trì mối quan hệ</strong>, luôn hướng đến sự hài hòa.</p>",
   },
   7: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 7 - Người tư duy sâu sắc và triết lý</h4> <p>Người có chỉ số biểu đạt 7 thường có tâm hồn sâu sắc, yêu thích nghiên cứu, chiêm nghiệm và luôn tìm kiếm ý nghĩa đích thực của cuộc sống. Họ có triết lý sống riêng biệt và không dễ bị ảnh hưởng bởi số đông. Sự độc lập trong tư duy giúp họ có cái nhìn sâu sắc về bản chất của sự việc, nhưng cũng khiến họ đôi khi trở nên kín đáo và khó giao tiếp.</p> <p><strong>💡 Điểm mạnh:</strong> Sâu sắc, thông thái, có khả năng phân tích và trực giác mạnh mẽ.</p> <p><strong>⚠️ Thách thức:</strong> Dễ rơi vào cô lập, thiếu giao tiếp và khó chia sẻ cảm xúc với người khác.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách mở lòng, giao tiếp và chia sẻ kiến thức để làm phong phú thêm các mối quan hệ.</p>",
+      "<p class='mt-5'><strong class='text-primary'>Suy nghĩ sâu sắc</strong>, luôn tìm kiếm sự thật và ý nghĩa trong cuộc sống.</p> <p><strong class='text-primary'>Trực giác mạnh</strong>, có khả năng cảm nhận và phân tích tinh tế.</p> <p><strong class='text-primary'>Ham học hỏi</strong>, thích nghiên cứu, tìm hiểu kiến thức chuyên sâu.</p> <p><strong class='text-primary'>Độc lập và nội tâm</strong>, thích dành thời gian suy ngẫm và phát triển bản thân.</p> <p><strong class='text-primary'>Tinh thần khám phá</strong>, luôn tò mò về thế giới và bản chất con người.</p>",
   },
   8: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 8 - Người lãnh đạo và hiện thực</h4> <p>Người có chỉ số biểu đạt 8 thường có khả năng lãnh đạo và có tầm nhìn rõ ràng về thành công. Họ có khả năng quản lý tốt và luôn theo đuổi mục tiêu một cách quyết đoán. Tinh thần thực tiễn và khả năng tổ chức của họ giúp định hướng sự nghiệp một cách hiệu quả, nhưng họ cũng cần chú ý không để lòng tham và áp lực làm lu mờ giá trị cảm xúc.</p> <p><strong>💡 Điểm mạnh:</strong> Quyết đoán, tham vọng, có khả năng lãnh đạo và định hướng sự nghiệp xuất sắc.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị cuốn vào quyền lực, thiếu sự linh hoạt và có xu hướng chỉ tập trung vào vật chất.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cân bằng giữa thành công cá nhân và trách nhiệm với xã hội, cũng như lắng nghe ý kiến từ người khác để hoàn thiện bản thân.</p>",
+      "<p class='mt-5'><strong class='text-primary'>Tư duy lãnh đạo</strong>, mạnh mẽ, quyết đoán, có khả năng điều hành tốt.</p> <p><strong class='text-primary'>Tham vọng và kiên định</strong>, luôn hướng tới thành công và quyền lực.</p>       <p><strong class='text-primary'>Khả năng tổ chức cao</strong>, có năng lực xây dựng và duy trì hệ thống.</p> <p><strong class='text-primary'>Tinh thần trách nhiệm</strong>, đáng tin cậy, sẵn sàng đảm nhận những nhiệm vụ lớn.</p>",
   },
   9: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 9 - Người nhân đạo và truyền cảm hứng</h4> <p>Người có chỉ số biểu đạt 9 có tấm lòng rộng lớn và luôn mong muốn cống hiến vì cộng đồng. Họ mang trong mình niềm tin vào những lý tưởng cao đẹp và luôn nỗ lực để lan tỏa yêu thương, giúp đỡ người khác. Sự biểu đạt của họ thường mang tính nhân văn, truyền cảm hứng mạnh mẽ, giúp cải thiện cuộc sống của những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Nhân hậu, bao dung, có tầm nhìn sâu rộng và khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị lợi dụng vì lòng tốt, cần học cách tự bảo vệ bản thân trong quá trình cống hiến.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự cân bằng giữa lý tưởng và thực tế, bảo vệ năng lượng cá nhân trong khi vẫn cống hiến cho cộng đồng.</p>",
+      "<p class='mt-5'><strong class='text-primary'>Trực giác nhạy bén</strong>, dễ dàng cảm nhận và thấu hiểu con người.</p> <p><strong class='text-primary'>Tấm lòng nhân ái</strong>, luôn quan tâm và giúp đỡ người khác.</p> <p><strong class='text-primary'>Tư duy rộng mở</strong>, có cái nhìn bao quát và thấu hiểu cuộc sống.</p> <p><strong class='text-primary'>Sống vì lý tưởng</strong>, luôn hướng tới những giá trị cao đẹp và bền vững.</p> <p><strong class='text-primary'>Khả năng truyền cảm hứng</strong>, tác động tích cực đến những người xung quanh.</p>",
   },
 
   10: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 10 - Người nhân đạo và truyền cảm hứng</h4> <p>Người có chỉ số biểu đạt 9 có tấm lòng rộng lớn và luôn mong muốn cống hiến vì cộng đồng. Họ mang trong mình niềm tin vào những lý tưởng cao đẹp và luôn nỗ lực để lan tỏa yêu thương, giúp đỡ người khác. Sự biểu đạt của họ thường mang tính nhân văn, truyền cảm hứng mạnh mẽ, giúp cải thiện cuộc sống của những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Nhân hậu, bao dung, có tầm nhìn sâu rộng và khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị lợi dụng vì lòng tốt, cần học cách tự bảo vệ bản thân trong quá trình cống hiến.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự cân bằng giữa lý tưởng và thực tế, bảo vệ năng lượng cá nhân trong khi vẫn cống hiến cho cộng đồng.</p>",
+      "<p class='mt-5'><strong class='text-primary'>Tinh thần lãnh đạo</strong>, quyết đoán, tự tin và mạnh mẽ.</p> <p><strong class='text-primary'>Khả năng ảnh hưởng lớn</strong>, có tố chất dẫn dắt và truyền cảm hứng.</p> <p><strong class='text-primary'>Sự linh hoạt</strong>, có thể thành công trong nhiều lĩnh vực khác nhau.</p> <p><strong class='text-primary'>Độc lập và bản lĩnh</strong>, luôn sẵn sàng đương đầu với thử thách.</p>",
+  },
+  11: {
+    noidung:
+      "<p class='mt-5'><strong class='text-primary'>Trực giác nhạy</strong>, có khả năng cảm nhận sâu sắc về con người và sự việc.</p> <p><strong class='text-primary'>Khả năng truyền cảm hứng</strong>, dẫn dắt người khác bằng sự hiểu biết sâu sắc.</p> <p><strong class='text-primary'>Sáng tạo và nhạy cảm</strong>, có thể tạo ra những giá trị độc đáo.</p> <p><strong class='text-primary'>Sứ mệnh lớn lao</strong>, thường hướng đến những mục tiêu ý nghĩa cho xã hội.</p>",
+  },
+  20: {
+    noidung:
+      "<p class='mt-5'><strong class='text-primary'>Nhạy bén và trực giác cao</strong>, có thể cảm nhận tốt về con người và tình huống.</p> <p><strong class='text-primary'>Khả năng kết nối tốt</strong>, dễ dàng hòa hợp và làm việc nhóm.</p> <p><strong class='text-primary'>Tư duy cân bằng</strong>, luôn tạo ra sự hài hòa trong cuộc sống.</p> <p><strong class='text-primary'>Kiên nhẫn và sâu sắc</strong>, có khả năng lắng nghe và thấu hiểu người khác.</p> <p><strong class='text-primary'>Tố chất hỗ trợ mạnh</strong>, phù hợp với các công việc tư vấn, chăm sóc hoặc cố vấn.</p>",
+  },
+  30: {
+    noidung:
+      "<p class='mt-5'><strong class='text-primary'>Tài năng sáng tạo bẩm sinh</strong>, có nhiều ý tưởng mới lạ và độc đáo.</p> <p><strong class='text-primary'>Giao tiếp xuất sắc</strong>, có khả năng truyền tải thông điệp một cách cuốn hút.</p> <p><strong class='text-primary'>Sống lạc quan, vui vẻ</strong>, luôn mang đến năng lượng tích cực.</p> <p><strong class='text-primary'>Dễ dàng thích nghi</strong>, linh hoạt trong nhiều môi trường khác nhau.</p> <p><strong class='text-primary'>Có sức ảnh hưởng lớn</strong>, dễ tạo dấu ấn trong nghệ thuật, truyền thông hoặc giáo dục.</p>",
+  },
+  22: {
+    noidung:
+      "<p class='mt-5'><strong class='text-primary'>Tư duy chiến lược mạnh mẽ</strong>, có khả năng nhìn xa trông rộng và lập kế hoạch hiệu quả.</p> <p><strong class='text-primary'>Khả năng xây dựng và tổ chức</strong>, tạo ra những nền tảng vững chắc và có giá trị lâu dài.</p> <p><strong class='text-primary'>Lãnh đạo đầy trách nhiệm</strong>, có tố chất dẫn dắt và truyền cảm hứng cho người khác.</p> <p><strong class='text-primary'>Tính kiên trì và kỷ luật cao</strong>, không dễ bị lay chuyển bởi khó khăn.</p> <p><strong class='text-primary'>Khả năng ảnh hưởng lớn</strong>, tác động đến cộng đồng và thế giới theo hướng tích cực.</p>",
+  },
+  33: {
+    noidung:
+      "<p class='mt-5'><strong class='text-primary'>Trí tuệ và sự thấu hiểu sâu sắc</strong>, có khả năng nhìn nhận vấn đề một cách toàn diện.</p> <p><strong class='text-primary'>Khả năng truyền cảm hứng mạnh mẽ</strong>, dễ dàng hướng dẫn, giảng dạy và tạo động lực.</p> <p><strong class='text-primary'>Khả năng sáng tạo</strong>, phù hợp với nghệ thuật, tâm linh và giáo dục.</p> <p><strong class='text-primary'>Tư duy vị tha và cống hiến</strong>, luôn đặt lợi ích của cộng đồng lên hàng đầu.</p>",
   },
 };
 
 export const WEAK_NUMB = {
   1: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 1 - Người lãnh đạo độc lập</h4> <p>Người có chỉ số biểu đạt 1 luôn thể hiện cá tính mạnh mẽ, độc lập và đầy quyết đoán. Họ có khả năng lãnh đạo tự nhiên, luôn tìm cách khẳng định bản thân và dẫn dắt người khác theo con đường riêng của mình. Họ đam mê sáng tạo và không ngại đứng ra đối mặt với thách thức, mong muốn đạt được thành công vượt trội.</p> <p><strong>💡 Điểm mạnh:</strong> Tính cách độc lập, quyết đoán, sáng tạo và khả năng lãnh đạo xuất sắc.</p> <p><strong>⚠️ Thách thức:</strong> Có thể quá tự phụ, ít lắng nghe ý kiến của người khác và có xu hướng cô lập khi bị phủ nhận.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cởi mở, lắng nghe đóng góp từ người khác và làm việc nhóm hiệu quả hơn để tận dụng tối đa tiềm năng lãnh đạo của mình.</p>",
+      "<p class='mt-5'><strong class='text-danger'>Thiếu quyết đoán và chính kiến</strong>, dễ bị ảnh hưởng bởi ý kiến của người khác.</p> <p><strong class='text-danger'>Ngại thử thách và sợ thất bại</strong>, thường không dám bước ra khỏi vùng an toàn.</p> <p><strong class='text-danger'>Khó tự lập và dễ phụ thuộc</strong>, thiếu khả năng lãnh đạo và tự chủ trong cuộc sống.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc thể hiện bản thân</strong>, dễ cảm thấy tự ti và so sánh với người khác.</p> <p><strong class='text-danger'>Dễ bị thao túng trong các mối quan hệ</strong>, thiếu sự vững vàng khi đưa ra quan điểm cá nhân.</p>",
   },
   2: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 2 - Người hòa giải và nhạy cảm</h4> <p>Người có chỉ số biểu đạt 2 thường rất nhạy cảm, tinh tế và có khả năng giao tiếp mềm dẻo. Họ là những người có tài hòa giải, biết cách làm dịu bầu không khí căng thẳng và tạo ra môi trường làm việc hòa bình. Họ luôn đề cao sự thấu hiểu và mong muốn xây dựng mối quan hệ bền vững với người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Khả năng đồng cảm, tinh tế và làm việc nhóm tốt.</p> <p><strong>⚠️ Thách thức:</strong> Có thể quá phụ thuộc vào người khác và gặp khó khăn khi phải đưa ra quyết định độc lập.</p> <p><strong>🚀 Định hướng phát triển:</strong> Cần rèn luyện sự tự tin và khả năng tự quyết để duy trì sự cân bằng giữa hòa nhập và độc lập.</p>",
+      "<p class='mt-5'><strong class='text-danger'>Thiếu khả năng kết nối và hòa hợp</strong>, khó làm việc nhóm và dễ xảy ra mâu thuẫn.</p> <p><strong class='text-danger'>Khó bày tỏ cảm xúc</strong>, dễ bị hiểu lầm và tạo khoảng cách với người khác.</p> <p><strong class='text-danger'>Thiếu sự nhạy bén về cảm xúc</strong>, không dễ thấu hiểu tâm lý người khác.</p> <p><strong class='text-danger'>Dễ cảm thấy cô đơn</strong>, khó duy trì các mối quan hệ bền vững.</p> ",
   },
   3: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 3 - Người sáng tạo và biểu đạt</h4> <p>Người có chỉ số biểu đạt 3 là những người có tài nghệ thuật bẩm sinh. Họ có khả năng giao tiếp xuất sắc, mang đến nguồn năng lượng tích cực và luôn biết cách truyền cảm hứng cho người khác. Họ yêu thích sự tự do trong việc sáng tạo và thể hiện bản thân, đồng thời luôn tìm cách phá vỡ các khuôn mẫu truyền thống.</p> <p><strong>💡 Điểm mạnh:</strong> Sáng tạo, hài hước, giao tiếp tốt và có khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị phân tán, thiếu kiên trì và có xu hướng ưu tiên niềm vui ngắn hạn.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự tập trung và kiên trì theo đuổi mục tiêu lâu dài, đồng thời phát huy tối đa năng lực sáng tạo của mình.</p>",
+      "<p class='mt-5' ><strong class='text-danger'>Thiếu sự sáng tạo và linh hoạt</strong>, tư duy cứng nhắc, khó thích nghi với cái mới.</p><p><strong class='text-danger'>Thiếu sự lạc quan</strong>, dễ bị tiêu cực.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc diễn đạt ý tưởng</strong>, khó thể hiện bản thân trước đám đông.</p>",
   },
   4: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 4 - Người tổ chức và có trách nhiệm</h4> <p>Người có chỉ số biểu đạt 4 thường thể hiện tính cách thực tế, có tổ chức và có trách nhiệm cao. Họ luôn đề cao tính kỷ luật và làm việc có kế hoạch, tạo nên nền tảng vững chắc cho sự nghiệp cũng như các mối quan hệ cá nhân. Họ là người có tư duy logic, luôn chú trọng vào chi tiết để đảm bảo sự ổn định.</p> <p><strong>💡 Điểm mạnh:</strong> Tổ chức tốt, cẩn thận, kiên trì và đáng tin cậy.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị bảo thủ, cứng nhắc và không linh hoạt khi đối mặt với thay đổi.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách linh hoạt hơn, chấp nhận sáng tạo và điều chỉnh quan điểm khi cần thiết để phát triển bền vững.</p>",
+      "<p class='mt-5'><strong class='text-danger'>Thiếu kỷ luật</strong>, dễ bỏ cuộc khi gặp khó khăn.</p><p><strong class='text-danger'>Không có kế hoạch rõ ràng</strong>, hay trì hoãn.</p><p><strong class='text-danger'>Thiếu kiên trì với mục tiêu</strong>, hay thay đổi quyết định.</p>",
   },
   5: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 5 - Người năng động, thích tự do và khám phá</h4> <p>Người có chỉ số biểu đạt 5 luôn tìm kiếm sự tự do và không ngại thử thách. Họ là những người thích khám phá, phiêu lưu và luôn mở rộng trải nghiệm sống của mình. Tài năng biểu đạt của họ được thể hiện qua cách giao tiếp, sáng tạo và khả năng thích ứng với mọi tình huống. Họ luôn khao khát đổi mới và không muốn bị ràng buộc bởi những giới hạn cũ kỹ.</p> <p><strong>💡 Điểm mạnh:</strong> Linh hoạt, năng động, sáng tạo và thích nghi tốt với môi trường thay đổi.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị mất phương hướng, thiếu sự ổn định và có xu hướng dao động trong cảm xúc.</p> <p><strong>🚀 Định hướng phát triển:</strong> Xây dựng mục tiêu rõ ràng, rèn luyện sự kiên trì và duy trì sự ổn định để phát huy tối đa tiềm năng sáng tạo.</p>",
+      "<p class='mt-5'><strong class='text-danger'>Ngại thay đổi</strong>, dễ bị mắc kẹt trong lối sống cũ.</p> <p><strong class='text-danger'>Thiếu tinh thần phiêu lưu</strong>, sợ mạo hiểm.</p> <p><strong class='text-danger'>Khó thích nghi</strong> khi gặp tình huống mới.</p>",
   },
   6: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 6 - Người chăm sóc và tình cảm</h4> <p>Người có chỉ số biểu đạt 6 là những người có trái tim ấm áp, luôn đặt giá trị gia đình và tình cảm lên hàng đầu. Họ có khả năng tạo dựng mối quan hệ gắn bó và luôn mong muốn mang lại sự an toàn, yêu thương cho người thân và bạn bè. Họ là người có tính cách chu đáo và luôn muốn chăm sóc, bảo vệ những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Tận tâm, nhân hậu, biết quan tâm và xây dựng mối quan hệ bền chặt.</p> <p><strong>⚠️ Thách thức:</strong> Có thể dễ bị quá tải vì luôn đặt lợi ích của người khác lên trên bản thân.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách phân chia thời gian, năng lượng giữa việc chăm sóc người khác và tự chăm sóc bản thân để duy trì sự cân bằng.</p>",
+      "<p class='mt-5'><strong class='text-danger'>Khó thể hiện tình cảm</strong>, cảm thấy không thoải mái khi bày tỏ yêu thương.</p> <p><strong class='text-danger'>Dễ cảm thấy áp lực</strong> khi phải chịu trách nhiệm với ai đó.</p>",
   },
   7: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 7 - Người tư duy sâu sắc và triết lý</h4> <p>Người có chỉ số biểu đạt 7 thường có tâm hồn sâu sắc, yêu thích nghiên cứu, chiêm nghiệm và luôn tìm kiếm ý nghĩa đích thực của cuộc sống. Họ có triết lý sống riêng biệt và không dễ bị ảnh hưởng bởi số đông. Sự độc lập trong tư duy giúp họ có cái nhìn sâu sắc về bản chất của sự việc, nhưng cũng khiến họ đôi khi trở nên kín đáo và khó giao tiếp.</p> <p><strong>💡 Điểm mạnh:</strong> Sâu sắc, thông thái, có khả năng phân tích và trực giác mạnh mẽ.</p> <p><strong>⚠️ Thách thức:</strong> Dễ rơi vào cô lập, thiếu giao tiếp và khó chia sẻ cảm xúc với người khác.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách mở lòng, giao tiếp và chia sẻ kiến thức để làm phong phú thêm các mối quan hệ.</p>",
+      "<p class='mt-5'><strong class='text-danger'>Né tránh thử thách</strong>, không thích va chạm hoặc sợ thất bại.</p> <p><strong class='text-danger'>Dễ tin người, ít phân tích sâu</strong> → Có thể bị lừa gạt, dễ bị tác động bởi người khác.</p> <p><strong class='text-danger'>Học theo lý thuyết nhiều hơn thực tế</strong> → Dễ bị 'lý thuyết suông', thiếu tư duy phản biện.</p> <p><strong class='text-danger'>Dễ bị tổn thương về tinh thần</strong> → Không chịu được những áp lực lớn về cảm xúc hoặc tâm lý.</p>",
   },
   8: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 8 - Người lãnh đạo và hiện thực</h4> <p>Người có chỉ số biểu đạt 8 thường có khả năng lãnh đạo và có tầm nhìn rõ ràng về thành công. Họ có khả năng quản lý tốt và luôn theo đuổi mục tiêu một cách quyết đoán. Tinh thần thực tiễn và khả năng tổ chức của họ giúp định hướng sự nghiệp một cách hiệu quả, nhưng họ cũng cần chú ý không để lòng tham và áp lực làm lu mờ giá trị cảm xúc.</p> <p><strong>💡 Điểm mạnh:</strong> Quyết đoán, tham vọng, có khả năng lãnh đạo và định hướng sự nghiệp xuất sắc.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị cuốn vào quyền lực, thiếu sự linh hoạt và có xu hướng chỉ tập trung vào vật chất.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cân bằng giữa thành công cá nhân và trách nhiệm với xã hội, cũng như lắng nghe ý kiến từ người khác để hoàn thiện bản thân.</p>",
+      "<p class='mt-5'><strong class='text-danger'>Gặp khó khăn trong việc quản lý tài chính</strong>, dễ rơi vào tình trạng chi tiêu mất kiểm soát.</p> <p><strong class='text-danger'>Thiếu quyết đoán trong các quyết định quan trọng</strong> → Hay do dự, sợ sai lầm dẫn đến bỏ lỡ cơ hội.</p> <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác, thiếu lập trường vững vàng</strong> → Thiếu sự kiên định, dễ thay đổi theo ý kiến của người khác.</p> <p><strong class='text-danger'>Không giỏi tổ chức và điều hành</strong>, dễ mất kiểm soát trong công việc, dẫn đến thiếu hiệu quả.</p>",
   },
   9: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Biểu Đạt 9 - Người nhân đạo và truyền cảm hứng</h4> <p>Người có chỉ số biểu đạt 9 có tấm lòng rộng lớn và luôn mong muốn cống hiến vì cộng đồng. Họ mang trong mình niềm tin vào những lý tưởng cao đẹp và luôn nỗ lực để lan tỏa yêu thương, giúp đỡ người khác. Sự biểu đạt của họ thường mang tính nhân văn, truyền cảm hứng mạnh mẽ, giúp cải thiện cuộc sống của những người xung quanh.</p> <p><strong>💡 Điểm mạnh:</strong> Nhân hậu, bao dung, có tầm nhìn sâu rộng và khả năng truyền cảm hứng.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị lợi dụng vì lòng tốt, cần học cách tự bảo vệ bản thân trong quá trình cống hiến.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự cân bằng giữa lý tưởng và thực tế, bảo vệ năng lượng cá nhân trong khi vẫn cống hiến cho cộng đồng.</p>\" \n  }\n}\n",
+      "<p class='mt-5'><strong class='text-danger'> Thiếu sự đồng cảm và lòng trắc ẩn với người khác.</strong>, khó bao dung và dễ để bụng những chuyện nhỏ nhặt.</p> <p><strong class='text-danger'>Ích kỷ trong suy nghĩ</strong>, thường đặt lợi ích cá nhân hoặc gia đình lên trên lợi ích chung.</p> <p><strong class='text-danger'>Thiếu trách nhiệm với cộng đồng</strong>, ít quan tâm đến những vấn đề xã hội hoặc những người xung quanh.</p>",
   },
 };
 
@@ -1338,31 +1058,40 @@ export const TOP_PEAK = {
     noidung:
       "<p><b>Giai đoạn của những dự án lớn, đóng góp cho xã hội. Biểu tượng của sự vĩ đại và tầm nhìn xa.</b></p> <p>Bạn có những ý tưởng lớn lao, không chỉ cho bản thân mà còn cho xã hội.</p> <p> Bạn có khả năng lãnh đạo mạnh mẽ, dẫn dắt đội nhóm hoặc cộng đồng.</p> <p>Bạn muốn xây dựng thứ gì đó bền vững, như một công ty, tổ chức phi lợi nhuận, hoặc một di sản nào đó.</p> <p>Bạn cảm thấy mình có sứ mệnh, cần phải làm điều gì đó to lớn hơn chính mình.</p> <p>Bạn có thể thu hút những người tài giỏi, hợp tác với những cá nhân xuất sắc để thực hiện kế hoạch của mình.</p>",
   },
-  33: { noidung: '<p><b>Tình yêu, lòng trắc ẩn và sự chữa lành</b></p><p>Khi trải qua đỉnh này, bạn sẽ có một nhiệm vụ lớn hơn, không chỉ cho bản thân mà còn cho những người xung quanh và cả cộng đồng. Đây là thời điểm quan trọng để bạn học cách phục vụ người khác, chia sẻ tình yêu thương và mang lại giá trị tinh thần sâu sắc cho xã hội.</p>' },
-  44: { noidung: '<p><b>Xây dựng, lãnh đạo và ổn định</b></p> <p>Nếu bạn có số 44 ở đỉnh cao, điều này có nghĩa là bạn đang bước vào một giai đoạn rất mạnh mẽ để tạo dựng sự nghiệp, tài chính và các giá trị bền vững. </p> <p>Đây là thời điểm bạn có thể trở thành người lãnh đạo xuất sắc, người kiến tạo xã hội, hoặc người tiên phong trong lĩnh vực của mình.</p>' },
+  33: {
+    noidung:
+      "<p><b>Tình yêu, lòng trắc ẩn và sự chữa lành</b></p><p>Khi trải qua đỉnh này, bạn sẽ có một nhiệm vụ lớn hơn, không chỉ cho bản thân mà còn cho những người xung quanh và cả cộng đồng. Đây là thời điểm quan trọng để bạn học cách phục vụ người khác, chia sẻ tình yêu thương và mang lại giá trị tinh thần sâu sắc cho xã hội.</p>",
+  },
+  44: {
+    noidung:
+      "<p><b>Xây dựng, lãnh đạo và ổn định</b></p> <p>Nếu bạn có số 44 ở đỉnh cao, điều này có nghĩa là bạn đang bước vào một giai đoạn rất mạnh mẽ để tạo dựng sự nghiệp, tài chính và các giá trị bền vững. </p> <p>Đây là thời điểm bạn có thể trở thành người lãnh đạo xuất sắc, người kiến tạo xã hội, hoặc người tiên phong trong lĩnh vực của mình.</p>",
+  },
 };
 
-
 export const TOP_CHALLENGE = {
-
   0: {
-    noidung: "<p><b>Thử thách tự lựa chọn, quyền tự quyết.</b></p> <p>Chỉ số thử thách 0 không mang đại diện cho thử thách cụ thể nào.</p> <p>Đại diện cho tất cả những thử thách của các con số và bao gồm tất cả những tiềm năng của những con số khác.</p> <p>Số 0 là con số khởi đầu, hành trình tìm về tâm linh. Cũng mang ý nghĩa trống rỗng, hỗn loạn, kết thúc, tiêu cực, thù hận, tiêu hủy.</p> <p>Khi gặp đỉnh số 0: Bạn có thể gặp một thử thách hoặc nhiều thử thách trong cùng lúc và chúng ta sẽ không biết rõ thử thách của mình là con số trong các con số (từ 1 đến 9). Cũng có thể bạn sẽ có nhiều bài học mang nhiều con số thử thách khác nhau đến cùng một lúc.</p>"
+    noidung:
+      "<p><b>Thử thách tự lựa chọn, quyền tự quyết.</b></p> <p>Chỉ số thử thách 0 không mang đại diện cho thử thách cụ thể nào.</p> <p>Đại diện cho tất cả những thử thách của các con số và bao gồm tất cả những tiềm năng của những con số khác.</p> <p>Số 0 là con số khởi đầu, hành trình tìm về tâm linh. Cũng mang ý nghĩa trống rỗng, hỗn loạn, kết thúc, tiêu cực, thù hận, tiêu hủy.</p> <p>Khi gặp đỉnh số 0: Bạn có thể gặp một thử thách hoặc nhiều thử thách trong cùng lúc và chúng ta sẽ không biết rõ thử thách của mình là con số trong các con số (từ 1 đến 9). Cũng có thể bạn sẽ có nhiều bài học mang nhiều con số thử thách khác nhau đến cùng một lúc.</p>",
   },
   1: {
-    noidung: "<p><b>Độc lập, người lãnh đạo, tự tin, cương quyết</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải cương quyết, phải đứng lên để bảo vệ quyền lợi và sự độc lập tự chủ của mình.</p> <p>Cuộc sống sẽ thử thách bạn phải trở nên độc lập, tự tin và ít quan tâm đến suy nghĩ của người khác.</p> <p>Tự lập, sống mạnh mẽ, can đảm, đứng vững trên đôi chân của mình, lắng nghe tiếng nói từ bên trong của mình, lắng nghe trực giác. Đừng để mọi thứ xung quanh làm mình xao nhãng, mất tập trung để tìm ra phương hướng, tìm cách đi về phía trước.</p>"
+    noidung:
+      "<p><b>Độc lập, người lãnh đạo, tự tin, cương quyết</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải cương quyết, phải đứng lên để bảo vệ quyền lợi và sự độc lập tự chủ của mình.</p> <p>Cuộc sống sẽ thử thách bạn phải trở nên độc lập, tự tin và ít quan tâm đến suy nghĩ của người khác.</p> <p>Tự lập, sống mạnh mẽ, can đảm, đứng vững trên đôi chân của mình, lắng nghe tiếng nói từ bên trong của mình, lắng nghe trực giác. Đừng để mọi thứ xung quanh làm mình xao nhãng, mất tập trung để tìm ra phương hướng, tìm cách đi về phía trước.</p>",
   },
   3: {
-    noidung: "<p><b>Thể hiện bản thân, giao tiếp, tập trung</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải thể hiện bản thân một cách tích cực và hiệu quả.</p> <p>Đừng để tiêu cực cuốn bạn đi, thay đổi môi trường, tránh xa những người tiêu cực. Hãy tận hưởng cuộc sống, có mặt ở hiện tại, hài lòng với những gì mình đang có.</p> <p>Tự làm bản thân mình vui, tích cực lan tỏa đến cho mọi người. Điều này sẽ giúp bạn trở nên sáng tạo hơn trong việc giải quyết những rắc rối, mâu thuẫn đồng thời làm cho cuộc đời màu sắc hơn, thú vị hơn.</p> <p>Thử thách số 3 cần bạn tập trung hơn khi làm việc, tránh bị phân tâm và làm việc tùy hứng.</p> <p>Rèn luyện bản thân và tìm kiếm những người thầy, người bạn giúp bạn tạo ra giá trị cho cộng đồng nơi bạn mong muốn lan tỏa.</p>"
+    noidung:
+      "<p><b>Thể hiện bản thân, giao tiếp, tập trung</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải thể hiện bản thân một cách tích cực và hiệu quả.</p> <p>Đừng để tiêu cực cuốn bạn đi, thay đổi môi trường, tránh xa những người tiêu cực. Hãy tận hưởng cuộc sống, có mặt ở hiện tại, hài lòng với những gì mình đang có.</p> <p>Tự làm bản thân mình vui, tích cực lan tỏa đến cho mọi người. Điều này sẽ giúp bạn trở nên sáng tạo hơn trong việc giải quyết những rắc rối, mâu thuẫn đồng thời làm cho cuộc đời màu sắc hơn, thú vị hơn.</p> <p>Thử thách số 3 cần bạn tập trung hơn khi làm việc, tránh bị phân tâm và làm việc tùy hứng.</p> <p>Rèn luyện bản thân và tìm kiếm những người thầy, người bạn giúp bạn tạo ra giá trị cho cộng đồng nơi bạn mong muốn lan tỏa.</p>",
   },
   4: {
-    noidung: "<p><b>Kỷ luật, thực tế, tổ chức, kiên trì</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải có kỷ luật, lập kế hoạch và tập trung hơn trong mọi lĩnh vực của cuộc sống.</p> <p>Thay vì bỏ cuộc, bạn hãy kiên trì và làm việc chăm chỉ hơn để đối đầu trực tiếp với những trở ngại và thử thách.</p> <p>Cần tĩnh tâm, ổn định để thiết lập lại cuộc đời của mình. Tổ chức, sắp xếp cuộc sống và lên kế hoạch cho tương lai.</p> <p>Làm việc có quy trình, có phương pháp, tận tâm hoàn thành những gì mình đặt ra.</p>"
+    noidung:
+      "<p><b>Kỷ luật, thực tế, tổ chức, kiên trì</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải có kỷ luật, lập kế hoạch và tập trung hơn trong mọi lĩnh vực của cuộc sống.</p> <p>Thay vì bỏ cuộc, bạn hãy kiên trì và làm việc chăm chỉ hơn để đối đầu trực tiếp với những trở ngại và thử thách.</p> <p>Cần tĩnh tâm, ổn định để thiết lập lại cuộc đời của mình. Tổ chức, sắp xếp cuộc sống và lên kế hoạch cho tương lai.</p> <p>Làm việc có quy trình, có phương pháp, tận tâm hoàn thành những gì mình đặt ra.</p>",
   },
   6: {
     noidung:
       "<p><b>Tình yêu thương, trách nhiệm, gia đình.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải yêu thương, khoan dung với tất cả những người khác và chính bản thân bạn.</p> <p>Có thể trong giai đoạn này, bạn sẽ gặp nhiều vấn đề về gia đình và cần sự quan tâm và trách nhiệm của bạn.</p> <p>Là giai đoạn mang đến cho bạn những trách nhiệm mới, những bài học mới mà bạn phải đối diện trong cuộc sống.</p> <p>Bài học cuộc sống là bài học về tình yêu, về những mối quan hệ, cách cư xử và làm bạn với chính bản thân mình.</p> <p>Từ đó hoàn thiện và phát triển bản thân, sử dụng nhận thức vượt qua bài học này.</p> <p>Khi đó, bạn sẽ có sức mạnh từ nguồn năng lượng đặc biệt để mình vừa hoàn thành bài học vừa đạt được đỉnh cao của mình. Cuộc sống của bạn sẽ hạnh phúc hơn, bình yên hơn.</p>",
   },
   7: {
-    noidung: "<p><b>Niềm tin, tâm linh, học tập</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải có cái nhìn sâu sắc hơn để khám phá ý nghĩa của cuộc sống.</p> <p>Là thời gian mà bạn tìm kiếm ý nghĩa, giá trị cuộc đời của mình và phải nghĩ đến những kế hoạch trong tương lai. Đây là thử thách đòi hỏi kết nối giữa thế giới bên ngoài và thế giới bên trong của bạn.</p> <p>Trong giai đoạn này bạn sẽ học được rằng: hạnh phúc đích thực chỉ có thể đến từ bên trong.</p> <p>Cần sự riêng tư, cần khoảng thời gian để tĩnh tâm suy nghĩ, những điều bí mật, chiêm nghiệm, trải nghiệm cho riêng mình nên giai đoạn này có thể bạn sẽ cảm thấy mình cô đơn, tách biệt khỏi đám đông, xã hội.</p> <p>Hãy là người quan sát, học hỏi từ những trải nghiệm của mình trước những thử thách này và khi đó hãy chia sẻ những điều mình đã học được, những điều mình đã khám phá để chia sẻ cho những người khác. Bạn sẽ có được điều đích thực của cuộc đời mình và cảm thấy cuộc sống vô cùng ý nghĩa và hạnh phúc.</p>"
+    noidung:
+      "<p><b>Niềm tin, tâm linh, học tập</b></p> <p>Trong giai đoạn này, cuộc sống sẽ thử thách bạn phải có cái nhìn sâu sắc hơn để khám phá ý nghĩa của cuộc sống.</p> <p>Là thời gian mà bạn tìm kiếm ý nghĩa, giá trị cuộc đời của mình và phải nghĩ đến những kế hoạch trong tương lai. Đây là thử thách đòi hỏi kết nối giữa thế giới bên ngoài và thế giới bên trong của bạn.</p> <p>Trong giai đoạn này bạn sẽ học được rằng: hạnh phúc đích thực chỉ có thể đến từ bên trong.</p> <p>Cần sự riêng tư, cần khoảng thời gian để tĩnh tâm suy nghĩ, những điều bí mật, chiêm nghiệm, trải nghiệm cho riêng mình nên giai đoạn này có thể bạn sẽ cảm thấy mình cô đơn, tách biệt khỏi đám đông, xã hội.</p> <p>Hãy là người quan sát, học hỏi từ những trải nghiệm của mình trước những thử thách này và khi đó hãy chia sẻ những điều mình đã học được, những điều mình đã khám phá để chia sẻ cho những người khác. Bạn sẽ có được điều đích thực của cuộc đời mình và cảm thấy cuộc sống vô cùng ý nghĩa và hạnh phúc.</p>",
   },
   // update more__
   2: {
@@ -1417,6 +1146,12 @@ export const TOP_CHALLENGE = {
     noidung:
       "<p><b>Giai đoạn của những dự án lớn, đóng góp cho xã hội. Biểu tượng của sự vĩ đại và tầm nhìn xa.</b></p> <p>Bạn có những ý tưởng lớn lao, không chỉ cho bản thân mà còn cho xã hội.</p> <p> Bạn có khả năng lãnh đạo mạnh mẽ, dẫn dắt đội nhóm hoặc cộng đồng.</p> <p>Bạn muốn xây dựng thứ gì đó bền vững, như một công ty, tổ chức phi lợi nhuận, hoặc một di sản nào đó.</p> <p>Bạn cảm thấy mình có sứ mệnh, cần phải làm điều gì đó to lớn hơn chính mình.</p> <p>Bạn có thể thu hút những người tài giỏi, hợp tác với những cá nhân xuất sắc để thực hiện kế hoạch của mình.</p>",
   },
-  33: { noidung: '<p><b>Tình yêu, lòng trắc ẩn và sự chữa lành</b></p><p>Khi trải qua đỉnh này, bạn sẽ có một nhiệm vụ lớn hơn, không chỉ cho bản thân mà còn cho những người xung quanh và cả cộng đồng. Đây là thời điểm quan trọng để bạn học cách phục vụ người khác, chia sẻ tình yêu thương và mang lại giá trị tinh thần sâu sắc cho xã hội.</p>' },
-  44: { noidung: '<p><b>Xây dựng, lãnh đạo và ổn định</b></p> <p>Nếu bạn có số 44 ở đỉnh cao, điều này có nghĩa là bạn đang bước vào một giai đoạn rất mạnh mẽ để tạo dựng sự nghiệp, tài chính và các giá trị bền vững. </p> <p>Đây là thời điểm bạn có thể trở thành người lãnh đạo xuất sắc, người kiến tạo xã hội, hoặc người tiên phong trong lĩnh vực của mình.</p>' },
+  33: {
+    noidung:
+      "<p><b>Tình yêu, lòng trắc ẩn và sự chữa lành</b></p><p>Khi trải qua đỉnh này, bạn sẽ có một nhiệm vụ lớn hơn, không chỉ cho bản thân mà còn cho những người xung quanh và cả cộng đồng. Đây là thời điểm quan trọng để bạn học cách phục vụ người khác, chia sẻ tình yêu thương và mang lại giá trị tinh thần sâu sắc cho xã hội.</p>",
+  },
+  44: {
+    noidung:
+      "<p><b>Xây dựng, lãnh đạo và ổn định</b></p> <p>Nếu bạn có số 44 ở đỉnh cao, điều này có nghĩa là bạn đang bước vào một giai đoạn rất mạnh mẽ để tạo dựng sự nghiệp, tài chính và các giá trị bền vững. </p> <p>Đây là thời điểm bạn có thể trở thành người lãnh đạo xuất sắc, người kiến tạo xã hội, hoặc người tiên phong trong lĩnh vực của mình.</p>",
+  },
 };
