@@ -147,8 +147,6 @@ export const NUMEROLOGY_KARMA = {
   },
 };
 
-
-
 export const NUMERLOGY_COMMON = {
   DUONG_DOI: {
     3: {
@@ -812,10 +810,14 @@ export const ARROW = {
       TEN: "Kế hoạch",
       Y_NGHIA:
         "Sáng tạo, nhiều ý tưởng, tính trật tự, lên kế hoạch (nghĩ được chưa chắc đã làm được)",
+      KET_LUAN:
+        "<p class='mt-5'><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
     0: {
       TEN: "Trống kế hoạch",
       Y_NGHIA: "Thiếu trật tự, lộn xộn, cuộc sống vô lối…",
+      KET_LUAN:
+        "<p class='mt-5'><strong class='text-danger'>Thiếu trật tự, lộn xộn, </strong>cuộc sống vô lối…</p>",
     },
   },
   456: {
@@ -823,11 +825,15 @@ export const ARROW = {
       TEN: "Ý chí",
       Y_NGHIA:
         "Lý tưởng, khát vọng theo đuổi mục tiêu, năng lượng vượt khổ mạnh mẽ",
+      KET_LUAN:
+        "<p class='mt-5'><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
     0: {
       TEN: "Sân hận",
       Y_NGHIA:
         "<p><b>Trống mũi tên Ý Chí</b></p><p>Không có tham vọng, bùng nhanh chóng tắt, cả thèm chóng chán (cần có đội nhóm để bù khuyết)</p><p>Cần học cách rèn luyện tính kỷ luật, kiên trì và chịu trách nhiệm với bản thân.</p>",
+      KET_LUAN:
+        "<p ><strong class='text-danger'>Thiếu thực tế,</strong> khó biến ý tưởng thành kế hoạch cụ thể.</p>",
     },
   },
   789: {
@@ -835,11 +841,15 @@ export const ARROW = {
       TEN: "Hoạt động",
       Y_NGHIA:
         "Tâm huyết, nhiệt tình, có trách nhiệm cao, trải nghiệm học hỏi thực tế nhanh",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
     0: {
       TEN: "Thụ động",
       Y_NGHIA:
         "Thiếu năng lượng, sinh khí, thụ động, thiếu kỷ luật (tìm người có kỷ cương, lý tưởng mà chơi)",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
   },
   147: {
@@ -847,11 +857,15 @@ export const ARROW = {
       TEN: "Thực tế",
       Y_NGHIA:
         "Trục thân thể nên thiên về điểm mạnh trải nghiệm và giá trị thực tế, kỹ thuật, thực hành, khéo léo",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
     0: {
       TEN: "Hỗn hợp",
       Y_NGHIA:
         "Làm việc không có kế hoạch nên rủi ro cao, tùy hứng, thiếu logic",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
   },
   258: {
@@ -859,21 +873,29 @@ export const ARROW = {
       TEN: "Cân bằng cảm xúc",
       Y_NGHIA:
         "<p><b>Ôn hòa điềm tĩnh, biết lo nghĩ trước sau</b></p> <p>Bạn đại diện cho những gì liên quan đến cảm xúc, cảm giác của con người bao gồm: Trực giác, tình yêu thương, sự tự do, các cảm xúc tích cực, các biểu đạt nghệ thuật, sự độc lập về tinh thần, và trí tuệ/sự thông thái. Nhờ đó họ luôn giữ được bình tĩnh trong mọi tình huống, không để cảm xúc của bản thân làm ảnh hưởng đến công việc cũng như các mối quan hệ trong cuộc sống.</p>",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
     0: {
       TEN: "Nhạy cảm",
       Y_NGHIA:
         "<p><b>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ (nên tập chánh niệm)</b></p><p>Bạn thường hay mơ mộng, bay bổng trong thế giới riêng của mình mà vô tình quên mất những giá trị thực tế khác cần có trong đời sống. Người sống trọng cảm xúc thường nhạy cảm và dễ tổn thương.</p>",
+      KET_LUAN:
+        "<p ><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, </strong>nhạy cảm, dễ bộc lộ</p>",
     },
   },
   369: {
     1: {
       TEN: "Sáng trí",
       Y_NGHIA: "Phán đoán tốt, có tầm nhìn, sáng tạo, hiểu biết",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
     0: {
       TEN: "Trí nhớ ngắn hạn",
       Y_NGHIA: "Tầm nhìn ngắn hạn, tham bát bỏ mâm, trí nhớ kém",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
   },
   159: {
@@ -881,19 +903,30 @@ export const ARROW = {
       TEN: "Quyết tâm",
       Y_NGHIA:
         "Bền bỉ, kiên định, có trách nhiệm, thúc đẩy dẫn dắt người khác phát triển",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
-    0: { TEN: "Trì hoãn", Y_NGHIA: "phân tâm, bất an, thiếu quyết đoán" },
+    0: {
+      TEN: "Trì hoãn",
+      Y_NGHIA: "phân tâm, bất an, thiếu quyết đoán",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
+    },
   },
   357: {
     1: {
       TEN: "Nhạy bén tâm linh",
       Y_NGHIA:
         "<p><b>Tư duy tốt, tự học nhanh, niềm tin đến từ sự hiểu biết, có khả năng phản biện</b></p><p>Khả năng thấu hiểu con người và nhạy bén trong việc nắm bắt tâm lý của người khác. Những người có mũi tên 357 này cũng có sự nhạy bén tâm linh nhất định, họ có đức tin để theo đuổi và dùng nó làm lý tưởng sống. Không thể phủ nhận nhờ đó mà họ giác quan thứ 6 của họ cực phát triển và nhạy bén trước mọi sự việc.</p>",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
     0: {
       TEN: "Hoài nghi ",
       Y_NGHIA:
         "<p><b>Đa nghi, đòi hỏi mọi thứ phải có bằng chứng (Hoặc ngược lại dễ tin người)</b></p> <p>Thường hay hoài nghi nhiều việc hoặc người khác, không tin tưởng bất kỳ ai. Đa nghi dẫn đến rất nhiều hệ lụy trong cuộc sống. Hay soi mói mọi vấn đề khiến cuộc sống khá mệt mỏi, nóng nảy và dễ rơi vào thế bị động.</p>",
+      KET_LUAN:
+        "<p><strong class='text-danger'>Thiếu tư duy phản biện</strong> .</p>",
     },
   },
 };
@@ -901,7 +934,7 @@ export const ARROW = {
 export const STRONG_NUMB = {
   1: {
     noidung:
-      "<p class='mt-5'><strong class='text-primary'> Lãnh đạo & dẫn dắt</strong> – Có tố chất lãnh đạo bẩm sinh, luôn tiên phong và chủ động trong mọi việc.</p> <p><strong class='text-primary'>Tư duy độc lập</strong> – Tự chủ, quyết đoán, không thích sự ràng buộc hay phụ thuộc vào người khác.</p> <p><strong class='text-primary'> Tư duy đổi mới</strong> – Không ngại thử nghiệm điều mới, luôn tìm cách làm khác biệt.</p> <p><strong class='text-primary'>Tạo ảnh hưởng mạnh mẽ</strong> – Truyền động lực, có sức hút và ảnh hưởng đến những người xung quanh.</p>",
+      "<p class='mt-5'><strong class='text-primary'> Lãnh đạo & dẫn dắt</strong> – Có tố chất lãnh đạo bẩm sinh, luôn tiên phong và chủ động trong mọi việc.</p> <p><strong class='text-primary'>Tư duy độc lập</strong> – Tự chủ, quyết đoán, không thích sự ràng buộc hay phụ thuộc vào người khác.</p> <p><strong class='text-primary'>Tạo ảnh hưởng mạnh mẽ</strong> – Truyền động lực, có sức hút và ảnh hưởng đến những người xung quanh.</p>",
   },
   2: {
     noidung:
@@ -973,11 +1006,11 @@ export const WEAK_NUMB = {
   },
   3: {
     noidung:
-      "<p class='mt-5' ><strong class='text-danger'>Thiếu sự sáng tạo và linh hoạt</strong>, tư duy cứng nhắc, khó thích nghi với cái mới.</p><p><strong class='text-danger'>Thiếu sự lạc quan</strong>, dễ bị tiêu cực.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc diễn đạt ý tưởng</strong>, khó thể hiện bản thân trước đám đông.</p>",
+      "<p class='mt-5' ><strong class='text-danger'>Thiếu sự sáng tạo và linh hoạt</strong>, tư duy cứng nhắc.</p><p><strong class='text-danger'>Thiếu sự lạc quan</strong>, dễ bị tiêu cực.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc diễn đạt ý tưởng</strong>, khó thể hiện bản thân trước đám đông.</p>",
   },
   4: {
     noidung:
-      "<p class='mt-5'><strong class='text-danger'>Thiếu kỷ luật</strong>, dễ bỏ cuộc khi gặp khó khăn.</p><p><strong class='text-danger'>Không có kế hoạch rõ ràng</strong>, hay trì hoãn.</p><p><strong class='text-danger'>Thiếu kiên trì với mục tiêu</strong>, hay thay đổi quyết định.</p>",
+      "<p class='mt-5'><strong class='text-danger'>Thiếu kỷ luật</strong>, hay tùy hứng hành động.</p><p><strong class='text-danger'>Không có kế hoạch rõ ràng</strong>, hay trì hoãn.</p><p><strong class='text-danger'>Thiếu kiên trì với mục tiêu</strong>, hay thay đổi quyết định.</p>",
   },
   5: {
     noidung:
@@ -989,11 +1022,11 @@ export const WEAK_NUMB = {
   },
   7: {
     noidung:
-      "<p class='mt-5'><strong class='text-danger'>Né tránh thử thách</strong>, không thích va chạm hoặc sợ thất bại.</p> <p><strong class='text-danger'>Dễ tin người, ít phân tích sâu</strong> → Có thể bị lừa gạt, dễ bị tác động bởi người khác.</p> <p><strong class='text-danger'>Học theo lý thuyết nhiều hơn thực tế</strong> → Dễ bị 'lý thuyết suông', thiếu tư duy phản biện.</p> <p><strong class='text-danger'>Dễ bị tổn thương về tinh thần</strong> → Không chịu được những áp lực lớn về cảm xúc hoặc tâm lý.</p>",
+      "<p class='mt-5'><strong class='text-danger'>Dễ tin người, ít phân tích sâu</strong> , Có thể bị lừa gạt, dễ bị tác động bởi người khác.</p> <p><strong class='text-danger'>Học theo lý thuyết nhiều hơn thực tế</strong> , Dễ bị 'lý thuyết suông', thiếu tư duy phản biện.</p> <p><strong class='text-danger'>Dễ bị tổn thương về tinh thần,</strong>  Không chịu được những áp lực lớn về cảm xúc hoặc tâm lý.</p>",
   },
   8: {
     noidung:
-      "<p class='mt-5'><strong class='text-danger'>Gặp khó khăn trong việc quản lý tài chính</strong>, dễ rơi vào tình trạng chi tiêu mất kiểm soát.</p> <p><strong class='text-danger'>Thiếu quyết đoán trong các quyết định quan trọng</strong> → Hay do dự, sợ sai lầm dẫn đến bỏ lỡ cơ hội.</p> <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác, thiếu lập trường vững vàng</strong> → Thiếu sự kiên định, dễ thay đổi theo ý kiến của người khác.</p> <p><strong class='text-danger'>Không giỏi tổ chức và điều hành</strong>, dễ mất kiểm soát trong công việc, dẫn đến thiếu hiệu quả.</p>",
+      "<p class='mt-5'><strong class='text-danger'>Gặp khó khăn trong việc quản lý tài chính</strong>, dễ rơi vào tình trạng chi tiêu mất kiểm soát.</p> <p><strong class='text-danger'>Thiếu quyết đoán trong các quyết định quan trọng</strong> , Hay do dự, sợ sai lầm dẫn đến bỏ lỡ cơ hội.</p> <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác, thiếu lập trường vững vàng</strong> , Thiếu sự kiên định, dễ thay đổi theo ý kiến của người khác.</p> <p><strong class='text-danger'>Không giỏi tổ chức và điều hành</strong>, dễ mất kiểm soát trong công việc, dẫn đến thiếu hiệu quả.</p>",
   },
   9: {
     noidung:

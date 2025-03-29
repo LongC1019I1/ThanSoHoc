@@ -25,7 +25,7 @@ function SummaryAll() {
           <b className="text-danger"> Tóm tắt </b>về bạn{" "}
         </h1>
         <img className=" my-1 w-100" src={tomtat} />
-        <div className="m-3  p-3    border border-dark-subtle rounded  ">
+        <div className="m-3  px-3 py-4    border border-dark-subtle rounded  ">
           <h4 className=" mt-3 px-2">ĐIỂM MẠNH CỦA BẠN</h4>
           <p class="text-danger">
             Là tài năng, năng lực, khả năng, đặc điểm chủ đạo của bạn
@@ -38,17 +38,17 @@ function SummaryAll() {
             ) : null
           )}
 
-          {arrow.length > 0 &&
+          {/* {arrow.length > 0 &&
             arrow.map((arr, iAr) => {
               return (
                 <Fragment key={`emp${iAr}`}>
-                  <p>{ARROW[arr][1].Y_NGHIA.toUpperCase()}</p>
+                  <p>{parse(ARROW[arr][1].Y_NGHIA)}</p>
                 </Fragment>
               );
-            })}
+            })} */}
         </div>
 
-        <div className="m-3  p-3    border border-dark-subtle rounded  ">
+        <div className="m-3  px-3 py-4   border border-dark-subtle rounded  ">
           <h4 className=" mt-3 px-2">ĐIỂM YẾU CỦA BẠN</h4>
           <p class="text-primary">
             Là nhược điểm, bài học, khuyết điểm của bạn
@@ -63,15 +63,12 @@ function SummaryAll() {
                 6: [33],
               };
 
-
-              console.log({strongNumb})
+              console.log({ strongNumb });
 
               // Kiểm tra nếu strongNumb chứa bất kỳ số nào trong danh sách của numb
               const hasStrongNum = strongNumCheck[numb]?.some((num) =>
                 strongNumb.includes(num)
               );
-
-       
 
               if (!hasStrongNum) {
                 return (
@@ -86,16 +83,17 @@ function SummaryAll() {
               return null;
             })}
           </div>
-          <div>
+          {/* <div className="mt-5">
             {lack_arrow.length > 0 &&
               lack_arrow.map((arr, iAr) => {
                 return (
+                 
                   <Fragment key={`emp${iAr}`}>
-                    <p>{ARROW[arr][0].Y_NGHIA.toUpperCase()}</p>
+                   {parse(ARROW[arr][0].KET_LUAN)}
                   </Fragment>
                 );
               })}
-          </div>
+          </div> */}
         </div>
 
         <div className="m-3  p-3    border border-dark-subtle rounded  ">
