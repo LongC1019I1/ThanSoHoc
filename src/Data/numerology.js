@@ -571,62 +571,91 @@ export const NUMEROLOGY_LIFE_PATH = {
   1: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 1 - Nhà lãnh đạo tiên phong</h4> <p>Sứ mệnh của bạn trong cuộc đời này là trau dồi bản thân và trở thành một người lãnh đạo. Mục đích cuộc đời bạn là kiên cường, độc lập, tiên phong, phát kiến và đưa vai gánh vác mọi việc – tất cả là để phát triển ý thức về bản ngã, ý chí và sự quyết tâm của bạn.</p><p>Học cách tự lập, suy nghĩ cho chính mình và khiến mình trở nên cá tính cũng như những điều mới, những tư tưởng mới và các hoạt động sáng tạo mang đến những cơ hội lớn để bạn vươn tới sứ mệnh của mình.</p><p>Bạn sinh ra là để lãnh đạo. Hãy là một người lãnh đạo và dạy cách trở thành một người lãnh đạo.</p>",
+    tomtat:
+      "Mục đích cuộc đời bạn là kiên cường, độc lập, tiên phong, phát kiến và đưa vai gánh vác mọi việc – tất cả là để phát triển ý thức về bản ngã, ý chí và sự quyết tâm của bạn.",
   },
   2: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 2 - Người kết nối và hòa giải</h4> <p>Sứ mệnh của bạn trong cuộc đời này là tạo ra sự hài hòa. Mục tiêu của bạn là tìm kiếm sự hợp tác, cân bằng và là một đối tác kiên nhẫn – tất cả là để phát triển ý thức của bạn về mối quan hệ.</p><p>Bạn cần học về lòng trắc ẩn và tiếp nhận mọi thứ bằng cảm xúc. Khả năng thích nghi và tạo sức thuyết phục sẽ đưa bạn đến gần sứ mệnh của mình hơn. Bạn sinh ra là để xây dựng hòa bình. Hãy tiến lên và chia sẻ về nó.</p>",
+    tomtat:
+      "Mục tiêu của bạn là tìm kiếm sự hợp tác, cân bằng về các mối quan hệ.",
   },
   3: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 3 - Người truyền cảm hứng</h4> <p>Mục đích của bạn trong cuộc đời này là tiếp thêm sinh lực và sức mạnh. Mục đích của bạn là khuyến khích người khác thông qua những hi vọng và niềm tin của bạn, sử dụng sự sáng tạo đầy cảm hứng của bạn để giúp người khác cùng trải nghiệm niềm vui.</p><p>Học cách thể hiện cảm xúc của bạn thông qua tài năng sử dụng từ ngữ và sự sôi nổi, nhiệt huyết và thông minh sẽ giúp bạn tiến tới sứ mệnh của mình.</p><p>Bạn sinh ra là để thể hiện bản thân, hãy trò chuyện, luôn tích cực và khuyến khích mọi người.</p>",
+    tomtat:
+      "Mục đích của bạn là khuyến khích người khác thông qua những hi vọng và niềm tin của bạn, sử dụng sự sáng tạo đầy cảm hứng của bạn để giúp người khác cùng trải nghiệm niềm vui.",
   },
   4: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 4 - Người xây dựng nền tảng</h4> <p>Sứ mệnh của bạn trong cuộc đời này là xây dựng một cái gì đó có giá trị lâu dài. Mục tiêu của bạn là trở nên thực tế, làm việc chăm chỉ đồng thời giữ mọi thứ trật tự, ngăn nắp để đảm bảo nhu cầu được an toàn.</p> <p>Học cách thể hiện những giá trị truyền thống và sự trung thành, kiên định sẽ giúp bạn hoàn thành sứ mệnh của mình. Bạn sinh ra là để quản lý và thiết lập trật tự. Hãy tạo dựng nền tảng và phát triển mọi thứ từ đó.</p>",
+    tomtat:
+      "Mục tiêu của bạn là trở nên thực tế, làm việc chăm chỉ đồng thời giữ mọi thứ trật tự, ngăn nắp để đảm bảo nhu cầu được an toàn.",
   },
   5: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 5 - Người giải phóng và tự do</h4> <p>Sứ mệnh của bạn trong cuộc đời này là điều chỉnh, phát triển và tiến bộ. Mục đích của bạn là nắm lấy các cơ hội và quyền tự chủ, và theo đuổi trí tò mò vô tận của mình, đồng thời vận dụng sự tháo vát cũng như sự cuốn hút để luôn tiến về phía trước.</p><p>Học cách thể hiện sự khéo léo và trở thành một linh hồn tự do sẽ giúp bạn tiến tới sứ mệnh của mình.</p><p>Bạn được sinh ra là để được giải phóng và tự do. Hãy tiến về phía trước và thích nghi uyển chuyển với mọi sự thay đổi.</p>",
+    tomtat:
+      "Mục đích của bạn là nắm lấy các cơ hội và quyền tự chủ, và theo đuổi trí tò mò vô tận của mình",
   },
   6: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 6 - Người chăm sóc và bảo vệ</h4> <p>Sứ mệnh của bạn trong cuộc đời này là phục vụ. Mục tiêu của bạn là chăm sóc gia đình và những người thương yêu đồng thời sử dụng sự ngưỡng mộ và yêu mến của bạn đối với mọi người và những điều tinh tế để thiết lập sự gần gũi, thân thiết xung quanh bạn.</p><p>Học cách để bày tỏ lòng vị tha cũng như mang lại cho người khác sự thoải mái, dễ chịu sẽ giúp bạn tiến tới mục tiêu của mình.</p><p>Bạn sinh ra là để nuôi dưỡng và làm đẹp. Hãy yêu thương bằng sự cân bằng và bình ổn.</p>",
+    tomtat:
+      "Mục tiêu của bạn là chăm sóc gia đình và những người thương yêu đồng thời sử dụng sự ngưỡng mộ và yêu mến của bạn đối với mọi người và những điều tinh tế để thiết lập sự gần gũi, thân thiết xung quanh bạn.",
   },
   7: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 7 - Người tìm kiếm tri thức</h4> <p>Sứ mệnh của bạn trong cuộc đời này là tìm tòi và nghiên cứu. Mục đích của bạn là đào sâu vấn đề và chiêm nghiệm tất cả những gì xảy ra trong cuộc đời này. Sử dụng khả năng phân tích và sự tỉ mỉ của mình để tìm kiếm trí huệ.</p><p>Học cách thể hiện sự kỹ lưỡng sắc sảo của mình cũng như sự chu đáo và sáng suốt sẽ đưa bạn tới gần mục tiêu của mình. Bạn sinh ra là để khai mở thế giới. Hãy tập trung và rèn giũa sự thông thái của bạn</p>",
+    tomtat:
+      " Mục đích của bạn là đào sâu vấn đề và chiêm nghiệm tất cả những gì xảy ra trong cuộc đời này. Sử dụng khả năng phân tích và sự tỉ mỉ của mình để tìm kiếm trí huệ.",
   },
   8: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 8 - Người kiểm soát và lãnh đạo</h4> <p>Sứ mệnh của bạn trong cuộc đời này là có được sự tự kiểm soát bản thân. Mục đích của bạn là tự hoàn thiện, sử dụng khả năng của bạn trong kinh doanh và tổ chức.</p><p>Học cách để thể hiện bản chất đích thực, khám phá sức mạnh của chính mình và tầm nhìn khoáng đạt sẽ đưa bạn tiến gần đến sứ mệnh của mình.</p><p>Bạn sinh ra là để có được sự thành công và giàu có vật chất. Hãy nhận thức được điều này và trở thành một nhà lãnh đạo kiệt xuất.</p>",
+    tomtat:
+      "Mục đích của bạn là tự hoàn thiện, sử dụng khả năng của bạn trong kinh doanh và tổ chức.",
   },
   9: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 9 - Người nhân đạo và chữa lành</h4> <p>Sứ mệnh của cuộc đời bạn là vươn tới sự hoàn mỹ và yêu thương vô điều kiện. Mục tiêu của bạn là vươn tới những linh hồn tiến hóa cao hơn trong vũ trụ này bằng sự nhân đạo, lòng thương cảm và nghệ thuật chữa lành của mình.</p><p>Học cách chuyển hóa, chữa lành, sẵn sàng tiếp thu, lĩnh hội những ý tưởng mới và một tấm lòng khoan dung độ lượng sẽ đưa bạn lại gần sứ mệnh của mình.</p><p>Bạn sinh ra là để vươn tới những chân trời mới. Hãy vươn tay ra để giúp đỡ mọi người.</p>",
+    tomtat:
+      " Mục tiêu của bạn là vươn tới những linh hồn tiến hóa cao hơn trong vũ trụ này bằng sự nhân đạo, lòng thương cảm và nghệ thuật chữa lành của mình.",
   },
   10: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 10 - Người Tiên Phong và Kiến Tạo</h4> <p>Sứ mệnh của bạn là khởi xướng những con đường mới, kết hợp tinh thần độc lập của số 1 với sự hoàn thiện của số 0. Bạn sinh ra để tạo ra những bước ngoặt, dùng ý chí sắt đá và tầm nhìn đột phá để xây dựng nền tảng vững chắc cho tương lai.</p><p>Hãy dùng sự tự tin và khả năng lãnh đạo bẩm sinh để truyền cảm hứng cho người khác dám bắt đầu. Vũ trụ ủng hộ bạn khi bạn hành động với lòng can đảm và sự chính trực.</p><p>Bạn là ngọn lửa thắp sáng những ý tưởng đầu tiên. Hãy tiến lên và tạo ra di sản của riêng mình!</p>",
+    tomtat:
+      " Tạo ra điều gì đó để xây dựng nền tảng vững chắc cho tương lai sau này",
   },
   11: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 11 - Người Thầy Tâm Linh</h4> <p>Sứ mệnh của bạn là khai sáng và truyền cảm hứng. Bạn sinh ra để kết nối những tâm hồn với sự thông thái vũ trụ, dẫn dắt họ qua trực giác siêu nhiên và trái tim nhân ái. Mục đích của bạn là thắp lửa tri thức, biến ý tưởng thành thông điệp chạm đến hàng triệu người.</p><p>Hãy dùng năng lượng tâm linh và sự sáng tạo vô hạn của mình để trở thành cây cầu giữa thế giới hữu hình và vô hình. Đừng sợ ánh hào quang của bạn - vũ trụ chọn bạn để tỏa sáng!</p><p>Bạn là ngọn đuốc giữa bóng tối. Hãy tin vào sứ mệnh cao cả: Mang ánh sáng đến những nơi cần nhất.</p>",
+    tomtat:
+      "Mục đích của bạn là thắp lửa tri thức, biến ý tưởng thành thông điệp chạm đến hàng triệu người.",
   },
   20: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 20 - Người Hòa Giải và Kết Nối</h4><p>Sứ mệnh của bạn là tạo ra sự hài hòa trong mọi mối quan hệ. Với năng lượng của số 2 (hợp tác) và số 0 (vô cực), bạn sinh ra để trở thành cầu nối giữa con người, giúp họ hiểu nhau sâu sắc hơn thông qua sự nhạy cảm và ngoại giao.</p><p>Hãy dùng trực giác tinh tế của mình để hàn gắn những rạn nứt. Thế giới cần bạn mang lại sự cân bằng!</p>",
+    tomtat: "Tạo ra sự hài hòa trong mọi mối quan hệ. ",
   },
   22: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 22 - Nhà Kiến Tạo Vĩ Đại</h4><p>Là 'Con số Vua' trong Thần số học, bạn mang sứ mệnh biến giấc mơ thành hiện thực. Với năng lượng gấp đôi số 11 (tầm nhìn) và tổng bằng 4 (thực tế), bạn có khả năng xây dựng những công trình trường tồn, từ doanh nghiệp đến hệ thống giúp đỡ cộng đồng.</p><p>Hãy dùng sự kiên nhẫn và tầm nhìn xa để kiến tạo di sản!</p>",
+    tomtat:
+      " Bạn mang sứ mệnh biến giấc mơ thành hiện thực, xây dựng những công trình trường tồn, từ doanh nghiệp đến hệ thống giúp đỡ cộng đồng. ",
   },
   30: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 30 - Người Truyền Cảm Hứng Ngôn Từ</h4><p>Bạn được sinh ra để dùng ngôn từ và sự lạc quan (số 3) kết hợp với trí tuệ vũ trụ (số 0) để thắp lên niềm vui và sáng tạo. Sứ mệnh của bạn là truyền tải thông điệp tích cực, giúp người khác nhìn thấy vẻ đẹp cuộc sống qua nghệ thuật, giáo dục hoặc giao tiếp.</p><p>Hãy mở rộng trái tim và chia sẻ năng lượng hân hoan của mình!</p>",
+    tomtat:
+      "Truyền tải thông điệp tích cực, giúp người khác nhìn thấy vẻ đẹp cuộc sống qua nghệ thuật, giáo dục hoặc giao tiếp.",
   },
   33: {
     noidung:
       "<h4 class='my-4'>Số Định Mệnh 33 - Người Chữa Lành Tâm Linh</h4><p>Là 'Con số Thầy giáo Tối cao', bạn được trao sứ mệnh chữa lành bằng tình yêu thương thuần khiết. Kết hợp sức mạnh gấp ba lần số 11, bạn sinh ra để nâng đỡ nhân loại qua giáo dục, nghệ thuật hoặc hoạt động nhân đạo.</p><p>Hãy để trái tim rộng mở dẫn đường - bạn là món quà của vũ trụ cho những ai đang đau khổ!</p>",
+    tomtat:
+      "Nâng đỡ cộng đồng qua giáo dục, nghệ thuật hoặc hoạt động nhân đạo.",
   },
 };
 export const NUMEROLOGY_BIRTHDAY_NUMBER = {
@@ -692,38 +721,56 @@ export const NUMEROLOGY_SOUL_NUMBER = {
   1: {
     noidung:
       "<h4 class='my-3'>Chỉ Số Linh Hồn 1 - Người cá tính và tiên phong</h4> <p>Chỉ số linh hồn 1 là người rất cá tính. Đây là những người luôn mong muốn được là chính mình, có tính tranh đua và cạnh tranh cao. Họ thường thể hiện bản lĩnh vượt trội trong môi trường tập thể như lớp học, công ty hay đội nhóm. Sự khao khát đấu tranh và chiến thắng luôn thúc đẩy họ không ngừng cố gắng để đạt được thành tựu, và từ sâu thẳm bên trong, họ khao khát được công nhận năng lực của mình. Tuy nhiên, nếu công sức của họ bị phủ nhận, họ có thể dễ mất nhuệ khí. Họ thích cảm giác chinh phục và tận hưởng mùi vị của chiến thắng, và không chịu nổi việc bị gò ép theo khuôn mẫu.</p> <p><strong>💡 Điểm mạnh:</strong> Quyết đoán, độc lập, nhiệt huyết và có khả năng lãnh đạo.</p> <p><strong>⚠️ Thách thức:</strong> Cần học cách làm việc nhóm, lắng nghe và điều chỉnh cái tôi để không trở nên quá bảo thủ.</p> <p><strong>🚀 Định hướng phát triển:</strong> Khuyến khích sự động viên, giảm bớt chỉ trích và tạo môi trường cho họ phát huy tối đa năng lực cá nhân trong khi vẫn hòa nhập với tập thể.</p>",
+    tomtat:
+      "Thích cảm giác chinh phục và tận hưởng mùi vị của chiến thắng, và không chịu nổi việc bị gò ép theo khuôn mẫu.</p> <p><strong>💡 Điểm mạnh:</strong> Quyết đoán, độc lập, nhiệt huyết và có khả năng lãnh đạo.</p> <p><strong>⚠️ Thách thức:</strong> Cần học cách làm việc nhóm, lắng nghe và điều chỉnh cái tôi để không trở nên quá bảo thủ.</p> <p><strong>🚀 Định hướng phát triển:</strong> Khuyến khích sự động viên, giảm bớt chỉ trích và tạo môi trường cho họ phát huy tối đa năng lực cá nhân trong khi vẫn hòa nhập với tập thể.",
   },
   2: {
     noidung:
       "<h4 class='my-3'>Chỉ Số Linh Hồn 2 - Người hòa hợp và nhạy cảm</h4> <p>Người có chỉ số linh hồn 2 luôn tìm kiếm sự thoải mái, hòa hợp và cân bằng trong tình cảm cũng như các mối quan hệ. Họ rất hòa đồng, ấm áp và mong muốn tạo dựng các mối quan hệ lành mạnh. Sự nhạy cảm của họ giúp họ dễ dàng nhận biết cảm xúc của người khác và thường trở thành người hòa giải trong tập thể. Họ không thích xung đột và luôn nỗ lực để duy trì sự yên bình trong mọi tình huống.</p> <p><strong>💡 Điểm mạnh:</strong> Đồng cảm, khéo léo trong giao tiếp, có khả năng giải quyết xung đột một cách tế nhị.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị tổn thương khi bị phớt lờ, cần học cách đặt ra ranh giới cá nhân và tự tin hơn trong quyết định.</p> <p><strong>🚀 Định hướng phát triển:</strong> Rèn luyện sự độc lập cảm xúc, tăng cường tự tin và biết tự chủ hơn trong mối quan hệ.</p>",
+    tomtat:
+      "Không thích xung đột và luôn nỗ lực để duy trì sự yên bình trong mọi tình huống.",
   },
   3: {
     noidung:
       "<h4 class='my-3'>Chỉ Số Linh Hồn 3 - Người sáng tạo và truyền cảm hứng</h4> <p>Người có chỉ số linh hồn 3 luôn khao khát được thể hiện bản thân một cách tự do. Họ thích môi trường sống vui tươi, sáng tạo và không gian dân chủ, nơi năng lượng tích cực được lan tỏa. Họ là những người mang đến nguồn cảm hứng và luôn tìm cách phá vỡ những giới hạn truyền thống để tìm ra con đường riêng của mình. Họ cũng rất mong muốn được cổ vũ và động viên khi theo đuổi đam mê của mình.</p> <p><strong>💡 Điểm mạnh:</strong> Sáng tạo, hài hước, tràn đầy năng lượng và khả năng giao tiếp xuất sắc.</p> <p><strong>⚠️ Thách thức:</strong> Dễ mất tập trung, thiếu kiên trì và đôi khi chỉ tập trung vào việc tìm kiếm niềm vui thay vì đạt được mục tiêu lâu dài.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự tập trung và kiên trì theo đuổi mục tiêu trong khi vẫn giữ được tính sáng tạo.</p>",
+    tomtat:
+      "thích môi trường sống vui tươi, sáng tạo và không gian dân chủ, nơi năng lượng tích cực được lan tỏa.",
   },
   4: {
     noidung:
       "<h4 class='my-3'>Chỉ Số Linh Hồn 4 - Người thực tế và cầu toàn</h4> <p>Chỉ số linh hồn 4 biểu thị cho người có xu hướng cầu toàn và luôn nỗ lực để làm tốt mọi việc. Họ luôn cẩn thận, suy nghĩ thấu đáo và không ngừng học hỏi để trau dồi kiến thức. Họ đề cao sự ổn định và coi trọng mối quan hệ gia đình, bạn bè và những giá trị truyền thống. Tính cách này giúp họ trở thành những người có uy tín và luôn được tin cậy trong mọi hoàn cảnh.</p> <p><strong>💡 Điểm mạnh:</strong> Cẩn thận, tỉ mỉ, chăm chỉ và có tổ chức.</p> <p><strong>⚠️ Thách thức:</strong> Dễ trở nên bảo thủ, cứng nhắc và thiếu linh hoạt khi đối mặt với sự thay đổi.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách đón nhận sự thay đổi và phát huy tính sáng tạo bên trong, mở rộng tầm nhìn ngoài khuôn khổ truyền thống.</p>",
+    tomtat:
+      "Đề cao sự ổn định và coi trọng mối quan hệ gia đình, bạn bè và những giá trị truyền thống",
   },
   5: {
     noidung:
       "<h4 class='my-3'>Chỉ Số Linh Hồn 5 - Người yêu tự do và khám phá</h4> <p>Chỉ số linh hồn 5 là biểu hiện của tâm hồn yêu tự do, phóng khoáng và khao khát khám phá mọi ngóc ngách của cuộc sống. Họ luôn tìm kiếm những trải nghiệm mới lạ và độc đáo, thích tham gia các chuyến du lịch, thám hiểm và sáng tạo. Tuy nhiên, họ không nhất thiết muốn thể hiện điều đó ra bên ngoài; họ chỉ mong muốn được tự do và thoải mái theo cách của riêng mình.</p> <p><strong>💡 Điểm mạnh:</strong> Linh hoạt, nhanh nhẹn, có khả năng thích nghi và giao tiếp tốt.</p> <p><strong>⚠️ Thách thức:</strong> Dễ mất phương hướng, thiếu kiên trì và dễ dao động trong cảm xúc.</p> <p><strong>🚀 Định hướng phát triển:</strong> Cần tập trung vào việc duy trì sự ổn định và định hướng rõ ràng để tận dụng tối đa khả năng sáng tạo của bản thân.</p>",
+    tomtat:
+      "Luôn tìm kiếm những trải nghiệm mới lạ và độc đáo, thích tham gia các chuyến du lịch, thám hiểm và sáng tạo.",
   },
   6: {
     noidung:
       "<h4 class='my-3'>Chỉ Số Linh Hồn 6 - Người tận tâm và cống hiến</h4> <p>Người có chỉ số linh hồn 6 luôn thể hiện lòng nhiệt huyết trong việc chăm sóc và cống hiến cho người khác. Họ đề cao giá trị gia đình, luôn mong muốn mang lại sự ấm áp và hạnh phúc cho mọi người xung quanh. Sự tận tâm và chu đáo của họ giúp xây dựng những mối quan hệ bền vững và ý nghĩa.</p> <p><strong>💡 Điểm mạnh:</strong> Yêu thương, nhân hậu, luôn sẵn sàng giúp đỡ và chăm sóc người khác.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị quá tải khi gánh vác nhiều trách nhiệm, cần học cách chăm sóc chính mình nhiều hơn.</p> <p><strong>🚀 Định hướng phát triển:</strong> Cần học cách cân bằng giữa việc hỗ trợ người khác và bảo vệ sức khỏe, tinh thần của bản thân.</p>",
+    tomtat:
+      "Đề cao giá trị gia đình, luôn mong muốn mang lại sự ấm áp và hạnh phúc cho mọi người xung quanh",
   },
   7: {
     noidung:
       "<h4 class='my-3'>Chỉ Số Linh Hồn 7 - Người tìm kiếm tri thức và sâu sắc</h4> <p>Chỉ số linh hồn 7 biểu thị cho những người có tâm hồn nghiên cứu, chiêm nghiệm và luôn tò mò về sự thật của cuộc sống. Họ có triết lý sống riêng, thường sống nội tâm và không dễ bị ảnh hưởng bởi đám đông. Họ đặt ra những chuẩn mực cao cho bản thân và mong muốn khám phá những điều sâu sắc bên trong cuộc sống.</p> <p><strong>💡 Điểm mạnh:</strong> Sâu sắc, thông thái, có tư duy phân tích và trực giác mạnh mẽ.</p> <p><strong>⚠️ Thách thức:</strong> Dễ trở nên cô độc, khó mở lòng và thiếu sự kết nối với xã hội.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách chia sẻ kiến thức và kinh nghiệm, kết nối với cộng đồng để cân bằng giữa nội tâm và giao tiếp xã hội.</p>",
+    tomtat:
+      "Chuẩn mực cao cho bản thân và mong muốn khám phá những điều sâu sắc bên trong cuộc sống.",
   },
   8: {
     noidung:
       "<h4 class='my-3'>Chỉ Số Linh Hồn 8 - Người lãnh đạo mạnh mẽ và độc lập</h4> <p>Chỉ số linh hồn 8 cho thấy bạn có khát khao được tự chủ và đạt được thành công lớn. Bạn luôn tìm cách kiểm soát vận mệnh của mình, với khả năng lãnh đạo và tinh thần quyết đoán. Bạn thường tự chủ về mặt tài chính và luôn theo đuổi mục tiêu một cách mạnh mẽ.</p> <p><strong>💡 Điểm mạnh:</strong> Tham vọng, kiên trì, có tố chất lãnh đạo và khả năng định hướng tốt.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị cuốn vào quyền lực, có xu hướng cứng nhắc và quá tập trung vào vật chất.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cân bằng giữa thành công cá nhân và trách nhiệm với cộng đồng, cũng như lắng nghe và chấp nhận ý kiến đóng góp từ người khác.</p>",
+    tomtat:
+      "Luôn tìm cách kiểm soát vận mệnh của mình, với khả năng lãnh đạo và tinh thần quyết đoán. Bạn thường tự chủ về mặt tài chính và luôn theo đuổi mục tiêu một cách mạnh mẽ",
   },
   9: {
     noidung:
       "<h4 class='my-3'>Chỉ Số Linh Hồn 9 - Người nhân ái và cống hiến</h4> <p>Chỉ số linh hồn 9 thường là người mang trong mình tấm lòng rộng lớn, mong muốn cống hiến vì cộng đồng và những lý tưởng cao đẹp. Bạn luôn muốn sống trọn vẹn và tạo ra những giá trị nhân văn, giúp đỡ người khác một cách thiết thực. Bạn có xu hướng lãnh đạo và truyền cảm hứng cho mọi người xung quanh thông qua lòng nhân ái của mình.</p> <p><strong>💡 Điểm mạnh:</strong> Nhân hậu, bao dung, có tầm nhìn và khả năng truyền cảm hứng mạnh mẽ.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị lợi dụng vì lòng tốt, cần học cách bảo vệ bản thân khi cần thiết.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách giữ cân bằng giữa lý tưởng và thực tế, cũng như biết bảo vệ bản thân trong khi vẫn cống hiến cho người khác.</p>",
+    tomtat:
+      "Mong muốn cống hiến vì cộng đồng và những lý tưởng cao đẹp. Bạn luôn muốn sống trọn vẹn và tạo ra những giá trị nhân văn, giúp đỡ người khác một cách thiết thực. Bạn có xu hướng lãnh đạo và truyền cảm hứng cho mọi người xung quanh thông qua lòng nhân ái của mình.",
   },
 };
 
@@ -817,7 +864,7 @@ export const ARROW = {
       TEN: "Trống kế hoạch",
       Y_NGHIA: "Thiếu trật tự, lộn xộn, cuộc sống vô lối…",
       KET_LUAN:
-        "<p class='mt-5'><strong class='text-danger'>Thiếu trật tự, lộn xộn, </strong>cuộc sống vô lối…</p>",
+        "<p class='mt-5'><strong class='text-danger'>Thiếu trật tự, lộn xộn, </strong></p>",
     },
   },
   456: {
@@ -826,14 +873,14 @@ export const ARROW = {
       Y_NGHIA:
         "Lý tưởng, khát vọng theo đuổi mục tiêu, năng lượng vượt khổ mạnh mẽ",
       KET_LUAN:
-        "<p class='mt-5'><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
     },
     0: {
       TEN: "Sân hận",
       Y_NGHIA:
         "<p><b>Trống mũi tên Ý Chí</b></p><p>Không có tham vọng, bùng nhanh chóng tắt, cả thèm chóng chán (cần có đội nhóm để bù khuyết)</p><p>Cần học cách rèn luyện tính kỷ luật, kiên trì và chịu trách nhiệm với bản thân.</p>",
       KET_LUAN:
-        "<p ><strong class='text-danger'>Thiếu thực tế,</strong> khó biến ý tưởng thành kế hoạch cụ thể.</p>",
+        "<p ><strong class='text-danger'>Khó khăn trong việc giải quyết cảm xúc tiêu cực,</strong> có thể gặp khó khăn trong việc tha thứ",
     },
   },
   789: {
@@ -865,7 +912,7 @@ export const ARROW = {
       Y_NGHIA:
         "Làm việc không có kế hoạch nên rủi ro cao, tùy hứng, thiếu logic",
       KET_LUAN:
-        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
+        "<p><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm dễ bộc lộ</strong></p>",
     },
   },
   258: {
@@ -881,7 +928,7 @@ export const ARROW = {
       Y_NGHIA:
         "<p><b>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ (nên tập chánh niệm)</b></p><p>Bạn thường hay mơ mộng, bay bổng trong thế giới riêng của mình mà vô tình quên mất những giá trị thực tế khác cần có trong đời sống. Người sống trọng cảm xúc thường nhạy cảm và dễ tổn thương.</p>",
       KET_LUAN:
-        "<p ><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, </strong>nhạy cảm, dễ bộc lộ</p>",
+        "<p ><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, </strong>nhạy cảm dễ bộc lộ</p>",
     },
   },
   369: {
@@ -925,8 +972,7 @@ export const ARROW = {
       TEN: "Hoài nghi ",
       Y_NGHIA:
         "<p><b>Đa nghi, đòi hỏi mọi thứ phải có bằng chứng (Hoặc ngược lại dễ tin người)</b></p> <p>Thường hay hoài nghi nhiều việc hoặc người khác, không tin tưởng bất kỳ ai. Đa nghi dẫn đến rất nhiều hệ lụy trong cuộc sống. Hay soi mói mọi vấn đề khiến cuộc sống khá mệt mỏi, nóng nảy và dễ rơi vào thế bị động.</p>",
-      KET_LUAN:
-        "<p><strong class='text-danger'>Thiếu tư duy phản biện</strong> .</p>",
+      KET_LUAN: "",
     },
   },
 };
