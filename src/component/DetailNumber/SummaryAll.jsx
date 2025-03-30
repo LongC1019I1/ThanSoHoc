@@ -65,8 +65,6 @@ function SummaryAll() {
                 6: [33],
               };
 
-              console.log({ strongNumb });
-
               // Kiểm tra nếu strongNumb chứa bất kỳ số nào trong danh sách của numb
               const hasStrongNum = strongNumCheck[numb]?.some((num) =>
                 strongNumb.includes(num)
@@ -113,9 +111,9 @@ function SummaryAll() {
               : ""}
           </p>
           <p>
-            {NUMERLOGY_COMMON.DUONG_DOI[numberKarma] &&
-            NUMERLOGY_COMMON.DUONG_DOI[numberKarma]
-              ? parse(NUMERLOGY_COMMON.DUONG_DOI[numberKarma].MUC_DICH)
+            {NUMEROLOGY_SOUL_NUMBER[numberKarma] &&
+            NUMEROLOGY_SOUL_NUMBER[numberKarma].tomtat
+              ? parse(NUMEROLOGY_SOUL_NUMBER[numberKarma].tomtat)
               : ""}
           </p>
         </div>
@@ -128,12 +126,16 @@ function SummaryAll() {
             thế cạnh tranh (mối quan hệ, truyền thống, gia đình, tài chính, nơi
             ở ..vv) của Bạn để Bạn lựa chọn được nghề nghiệp phù hợp nhất.
           </p>
-          <p class="mt-4">
-            {NUMERLOGY_COMMON.DUONG_DOI[numberKarma] &&
-            NUMERLOGY_COMMON.DUONG_DOI[numberKarma]
-              ? parse(NUMERLOGY_COMMON.DUONG_DOI[numberKarma].NGHE_NGHIEP)
-              : ""}
-          </p>
+          <div class="mt-4">
+            {strongNumb.map((numb, index) =>
+              NUMERLOGY_COMMON.DUONG_DOI[numb] &&
+              NUMERLOGY_COMMON.DUONG_DOI[numb].NGHE_NGHIEP_SMR ? (
+                <p key={index}>
+                  {parse(NUMERLOGY_COMMON.DUONG_DOI[numb].NGHE_NGHIEP_SMR)}
+                </p>
+              ) : null
+            )}
+          </div>
         </div>
         <div className="m-3  p-3    border border-dark-subtle rounded  ">
           <h4 className="  mt-3 px-2 ">LỜI KHUYÊN VÀ CÁCH PHÁT TRIỂN</h4>
