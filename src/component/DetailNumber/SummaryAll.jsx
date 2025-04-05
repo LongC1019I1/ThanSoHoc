@@ -7,6 +7,8 @@ import {
   NUMEROLOGY_LIFE_PATH,
   NUMEROLOGY_SOUL_NUMBER,
   NUMERLOGY_COMMON,
+  NUMERLOGY_JOB,
+  SOLUTION_NUMB,
 } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { Fragment } from "react";
@@ -57,32 +59,13 @@ function SummaryAll() {
           </p>
           <div>
             {weakNumb.map((numb, index) => {
-              // Danh sách số mạnh cần kiểm tra theo từng trường hợp của numb
-              const strongNumCheck = {
-                1: [11, 10],
-                2: [22, 11],
-                3: [33, 30],
-                6: [33],
-              };
-
-              console.log({ strongNumb });
-
-              // Kiểm tra nếu strongNumb chứa bất kỳ số nào trong danh sách của numb
-              const hasStrongNum = strongNumCheck[numb]?.some((num) =>
-                strongNumb.includes(num)
+              return (
+                <Fragment key={index}>
+                  {WEAK_NUMB[numb] && WEAK_NUMB[numb].noidung
+                    ? parse(WEAK_NUMB[numb].noidung)
+                    : null}
+                </Fragment>
               );
-
-              if (!hasStrongNum) {
-                return (
-                  <Fragment key={index}>
-                    {WEAK_NUMB[numb] && WEAK_NUMB[numb].noidung
-                      ? parse(WEAK_NUMB[numb].noidung)
-                      : null}
-                  </Fragment>
-                );
-              }
-
-              return null;
             })}
           </div>
           <div className="">
@@ -113,9 +96,9 @@ function SummaryAll() {
               : ""}
           </p>
           <p>
-            {NUMERLOGY_COMMON.DUONG_DOI[numberKarma] &&
-            NUMERLOGY_COMMON.DUONG_DOI[numberKarma]
-              ? parse(NUMERLOGY_COMMON.DUONG_DOI[numberKarma].MUC_DICH)
+            {NUMEROLOGY_SOUL_NUMBER[numberKarma] &&
+            NUMEROLOGY_SOUL_NUMBER[numberKarma]
+              ? parse(NUMEROLOGY_SOUL_NUMBER[numberKarma].tomtat)
               : ""}
           </p>
         </div>
@@ -128,24 +111,32 @@ function SummaryAll() {
             thế cạnh tranh (mối quan hệ, truyền thống, gia đình, tài chính, nơi
             ở ..vv) của Bạn để Bạn lựa chọn được nghề nghiệp phù hợp nhất.
           </p>
-          <p class="mt-4">
-            {NUMERLOGY_COMMON.DUONG_DOI[numberKarma] &&
-            NUMERLOGY_COMMON.DUONG_DOI[numberKarma]
-              ? parse(NUMERLOGY_COMMON.DUONG_DOI[numberKarma].NGHE_NGHIEP)
-              : ""}
-          </p>
+          <div>
+            {strongNumb.map((numb, index) =>
+              NUMERLOGY_JOB[numb] && NUMERLOGY_JOB[numb].noidung ? (
+                <div className="mt-4" key={index}>
+                  {parse(NUMERLOGY_JOB[numb].noidung)}
+                </div>
+              ) : null
+            )}
+          </div>
         </div>
         <div className="m-3  p-3    border border-dark-subtle rounded  ">
           <h4 className="  mt-3 px-2 ">LỜI KHUYÊN VÀ CÁCH PHÁT TRIỂN</h4>
           <p class="text-danger">
             Là những đề xuất phát triển giúp bạn trở nên hoàn thiện hơn
           </p>
-          <p>
-            {NUMERLOGY_COMMON.DUONG_DOI[numberKarma] &&
-            NUMERLOGY_COMMON.DUONG_DOI[numberKarma]
-              ? parse(NUMERLOGY_COMMON.DUONG_DOI[numberKarma].HUONG_PT)
-              : ""}
-          </p>
+          <div>
+            {weakNumb.map((numb, index) => {
+              return (
+                <Fragment key={index}>
+                  {SOLUTION_NUMB[numb] && SOLUTION_NUMB[numb].noidung
+                    ? parse(SOLUTION_NUMB[numb].noidung)
+                    : null}
+                </Fragment>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

@@ -1041,45 +1041,6 @@ export const STRONG_NUMB = {
   },
 };
 
-export const WEAK_NUMB = {
-  1: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Thiếu quyết đoán và chính kiến</strong>, dễ bị ảnh hưởng bởi ý kiến của người khác.</p> <p><strong class='text-danger'>Ngại thử thách và sợ thất bại</strong>, thường không dám bước ra khỏi vùng an toàn.</p> <p><strong class='text-danger'>Khó tự lập và dễ phụ thuộc</strong>, thiếu khả năng lãnh đạo và tự chủ trong cuộc sống.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc thể hiện bản thân</strong>, dễ cảm thấy tự ti và so sánh với người khác.</p> <p><strong class='text-danger'>Dễ bị thao túng trong các mối quan hệ</strong>, thiếu sự vững vàng khi đưa ra quan điểm cá nhân.</p>",
-  },
-  2: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Thiếu khả năng kết nối và hòa hợp</strong>, khó làm việc nhóm và dễ xảy ra mâu thuẫn.</p> <p><strong class='text-danger'>Khó bày tỏ cảm xúc</strong>, dễ bị hiểu lầm và tạo khoảng cách với người khác.</p> <p><strong class='text-danger'>Thiếu sự nhạy bén về cảm xúc</strong>, không dễ thấu hiểu tâm lý người khác.</p> <p><strong class='text-danger'>Dễ cảm thấy cô đơn</strong>, khó duy trì các mối quan hệ bền vững.</p> ",
-  },
-  3: {
-    noidung:
-      "<p class='mt-5' ><strong class='text-danger'>Thiếu sự sáng tạo và linh hoạt</strong>, tư duy cứng nhắc.</p><p><strong class='text-danger'>Thiếu sự lạc quan</strong>, dễ bị tiêu cực.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc diễn đạt ý tưởng</strong>, khó thể hiện bản thân trước đám đông.</p>",
-  },
-  4: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Thiếu kỷ luật</strong>, hay tùy hứng hành động.</p><p><strong class='text-danger'>Không có kế hoạch rõ ràng</strong>, hay trì hoãn.</p><p><strong class='text-danger'>Thiếu kiên trì với mục tiêu</strong>, hay thay đổi quyết định.</p>",
-  },
-  5: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Ngại thay đổi</strong>, dễ bị mắc kẹt trong lối sống cũ.</p> <p><strong class='text-danger'>Thiếu tinh thần phiêu lưu</strong>, sợ mạo hiểm.</p> <p><strong class='text-danger'>Khó thích nghi</strong> khi gặp tình huống mới.</p>",
-  },
-  6: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Khó thể hiện tình cảm</strong>, cảm thấy không thoải mái khi bày tỏ yêu thương.</p> <p><strong class='text-danger'>Dễ cảm thấy áp lực</strong> khi phải chịu trách nhiệm với ai đó.</p>",
-  },
-  7: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Dễ tin người, ít phân tích sâu</strong> , Có thể bị lừa gạt, dễ bị tác động bởi người khác.</p> <p><strong class='text-danger'>Học theo lý thuyết nhiều hơn thực tế</strong> , Dễ bị 'lý thuyết suông', thiếu tư duy phản biện.</p> <p><strong class='text-danger'>Dễ bị tổn thương về tinh thần,</strong>  Không chịu được những áp lực lớn về cảm xúc hoặc tâm lý.</p>",
-  },
-  8: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Gặp khó khăn trong việc quản lý tài chính</strong>, dễ rơi vào tình trạng chi tiêu mất kiểm soát.</p> <p><strong class='text-danger'>Thiếu quyết đoán trong các quyết định quan trọng</strong> , Hay do dự, sợ sai lầm dẫn đến bỏ lỡ cơ hội.</p> <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác, thiếu lập trường vững vàng</strong> , Thiếu sự kiên định, dễ thay đổi theo ý kiến của người khác.</p> <p><strong class='text-danger'>Không giỏi tổ chức và điều hành</strong>, dễ mất kiểm soát trong công việc, dẫn đến thiếu hiệu quả.</p>",
-  },
-  9: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'> Thiếu sự đồng cảm và lòng trắc ẩn với người khác.</strong>, khó bao dung và dễ để bụng những chuyện nhỏ nhặt.</p> <p><strong class='text-danger'>Ích kỷ trong suy nghĩ</strong>, thường đặt lợi ích cá nhân hoặc gia đình lên trên lợi ích chung.</p> <p><strong class='text-danger'>Thiếu trách nhiệm với cộng đồng</strong>, ít quan tâm đến những vấn đề xã hội hoặc những người xung quanh.</p>",
-  },
-};
-
 export const TOP_PEAK = {
   1: {
     noidung:
@@ -1232,5 +1193,267 @@ export const TOP_CHALLENGE = {
   44: {
     noidung:
       "<p><b>Xây dựng, lãnh đạo và ổn định</b></p> <p>Nếu bạn có số 44 ở đỉnh cao, điều này có nghĩa là bạn đang bước vào một giai đoạn rất mạnh mẽ để tạo dựng sự nghiệp, tài chính và các giá trị bền vững. </p> <p>Đây là thời điểm bạn có thể trở thành người lãnh đạo xuất sắc, người kiến tạo xã hội, hoặc người tiên phong trong lĩnh vực của mình.</p>",
+  },
+};
+export const NUMERLOGY_JOB = {
+  1: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> lãnh đạo, tự lập, quyết đoán và khả năng tiên phong.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Doanh nhân, giám đốc điều hành, quản lý dự án, chính trị gia, luật sư, nhà sáng lập startup.</p>",
+  },
+
+  2: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> thấu hiểu, hợp tác, tinh tế trong giao tiếp và hòa giải mâu thuẫn.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Chuyên viên tư vấn, tâm lý học, nhân sự, ngoại giao, phiên dịch viên, nghệ sĩ cảm xúc.</p>",
+  },
+
+  3: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> sáng tạo, truyền đạt cảm xúc và truyền cảm hứng qua ngôn từ và hình ảnh.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Nhà văn, MC, diễn viên, nhà sáng tạo nội dung, quảng cáo, thiết kế, truyền thông.</p>",
+  },
+
+  4: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> tổ chức, kỷ luật, làm việc bền bỉ và tạo ra hệ thống vững chắc.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Kỹ sư, kế toán, quản trị vận hành, xây dựng, công chức, quản lý dữ liệu.</p>",
+  },
+
+  5: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> thích nghi, giao tiếp rộng, yêu tự do và khám phá cái mới.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Sales, hướng dẫn viên du lịch, tiếp viên, phóng viên, influencer, nghề sáng tạo linh hoạt.</p>",
+  },
+
+  6: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> yêu thương, chăm sóc và xây dựng sự hài hòa trong cộng đồng.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Giáo viên, bác sĩ, tư vấn tâm lý, công tác xã hội, làm đẹp, chăm sóc sức khỏe và gia đình.</p>",
+  },
+
+  7: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> phân tích sâu sắc, tư duy logic và khả năng chiêm nghiệm cuộc sống.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Nhà nghiên cứu, lập trình viên, học giả, chuyên gia phân tích, hướng dẫn thiền, tâm linh.</p>",
+  },
+
+  8: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> lãnh đạo tài chính, kiểm soát nguồn lực và điều hành tổ chức lớn.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Giám đốc tài chính, đầu tư, ngân hàng, bất động sản, CEO, quản lý doanh nghiệp.</p>",
+  },
+
+  9: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> phụng sự cộng đồng, sống lý tưởng và truyền cảm hứng nhân văn.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Bác sĩ, nhà giáo, nhà hoạt động xã hội, nghệ sĩ nhân đạo, người làm từ thiện, nhà văn.</p>",
+  },
+
+  11: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> tâm linh, trực giác mạnh và khả năng truyền cảm hứng sâu sắc.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Diễn giả, healer, coach phát triển bản thân, nhà sáng tạo tâm linh, nhà văn, nghệ sĩ truyền cảm hứng.</p>",
+  },
+
+  22: {
+    noidung:
+      "<p><strong>Bạn có năng lực</strong> kết nối lý tưởng lớn với hành động thực tế để xây dựng những công trình vĩ mô.</p>" +
+      "<p><strong>Nghề phù hợp: </strong>Kiến trúc sư, nhà phát triển hệ thống xã hội, nhà sáng lập tổ chức, cố vấn chiến lược, nhà thiết kế tầm cỡ.</p>",
+  },
+};
+
+export const WEAK_NUMB = {
+  1: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Thiếu quyết đoán và chính kiến</strong>, dễ bị ảnh hưởng bởi ý kiến của người khác.</p> <p><strong class='text-danger'>Ngại thử thách và sợ thất bại</strong>, thường không dám bước ra khỏi vùng an toàn.</p> <p><strong class='text-danger'>Khó tự lập và dễ phụ thuộc</strong>, thiếu khả năng lãnh đạo và tự chủ trong cuộc sống.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc thể hiện bản thân</strong>, dễ cảm thấy tự ti và so sánh với người khác.</p> <p><strong class='text-danger'>Dễ bị thao túng trong các mối quan hệ</strong>, thiếu sự vững vàng khi đưa ra quan điểm cá nhân.</p>",
+  },
+  2: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Thiếu khả năng kết nối và hòa hợp</strong>, khó làm việc nhóm và dễ xảy ra mâu thuẫn.</p> <p><strong class='text-danger'>Khó bày tỏ cảm xúc</strong>, dễ bị hiểu lầm và tạo khoảng cách với người khác.</p> <p><strong class='text-danger'>Thiếu sự nhạy bén về cảm xúc</strong>, không dễ thấu hiểu tâm lý người khác.</p> <p><strong class='text-danger'>Dễ cảm thấy cô đơn</strong>, khó duy trì các mối quan hệ bền vững.</p> ",
+  },
+  3: {
+    noidung:
+      "<p class='mt-5' ><strong class='text-danger'>Thiếu sự sáng tạo và linh hoạt</strong>, tư duy cứng nhắc.</p><p><strong class='text-danger'>Thiếu sự lạc quan</strong>, dễ bị tiêu cực.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc diễn đạt ý tưởng</strong>, khó thể hiện bản thân trước đám đông.</p>",
+  },
+  4: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Thiếu kỷ luật</strong>, hay tùy hứng hành động.</p><p><strong class='text-danger'>Không có kế hoạch rõ ràng</strong>, hay trì hoãn.</p><p><strong class='text-danger'>Thiếu kiên trì với mục tiêu</strong>, hay thay đổi quyết định.</p>",
+  },
+  5: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Ngại thay đổi</strong>, dễ bị mắc kẹt trong lối sống cũ.</p> <p><strong class='text-danger'>Thiếu tinh thần phiêu lưu</strong>, sợ mạo hiểm.</p> <p><strong class='text-danger'>Khó thích nghi</strong> khi gặp tình huống mới.</p>",
+  },
+  6: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Khó thể hiện tình cảm</strong>, cảm thấy không thoải mái khi bày tỏ yêu thương.</p> <p><strong class='text-danger'>Dễ cảm thấy áp lực</strong> khi phải chịu trách nhiệm với ai đó.</p>",
+  },
+  7: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Dễ tin người, ít phân tích sâu</strong> , Có thể bị lừa gạt, dễ bị tác động bởi người khác.</p> <p><strong class='text-danger'>Học theo lý thuyết nhiều hơn thực tế</strong> , Dễ bị 'lý thuyết suông', thiếu tư duy phản biện.</p> <p><strong class='text-danger'>Dễ bị tổn thương về tinh thần,</strong>  Không chịu được những áp lực lớn về cảm xúc hoặc tâm lý.</p>",
+  },
+  8: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Gặp khó khăn trong việc quản lý tài chính</strong>, dễ rơi vào tình trạng chi tiêu mất kiểm soát.</p> <p><strong class='text-danger'>Thiếu quyết đoán trong các quyết định quan trọng</strong> , Hay do dự, sợ sai lầm dẫn đến bỏ lỡ cơ hội.</p> <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác, thiếu lập trường vững vàng</strong> , Thiếu sự kiên định, dễ thay đổi theo ý kiến của người khác.</p> <p><strong class='text-danger'>Không giỏi tổ chức và điều hành</strong>, dễ mất kiểm soát trong công việc, dẫn đến thiếu hiệu quả.</p>",
+  },
+  9: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'> Thiếu sự đồng cảm và lòng trắc ẩn với người khác.</strong>, khó bao dung và dễ để bụng những chuyện nhỏ nhặt.</p> <p><strong class='text-danger'>Ích kỷ trong suy nghĩ</strong>, thường đặt lợi ích cá nhân hoặc gia đình lên trên lợi ích chung.</p> <p><strong class='text-danger'>Thiếu trách nhiệm với cộng đồng</strong>, ít quan tâm đến những vấn đề xã hội hoặc những người xung quanh.</p>",
+  },
+};
+
+export const SOLUTION_NUMB = {
+  1: {
+    noidung: `
+    <p><strong>Điểm yếu:</strong> Thiếu quyết đoán, thiếu chính kiến, dễ bị thao túng.</p>
+    <p><strong>Giải pháp:</strong></p>
+    <ul>
+      <li>Rèn luyện tư duy phản biện.</li>
+      <li>Tập nói “không” và đưa ra ý kiến cá nhân.</li>
+      <li>Tham gia các khoá học lãnh đạo hoặc phát triển bản thân.</li>
+    </ul>
+    <p><strong>Nghề cần hạn chế:</strong></p>
+    <ul>
+      <li>CEO, quản lý cấp cao.</li>
+      <li>Founder startup, chỉ huy trưởng.</li>
+      <li>Đầu tư, tài chính, đàm phán cạnh tranh.</li>
+    </ul>
+    `,
+  },
+  2: {
+    noidung: `
+    <p><strong>Điểm yếu:</strong> Khó kết nối, khó bày tỏ cảm xúc, dễ cô lập.</p>
+    <p><strong>Giải pháp:</strong></p>
+    <ul>
+      <li>Học cách giao tiếp phi bạo lực, kỹ năng lắng nghe chủ động.</li>
+      <li>Tham gia hoạt động nhóm, rèn khả năng chia sẻ.</li>
+      <li>Viết nhật ký cảm xúc mỗi ngày.</li>
+    </ul>
+    <p><strong>Nghề cần hạn chế:</strong></p>
+    <ul>
+      <li>Nhân sự, chăm sóc khách hàng, tư vấn tâm lý.</li>
+      <li>Giáo viên mầm non, điều dưỡng.</li>
+      <li>Công việc đòi hỏi hợp tác nhóm cao.</li>
+    </ul>
+    `,
+  },
+  3: {
+    noidung: `
+    <p><strong>Điểm yếu:</strong> Thiếu sáng tạo, khó thể hiện bản thân, dễ tiêu cực.</p>
+    <p><strong>Giải pháp:</strong></p>
+    <ul>
+      <li>Tham gia hoạt động nghệ thuật, sáng tạo (vẽ, viết, múa).</li>
+      <li>Tập viết blog, trình bày quan điểm cá nhân.</li>
+      <li>Hạn chế môi trường tiêu cực, nhiều rập khuôn.</li>
+    </ul>
+    <p><strong>Nghề cần hạn chế:</strong></p>
+    <ul>
+      <li>Kế toán – kiểm toán – tài chính thuần túy.</li>
+      <li>Hành chính khô khan.</li>
+      <li>Lập trình back-end, QA cứng nhắc.</li>
+    </ul>
+    `,
+  },
+  4: {
+    noidung: `
+      <p><strong>Điểm yếu:</strong> Thiếu kỷ luật, trì hoãn, thiếu kế hoạch.</p>
+    <p><strong>Giải pháp:</strong></p>
+    <ul>
+      <li>Áp dụng phương pháp quản lý thời gian (Pomodoro, Eisenhower).</li>
+      <li>Lên kế hoạch tuần/ngày rõ ràng.</li>
+      <li>Cam kết với người khác để có trách nhiệm hơn.</li>
+    </ul>
+    <p><strong>Nghề cần hạn chế:</strong></p>
+    <ul>
+      <li>Quản lý dự án, lập kế hoạch.</li>
+      <li>Logistics, điều phối sản xuất.</li>
+      <li>Công việc hành chính – hệ thống nghiêm ngặt.</li>
+    </ul>
+    `,
+  },
+  5: {
+    noidung: `
+    <p><strong>Điểm yếu:</strong> Ngại thay đổi, thiếu linh hoạt, khó thích nghi.</p>
+    <p><strong>Giải pháp:</strong></p>
+    <ul>
+      <li>Tập tiếp xúc với môi trường mới (du lịch, học hỏi đa lĩnh vực).</li>
+      <li>Thiền hoặc viết nhật ký để quan sát nỗi sợ thay đổi.</li>
+      <li>Thử thách bản thân với những thay đổi nhỏ hằng tuần.</li>
+    </ul>
+    <p><strong>Nghề cần hạn chế:</strong></p>
+    <ul>
+      <li>Sales năng động, startup công nghệ.</li>
+      <li>Nghề nhiều công tác.</li>
+      <li>Hướng dẫn viên du lịch, freelancer.</li>
+    </ul>
+    `,
+  },
+  6: {
+    noidung: `
+    <p><strong>Điểm yếu:</strong> Khó thể hiện yêu thương, áp lực khi chịu trách nhiệm.</p>
+    <p><strong>Giải pháp:</strong></p>
+    <ul>
+      <li>Làm việc nội tâm về tình cảm và trách nhiệm cá nhân.</li>
+      <li>Tập nói lời yêu thương một cách đơn giản, chân thành.</li>
+      <li>Nhận nhiệm vụ nhỏ có yếu tố chăm sóc để rèn dần.</li>
+    </ul>
+    <p><strong>Nghề cần hạn chế:</strong></p>
+    <ul>
+      <li>Y tá, giáo viên tiểu học, điều dưỡng.</li>
+      <li>Luật sư, giám đốc nhân sự.</li>
+      <li>Tư vấn viên, quản lý gia đình.</li>
+    </ul>
+    `,
+  },
+  7: {
+    noidung: `
+      <p><strong>Điểm yếu:</strong> Thiếu thực tế, dễ bị lừa, thiếu tư duy phản biện.</p>
+    <p><strong>Giải pháp:</strong></p>
+    <ul>
+      <li>Rèn tư duy logic và xác minh thông tin.</li>
+      <li>Thực hành viết phân tích – lập luận.</li>
+      <li>Hạn chế tin đồn, rèn luyện tiếp cận thông tin khách quan.</li>
+    </ul>
+    <p><strong>Nghề cần hạn chế:</strong></p>
+    <ul>
+      <li>Đầu tư mạo hiểm, tiền ảo.</li>
+      <li>Phân tích dữ liệu, nghiên cứu khoa học.</li>
+      <li>Tư vấn kỹ thuật, pháp lý.</li>
+    </ul>
+    `,
+  },
+  8: {
+    noidung: `
+      <p><strong>Điểm yếu:</strong> Quản lý tài chính kém, thiếu quyết đoán, dễ bị ảnh hưởng.</p>
+    <p><strong>Giải pháp:</strong></p>
+    <ul>
+      <li>Tập lập ngân sách cá nhân.</li>
+      <li>Rèn luyện kỹ năng ra quyết định theo nguyên tắc.</li>
+      <li>Làm việc với mentor hoặc huấn luyện viên tài chính.</li>
+    </ul>
+    <p><strong>Nghề cần hạn chế:</strong></p>
+    <ul>
+      <li>Chủ doanh nghiệp, giám đốc tài chính.</li>
+      <li>Quản lý ngân sách, đầu tư.</li>
+      <li>Chính trị, đấu tranh quyền lực.</li>
+    </ul>
+    `,
+  },
+  9: {
+    noidung: `
+    <p><strong>Điểm yếu:</strong> Ích kỷ, thiếu lòng trắc ẩn, thiếu tinh thần cộng đồng.</p>
+    <p><strong>Giải pháp:</strong></p>
+    <ul>
+      <li>Tham gia thiện nguyện hoặc hoạt động vì cộng đồng.</li>
+      <li>Tập lòng biết ơn, viết “3 điều biết ơn mỗi ngày”.</li>
+      <li>Quan sát và học từ những người giàu lòng nhân ái.</li>
+    </ul>
+    <p><strong>Nghề cần hạn chế:</strong></p>
+    <ul>
+      <li>Từ thiện, công tác xã hội, giáo dục khai tâm.</li>
+      <li>Hướng đạo, bác sĩ không biên giới.</li>
+      <li>Vai trò đạo đức, tâm linh.</li>
+    </ul>
+    `,
   },
 };
