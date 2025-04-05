@@ -1305,14 +1305,20 @@ export const WEAK_NUMB = {
 export const SOLUTION_NUMB = {
   1: {
     noidung: `
-    <p><strong>Điểm yếu:</strong> Thiếu quyết đoán, thiếu chính kiến, dễ bị thao túng.</p>
-    <p><strong>Giải pháp:</strong></p>
+    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+      <ul>
+        <li>Thiếu quyết đoán,</li>
+        <li>Thiếu chính kiến,</li>
+        <li>Dễ bị thao túng.</li>
+      </ul>
+    </p>
+    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
     <ul>
       <li>Rèn luyện tư duy phản biện.</li>
       <li>Tập nói “không” và đưa ra ý kiến cá nhân.</li>
       <li>Tham gia các khoá học lãnh đạo hoặc phát triển bản thân.</li>
     </ul>
-    <p><strong>Nghề cần hạn chế:</strong></p>
+    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
     <ul>
       <li>CEO, quản lý cấp cao.</li>
       <li>Founder startup, chỉ huy trưởng.</li>
@@ -1322,14 +1328,20 @@ export const SOLUTION_NUMB = {
   },
   2: {
     noidung: `
-    <p><strong>Điểm yếu:</strong> Khó kết nối, khó bày tỏ cảm xúc, dễ cô lập.</p>
-    <p><strong>Giải pháp:</strong></p>
+    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+      <ul>
+        <li>Khó kết nối,</li>
+        <li>Khó bày tỏ cảm xúc,</li>
+        <li>Dễ cô lập.</li>
+      </ul>
+    </p>
+    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
     <ul>
       <li>Học cách giao tiếp phi bạo lực, kỹ năng lắng nghe chủ động.</li>
       <li>Tham gia hoạt động nhóm, rèn khả năng chia sẻ.</li>
       <li>Viết nhật ký cảm xúc mỗi ngày.</li>
     </ul>
-    <p><strong>Nghề cần hạn chế:</strong></p>
+    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
     <ul>
       <li>Nhân sự, chăm sóc khách hàng, tư vấn tâm lý.</li>
       <li>Giáo viên mầm non, điều dưỡng.</li>
@@ -1339,31 +1351,43 @@ export const SOLUTION_NUMB = {
   },
   3: {
     noidung: `
-    <p><strong>Điểm yếu:</strong> Thiếu sáng tạo, khó thể hiện bản thân, dễ tiêu cực.</p>
-    <p><strong>Giải pháp:</strong></p>
+    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+      <ul>
+        <li>Thiếu sáng tạo,</li>
+        <li>Khó thể hiện bản thân,</li>
+        <li>Dễ tiêu cực.</li>
+      </ul>
+    </p>
+    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
     <ul>
       <li>Tham gia hoạt động nghệ thuật, sáng tạo (vẽ, viết, múa).</li>
       <li>Tập viết blog, trình bày quan điểm cá nhân.</li>
       <li>Hạn chế môi trường tiêu cực, nhiều rập khuôn.</li>
     </ul>
-    <p><strong>Nghề cần hạn chế:</strong></p>
+    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
     <ul>
-      <li>Kế toán – kiểm toán – tài chính thuần túy.</li>
-      <li>Hành chính khô khan.</li>
-      <li>Lập trình back-end, QA cứng nhắc.</li>
+      <li>Diễn viên, ca sĩ.</li>
+      <li>MC, phát thanh viên.</li>
+      <li>Content Creator.</li>
     </ul>
     `,
   },
   4: {
     noidung: `
-      <p><strong>Điểm yếu:</strong> Thiếu kỷ luật, trì hoãn, thiếu kế hoạch.</p>
-    <p><strong>Giải pháp:</strong></p>
+    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+      <ul>
+        <li>Thiếu kỷ luật,</li>
+        <li>Trì hoãn,</li>
+        <li>Thiếu kế hoạch.</li>
+      </ul>
+    </p>
+    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
     <ul>
       <li>Áp dụng phương pháp quản lý thời gian (Pomodoro, Eisenhower).</li>
       <li>Lên kế hoạch tuần/ngày rõ ràng.</li>
       <li>Cam kết với người khác để có trách nhiệm hơn.</li>
     </ul>
-    <p><strong>Nghề cần hạn chế:</strong></p>
+    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
     <ul>
       <li>Quản lý dự án, lập kế hoạch.</li>
       <li>Logistics, điều phối sản xuất.</li>
@@ -1373,14 +1397,20 @@ export const SOLUTION_NUMB = {
   },
   5: {
     noidung: `
-    <p><strong>Điểm yếu:</strong> Ngại thay đổi, thiếu linh hoạt, khó thích nghi.</p>
-    <p><strong>Giải pháp:</strong></p>
+    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+      <ul>
+        <li>Ngại thay đổi,</li>
+        <li>Thiếu linh hoạt,</li>
+        <li>Khó thích nghi.</li>
+      </ul>
+    </p>
+    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
     <ul>
       <li>Tập tiếp xúc với môi trường mới (du lịch, học hỏi đa lĩnh vực).</li>
       <li>Thiền hoặc viết nhật ký để quan sát nỗi sợ thay đổi.</li>
       <li>Thử thách bản thân với những thay đổi nhỏ hằng tuần.</li>
     </ul>
-    <p><strong>Nghề cần hạn chế:</strong></p>
+    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
     <ul>
       <li>Sales năng động, startup công nghệ.</li>
       <li>Nghề nhiều công tác.</li>
@@ -1390,14 +1420,19 @@ export const SOLUTION_NUMB = {
   },
   6: {
     noidung: `
-    <p><strong>Điểm yếu:</strong> Khó thể hiện yêu thương, áp lực khi chịu trách nhiệm.</p>
-    <p><strong>Giải pháp:</strong></p>
+    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+      <ul>
+        <li>Khó thể hiện yêu thương,</li>
+        <li>Áp lực khi chịu trách nhiệm.</li>
+      </ul>
+    </p>
+    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
     <ul>
       <li>Làm việc nội tâm về tình cảm và trách nhiệm cá nhân.</li>
       <li>Tập nói lời yêu thương một cách đơn giản, chân thành.</li>
       <li>Nhận nhiệm vụ nhỏ có yếu tố chăm sóc để rèn dần.</li>
     </ul>
-    <p><strong>Nghề cần hạn chế:</strong></p>
+    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
     <ul>
       <li>Y tá, giáo viên tiểu học, điều dưỡng.</li>
       <li>Luật sư, giám đốc nhân sự.</li>
@@ -1407,14 +1442,20 @@ export const SOLUTION_NUMB = {
   },
   7: {
     noidung: `
-      <p><strong>Điểm yếu:</strong> Thiếu thực tế, dễ bị lừa, thiếu tư duy phản biện.</p>
-    <p><strong>Giải pháp:</strong></p>
+    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+      <ul>
+        <li>Thiếu thực tế,</li>
+        <li>Dễ bị lừa,</li>
+        <li>Thiếu tư duy phản biện.</li>
+      </ul>
+    </p>
+    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
     <ul>
       <li>Rèn tư duy logic và xác minh thông tin.</li>
       <li>Thực hành viết phân tích – lập luận.</li>
       <li>Hạn chế tin đồn, rèn luyện tiếp cận thông tin khách quan.</li>
     </ul>
-    <p><strong>Nghề cần hạn chế:</strong></p>
+    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
     <ul>
       <li>Đầu tư mạo hiểm, tiền ảo.</li>
       <li>Phân tích dữ liệu, nghiên cứu khoa học.</li>
@@ -1424,14 +1465,20 @@ export const SOLUTION_NUMB = {
   },
   8: {
     noidung: `
-      <p><strong>Điểm yếu:</strong> Quản lý tài chính kém, thiếu quyết đoán, dễ bị ảnh hưởng.</p>
-    <p><strong>Giải pháp:</strong></p>
+    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+      <ul>
+        <li>Quản lý tài chính kém,</li>
+        <li>Thiếu quyết đoán,</li>
+        <li>Dễ bị ảnh hưởng.</li>
+      </ul>
+    </p>
+    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
     <ul>
       <li>Tập lập ngân sách cá nhân.</li>
       <li>Rèn luyện kỹ năng ra quyết định theo nguyên tắc.</li>
       <li>Làm việc với mentor hoặc huấn luyện viên tài chính.</li>
     </ul>
-    <p><strong>Nghề cần hạn chế:</strong></p>
+    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
     <ul>
       <li>Chủ doanh nghiệp, giám đốc tài chính.</li>
       <li>Quản lý ngân sách, đầu tư.</li>
@@ -1441,14 +1488,20 @@ export const SOLUTION_NUMB = {
   },
   9: {
     noidung: `
-    <p><strong>Điểm yếu:</strong> Ích kỷ, thiếu lòng trắc ẩn, thiếu tinh thần cộng đồng.</p>
-    <p><strong>Giải pháp:</strong></p>
+    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+      <ul>
+        <li>Ích kỷ,</li>
+        <li>Thiếu lòng trắc ẩn,</li>
+        <li>Thiếu tinh thần cộng đồng.</li>
+      </ul>
+    </p>
+    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
     <ul>
       <li>Tham gia thiện nguyện hoặc hoạt động vì cộng đồng.</li>
       <li>Tập lòng biết ơn, viết “3 điều biết ơn mỗi ngày”.</li>
       <li>Quan sát và học từ những người giàu lòng nhân ái.</li>
     </ul>
-    <p><strong>Nghề cần hạn chế:</strong></p>
+    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
     <ul>
       <li>Từ thiện, công tác xã hội, giáo dục khai tâm.</li>
       <li>Hướng đạo, bác sĩ không biên giới.</li>

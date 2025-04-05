@@ -129,13 +129,20 @@ function SummaryAll() {
           <div>
             {weakNumb.map((numb, index) => {
               return (
-                <Fragment key={index}>
+                <div
+                  className={`mt-5 ${index % 2 === 0 ? "even" : "odd"}`}
+                  key={index}
+                >
                   {SOLUTION_NUMB[numb] && SOLUTION_NUMB[numb].noidung
                     ? parse(SOLUTION_NUMB[numb].noidung)
                     : null}
-                </Fragment>
+                </div>
               );
             })}
+          </div>
+          <div class="note-box mt-5">
+            <strong>🚫 LƯU Ý: </strong> &nbsp; Những nghề nêu trên không phải
+            bạn không làm được mà bạn cần phải nỗ lực nhiều hơn để bù đắp{" "}
           </div>
         </div>
       </div>
