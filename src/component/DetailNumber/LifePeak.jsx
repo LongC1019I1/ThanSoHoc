@@ -9,7 +9,7 @@ import {
   Line,
 } from "react-konva";
 import React, { useEffect, useRef, useState, Fragment } from "react";
-function LifePeak({ topFour, btn }) {
+function LifePeak({ topFour, btn, show = true }) {
   const canvasEl = useRef(null);
   const [wRightPanel, setWLeftPanel] = useState();
   const [kamarNumeroMain, setKamarNumeroMain] = useState(9);
@@ -503,21 +503,23 @@ function LifePeak({ topFour, btn }) {
           </Stage>
         </div>
         <div class="d-flex justify-content-center">
-          <button
-            style={{
-              color: "white",
-              padding: "10px 20px",
-              border: "none",
-              borderRadius: "5px",
-              cursor: "pointer",
-              marginTop: "10px",
-              position: "relative",
-              top: "-30px",
-            }}
-            className={` btn ${btn.class_name}`}
-          >
-            <span>👉</span> {btn.noi_dung}
-          </button>
+          {show && (
+            <button
+              style={{
+                color: "white",
+                padding: "10px 20px",
+                border: "none",
+                borderRadius: "5px",
+                cursor: "pointer",
+                marginTop: "10px",
+                position: "relative",
+                top: "-30px",
+              }}
+              className={` btn ${btn.class_name}`}
+            >
+              <span>👉</span> {btn.noi_dung}
+            </button>
+          )}
         </div>
       </div>
     </Fragment>

@@ -64,14 +64,6 @@ const ChartCombineEnergy = function ({
   amountNumber[mature] = amountNumber[mature] ? amountNumber[mature] + 3 : 3;
 
   // start Kiem tra so manh va yeu
-  const weak_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-  const weakNumbers = weak_arr.filter(
-    (num) => !amountNumber.hasOwnProperty(num)
-  );
-
-  dispatch(numberKarmaActions.setWeakListNumb(weakNumbers));
-
-  console.log({ weakNumbers });
 
   const stong_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 20, 22, 30, 33];
   const strongNumber = stong_arr.filter((num) => amountNumber[num] >= 4);
@@ -80,11 +72,35 @@ const ChartCombineEnergy = function ({
     (a, b) => amountNumber[b] - amountNumber[a]
   );
 
-  console.log({ strong_arr_sort });
-
-
   dispatch(numberKarmaActions.setStrongListNumb(strong_arr_sort));
   console.log({ strongNumber });
+
+  const weak_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const weakNumbers = weak_arr.filter(
+    (num) => !amountNumber.hasOwnProperty(num)
+  );
+
+  const filteredWeakContents = weakNumbers.reduce((acc, numb) => {
+    const strongNumCheck = {
+      1: [11, 10],
+      2: [22, 11],
+      3: [33, 30],
+      6: [33],
+    };
+
+    const hasStrongNum = strongNumCheck[numb]?.some((num) =>
+      strong_arr_sort.includes(num)
+    );
+
+    if (!hasStrongNum) {
+      acc.push(numb);
+    }
+
+    return acc;
+  }, []);
+  console.log({ filteredWeakContents });
+
+  dispatch(numberKarmaActions.setWeakListNumb(filteredWeakContents));
 
   // end
   const canvasEl = useRef(null);

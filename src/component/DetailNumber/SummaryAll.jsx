@@ -7,6 +7,8 @@ import {
   NUMEROLOGY_LIFE_PATH,
   NUMEROLOGY_SOUL_NUMBER,
   NUMERLOGY_COMMON,
+  NUMERLOGY_JOB,
+  SOLUTION_NUMB,
 } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { Fragment } from "react";
@@ -57,30 +59,13 @@ function SummaryAll() {
           </p>
           <div>
             {weakNumb.map((numb, index) => {
-              // Danh sách số mạnh cần kiểm tra theo từng trường hợp của numb
-              const strongNumCheck = {
-                1: [11, 10],
-                2: [22, 11],
-                3: [33, 30],
-                6: [33],
-              };
-
-              // Kiểm tra nếu strongNumb chứa bất kỳ số nào trong danh sách của numb
-              const hasStrongNum = strongNumCheck[numb]?.some((num) =>
-                strongNumb.includes(num)
+              return (
+                <Fragment key={index}>
+                  {WEAK_NUMB[numb] && WEAK_NUMB[numb].noidung
+                    ? parse(WEAK_NUMB[numb].noidung)
+                    : null}
+                </Fragment>
               );
-
-              if (!hasStrongNum) {
-                return (
-                  <Fragment key={index}>
-                    {WEAK_NUMB[numb] && WEAK_NUMB[numb].noidung
-                      ? parse(WEAK_NUMB[numb].noidung)
-                      : null}
-                  </Fragment>
-                );
-              }
-
-              return null;
             })}
           </div>
           <div className="">
@@ -112,7 +97,7 @@ function SummaryAll() {
           </p>
           <p>
             {NUMEROLOGY_SOUL_NUMBER[numberKarma] &&
-            NUMEROLOGY_SOUL_NUMBER[numberKarma].tomtat
+            NUMEROLOGY_SOUL_NUMBER[numberKarma]
               ? parse(NUMEROLOGY_SOUL_NUMBER[numberKarma].tomtat)
               : ""}
           </p>
@@ -126,13 +111,12 @@ function SummaryAll() {
             thế cạnh tranh (mối quan hệ, truyền thống, gia đình, tài chính, nơi
             ở ..vv) của Bạn để Bạn lựa chọn được nghề nghiệp phù hợp nhất.
           </p>
-          <div class="mt-4">
+          <div>
             {strongNumb.map((numb, index) =>
-              NUMERLOGY_COMMON.DUONG_DOI[numb] &&
-              NUMERLOGY_COMMON.DUONG_DOI[numb].NGHE_NGHIEP_SMR ? (
-                <p key={index}>
-                  {parse(NUMERLOGY_COMMON.DUONG_DOI[numb].NGHE_NGHIEP_SMR)}
-                </p>
+              NUMERLOGY_JOB[numb] && NUMERLOGY_JOB[numb].noidung ? (
+                <div className="mt-4" key={index}>
+                  {parse(NUMERLOGY_JOB[numb].noidung)}
+                </div>
               ) : null
             )}
           </div>
@@ -142,12 +126,24 @@ function SummaryAll() {
           <p class="text-danger">
             Là những đề xuất phát triển giúp bạn trở nên hoàn thiện hơn
           </p>
-          <p>
-            {NUMERLOGY_COMMON.DUONG_DOI[numberKarma] &&
-            NUMERLOGY_COMMON.DUONG_DOI[numberKarma]
-              ? parse(NUMERLOGY_COMMON.DUONG_DOI[numberKarma].HUONG_PT)
-              : ""}
-          </p>
+          <div>
+            {weakNumb.map((numb, index) => {
+              return (
+                <div
+                  className={`mt-5 ${index % 2 === 0 ? "even" : "odd"}`}
+                  key={index}
+                >
+                  {SOLUTION_NUMB[numb] && SOLUTION_NUMB[numb].noidung
+                    ? parse(SOLUTION_NUMB[numb].noidung)
+                    : null}
+                </div>
+              );
+            })}
+          </div>
+          <div class="note-box mt-5">
+            <strong>🚫 LƯU Ý: </strong> &nbsp; Những nghề nêu trên không phải
+            bạn không làm được mà bạn cần phải nỗ lực nhiều hơn để bù đắp{" "}
+          </div>
         </div>
       </div>
     </div>

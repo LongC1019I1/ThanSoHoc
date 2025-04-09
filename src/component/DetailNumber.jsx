@@ -13,7 +13,9 @@ import ChartDateName from "./DetailNumber/ChartDateName";
 import { useSelector } from "react-redux";
 import ChartCombineEnergy from "./DetailNumber/ChartCombineEnergy";
 import SummaryAll from "./DetailNumber/SummaryAll";
-import DateToKnown from "./DetailNumber/DateToKnown"
+import DateToKnown from "./DetailNumber/DateToKnown";
+import FourPeak from "./DetailNumber/FourPeak";
+import FourChallenge from "./DetailNumber/FourChallenge";
 // 🟢 Dữ liệu mẫu để truyền vào component
 const sampleNumbers = {
   top: 8,
@@ -106,11 +108,11 @@ function DetailNumber() {
 
             <MainNumber />
             <DateToKnown
-                numbersData={birth_day}
-                color="red"
-                buttonText="BIỂU ĐỒ NGÀY SINH"
-                buttonColor="green"
-              />
+              numbersData={birth_day}
+              color="red"
+              buttonText="BIỂU ĐỒ NGÀY SINH"
+              buttonColor="green"
+            />
             <NameNumber />
             <DestinyNumber />
             <AtituteNumber />
@@ -119,6 +121,8 @@ function DetailNumber() {
             <SoulNumber />
             <ExpressNumber />
             <InnerNumber />
+            <FourPeak topFour={top4.top4_peak} />
+            <FourChallenge topFour={top4.top4_challenge} />
             <SummaryAll />
           </Fragment>
         )}
