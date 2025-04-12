@@ -141,21 +141,69 @@ button:focus-visible {
   }
 }
 
-.note-box {
-  background-color: #fff9e6;
-  border: 0.1px solid #fae17f;
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  border-radius: 0 5px 5px 0;
-}
+.conclude {
+  .note-box {
+    background-color: #fff9e6;
+    border: 0.1px solid #fae17f;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+  }
 
+  .even {
+    padding: 25px 20px;
+    border-radius: 5px;
+    border: 1px solid #d6bbfb;
+    background-color: #f3ebfc;
+    color: #330D2E;
+  }
 
+  .odd {
+    border: 1px solid #f0c987;
+    background-color: #fdf6ec;
+  }
 
-.odd {
-  padding: 10px 0;
-  border-radius: 5px;
-  background-color: #fff8c7; /* Màu nền cho các phần tử lẻ */
+  .section {
+    border-radius: 10px;
+ 
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5d3a9b;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    color: #c69b26;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .icon {
+    margin-right: 6px;
+  }
+
+  ul {
+    padding-left: 20px;
+    margin: 5px 0;
+  }
+
+  .note {
+    font-size: 14px;
+    border: 1px dashed #c69b26;
+    background-color: #fffbe6;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+  }
+
+  .note strong {
+    color: #b06f00;
+  }
 }
 
 @media (prefers-color-scheme: light) {

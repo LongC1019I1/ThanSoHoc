@@ -25,7 +25,7 @@ function SummaryAll() {
     <div id="summary">
       <div className="container">
         <h1 className=" h1 my-5 px-2">
-          9{") "} <b className="text-info"> Xu hướng nghề nghiệp </b> và{" "}
+          <b className="text-info"> &nbsp; &nbsp;Xu hướng nghề nghiệp </b> và{" "}
           <b className="text-danger"> Tóm tắt </b>về bạn{" "}
         </h1>
         <img className=" my-1 w-100" src={tomtat} />
@@ -68,7 +68,7 @@ function SummaryAll() {
               );
             })}
           </div>
-          <div className="">
+          {/* <div className="">
             {lack_arrow.length > 0 &&
               lack_arrow.map((arr, iAr) => {
                 return (
@@ -77,7 +77,7 @@ function SummaryAll() {
                   </Fragment>
                 );
               })}
-          </div>
+          </div> */}
         </div>
 
         <div className="m-3  p-3    border border-dark-subtle rounded  ">
@@ -121,8 +121,8 @@ function SummaryAll() {
             )}
           </div>
         </div>
-        <div className="m-3  p-3    border border-dark-subtle rounded  ">
-          <h4 className="  mt-3 px-2 ">LỜI KHUYÊN VÀ CÁCH PHÁT TRIỂN</h4>
+        <div className="m-3  p-3  conclude  border border-dark-subtle rounded  ">
+          <h4 className="  mt-3 px-2 title"> LỜI KHUYÊN VÀ CÁCH PHÁT TRIỂN</h4>
           <p class="text-danger">
             Là những đề xuất phát triển giúp bạn trở nên hoàn thiện hơn
           </p>
@@ -130,7 +130,7 @@ function SummaryAll() {
             {weakNumb.map((numb, index) => {
               return (
                 <div
-                  className={`mt-5 ${index % 2 === 0 ? "even" : "odd"}`}
+                  className={`mt-5 section ${index % 2 === 0 ? "even" : "odd"}`}
                   key={index}
                 >
                   {SOLUTION_NUMB[numb] && SOLUTION_NUMB[numb].noidung
@@ -140,6 +140,7 @@ function SummaryAll() {
               );
             })}
           </div>
+
           <div class="note-box mt-5">
             <strong>🚫 LƯU Ý: </strong> &nbsp; Những nghề nêu trên không phải
             bạn không làm được mà bạn cần phải nỗ lực nhiều hơn để bù đắp{" "}

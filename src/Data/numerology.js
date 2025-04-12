@@ -164,7 +164,7 @@ export const NUMERLOGY_COMMON = {
       NGHE_NGHIEP:
         "Người Số 3 phù hợp với các công việc yêu cầu tư duy sáng tạo, giao tiếp mạnh mẽ và sự linh hoạt trong ngôn từ. Họ có thể thành công trong các lĩnh vực như truyền thông, giảng dạy, nghiên cứu, marketing, quản trị kinh doanh, báo chí, MC, nhà văn, diễn viên, nhà phê bình nghệ thuật, hoặc bất kỳ công việc nào cho phép họ thể hiện sự sáng tạo và khả năng ngôn ngữ xuất sắc.",
       NGHE_NGHIEP_SMR:
-        "Bạn phù hợp với các công việc liên quan đến sáng tạo và giao tiếp như truyền thông, giảng dạy, nghiên cứu, marketing, báo chí, MC, nhà văn, diễn viên hoặc nhà phê bình nghệ thuật. Công việc nào cho phép bạn sử dụng khả năng ngôn ngữ, tư duy linh hoạt và sáng tạo đều sẽ giúp bạn phát huy tối đa tiềm năng."
+        "Bạn phù hợp với các công việc liên quan đến sáng tạo và giao tiếp như truyền thông, giảng dạy, nghiên cứu, marketing, báo chí, MC, nhà văn, diễn viên hoặc nhà phê bình nghệ thuật. Công việc nào cho phép bạn sử dụng khả năng ngôn ngữ, tư duy linh hoạt và sáng tạo đều sẽ giúp bạn phát huy tối đa tiềm năng.",
     },
     4: {
       CHUNG:
@@ -246,7 +246,8 @@ export const NUMERLOGY_COMMON = {
         "Người Số 8 cần nỗ lực khắc phục điểm yếu trong vấn đề bày tỏ tình cảm với những người mà họ quan tâm. Quan trọng nhất chính là họ cần nhận ra điểm yếu này, vì đa số những người Số 8 không thấy rằng mình không biết cách biểu lộ tình cảm. Khi họ học được cách bày tỏ cảm xúc, mức độ hạnh phúc và cảm giác an toàn của họ cũng được cải thiện nhiều. Bày tỏ lòng biết ơn cũng là một cách để họ tập biểu đạt các tầng cảm xúc sâu hơn. Sự phát triển này kéo theo sự phát triển của trí tuệ, điều mà từ trước đến nay họ chỉ có khuynh hướng biểu đạt trong công việc hoặc khi cần cho người khác lời khuyên mà thôi. Sự khôn ngoan và mức độ trưởng thành của họ sẽ được nâng lên thông qua việc du lịch đó đây, một hoạt động mà họ rất thích.",
       NGHE_NGHIEP:
         "Người Số 8 phù hợp với các vị trí lãnh đạo, quản lý và điều hành trong doanh nghiệp, tài chính, ngân hàng, chứng khoán. Họ cũng có thể thành công trong lĩnh vực kinh doanh, bất động sản, sản xuất, kỹ thuật, hậu cần, lực lượng vũ trang hoặc y tế.",
-      NGHE_NGHIEP_SMR: "Lãnh đạo, quản lý và điều hành trong doanh nghiệp, tài chính, ngân hàng, chứng khoán"
+      NGHE_NGHIEP_SMR:
+        "Lãnh đạo, quản lý và điều hành trong doanh nghiệp, tài chính, ngân hàng, chứng khoán",
     },
     9: {
       CHUNG:
@@ -260,7 +261,8 @@ export const NUMERLOGY_COMMON = {
         "Khi người Số 9 không áp được những lý tưởng mà họ đặt ra cho người khác lên chính bản thân mình, họ trở nên tiêu cực. Họ cần đặc biệt lưu ý để không trở thành nạn nhân của thói đạo đức giả. Khi hoài bão của họ biển thành tham vọng, chúng có thể đàn áp và hủy hoại những lý tưởng tốt đẹp họ từng nuôi dưỡng, từ đó phát triển thái độ tự xem mình là trung tâm. Điểu này sẽ sớm tạo thành tính cách thô lỗ và thái độ ưa chỉ trích - thứ mà những người xung quanh họ sẽ cảm thấy khó chấp nhận được, cũng là thứ có thể khiến họ suy đồi khi mãi chạy theo vật chất. ",
       HUONG_PT:
         "Tính lý tưởng hóa của người Số 9 khiến họ không giỏi nhìn người. Nhưng một khi nhận ra mặt hạn chế này, người Số 9 hoàn toàn có thể học và sử dụng các công cụ hỗ trợ để giúp họ hiểu về con người hơn. Điều này sẽ giúp họ tìm hiểu về con người ở nhiều phương diện trước khi kết luận, chứ không chỉ dựa trên phân tích chủ quan của bản thân. Việc tìm hiểu các công cụ đánh giá con người cũng sẽ giúp người Số 9 phát triển trực giác và trí tuệ. Hai yếu tố quan trọng khác mà người Số 9 cần tập trung phát triển là tính kiên nhẫn và sự kiên định. Bên cạnh đó, người Số 9 thường hay tỏ ra nghiêm túc quá mức - họ cần học cách vui cười và thưởng thức những trò dí dỏm nhiều hơn để mang lại sự cân bằng cho cuộc sống của mình.",
-      NGHE_NGHIEP: "Người Số 9 thường tìm thấy ý nghĩa trong những công việc có giá trị nhân đạo và cộng đồng. Họ phù hợp với các lĩnh vực như tổ chức từ thiện, hoạt động xã hội, giáo dục, y tế, tâm lý trị liệu, luật pháp và nghiên cứu khoa học. Ngoài ra, họ cũng có thể thành công trong nghệ thuật, truyền thông, chính trị hoặc bất kỳ công việc nào giúp họ truyền cảm hứng và đóng góp cho xã hội. Với tinh thần vị tha và tư duy sâu sắc, Số 9 dễ đạt được thành công khi làm việc vì mục tiêu lớn lao hơn bản thân mình.",
+      NGHE_NGHIEP:
+        "Người Số 9 thường tìm thấy ý nghĩa trong những công việc có giá trị nhân đạo và cộng đồng. Họ phù hợp với các lĩnh vực như tổ chức từ thiện, hoạt động xã hội, giáo dục, y tế, tâm lý trị liệu, luật pháp và nghiên cứu khoa học. Ngoài ra, họ cũng có thể thành công trong nghệ thuật, truyền thông, chính trị hoặc bất kỳ công việc nào giúp họ truyền cảm hứng và đóng góp cho xã hội. Với tinh thần vị tha và tư duy sâu sắc, Số 9 dễ đạt được thành công khi làm việc vì mục tiêu lớn lao hơn bản thân mình.",
       NGHE_NGHIEP_SMR:
         "Phù hợp với các lĩnh vực như tổ chức từ thiện, hoạt động xã hội, giáo dục, y tế, tâm lý trị liệu, luật pháp và nghiên cứu khoa học",
     },
@@ -1327,20 +1329,20 @@ export const WEAK_NUMB = {
 export const SOLUTION_NUMB = {
   1: {
     noidung: `
-    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+   <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
         <li>Thiếu quyết đoán,</li>
         <li>Thiếu chính kiến,</li>
         <li>Dễ bị thao túng.</li>
       </ul>
     </p>
-    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
+      <div class="subtitle">✨ Giải pháp khắc phục:</div>
     <ul>
       <li>Rèn luyện tư duy phản biện.</li>
       <li>Tập nói “không” và đưa ra ý kiến cá nhân.</li>
       <li>Tham gia các khoá học lãnh đạo hoặc phát triển bản thân.</li>
     </ul>
-    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
+     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
       <li>CEO, quản lý cấp cao.</li>
       <li>Founder startup, chỉ huy trưởng.</li>
@@ -1350,20 +1352,20 @@ export const SOLUTION_NUMB = {
   },
   2: {
     noidung: `
-    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+   <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
         <li>Khó kết nối,</li>
         <li>Khó bày tỏ cảm xúc,</li>
         <li>Dễ cô lập.</li>
       </ul>
     </p>
-    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
+      <div class="subtitle">✨ Giải pháp khắc phục:</div>
     <ul>
       <li>Học cách giao tiếp phi bạo lực, kỹ năng lắng nghe chủ động.</li>
       <li>Tham gia hoạt động nhóm, rèn khả năng chia sẻ.</li>
       <li>Viết nhật ký cảm xúc mỗi ngày.</li>
     </ul>
-    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
+     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
       <li>Nhân sự, chăm sóc khách hàng, tư vấn tâm lý.</li>
       <li>Giáo viên mầm non, điều dưỡng.</li>
@@ -1373,20 +1375,20 @@ export const SOLUTION_NUMB = {
   },
   3: {
     noidung: `
-    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+   <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
         <li>Thiếu sáng tạo,</li>
         <li>Khó thể hiện bản thân,</li>
         <li>Dễ tiêu cực.</li>
       </ul>
     </p>
-    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
+      <div class="subtitle">✨ Giải pháp khắc phục:</div>
     <ul>
       <li>Tham gia hoạt động nghệ thuật, sáng tạo (vẽ, viết, múa).</li>
       <li>Tập viết blog, trình bày quan điểm cá nhân.</li>
       <li>Hạn chế môi trường tiêu cực, nhiều rập khuôn.</li>
     </ul>
-    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
+     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
       <li>Diễn viên, ca sĩ.</li>
       <li>MC, phát thanh viên.</li>
@@ -1396,20 +1398,20 @@ export const SOLUTION_NUMB = {
   },
   4: {
     noidung: `
-    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+   <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
         <li>Thiếu kỷ luật,</li>
         <li>Trì hoãn,</li>
         <li>Thiếu kế hoạch.</li>
       </ul>
     </p>
-    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
+      <div class="subtitle">✨ Giải pháp khắc phục:</div>
     <ul>
       <li>Áp dụng phương pháp quản lý thời gian (Pomodoro, Eisenhower).</li>
       <li>Lên kế hoạch tuần/ngày rõ ràng.</li>
       <li>Cam kết với người khác để có trách nhiệm hơn.</li>
     </ul>
-    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
+     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
       <li>Quản lý dự án, lập kế hoạch.</li>
       <li>Logistics, điều phối sản xuất.</li>
@@ -1419,20 +1421,20 @@ export const SOLUTION_NUMB = {
   },
   5: {
     noidung: `
-    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+   <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
         <li>Ngại thay đổi,</li>
         <li>Thiếu linh hoạt,</li>
         <li>Khó thích nghi.</li>
       </ul>
     </p>
-    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
+      <div class="subtitle">✨ Giải pháp khắc phục:</div>
     <ul>
       <li>Tập tiếp xúc với môi trường mới (du lịch, học hỏi đa lĩnh vực).</li>
       <li>Thiền hoặc viết nhật ký để quan sát nỗi sợ thay đổi.</li>
       <li>Thử thách bản thân với những thay đổi nhỏ hằng tuần.</li>
     </ul>
-    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
+     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
       <li>Sales năng động, startup công nghệ.</li>
       <li>Nghề nhiều công tác.</li>
@@ -1442,19 +1444,19 @@ export const SOLUTION_NUMB = {
   },
   6: {
     noidung: `
-    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+   <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
         <li>Khó thể hiện yêu thương,</li>
         <li>Áp lực khi chịu trách nhiệm.</li>
       </ul>
     </p>
-    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
+      <div class="subtitle">✨ Giải pháp khắc phục:</div>
     <ul>
       <li>Làm việc nội tâm về tình cảm và trách nhiệm cá nhân.</li>
       <li>Tập nói lời yêu thương một cách đơn giản, chân thành.</li>
       <li>Nhận nhiệm vụ nhỏ có yếu tố chăm sóc để rèn dần.</li>
     </ul>
-    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
+     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
       <li>Y tá, giáo viên tiểu học, điều dưỡng.</li>
       <li>Luật sư, giám đốc nhân sự.</li>
@@ -1464,20 +1466,20 @@ export const SOLUTION_NUMB = {
   },
   7: {
     noidung: `
-    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+   <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
         <li>Thiếu thực tế,</li>
         <li>Dễ bị lừa,</li>
         <li>Thiếu tư duy phản biện.</li>
       </ul>
     </p>
-    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
+      <div class="subtitle">✨ Giải pháp khắc phục:</div>
     <ul>
       <li>Rèn tư duy logic và xác minh thông tin.</li>
       <li>Thực hành viết phân tích – lập luận.</li>
       <li>Hạn chế tin đồn, rèn luyện tiếp cận thông tin khách quan.</li>
     </ul>
-    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
+     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
       <li>Đầu tư mạo hiểm, tiền ảo.</li>
       <li>Phân tích dữ liệu, nghiên cứu khoa học.</li>
@@ -1487,20 +1489,20 @@ export const SOLUTION_NUMB = {
   },
   8: {
     noidung: `
-    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+   <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
         <li>Quản lý tài chính kém,</li>
         <li>Thiếu quyết đoán,</li>
         <li>Dễ bị ảnh hưởng.</li>
       </ul>
     </p>
-    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
+      <div class="subtitle">✨ Giải pháp khắc phục:</div>
     <ul>
       <li>Tập lập ngân sách cá nhân.</li>
       <li>Rèn luyện kỹ năng ra quyết định theo nguyên tắc.</li>
       <li>Làm việc với mentor hoặc huấn luyện viên tài chính.</li>
     </ul>
-    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
+     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
       <li>Chủ doanh nghiệp, giám đốc tài chính.</li>
       <li>Quản lý ngân sách, đầu tư.</li>
@@ -1510,20 +1512,20 @@ export const SOLUTION_NUMB = {
   },
   9: {
     noidung: `
-    <p><strong>🎯 ĐIỂM YẾU:</strong> 
+   <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
         <li>Ích kỷ,</li>
         <li>Thiếu lòng trắc ẩn,</li>
         <li>Thiếu tinh thần cộng đồng.</li>
       </ul>
     </p>
-    <p><strong>✨ GIẢI PHÁP KHẮC PHỤC:</strong></p>
+      <div class="subtitle">✨ Giải pháp khắc phục:</div>
     <ul>
       <li>Tham gia thiện nguyện hoặc hoạt động vì cộng đồng.</li>
       <li>Tập lòng biết ơn, viết “3 điều biết ơn mỗi ngày”.</li>
       <li>Quan sát và học từ những người giàu lòng nhân ái.</li>
     </ul>
-    <p><strong>⚠️ NGHỀ NÊN HẠN CHẾ:</strong></p>
+     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
       <li>Từ thiện, công tác xã hội, giáo dục khai tâm.</li>
       <li>Hướng đạo, bác sĩ không biên giới.</li>

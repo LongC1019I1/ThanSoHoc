@@ -8,7 +8,7 @@ function SoulNumber() {
     <div id="soul_number">
       <div className="container">
         <h1 className=" h1 my-5 px-2">
-          7{") "} Chỉ Số Linh Hồn <b className="text-danger">Số {numberSoul}</b>
+          8{") "} Chỉ Số Linh Hồn: <b className="text-danger">Số {numberSoul}</b>
         </h1>
         <img className=" my-1 w-100" src={solinhhon} />
         {NUMEROLOGY_SOUL_NUMBER[numberSoul] &&

@@ -7,10 +7,10 @@ const ChartDateName = ({
   color = "red",
   buttonText,
   buttonColor,
+  disabled = false,
 }) => {
   const [wRightPanel, setWLeftPanel] = useState();
 
- 
   const amountNumber = {};
   for (let chr of numbersData.replaceAll("0", "")) {
     if (amountNumber[chr]) {
@@ -112,6 +112,7 @@ const ChartDateName = ({
             cursor: "pointer",
             marginTop: "10px",
           }}
+          disabled = {disabled}
         >
           👉 {buttonText}
         </button>

@@ -40,7 +40,7 @@ function FourPeak({ topFour }) {
     <div id="soul_number">
       <div className="container">
         <h1 className="h1 my-5 px-2">
-          10{") "} Các đỉnh cuộc đời của ngày sinh
+          11{") "} Các đỉnh cuộc đời của ngày sinh: 
           <b className="text-info"> {birth_day_list}</b>
         </h1>
 

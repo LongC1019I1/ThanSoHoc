@@ -289,7 +289,7 @@ export const filterRealNumber = (string, realnumb) => {
     ""
   );
 
-  console.log({ result });
+
   return result;
 };
 

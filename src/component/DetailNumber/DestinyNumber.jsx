@@ -9,7 +9,7 @@ function DestinyNumber() {
     <div id="destiny_number">
       <div className="container">
         <h1 className=" h1 my-5 px-2">
-          3{") "} Con Số Định Mệnh{" "}
+          4{") "} Con Số Định Mệnh:{" "}
           <b className="text-danger">{numberDestiny} </b>
         </h1>
         <img className=" my-1 w-100" src={sodinhmenh} />

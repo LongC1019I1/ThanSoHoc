@@ -98,8 +98,7 @@ function FormInfor() {
 
     // inner number
 
-    const list_number_name = stringToNumber(full_name).split("");
-
+    const list_number_name = stringToNumber(full_name).split("").filter(num => num !== "0");
     const inner_number = numberAtLeastThreeTimes(list_number_name);
 
     dispatch(
