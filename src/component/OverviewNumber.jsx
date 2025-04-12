@@ -116,12 +116,6 @@ function OverviewNumber() {
         a: "inner_number",
       },
       // {
-      //   label: "Số Thiếu",
-      //   value: "4 9",
-      //   color: " text-white",
-      //   style: "#53cd73",
-      // },
-      // {
       //   label: "Số Năm 2025",
       //   value: "2",
       //   color: "text-white",

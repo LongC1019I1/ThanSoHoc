@@ -7,10 +7,10 @@ const ChartDateName = ({
   color = "red",
   buttonText,
   buttonColor,
+  id_link,
 }) => {
   const [wRightPanel, setWLeftPanel] = useState();
 
- 
   const amountNumber = {};
   for (let chr of numbersData.replaceAll("0", "")) {
     if (amountNumber[chr]) {
@@ -88,6 +88,13 @@ const ChartDateName = ({
     return rects;
   };
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div class="col-6 my-3" ref={canvasEl}>
       <div className=" d-flex justify-content-center ">
@@ -112,6 +119,7 @@ const ChartDateName = ({
             cursor: "pointer",
             marginTop: "10px",
           }}
+          onClick={() => scrollToSection(id_link)}
         >
           👉 {buttonText}
         </button>

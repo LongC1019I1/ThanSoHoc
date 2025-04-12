@@ -37,7 +37,7 @@ function FourChallenge({ topFour }) {
   };
 
   return (
-    <div id="soul_number">
+    <div id="four_challenge">
       <div className="container">
         <h1 className="h1 my-5 px-2">
           11{") "} Các thử thách cuộc đời của bạn

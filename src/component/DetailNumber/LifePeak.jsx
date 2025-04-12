@@ -9,7 +9,7 @@ import {
   Line,
 } from "react-konva";
 import React, { useEffect, useRef, useState, Fragment } from "react";
-function LifePeak({ topFour, btn, show = true }) {
+function LifePeak({ topFour, btn, show = true, id_link }) {
   const canvasEl = useRef(null);
   const [wRightPanel, setWLeftPanel] = useState();
   const [kamarNumeroMain, setKamarNumeroMain] = useState(9);
@@ -133,7 +133,12 @@ function LifePeak({ topFour, btn, show = true }) {
     x: TUOIDINH4.muiten.x1 + 5,
     y: TUOIDINH4.muiten.y1 - spaceShowNumPeak.y,
   };
-
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <Fragment>
       <div ref={canvasEl} className="col-6 rounded mb-2 px-2 ">
@@ -516,6 +521,7 @@ function LifePeak({ topFour, btn, show = true }) {
                 top: "-30px",
               }}
               className={` btn ${btn.class_name}`}
+              onClick={() => scrollToSection(id_link)}
             >
               <span>👉</span> {btn.noi_dung}
             </button>

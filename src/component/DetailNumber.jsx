@@ -51,6 +51,7 @@ function DetailNumber() {
                 color="red"
                 buttonText="BIỂU ĐỒ NGÀY SINH"
                 buttonColor="green"
+                id_link="date_to_known"
               />
 
               <ChartDateName
@@ -58,6 +59,7 @@ function DetailNumber() {
                 color="#3498da"
                 buttonText="BIỂU ĐỒ HỌ TÊN"
                 buttonColor="purple"
+                id_link=""
               />
             </div>
 
@@ -94,6 +96,7 @@ function DetailNumber() {
                       class_name: "btn btn-danger",
                       noi_dung: "4 ĐỈNH CỦA CUỘC ĐỜI",
                     }}
+                    id_link="four_peak"
                   />
                   <LifePeak
                     topFour={top4.top4_challenge}
@@ -101,6 +104,7 @@ function DetailNumber() {
                       class_name: "btn jade-green",
                       noi_dung: "BIỂU ĐỒ THỬ THÁCH",
                     }}
+                    id_link="four_challenge"
                   />
                 </div>
               </Fragment>
