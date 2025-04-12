@@ -6,7 +6,6 @@ import Numerlogy from "./Pages/Numerlogy";
 function App() {
   return (
     <div className="container w-100">
-    
       <div id="root_content">
         <BrowserRouter>
           <Routes>
