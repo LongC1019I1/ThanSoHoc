@@ -143,6 +143,7 @@ button:focus-visible {
 
 .conclude {
   .note-box {
+    margin-top: 40px;
     background-color: #fff9e6;
     border: 0.1px solid #fae17f;
     padding: 15px;
@@ -156,7 +157,7 @@ button:focus-visible {
     border-radius: 5px;
     border: 1px solid #d6bbfb;
     background-color: #f3ebfc;
-    color: #330D2E;
+    color: #330d2e;
   }
 
   .odd {
@@ -166,7 +167,7 @@ button:focus-visible {
 
   .section {
     border-radius: 10px;
- 
+
     padding: 20px;
   }
 
@@ -203,6 +204,75 @@ button:focus-visible {
 
   .note strong {
     color: #b06f00;
+  }
+}
+
+.career-container {
+  .career-container {
+    font-family: "Segoe UI", sans-serif;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fdfdfd;
+  }
+
+  .career-container h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .intro {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+
+  .intro .highlight {
+    color: #e74c3c;
+    font-weight: 600;
+  }
+
+  .career-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+
+  .career-card {
+    background: #f9f9ff;
+    border: 1px solid #dcdde1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+
+  /* .career-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  } */
+
+  .career-card h3 {
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 5px;
+  }
+
+  .career-card h4 {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-top: 15px;
+  }
+
+  .career-card ul {
+    list-style-type: "✅ ";
+    padding-left: 20px;
+    color: #2c3e50;
+  }
+
+  .career-card ul li {
+    margin-bottom: 6px;
   }
 }
 

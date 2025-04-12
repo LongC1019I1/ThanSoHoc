@@ -15,12 +15,41 @@ import { Fragment } from "react";
 
 function SummaryAll() {
   const strongNumb = useSelector((state) => state.numberKarmaMain.strong_list);
+
+  const newStrongNumb = strongNumb
+    .map((numb, index) => (STRONG_NUMB[numb] ? STRONG_NUMB[numb] : null))
+    .reduce((acc, obj) => {
+      return { ...acc, ...obj };
+    }, {});
+
+  console.log({ newStrongNumb });
+
   const weakNumb = useSelector((state) => state.numberKarmaMain.weak_list);
   const arrow = useSelector((state) => state.numberKarmaMain.arrow);
   const lack_arrow = useSelector((state) => state.numberKarmaMain.lack_arrow);
   const numberSoul = useSelector((state) => state.numberName.soul);
   const numberDestiny = useSelector((state) => state.numberName.destiny);
   const numberKarma = useSelector((state) => state.numberKarmaMain.number);
+
+  // DEM DE NHOM DONG
+
+  const keys = Object.keys(newStrongNumb);
+  const totalItems = keys.length;
+
+  // ✅ Chia làm 3 nhóm gần bằng nhau
+  const groupCount = 3;
+  const baseSize = Math.floor(totalItems / groupCount);
+  const remainder = totalItems % groupCount;
+
+  const groups = [];
+  let start = 0;
+
+  for (let i = 0; i < groupCount; i++) {
+    const size = baseSize + (i < remainder ? 1 : 0); // thêm 1 cho các nhóm đầu nếu dư
+    groups.push(keys.slice(start, start + size));
+    start += size;
+  }
+
   return (
     <div id="summary">
       <div className="container">
@@ -31,17 +60,18 @@ function SummaryAll() {
         <img className=" my-1 w-100" src={tomtat} />
         <div className="m-3  px-3 py-4    border border-dark-subtle rounded  ">
           <h4 className=" mt-3 px-2">ĐIỂM MẠNH CỦA BẠN</h4>
-          <p class="text-danger">
+          <p class="text-danger mb-5">
             Là tài năng, năng lực, khả năng, đặc điểm chủ đạo của bạn
           </p>
-          {strongNumb.map((numb, index) =>
-            STRONG_NUMB[numb] && STRONG_NUMB[numb].noidung ? (
-              <Fragment key={index}>
-                {parse(STRONG_NUMB[numb].noidung)}
-              </Fragment>
-            ) : null
-          )}
-
+          {groups.map((group, index) => (
+            <div key={index}>
+              {group.map((key, subIndex) => (
+                <Fragment key={subIndex}>{parse(newStrongNumb[key])}</Fragment>
+              ))}
+              {index < groups.length - 1 && <div className="mt-5" />}{" "}
+              {/* cách dòng giữa các nhóm */}
+            </div>
+          ))}
           {arrow.length > 0 &&
             arrow.map((arr, iAr) => {
               return (
@@ -102,7 +132,7 @@ function SummaryAll() {
               : ""}
           </p>
         </div>
-        <div className="m-3  p-3    border border-dark-subtle rounded  ">
+        <div className="m-3  p-3 career-container border border-dark-subtle rounded  ">
           <h4 className="  mt-3 px-2 ">XU HƯỚNG NGHỀ NGHIỆP</h4>
           <p class="text-danger">
             Đây là gợi ý xu hướng nghề nghiệp dựa trên năng lượng thuần trong bộ
@@ -111,7 +141,8 @@ function SummaryAll() {
             thế cạnh tranh (mối quan hệ, truyền thống, gia đình, tài chính, nơi
             ở ..vv) của Bạn để Bạn lựa chọn được nghề nghiệp phù hợp nhất.
           </p>
-          <div>
+
+          <div class="career-grid">
             {strongNumb.map((numb, index) =>
               NUMERLOGY_JOB[numb] && NUMERLOGY_JOB[numb].noidung ? (
                 <div className="mt-4" key={index}>
@@ -141,7 +172,7 @@ function SummaryAll() {
             })}
           </div>
 
-          <div class="note-box mt-5">
+          <div class="note-box ">
             <strong>🚫 LƯU Ý: </strong> &nbsp; Những nghề nêu trên không phải
             bạn không làm được mà bạn cần phải nỗ lực nhiều hơn để bù đắp{" "}
           </div>
