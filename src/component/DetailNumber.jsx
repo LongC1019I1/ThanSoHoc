@@ -58,6 +58,7 @@ function DetailNumber() {
                 numbersData={full_name_numb}
                 color="#3498da"
                 buttonText="BIỂU ĐỒ HỌ TÊN"
+                disabled={true}
                 buttonColor="purple"
                 id_link=""
               />
@@ -69,6 +70,7 @@ function DetailNumber() {
                 color="blue"
                 buttonText="BIỂU ĐỒ  TỔNG HỢP"
                 buttonColor="#3cbc9b"
+                disabled={true}
               />
             </div>
 
@@ -77,7 +79,7 @@ function DetailNumber() {
                 <Fragment>
                   <ChartCombineEnergy
                     color="blue"
-                    buttonText="BIỂU ĐỒ TỔNG HỢP"
+                    buttonText="TÓM TẮT VỀ BẠN"
                     buttonColor="#3cbc9b"
                   />
                 </Fragment>

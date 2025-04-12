@@ -165,7 +165,7 @@ function OverviewNumber() {
                   className="text-center card-container"
                   onMouseEnter={() => setHoverIndex(`${rowIndex}-${index}`)}
                 >
-                  <span className={classes.title_number}>{item.label}</span>
+                  <span title={item.label} className="title_number">{item.label}</span>
                   <div
                     onClick={() => scrollToSection(item.a)}
                     style={{ cursor: "pointer" }}

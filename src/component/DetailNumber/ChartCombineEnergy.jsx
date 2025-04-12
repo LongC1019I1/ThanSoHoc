@@ -73,7 +73,7 @@ const ChartCombineEnergy = function ({
   );
 
   dispatch(numberKarmaActions.setStrongListNumb(strong_arr_sort));
-  console.log({ strongNumber });
+
 
   const weak_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   const weakNumbers = weak_arr.filter(
@@ -98,7 +98,7 @@ const ChartCombineEnergy = function ({
 
     return acc;
   }, []);
-  console.log({ filteredWeakContents });
+
 
   dispatch(numberKarmaActions.setWeakListNumb(filteredWeakContents));
 

@@ -94,8 +94,8 @@ const DateToKnown = ({
 
   return (
     <Fragment>
-      <div id="date_to_known" className="container">
-        <h1 className=" h1 my-5 px-2">5{") "} Mật mã ngày sinh </h1>
+      <div className="date_to_known">
+        <h1 className=" h1 my-5 px-2">2{") "} Mật mã ngày sinh </h1>
         <img className=" my-1 w-100" src={sotruongthanh} />
       </div>
       <div class=" my-3 row">

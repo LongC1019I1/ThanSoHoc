@@ -40,7 +40,7 @@ function FourChallenge({ topFour }) {
     <div id="four_challenge">
       <div className="container">
         <h1 className="h1 my-5 px-2">
-          11{") "} Các thử thách cuộc đời của bạn
+          12{") "} Các thử thách cuộc đời của bạn: 
           <b className="text-info"> {birth_day_list}</b>
         </h1>
 

@@ -42,7 +42,7 @@ const numberKarmaSlice = createSlice({
       state.top4 = action.payload;
     },
     setStrongListNumb(state, action) {
-      console.log({ action });
+
       state.strong_list = action.payload;
     },
     setWeakListNumb(state, action) {
