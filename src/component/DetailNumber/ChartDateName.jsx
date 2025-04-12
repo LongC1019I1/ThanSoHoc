@@ -120,11 +120,8 @@ const ChartDateName = ({
             cursor: "pointer",
             marginTop: "10px",
           }}
-<<<<<<< HEAD
           onClick={() => scrollToSection(id_link)}
-=======
-          disabled = {disabled}
->>>>>>> 2c2f7bfcd331c8b2611dce4b6c0141e089952d9f
+          disabled={disabled}
         >
           👉 {buttonText}
         </button>

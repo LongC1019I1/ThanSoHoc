@@ -81,6 +81,7 @@ function DetailNumber() {
                     color="blue"
                     buttonText="TÓM TẮT VỀ BẠN"
                     buttonColor="#3cbc9b"
+                    id_link="summary"
                   />
                 </Fragment>
               )}

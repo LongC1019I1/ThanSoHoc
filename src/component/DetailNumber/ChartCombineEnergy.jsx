@@ -8,6 +8,7 @@ const ChartCombineEnergy = function ({
   color = "red",
   buttonText,
   buttonColor,
+  id_link,
 }) {
   const [wRightPanel, setWLeftPanel] = useState();
   const dispatch = useDispatch();
@@ -74,7 +75,6 @@ const ChartCombineEnergy = function ({
 
   dispatch(numberKarmaActions.setStrongListNumb(strong_arr_sort));
 
-
   const weak_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   const weakNumbers = weak_arr.filter(
     (num) => !amountNumber.hasOwnProperty(num)
@@ -98,7 +98,6 @@ const ChartCombineEnergy = function ({
 
     return acc;
   }, []);
-
 
   dispatch(numberKarmaActions.setWeakListNumb(filteredWeakContents));
 
@@ -171,6 +170,13 @@ const ChartCombineEnergy = function ({
     return rects;
   };
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div class="col-6 my-3" ref={canvasEl}>
       <div className=" d-flex justify-content-center ">
@@ -195,6 +201,7 @@ const ChartCombineEnergy = function ({
             cursor: "pointer",
             marginTop: "10px",
           }}
+          onClick={() => scrollToSection(id_link)}
         >
           👉 {buttonText}
         </button>

@@ -1,5 +1,6 @@
 body {
   background-color: #f2f2f2;
+  min-width: 800px !important;
 }
 
 :root {
@@ -22,7 +23,7 @@ body {
 }
 
 #root {
-  background-color: #f2f2f2;
+
   width: 100%;
 }
 
@@ -37,12 +38,18 @@ body {
   font-weight: 500;
   margin-bottom: 5px;
   display: block;
-  white-space: nowrap; /* Không cho xuống dòng */
-  overflow: hidden; /* Ẩn phần bị tràn */
-  text-overflow: ellipsis; /* Thêm dấu ... */
-  max-width: 100%; /* Giới hạn chiều rộng */
-  display: inline-block; /* Để các thuộc tính trên hoạt động */
-  cursor: pointer; /* Cho cảm giác có thể tương tác */
+  white-space: nowrap;
+  /* Không cho xuống dòng */
+  overflow: hidden;
+  /* Ẩn phần bị tràn */
+  text-overflow: ellipsis;
+  /* Thêm dấu ... */
+  max-width: 100%;
+  /* Giới hạn chiều rộng */
+  display: inline-block;
+  /* Để các thuộc tính trên hoạt động */
+  cursor: pointer;
+  /* Cho cảm giác có thể tương tác */
 }
 
 .my-col-peak {
@@ -56,6 +63,7 @@ body {
 .jade-green {
   background-color: var(--jade-green);
 }
+
 .jade-green:hover {
   background-color: rgb(49, 160, 134);
   color: white;
@@ -64,6 +72,7 @@ body {
 .triangle {
   position: relative;
 }
+
 .custom-btn {
   color: white;
   font-weight: bold;
