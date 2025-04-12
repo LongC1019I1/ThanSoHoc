@@ -136,7 +136,7 @@ function LifePeak({ topFour, btn, show = true }) {
 
   return (
     <Fragment>
-      <div ref={canvasEl} className="col-6 rounded mb-2 px-2 ">
+      <div ref={canvasEl} className="col-sm-12 col-md-6  rounded mb-2 px-2 ">
         <div class=" d-flex justify-content-center ">
           <Stage style={{ top: "10px" }} width={w4Top} height={h4Top}>
             <Layer>
