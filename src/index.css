@@ -1,6 +1,96 @@
 body {
-  background-color: #f2f2f2;
+
   min-width: 800px !important;
+  margin: 0;
+  background: linear-gradient(to bottom, #3b127a, #1c0e3d);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.number-bg {
+  position: absolute;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.05);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.navbar-nav a {
+  color: white !important;
+  font-weight: 500;
+  margin: 0 1rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.form-box {
+  background: #1a1030;
+  padding: 2rem;
+  max-width: 400px;
+  margin: 0 auto 4rem;
+  border-radius: 1.5rem;
+  z-index: 1;
+  position: relative;
+}
+
+.form-box label {
+  color: #ccc;
+}
+
+.form-control {
+  background: #2b1c47;
+  border: none;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: #aaa;
+}
+
+.btn-custom {
+  background-color: #f0c04c;
+  color: #1a1030;
+  font-weight: bold;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.info-section {
+  background: #130c26;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.info-section h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.info-section p {
+  color: #ddd;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
 }
 
 :root {
@@ -28,7 +118,7 @@ body {
 }
 
 #root_content {
-  background-color: white;
+  /* background-color: white; */
   padding: 50px 0;
   min-width: 696px !important;
 }
