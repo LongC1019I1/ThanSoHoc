@@ -120,47 +120,9 @@ function FormInfor() {
       animate={{ opacity: 1, transition: { duration: 1.5 } }}
     >
       <Fragment>
-        <div col-sm-12 col-md-6>
-          <h2 className="text-center h2 pb-3">BÁO CÁO THẦN SỐ HỌC</h2>
-          <div class="w-25 mx-auto pt-3" id="FormInfor">
-            <Form layout="vertical" onFinish={onFinish}>
-              <Form.Item class="mx-auto w-50" label="Họ Và Tên" name="name">
-                <Input
-                  class="form-control border-success"
-                  placeholder="Nhập Họ Tên "
-                  required
-                />
-              </Form.Item>
+        {/* Background numbers */}
 
-              <Form.Item
-                class="mx-auto w-50"
-                label="Ngày Sinh (Trên CMT)  "
-                name="date"
-              >
-                <DatePicker
-                  name="prename"
-                  format="DD/MM/YYYY"
-                  placeholder="DD/MM/YYYY"
-                  class="w-100"
-                  style={{
-                    width: "100%",
-                  }}
-                  required
-                />
-              </Form.Item>
-              <div class="d-flex justify-content-center">
-                <Button
-                  className="w-100"
-                  type="primary"
-                  htmlType="submit"
-                  size="medium"
-                >
-                  Tra cứu
-                </Button>
-              </div>
-            </Form>
-          </div>
-        </div>
+        {/* Navigation */}
 
         <div class="hero">
           <h2>BÁO CÁO THẦN SỐ HỌC</h2>
@@ -169,24 +131,20 @@ function FormInfor() {
           <div class="form-box">
             <Form layout="vertical" onFinish={onFinish}>
               <div class="mb-3">
-                <Input type="text" class="form-control" placeholder="Name" />
+                <Form.Item class="mx-auto w-50" name="name">
+                  <Input
+                    class="form-control border-success"
+                    placeholder="Nhập Họ Tên "
+                    required
+                  />
+                </Form.Item>
               </div>
               <div class="mb-3">
-                <Input
-                  type="text"
-                  class="form-control"
-                  placeholder="Date of birth  ( dd-mm-yyyy )"
-                />
-
-                <Form.Item
-                  class="mx-auto w-50 w-100 form-control"
-                  label="Ngày Sinh (Trên CMT)  "
-                  name="date"
-                >
+                <Form.Item class="mx-auto w-50 w-100 form-control" name="date">
                   <DatePicker
                     name="prename"
                     format="DD/MM/YYYY"
-                    placeholder="DD/MM/YYYY"
+                    placeholder="Ngày sinh  ( dd/mm/yyyy )"
                     class="w-100 form-control"
                     style={{
                       width: "100%",
@@ -195,6 +153,7 @@ function FormInfor() {
                   />
                 </Form.Item>
               </div>
+
               <button type="submit" class="btn btn-custom">
                 Tra Cứu
               </button>

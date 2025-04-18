@@ -2,19 +2,106 @@ body {
 
   min-width: 800px !important;
   margin: 0;
-  background: linear-gradient(to bottom, #3b127a, #1c0e3d);
+  background-image: url("./assets/img/bg.jpg");
   font-family: 'Segoe UI', sans-serif;
   color: white;
   overflow-x: hidden;
   position: relative;
 }
 
+#menu {
+  background: linear-gradient(to bottom, #001c31 36%, #17143f 93%);
+}
+
 .number-bg {
   position: absolute;
-  font-size: 8rem;
-  color: rgba(255, 255, 255, 0.05);
-  z-index: 0;
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.1);
+
   pointer-events: none;
+  z-index: 0;
+  animation: float 5s ease-in-out infinite;
+}
+
+.number-bg:nth-child(1) {
+  animation-delay: 0s;
+  animation-duration: 12s;
+}
+
+.number-bg:nth-child(2) {
+  animation-delay: 2s;
+  animation-duration: 10s;
+}
+
+.number-bg:nth-child(3) {
+  animation-delay: 4s;
+  animation-duration: 14s;
+}
+
+.number-bg:nth-child(4) {
+  animation-delay: 1s;
+  animation-duration: 13s;
+}
+
+.number-bg:nth-child(5) {
+  animation-delay: 3s;
+  animation-duration: 11s;
+}
+
+.number-bg:nth-child(6) {
+  animation-delay: 5s;
+  animation-duration: 12s;
+}
+
+.number-bg:nth-child(7) {
+  animation-delay: 6s;
+  animation-duration: 15s;
+}
+
+.number-bg:nth-child(8) {
+  animation-delay: 6s;
+  animation-duration: 18;
+}
+
+
+.number-bg:nth-child(9) {
+  animation-delay: 7s;
+  animation-duration: 20s;
+}
+
+
+.number-bg:nth-child(10) {
+  animation-delay: 7s;
+  animation-duration: 22s;
+}
+
+.number-bg:nth-child(11) {
+  animation-delay: 7s;
+  animation-duration: 23s;
+}
+
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+
+  25% {
+    transform: translateY(-10px) translateX(5px);
+  }
+
+  50% {
+    transform: translateY(0px) translateX(10px);
+  }
+
+  75% {
+    transform: translateY(10px) translateX(5px);
+  }
+
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
 }
 
 .navbar-nav a {
@@ -75,10 +162,13 @@ body {
   width: 100%;
 }
 
+/* FORM INFO */
+
 .info-section {
-  background: #130c26;
+  background: #e3e3e3;
   padding: 4rem 2rem;
   text-align: center;
+  color: black
 }
 
 .info-section h2 {
@@ -87,9 +177,9 @@ body {
 }
 
 .info-section p {
-  color: #ddd;
-  max-width: 600px;
-  margin: 0 auto;
+
+
+  text-align: justify;
   font-size: 1.1rem;
 }
 
