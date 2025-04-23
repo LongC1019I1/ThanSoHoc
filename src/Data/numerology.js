@@ -1464,6 +1464,24 @@ export const NUMERLOGY_JOB = {
   </ul>
 </div>`,
   },
+
+  33: {
+    noidung: `<div class="career-card">
+      <h3>🌟 Bạn có năng lực nổi bật:</h3>
+      <p>Sự kết hợp mạnh mẽ giữa trí tuệ – trực giác – và tinh thần phụng sự. Bạn là người truyền tải tri thức sâu sắc, hướng dẫn người khác qua những hình thức cảm hứng & sáng tạo.</p>
+  
+      <h4>💼 Nghề phù hợp:</h4>
+      <ul>
+        <li>Nhà đào tạo / giáo dục truyền cảm hứng (trực tiếp hoặc qua sách, video)</li>
+        <li>Người viết sách tư duy – triết học – phát triển bản thân</li>
+        <li>Người nghiên cứu tâm linh, chiêm tinh, thần số học</li>
+        <li>Người phát triển nền tảng học tập / công cụ chuyển hóa cá nhân</li>
+        <li>Nhà sáng tạo nội dung chữa lành: podcast, YouTube, retreat online</li>
+      </ul>
+  
+
+    </div>`,
+  },
 };
 
 export const SOLUTION_NUMB = {
