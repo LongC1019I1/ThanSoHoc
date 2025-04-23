@@ -40,12 +40,12 @@ const Numerlogy = () => {
               Vui lòng quay lại nhập <strong>Họ Tên</strong> &{" "}
               <strong>Ngày Tháng Năm Sinh</strong> để tiếp tục.
             </p>
-            <Link
+            <NavLink
               to="/"
               className="px-6 py-3 btn btn-danger rounded-lg shadow hover:bg-blue-600 transition"
             >
               Quay lại trang chính
-            </Link>
+            </NavLink>
           </div>
         </div>
       ) : (

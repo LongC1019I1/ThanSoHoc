@@ -76,7 +76,7 @@ function SummaryAll() {
             arrow.map((arr, iAr) => {
               return (
                 <Fragment key={`emp${iAr}`}>
-                  <p>{parse(ARROW[arr][1].Y_NGHIA)}</p>
+                  {parse(ARROW[arr][1].KET_LUAN)}
                 </Fragment>
               );
             })}
@@ -90,11 +90,11 @@ function SummaryAll() {
           <div>
             {weakNumb.map((numb, index) => {
               return (
-                <Fragment key={index}>
+                <div className="mt-5" key={index}>
                   {WEAK_NUMB[numb] && WEAK_NUMB[numb].noidung
                     ? parse(WEAK_NUMB[numb].noidung)
                     : null}
-                </Fragment>
+                </div>
               );
             })}
           </div>

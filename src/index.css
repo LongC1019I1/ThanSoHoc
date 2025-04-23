@@ -1,9 +1,8 @@
 body {
-
   min-width: 800px !important;
   margin: 0;
   background-image: url("./assets/img/bg.jpg");
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   color: white;
   overflow-x: hidden;
   position: relative;
@@ -11,6 +10,16 @@ body {
 
 #menu {
   background: linear-gradient(to bottom, #001c31 36%, #17143f 93%);
+}
+
+#detail_number {
+  background: white;
+  color: black;
+}
+#four_challenge,
+#four_peak,
+#summary {
+  color: black;
 }
 
 .number-bg {
@@ -63,12 +72,10 @@ body {
   animation-duration: 18;
 }
 
-
 .number-bg:nth-child(9) {
   animation-delay: 7s;
   animation-duration: 20s;
 }
-
 
 .number-bg:nth-child(10) {
   animation-delay: 7s;
@@ -79,8 +86,6 @@ body {
   animation-delay: 7s;
   animation-duration: 23s;
 }
-
-
 
 @keyframes float {
   0% {
@@ -164,11 +169,7 @@ body {
   .btn-custom:hover {
     opacity: 0.9;
   }
-
-
-
 }
-
 
 /* FORM INFO */
 
@@ -176,7 +177,7 @@ body {
   background: #e3e3e3;
   padding: 4rem 2rem;
   text-align: center;
-  color: black
+  color: black;
 }
 
 .info-section {
@@ -186,8 +187,6 @@ body {
   }
 
   p {
-
-
     text-align: justify;
     font-size: 1.1rem;
   }
@@ -204,10 +203,6 @@ body {
     text-align: center;
   }
 }
-
-
-
-
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -229,7 +224,6 @@ body {
 }
 
 #root {
-
   width: 100%;
 }
 
@@ -368,7 +362,6 @@ button:focus-visible {
 }
 
 #detail_number {
-
   p {
     margin-left: 5px;
   }

@@ -758,7 +758,7 @@ export const NUMEROLOGY_SOUL_NUMBER = {
     noidung:
       "<h4 class='my-3'>Chỉ Số Linh Hồn 3 - Người sáng tạo và truyền cảm hứng</h4> <p>Người có chỉ số linh hồn 3 luôn khao khát được thể hiện bản thân một cách tự do. Họ thích môi trường sống vui tươi, sáng tạo và không gian dân chủ, nơi năng lượng tích cực được lan tỏa. Họ là những người mang đến nguồn cảm hứng và luôn tìm cách phá vỡ những giới hạn truyền thống để tìm ra con đường riêng của mình. Họ cũng rất mong muốn được cổ vũ và động viên khi theo đuổi đam mê của mình.</p> <p><strong>💡 Điểm mạnh:</strong> Sáng tạo, hài hước, tràn đầy năng lượng và khả năng giao tiếp xuất sắc.</p> <p><strong>⚠️ Thách thức:</strong> Dễ mất tập trung, thiếu kiên trì và đôi khi chỉ tập trung vào việc tìm kiếm niềm vui thay vì đạt được mục tiêu lâu dài.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách duy trì sự tập trung và kiên trì theo đuổi mục tiêu trong khi vẫn giữ được tính sáng tạo.</p>",
     tomtat:
-      "thích môi trường sống vui tươi, sáng tạo và không gian dân chủ, nơi năng lượng tích cực được lan tỏa.",
+      "Thích môi trường sống vui tươi, sáng tạo và không gian dân chủ, nơi năng lượng tích cực được lan tỏa.",
   },
   4: {
     noidung:
@@ -882,7 +882,7 @@ export const ARROW = {
       Y_NGHIA:
         "Sáng tạo, nhiều ý tưởng, tính trật tự, lên kế hoạch (nghĩ được chưa chắc đã làm được)",
       KET_LUAN:
-        "<p class='mt-5'><strong class='text-danger'>Cảm xúc bất ổn, khó kiểm soát, nhạy cảm, dễ bộc lộ</strong></p>",
+        "<p><strong class='text-primary'>Sáng tạo, nhiều ý tưởng, tính trật tự, lên kế hoạch </strong>(nghĩ được chưa chắc đã làm được)<p>",
     },
     0: {
       TEN: "Trống kế hoạch",
@@ -1003,167 +1003,132 @@ export const ARROW = {
 
 export const STRONG_NUMB = {
   4: {
-    kyLuatVaCoToChuc: `<p class=''><strong class='text-primary'>Kỷ luật và có tổ chức</strong>, luôn làm việc một cách có kế hoạch.</p>`,
-
-    kienTriVaBenBi: `<p><strong class='text-primary'>Kiên trì và bền bỉ</strong>, không dễ dàng bỏ cuộc trước khó khăn.</p>`,
-
-    dangTinCay: `<p><strong class='text-primary'>Đáng tin cậy</strong>, luôn tạo cảm giác an toàn và vững chắc cho người khác.</p>`,
-
-    tuDuyLogic: `<p><strong class='text-primary'>Tư duy logic</strong>, giỏi phân tích và giải quyết vấn đề thực tế.</p>`,
-
-    thucTeVaOnDinh: `<p><strong class='text-primary'>Thực tế và ổn định</strong>, không bị cuốn theo những thứ viển vông.</p>`,
+    kyLuat: `<p><strong class='text-primary'>Kỷ luật cao</strong>, làm việc có kế hoạch và tổ chức rõ ràng.</p>`,
+    benBi: `<p><strong class='text-primary'>Bền bỉ và chắc chắn</strong>, luôn theo đuổi đến cùng mục tiêu.</p>`,
+    dangTinCay: `<p><strong class='text-primary'>Đáng tin cậy</strong>, làm việc có trách nhiệm, ổn định.</p>`,
   },
   5: {
-    yeuThichTuDo: `<p class=''><strong class='text-primary'>Yêu thích tự do</strong>, không thích bị ràng buộc, luôn muốn khám phá điều mới.</p>`,
-
-    deThichNghi: `<p><strong class='text-primary'>Dễ thích nghi</strong>, có thể nhanh chóng hòa nhập với môi trường mới.</p>`,
-
-    damThuThach: `<p><strong class='text-primary'>Dám thử thách</strong>, không sợ rủi ro, luôn muốn trải nghiệm điều mới lạ.</p>`,
-
-    gioiKetNoi: `<p><strong class='text-primary'>Giỏi kết nối</strong>, có sự thu hút, dễ gây ảnh hưởng và tạo dựng mối quan hệ.</p>`,
-
-    nhietHuyetVaNangDong: `<p><strong class='text-primary'>Nhiệt huyết và năng động</strong>, luôn tràn đầy năng lượng và đam mê.</p>`,
+    tuDoVaThichNghi: `<p><strong class='text-primary'>Yêu tự do và linh hoạt</strong>, thích nghi nhanh với thay đổi.</p>`,
+    giaoTiepTot: `<p><strong class='text-primary'>Giao tiếp tốt</strong>, có khả năng gây ảnh hưởng trong môi trường xã hội.</p>`,
+    damThuThach: `<p><strong class='text-primary'>Dám thử thách</strong>, thích khám phá điều mới lạ.</p>`,
   },
 
   8: {
-    tuDuyLanhDao: `<p class=''><strong class='text-primary'>Tư duy lãnh đạo</strong>, mạnh mẽ, quyết đoán, có khả năng điều hành tốt.</p>`,
-
-    thamVongVaKienDinh: `<p><strong class='text-primary'>Tham vọng và kiên định</strong>, luôn hướng tới thành công và quyền lực.</p>`,
-
-    khaNangToChucCao: `<p><strong class='text-primary'>Khả năng tổ chức cao</strong>, có năng lực xây dựng và duy trì hệ thống.</p>`,
-
-    tinhThanTrachNhiem: `<p><strong class='text-primary'>Tinh thần trách nhiệm</strong>, đáng tin cậy, sẵn sàng đảm nhận những nhiệm vụ lớn.</p>`,
+    lanhDaoTaiChinh: `<p><strong class='text-primary'>Lãnh đạo tài chính</strong>, quản lý tài nguyên hiệu quả.</p>`,
+    quyetDoan: `<p><strong class='text-primary'>Quyết đoán</strong>, dám nghĩ dám làm, có khả năng thực thi mạnh mẽ.</p>`,
+    toChuc: `<p><strong class='text-primary'>Tổ chức tốt</strong>, xây dựng và vận hành hệ thống hiệu quả.</p>`,
   },
 
   1: {
-    lanhDaoVaDanDat: `<p class=''><strong class='text-primary'>Lãnh đạo & dẫn dắt</strong> – Có tố chất lãnh đạo bẩm sinh, luôn tiên phong và chủ động trong mọi việc.</p>`,
-
-    tuDuyDocLap: `<p><strong class='text-primary'>Tư duy độc lập</strong> – Tự chủ, quyết đoán, không thích sự ràng buộc hay phụ thuộc vào người khác.</p>`,
-
-    taoAnhHuongManhMe: `<p><strong class='text-primary'>Tạo ảnh hưởng mạnh mẽ</strong> – Truyền động lực, có sức hút và ảnh hưởng đến những người xung quanh.</p>`,
-  },
-
-  10: {
-    lanhDaoVaDanDat: `<p class=''><strong class='text-primary'>Tinh thần lãnh đạo</strong>, quyết đoán, tự tin và mạnh mẽ.</p>`,
-
-    taoAnhHuongManhMe: `<p><strong class='text-primary'>Khả năng ảnh hưởng lớn</strong>, có tố chất dẫn dắt và truyền cảm hứng.</p>`,
-
-    suLinhHoat: `<p><strong class='text-primary'>Sự linh hoạt</strong>, có thể thành công trong nhiều lĩnh vực khác nhau.</p>`,
-
-    tuDuyDocLap: `<p><strong class='text-primary'>Độc lập và bản lĩnh</strong>, luôn sẵn sàng đương đầu với thử thách.</p>`,
+    lanhDaoVaDanDat: `<p><strong class='text-primary'>Lãnh đạo và dẫn dắt</strong>, luôn chủ động, có khả năng tạo ảnh hưởng mạnh mẽ.</p>`,
+    tuDuyDocLap: `<p><strong class='text-primary'>Tư duy độc lập</strong>, tự chủ và quyết đoán trong hành động.</p>`,
+    taoAnhHuong: `<p><strong class='text-primary'>Tạo ảnh hưởng tốt</strong>, có khả năng định hướng và truyền động lực cho người khác.</p>`,
   },
 
   7: {
-    suyNghiSauSac: `<p class=''><strong class='text-primary'>Suy nghĩ sâu sắc</strong>, luôn tìm kiếm sự thật và ý nghĩa trong cuộc sống.</p>`,
-
-    trucGiacManh: `<p><strong class='text-primary'>Trực giác mạnh</strong>, có khả năng cảm nhận và phân tích tinh tế.</p>`,
-
-    hamHocHoi: `<p><strong class='text-primary'>Ham học hỏi</strong>, thích nghiên cứu, tìm hiểu kiến thức chuyên sâu.</p>`,
-
-    docLapVaNoiTam: `<p><strong class='text-primary'>Độc lập và nội tâm</strong>, thích dành thời gian suy ngẫm và phát triển bản thân.</p>`,
-
-    tinhThanKhamPha: `<p><strong class='text-primary'>Tinh thần khám phá</strong>, luôn tò mò về thế giới và bản chất con người.</p>`,
+    suyNgamSauSac: `<p><strong class='text-primary'>Suy ngẫm sâu sắc</strong>, thường tìm kiếm ý nghĩa cuộc sống.</p>`,
+    trucGiac: `<p><strong class='text-primary'>Trực giác nhạy bén</strong>, cảm nhận tinh tế và có chiều sâu.</p>`,
+    tuHoc: `<p><strong class='text-primary'>Tự học cao</strong>, đam mê nghiên cứu và phát triển bản thân.</p>`,
   },
   2: {
-    gioiKetNoiVaHoaGiai: `<p class=''><strong class='text-primary'>Giỏi kết nối và hòa giải</strong>, giúp tạo ra sự hòa hợp trong các mối quan hệ.</p>`,
-
-    trucGiacManh: `<p><strong class='text-primary'>Trực giác nhạy bén</strong>, có khả năng thấu hiểu cảm xúc và suy nghĩ của người khác.</p>`,
-
-    songTinhCamBietQuanTam: `<p><strong class='text-primary'>Sống tình cảm, biết quan tâm</strong>, luôn đặt lợi ích tập thể và người thân lên trên.</p>`,
-
-    khaNangNgoaiGiaoXuatSac: `<p><strong class='text-primary'>Khả năng ngoại giao xuất sắc</strong>, phù hợp với các lĩnh vực cần sự khéo léo và tinh tế.</p>`,
+    ketNoiVaDongCam: `<p><strong class='text-primary'>Kết nối và đồng cảm</strong>, nhạy cảm và tinh tế trong giao tiếp.</p>`,
+    gioiHoaGiai: `<p><strong class='text-primary'>Giỏi hòa giải</strong>, dễ xây dựng môi trường hài hòa.</p>`,
+    khaNangNgoaiGiao: `<p><strong class='text-primary'>Khả năng ngoại giao</strong>, linh hoạt và khéo léo trong xử lý tình huống.</p>`,
   },
   6: {
-    songTrachNhiem: `<p class=''><strong class='text-primary'>Sống trách nhiệm</strong>, luôn quan tâm và chăm sóc mọi người xung quanh.</p>`,
-
-    tinhThanYeuThuong: `<p><strong class='text-primary'>Tinh thần yêu thương</strong>, mang lại sự ấm áp và an toàn trong các mối quan hệ.</p>`,
-
-    gioiDuyTriMoiQuanHe: `<p><strong class='text-primary'>Giỏi duy trì mối quan hệ</strong>, luôn hướng đến sự hài hòa.</p>`,
+    yeuThuong: `<p><strong class='text-primary'>Giàu tình yêu thương</strong>, biết chăm sóc và hỗ trợ người khác.</p>`,
+    trachNhiem: `<p><strong class='text-primary'>Có trách nhiệm cao</strong>, luôn đặt gia đình và cộng đồng lên hàng đầu.</p>`,
+    giuQuanHe: `<p><strong class='text-primary'>Giữ mối quan hệ tốt</strong>, hướng tới sự hài hòa và ổn định.</p>`,
   },
 
   3: {
-    sangTaoVaGiauTriTuongTuong: `<p class=''><strong class='text-primary'>Sáng tạo và giàu trí tưởng tượng</strong>, luôn có ý tưởng mới mẻ và độc đáo.</p>`,
-
-    khaNangBieuDatTot: `<p><strong class='text-primary'>Khả năng biểu đạt tốt</strong>Truyền đạt ý tưởng rõ ràng và thu hút, dễ dàng thể hiện cảm xúc qua ngôn ngữ, nghệ thuật.</p>`,
-
-    tinhThanLacQuan: `<p><strong class='text-primary'>Tinh thần lạc quan</strong>, mang lại năng lượng tích cực cho mọi người.</p>`,
+    sangTao: `<p><strong class='text-primary'>Sáng tạo</strong>, luôn có nhiều ý tưởng mới mẻ.</p>`,
+    bieuDatTot: `<p><strong class='text-primary'>Biểu đạt tốt</strong>, giao tiếp linh hoạt, biết truyền cảm hứng.</p>`,
+    lacQuan: `<p><strong class='text-primary'>Lạc quan</strong>, thường mang đến năng lượng tích cực cho môi trường xung quanh.</p>`,
   },
   9: {
-    trucGiacManh: `<p class=''><strong class='text-primary'>Trực giác nhạy bén</strong>, dễ dàng cảm nhận và thấu hiểu con người.</p>`,
-
-    tamLongNhanAi: `<p><strong class='text-primary'>Tấm lòng nhân ái</strong>, luôn quan tâm và giúp đỡ người khác.</p>`,
-
-    tuDuyRongMo: `<p><strong class='text-primary'>Tư duy rộng mở</strong>, có cái nhìn bao quát và thấu hiểu cuộc sống.</p>`,
-
-    songViLyTuong: `<p><strong class='text-primary'>Sống vì lý tưởng</strong>, luôn hướng tới những giá trị cao đẹp và bền vững.</p>`,
-
-    truyenCamHung: `<p><strong class='text-primary'>Khả năng truyền cảm hứng</strong>, tác động tích cực đến những người xung quanh.</p>`,
+    tuTamNhanAi: `<p><strong class='text-primary'>Từ tâm và nhân ái</strong>, sống vì cộng đồng.</p>`,
+    truyenCamHung: `<p><strong class='text-primary'>Truyền cảm hứng</strong>, có khả năng khơi dậy niềm tin và hành động tích cực.</p>`,
+    tuDuyRongMo: `<p><strong class='text-primary'>Tư duy rộng mở</strong>, dễ nhìn nhận và bao dung.</p>`,
+  },
+  10: {
+    lanhDaoVaDanDat: `<p class=''><strong class='text-primary'>Tinh thần lãnh đạo chủ động</strong>, luôn tiên phong và quyết đoán trong hành động.</p>`,
+    taoAnhHuongManhMe: `<p><strong class='text-primary'>Khả năng tạo ảnh hưởng tích cực</strong>, dẫn dắt bằng năng lượng mạnh mẽ và mục tiêu rõ ràng.</p>`,
+    suLinhHoat: `<p><strong class='text-primary'>Linh hoạt và thích nghi</strong>, có thể phát triển trong nhiều lĩnh vực nhờ tư duy đa chiều.</p>`,
+    tuDuyDocLap: `<p><strong class='text-primary'>Độc lập và bản lĩnh</strong>, tự chủ trong tư duy và hành động, không bị phụ thuộc.</p>`,
   },
   11: {
-    trucGiacManh: `
-        <p class="">
-          <strong class="text-primary">Trực giác nhạy</strong>, có khả năng
-          cảm nhận sâu sắc về con người và sự việc.
-        </p>
-      `,
-    truyenCamHung: `
-        <p>
-          <strong class="text-primary">Khả năng truyền cảm hứng</strong>, dẫn
-          dắt người khác bằng sự hiểu biết sâu sắc.
-        </p>
-      `,
-    SuMenhLonLao: `
-        <p>
-          <strong class="text-primary">Sứ mệnh lớn lao</strong>, thường hướng
-          đến những mục tiêu ý nghĩa cho xã hội.
-        </p>
-      `,
+    trucGiac: `<p><strong class='text-primary'>Trực giác sâu sắc</strong>, có khả năng cảm nhận tinh tế những điều ẩn sau hành vi, lời nói.</p>`,
+    truyenCamHung: `<p><strong class='text-primary'>Khả năng truyền cảm hứng mạnh</strong>, ảnh hưởng tích cực đến người khác qua hành trình sống của bản thân.</p>`,
+    SuMenhLonLao: `<p><strong class='text-primary'>Sứ mệnh sâu sắc</strong>, hướng đến những đóng góp lớn cho xã hội thông qua sự thức tỉnh tinh thần.</p>`,
   },
   20: {
-    nhayBenVaTrucGiacCao:
-      "<p class=''><strong class='text-primary'>Nhạy bén và trực giác cao</strong>, có thể cảm nhận tốt về con người và tình huống.</p>",
-    khaNangKetNoiTot:
-      "<p><strong class='text-primary'>Khả năng kết nối tốt</strong>, dễ dàng hòa hợp và làm việc nhóm.</p>",
-    tuDuyCanBang:
-      "<p><strong class='text-primary'>Tư duy cân bằng</strong>, luôn tạo ra sự hài hòa trong cuộc sống.</p>",
-    kienNhanVaSauSac:
-      "<p><strong class='text-primary'>Kiên nhẫn và sâu sắc</strong>, có khả năng lắng nghe và thấu hiểu người khác.</p>",
-    toChatHoTroManh:
-      "<p><strong class='text-primary'>Tố chất hỗ trợ mạnh</strong>, phù hợp với các công việc tư vấn, chăm sóc hoặc cố vấn.</p>",
+    nhayBenVaTrucGiacCao: `<p><strong class='text-primary'>Nhạy bén và trực giác cao</strong>, dễ cảm nhận và thấu hiểu cảm xúc, hoàn cảnh người khác.</p>`,
+    khaNangKetNoiTot: `<p><strong class='text-primary'>Khả năng kết nối và hợp tác</strong>, dễ hòa nhập và duy trì mối quan hệ tích cực.</p>`,
+    tuDuyCanBang: `<p><strong class='text-primary'>Tư duy hài hòa</strong>, luôn tìm kiếm sự công bằng và cân bằng trong các tình huống.</p>`,
+    kienNhanVaSauSac: `<p><strong class='text-primary'>Kiên nhẫn và chiều sâu</strong>, có khả năng quan sát và hành động chậm mà chắc.</p>`,
+    toChatHoTroManh: `<p><strong class='text-primary'>Tố chất hỗ trợ tự nhiên</strong>, phù hợp với vai trò hỗ trợ, chăm sóc hoặc dẫn dắt người khác phát triển.</p>`,
   },
   30: {
-    taiNangSangTaoBamSinh:
-      "<p class=''><strong class='text-primary'>Tài năng sáng tạo bẩm sinh</strong>, có nhiều ý tưởng mới lạ và độc đáo.</p>",
-    giaoTiepXuatSac:
-      "<p><strong class='text-primary'>Giao tiếp xuất sắc</strong>, có khả năng truyền tải thông điệp một cách cuốn hút.</p>",
-    songLacQuanVuiVe:
-      "<p><strong class='text-primary'>Sống lạc quan, vui vẻ</strong>, luôn mang đến năng lượng tích cực.</p>",
-    deDangThichNghi:
-      "<p><strong class='text-primary'>Dễ dàng thích nghi</strong>, linh hoạt trong nhiều môi trường khác nhau.</p>",
-    coSucAnhHuongLon:
-      "<p><strong class='text-primary'>Có sức ảnh hưởng lớn</strong>, dễ tạo dấu ấn trong nghệ thuật, truyền thông hoặc giáo dục.</p>",
+    taiNangSangTaoBamSinh: `<p><strong class='text-primary'>Tài năng sáng tạo</strong>, thường có góc nhìn độc đáo, mới mẻ.</p>`,
+    giaoTiepXuatSac: `<p><strong class='text-primary'>Giao tiếp thu hút</strong>, diễn đạt lưu loát và dễ truyền cảm hứng.</p>`,
+    songLacQuanVuiVe: `<p><strong class='text-primary'>Tinh thần lạc quan</strong>, mang lại năng lượng tích cực cho người xung quanh.</p>`,
+    deDangThichNghi: `<p><strong class='text-primary'>Linh hoạt và thích nghi tốt</strong>, dễ hòa nhập với môi trường mới.</p>`,
+    coSucAnhHuongLon: `<p><strong class='text-primary'>Tạo ảnh hưởng qua ngôn từ và hình ảnh</strong>, dễ nổi bật trong lĩnh vực truyền thông, nghệ thuật hoặc giáo dục.</p>`,
   },
   22: {
-    tuDuyChienLuocManhMe:
-      "<p class=''><strong class='text-primary'>Tư duy chiến lược mạnh mẽ</strong>, có khả năng nhìn xa trông rộng và lập kế hoạch hiệu quả.</p>",
-    khaNangXayDungVaToChuc:
-      "<p><strong class='text-primary'>Khả năng xây dựng và tổ chức</strong>, tạo ra những nền tảng vững chắc và có giá trị lâu dài.</p>",
-    lanhDaoDayTrachNhiem:
-      "<p><strong class='text-primary'>Lãnh đạo đầy trách nhiệm</strong>, có tố chất dẫn dắt và truyền cảm hứng cho người khác.</p>",
-    tinhKienTriVaKyLuatCao:
-      "<p><strong class='text-primary'>Tính kiên trì và kỷ luật cao</strong>, không dễ bị lay chuyển bởi khó khăn.</p>",
-    khaNangAnhHuongLon:
-      "<p><strong class='text-primary'>Khả năng ảnh hưởng lớn</strong>, tác động đến cộng đồng và thế giới theo hướng tích cực.</p>",
+    tuDuyChienLuocManhMe: `<p><strong class='text-primary'>Tư duy chiến lược vượt trội</strong>, nhìn xa trông rộng và có khả năng hiện thực hóa ước mơ lớn.</p>`,
+    khaNangXayDungVaToChuc: `<p><strong class='text-primary'>Khả năng kiến tạo</strong>, xây dựng hệ thống vững chắc và thực tiễn.</p>`,
+    lanhDaoDayTrachNhiem: `<p><strong class='text-primary'>Lãnh đạo bằng hành động</strong>, có trách nhiệm và năng lực ảnh hưởng lớn đến cộng đồng.</p>`,
+    tinhKienTriVaKyLuatCao: `<p><strong class='text-primary'>Kiên trì và kỷ luật cao</strong>, không dễ bị lung lay trước khó khăn.</p>`,
+    khaNangAnhHuongLon: `<p><strong class='text-primary'>Tầm ảnh hưởng sâu rộng</strong>, truyền cảm hứng cho các dự án mang tầm vóc lớn.</p>`,
   },
   33: {
-    triTueVaSuThauHieuSauSac:
-      "<p class=''><strong class='text-primary'>Trí tuệ và sự thấu hiểu sâu sắc</strong>, có khả năng nhìn nhận vấn đề một cách toàn diện.</p>",
-    khaNangTruyenCamHungManhMe:
-      "<p><strong class='text-primary'>Khả năng truyền cảm hứng mạnh mẽ</strong>, dễ dàng hướng dẫn, giảng dạy và tạo động lực.</p>",
-    khaNangSangTao:
-      "<p><strong class='text-primary'>Khả năng sáng tạo</strong>, phù hợp với nghệ thuật, tâm linh và giáo dục.</p>",
-    tuDuyViThaVaCongHien:
-      "<p><strong class='text-primary'>Tư duy vị tha và cống hiến</strong>, luôn đặt lợi ích của cộng đồng lên hàng đầu.</p>",
+    triTueVaSuThauHieuSauSac: `<p><strong class='text-primary'>Trí tuệ và thấu cảm</strong>, nắm bắt sâu sắc bản chất con người và cuộc sống.</p>`,
+    khaNangTruyenCamHungManhMe: `<p><strong class='text-primary'>Truyền cảm hứng bằng trải nghiệm sống</strong>, kết nối với người khác qua giá trị nhân văn.</p>`,
+    khaNangSangTao: `<p><strong class='text-primary'>Sáng tạo kết hợp chữa lành</strong>, phù hợp với nghệ thuật, tâm linh, giáo dục.</p>`,
+    tuDuyViThaVaCongHien: `<p><strong class='text-primary'>Vị tha và phục vụ</strong>, luôn mong muốn cống hiến cho điều tốt đẹp hơn trong xã hội.</p>`,
+  },
+};
+
+export const WEAK_NUMB = {
+  1: {
+    noidung: `<p><strong class='text-danger'>Thiếu chính kiến</strong>, dễ bị ảnh hưởng bởi người khác.</p>
+     <p><strong class='text-danger'>Sợ thử thách</strong>, ngại dấn thân vào điều mới.</p>
+     <p><strong class='text-danger'>Khó tự lập</strong>, thiếu động lực lãnh đạo hoặc dẫn dắt.</p>`,
+  },
+  2: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Thiếu khả năng kết nối và hòa hợp</strong>, khó làm việc nhóm và dễ xảy ra mâu thuẫn.</p> <p><strong class='text-danger'>Khó bày tỏ cảm xúc</strong>, dễ bị hiểu lầm và tạo khoảng cách với người khác.</p> <p><strong class='text-danger'>Thiếu sự nhạy bén về cảm xúc</strong>, không dễ thấu hiểu tâm lý người khác.</p> ",
+  },
+  3: {
+    noidung:
+      "<p class='mt-5' ><strong class='text-danger'>Thiếu sự sáng tạo và linh hoạt</strong>, tư duy cứng nhắc.</p><p><strong class='text-danger'>Thiếu sự lạc quan</strong>, dễ bị tiêu cực.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc diễn đạt ý tưởng</strong>, khó thể hiện bản thân trước đám đông.</p>",
+  },
+  4: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Thiếu kỷ luật</strong>, hay tùy hứng hành động.</p><p><strong class='text-danger'>Không có kế hoạch rõ ràng</strong>, hay trì hoãn.</p><p><strong class='text-danger'>Thiếu kiên trì với mục tiêu</strong>, hay thay đổi quyết định.</p>",
+  },
+  5: {
+    noidung: `<p><strong class='text-danger'>Thiếu linh hoạt</strong>, khó thích nghi với môi trường mới.</p>
+    <p><strong class='text-danger'>Ngại trải nghiệm</strong>, sợ mạo hiểm hoặc rủi ro.</p>`,
+  },
+  6: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Khó thể hiện tình cảm</strong>, cảm thấy không thoải mái khi bày tỏ yêu thương.</p> <p><strong class='text-danger'>Dễ cảm thấy áp lực</strong> khi phải chịu trách nhiệm với ai đó.</p>",
+  },
+  7: {
+    noidung: `<p><strong class='text-danger'>Thiếu trải nghiệm thực tế</strong>, học theo lý thuyết nhưng khó áp dụng.</p>
+    <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác</strong>, thiếu tư duy phản biện.</p>
+    <p><strong class='text-danger'>Dễ bị tổn thương tinh thần</strong>, khó vượt qua áp lực tâm lý.</p>`,
+  },
+  8: {
+    noidung:
+      "<p class='mt-5'><strong class='text-danger'>Gặp khó khăn trong việc quản lý tài chính</strong>, dễ rơi vào tình trạng chi tiêu mất kiểm soát.</p> <p><strong class='text-danger'>Thiếu quyết đoán trong các quyết định quan trọng</strong> , Hay do dự, sợ sai lầm dẫn đến bỏ lỡ cơ hội.</p> <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác, thiếu lập trường vững vàng</strong> , Thiếu sự kiên định, dễ thay đổi theo ý kiến của người khác.</p> <p><strong class='text-danger'>Không giỏi tổ chức và điều hành</strong>, dễ mất kiểm soát trong công việc, dẫn đến thiếu hiệu quả.</p>",
+  },
+  9: {
+    noidung: `<p><strong class='text-danger'>Sống thực dụng</strong>, dễ bỏ qua các giá trị nhân văn.</p>
+     <p><strong class='text-danger'>Ích kỷ và dễ mất niềm tin</strong>, ít quan tâm đến cộng đồng.</p>`,
   },
 };
 
@@ -1330,10 +1295,8 @@ export const NUMERLOGY_JOB = {
     <h4>🎯 Nghề phù hợp:</h4>
     <ul>
       <li>Doanh nhân</li>
-      <li>Giám đốc điều hành</li>
       <li>Quản lý dự án</li>
-      <li>Chính trị gia</li>
-      <li>Luật sư</li>
+      <li>Diễn giả, huấn luyện viên lãnh đạo</li>
       <li>Nhà sáng lập startup</li>
     </ul>
   </div>
@@ -1400,7 +1363,7 @@ export const NUMERLOGY_JOB = {
     <li>Tiếp viên</li>
     <li>Phóng viên</li>
     <li>Influencer</li>
-    <li>Nghề sáng tạo linh hoạt</li>
+
   </ul>
 </div>`,
   },
@@ -1411,12 +1374,11 @@ export const NUMERLOGY_JOB = {
   <p>Yêu thương, chăm sóc và xây dựng sự hài hòa trong cộng đồng.</p>
   <h4>👩‍⚕️ Nghề phù hợp:</h4>
   <ul>
-    <li>Giáo viên</li>
-    <li>Bác sĩ</li>
-    <li>Tư vấn tâm lý</li>
-    <li>Công tác xã hội</li>
-    <li>Làm đẹp</li>
-    <li>Chăm sóc sức khỏe và gia đình</li>
+     <li>Chuyên viên làm đẹp (spa, thẩm mỹ, trang điểm)</li>
+      <li>Thiết kế nội thất, thiết kế thời trang</li>
+      <li>Quản trị nhân sự</li>
+      <li>Giáo viên kỹ năng sống, dạy nghề</li>
+      <li>Tổ chức sự kiện, trang trí</li>
   </ul>
 </div>`,
   },
@@ -1459,12 +1421,15 @@ export const NUMERLOGY_JOB = {
   <p>Phụng sự cộng đồng, sống lý tưởng và truyền cảm hứng nhân văn.</p>
   <h4>🌱 Nghề phù hợp:</h4>
   <ul>
-    <li>Bác sĩ</li>
-    <li>Nhà giáo</li>
-    <li>Nhà hoạt động xã hội</li>
-    <li>Nghệ sĩ nhân đạo</li>
+ 
+    <li>Nhà văn – viết truyện truyền cảm hứng</li>
+    <li>Nhà làm phim, biên kịch, nghệ sĩ kể chuyện nhân văn</li>
+    <li>Huấn luyện viên phát triển bản thân</li>
+    <li>Nhà truyền thông xã hội – lan tỏa giá trị sống tích cực</li>
+    <li>Tư vấn định hướng nghề nghiệp / cuộc sống (coaching nhẹ)</li>
+    <li>Thiết kế / làm nghệ thuật vì cộng đồng (art for change)</li>
     <li>Người làm từ thiện</li>
-    <li>Nhà văn</li>
+
   </ul>
 </div>`,
   },
@@ -1491,52 +1456,13 @@ export const NUMERLOGY_JOB = {
   <p>Kết nối lý tưởng lớn với hành động thực tế để xây dựng những công trình vĩ mô.</p>
   <h4>🏛️ Nghề phù hợp:</h4>
   <ul>
-    <li>Kiến trúc sư</li>
-    <li>Nhà phát triển hệ thống xã hội</li>
-    <li>Nhà sáng lập tổ chức</li>
-    <li>Cố vấn chiến lược</li>
-    <li>Nhà thiết kế tầm cỡ</li>
+   <li>Nhà thiết kế hệ thống (UX/UI, thiết kế tư duy, thiết kế trải nghiệm lớn)</li>
+      <li>Nhà tư duy chiến lược độc lập (brand strategist, cố vấn mô hình kinh doanh)</li>
+      <li>Người sáng lập sáng tạo – theo mô hình studio nhỏ, freelance hoặc agency độc lập</li>
+      <li>Nhà viết sách – xây dựng lý thuyết ứng dụng xã hội, giáo dục hoặc công nghệ</li>
+      <li>Người sáng tạo nội dung chuyên sâu về tư duy hệ thống, tư tưởng cải cách</li>
   </ul>
 </div>`,
-  },
-};
-
-export const WEAK_NUMB = {
-  1: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Thiếu quyết đoán và chính kiến</strong>, dễ bị ảnh hưởng bởi ý kiến của người khác.</p> <p><strong class='text-danger'>Ngại thử thách và sợ thất bại</strong>, thường không dám bước ra khỏi vùng an toàn.</p> <p><strong class='text-danger'>Khó tự lập và dễ phụ thuộc</strong>, thiếu khả năng lãnh đạo và tự chủ trong cuộc sống.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc thể hiện bản thân</strong>, dễ cảm thấy tự ti và so sánh với người khác.</p> <p><strong class='text-danger'>Dễ bị thao túng trong các mối quan hệ</strong>, thiếu sự vững vàng khi đưa ra quan điểm cá nhân.</p>",
-  },
-  2: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Thiếu khả năng kết nối và hòa hợp</strong>, khó làm việc nhóm và dễ xảy ra mâu thuẫn.</p> <p><strong class='text-danger'>Khó bày tỏ cảm xúc</strong>, dễ bị hiểu lầm và tạo khoảng cách với người khác.</p> <p><strong class='text-danger'>Thiếu sự nhạy bén về cảm xúc</strong>, không dễ thấu hiểu tâm lý người khác.</p> <p><strong class='text-danger'>Dễ cảm thấy cô đơn</strong>, khó duy trì các mối quan hệ bền vững.</p> ",
-  },
-  3: {
-    noidung:
-      "<p class='mt-5' ><strong class='text-danger'>Thiếu sự sáng tạo và linh hoạt</strong>, tư duy cứng nhắc.</p><p><strong class='text-danger'>Thiếu sự lạc quan</strong>, dễ bị tiêu cực.</p> <p><strong class='text-danger'>Gặp khó khăn trong việc diễn đạt ý tưởng</strong>, khó thể hiện bản thân trước đám đông.</p>",
-  },
-  4: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Thiếu kỷ luật</strong>, hay tùy hứng hành động.</p><p><strong class='text-danger'>Không có kế hoạch rõ ràng</strong>, hay trì hoãn.</p><p><strong class='text-danger'>Thiếu kiên trì với mục tiêu</strong>, hay thay đổi quyết định.</p>",
-  },
-  5: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Ngại thay đổi</strong>, dễ bị mắc kẹt trong lối sống cũ.</p> <p><strong class='text-danger'>Thiếu tinh thần phiêu lưu</strong>, sợ mạo hiểm.</p> <p><strong class='text-danger'>Khó thích nghi</strong> khi gặp tình huống mới.</p>",
-  },
-  6: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Khó thể hiện tình cảm</strong>, cảm thấy không thoải mái khi bày tỏ yêu thương.</p> <p><strong class='text-danger'>Dễ cảm thấy áp lực</strong> khi phải chịu trách nhiệm với ai đó.</p>",
-  },
-  7: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Dễ tin người, ít phân tích sâu</strong> , Có thể bị lừa gạt, dễ bị tác động bởi người khác.</p> <p><strong class='text-danger'>Học theo lý thuyết nhiều hơn thực tế</strong> , Dễ bị 'lý thuyết suông', thiếu tư duy phản biện.</p> <p><strong class='text-danger'>Dễ bị tổn thương về tinh thần,</strong>  Không chịu được những áp lực lớn về cảm xúc hoặc tâm lý.</p>",
-  },
-  8: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'>Gặp khó khăn trong việc quản lý tài chính</strong>, dễ rơi vào tình trạng chi tiêu mất kiểm soát.</p> <p><strong class='text-danger'>Thiếu quyết đoán trong các quyết định quan trọng</strong> , Hay do dự, sợ sai lầm dẫn đến bỏ lỡ cơ hội.</p> <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác, thiếu lập trường vững vàng</strong> , Thiếu sự kiên định, dễ thay đổi theo ý kiến của người khác.</p> <p><strong class='text-danger'>Không giỏi tổ chức và điều hành</strong>, dễ mất kiểm soát trong công việc, dẫn đến thiếu hiệu quả.</p>",
-  },
-  9: {
-    noidung:
-      "<p class='mt-5'><strong class='text-danger'> Thiếu sự đồng cảm và lòng trắc ẩn với người khác.</strong>, khó bao dung và dễ để bụng những chuyện nhỏ nhặt.</p> <p><strong class='text-danger'>Ích kỷ trong suy nghĩ</strong>, thường đặt lợi ích cá nhân hoặc gia đình lên trên lợi ích chung.</p> <p><strong class='text-danger'>Thiếu trách nhiệm với cộng đồng</strong>, ít quan tâm đến những vấn đề xã hội hoặc những người xung quanh.</p>",
   },
 };
 
@@ -1627,9 +1553,9 @@ export const SOLUTION_NUMB = {
     </ul>
      <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
-      <li>Quản lý dự án, lập kế hoạch.</li>
-      <li>Logistics, điều phối sản xuất.</li>
-      <li>Công việc hành chính – hệ thống nghiêm ngặt.</li>
+       <li>Các vị trí đòi hỏi kỷ luật cao & quy trình nghiêm ngặt: Quản lý dự án, vận hành doanh nghiệp.</li>
+      <li>Công việc kỹ thuật – sản xuất (yêu cầu chi tiết và ổn định).</li>
+      <li>Hành chính – pháp lý – kiểm toán (đòi hỏi xử lý chính xác & quy trình cao).</li>
     </ul>
     `,
   },
@@ -1650,7 +1576,7 @@ export const SOLUTION_NUMB = {
     </ul>
      <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
-      <li>Sales năng động, startup công nghệ.</li>
+      <li>Sales năng động.</li>
       <li>Nghề nhiều công tác.</li>
       <li>Hướng dẫn viên du lịch, freelancer.</li>
     </ul>
@@ -1683,21 +1609,21 @@ export const SOLUTION_NUMB = {
    <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
         <li>Thiếu thực tế,</li>
-        <li>Dễ bị lừa,</li>
-        <li>Thiếu tư duy phản biện.</li>
+        <li>Dễ bị chi phối bởi môi trường bên ngoài</li>
+        <li>Thiếu khả năng suy nghĩ sâu sắc và chiêm nghiệm.</li>
       </ul>
     </p>
       <div class="subtitle">✨ Giải pháp khắc phục:</div>
     <ul>
-      <li>Rèn tư duy logic và xác minh thông tin.</li>
-      <li>Thực hành viết phân tích – lập luận.</li>
-      <li>Hạn chế tin đồn, rèn luyện tiếp cận thông tin khách quan.</li>
+      <li>Rèn luyện khả năng tập trung và suy ngẫm bằng viết nhật ký hoặc thiền nhẹ mỗi ngày.</li>
+      <li>Tham gia các hoạt động giúp phát triển tư duy sâu như đọc sách phân tích, học triết lý sống.</li>
+      <li>Hạn chế lối sống vội vàng – nên dành thời gian ở một mình để hiểu bản thân.</li>
     </ul>
      <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
-      <li>Đầu tư mạo hiểm.</li>
-      <li>Phân tích dữ liệu, nghiên cứu khoa học.</li>
-      <li>Tư vấn kỹ thuật, pháp lý.</li>
+     <li>Trị liệu tâm lý hoặc nghề đòi hỏi chiều sâu cảm xúc nội tâm.</li>
+      <li>Nghiên cứu học thuật chuyên sâu (khoa học, triết học, tư tưởng trừu tượng).</li>
+      <li>Công việc thiên về tâm linh hoặc đòi hỏi khả năng chiêm nghiệm cao (thiền, năng lượng, reiki).</li>
     </ul>
     `,
   },
@@ -1718,7 +1644,7 @@ export const SOLUTION_NUMB = {
     </ul>
      <div class="subtitle">🚫 Nghề nên hạn chế:</div>
     <ul>
-      <li>Chủ doanh nghiệp, giám đốc tài chính.</li>
+      <li>Giám đốc tài chính.</li>
       <li>Quản lý ngân sách, đầu tư.</li>
       <li>Chính trị, đấu tranh quyền lực.</li>
     </ul>
