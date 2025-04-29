@@ -142,14 +142,8 @@ function OverviewNumber() {
     <Fragment>
       <div className="text-center mt-4 mb-4">
         <h2 className="mx-auto text-center">
-          Bạn{" "}
-          <span style={{ fontWeight: "bold", color: "blue" }}>
-            {full_name_list}
-          </span>
-          , ngày sinh{" "}
-          <span style={{ fontWeight: "bold", color: "blue" }}>
-            {birth_day_list}
-          </span>
+          Bạn <span className="sign_bold">{full_name_list}</span>, ngày sinh{" "}
+          <span className="sign_bold">{birth_day_list}</span>
         </h2>
 
         <Link to="/" className="scale-up btn btn-danger mt-3 transition  ">
@@ -165,7 +159,9 @@ function OverviewNumber() {
                   className="text-center card-container"
                   onMouseEnter={() => setHoverIndex(`${rowIndex}-${index}`)}
                 >
-                  <span title={item.label} className="title_number">{item.label}</span>
+                  <span title={item.label} className="title_number">
+                    {item.label}
+                  </span>
                   <div
                     onClick={() => scrollToSection(item.a)}
                     style={{ cursor: "pointer" }}

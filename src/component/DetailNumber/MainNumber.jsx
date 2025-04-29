@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Divider, List } from "antd";
-import sochudao from "../../assets/img/sochudao.png";
+import sochudao from "../../assets/img/sochudao2.png";
 import { NUMEROLOGY_KARMA, NUMERLOGY_COMMON,ARROW } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";

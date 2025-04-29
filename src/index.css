@@ -1,15 +1,23 @@
 body {
   min-width: 800px !important;
   margin: 0;
-  background-image: url("./assets/img/bg.jpg");
+  background-image: url("./assets/img/glaxy.png"), url("./assets/img/bg.jpg");
   font-family: "Segoe UI", sans-serif;
   color: white;
   overflow-x: hidden;
   position: relative;
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
 }
 
 #menu {
   background: linear-gradient(to bottom, #001c31 36%, #17143f 93%);
+}
+
+.sign_bold {
+  font-weight: bold;
+  color: #6b009d;
+  -webkit-text-stroke: 0.8px #fff;
 }
 
 #detail_number {
@@ -20,6 +28,10 @@ body {
 #four_peak,
 #summary {
   color: black;
+}
+
+.nav-link:hover {
+  font-weight: bold;
 }
 
 .number-bg {
@@ -234,22 +246,18 @@ body {
 }
 
 .title_number {
-  color: #8d8981;
-  font-weight: 500;
+  color: #fff8e9;
+  font-weight: 550;
   margin-bottom: 5px;
   display: block;
   white-space: nowrap;
-  /* Không cho xuống dòng */
   overflow: hidden;
-  /* Ẩn phần bị tràn */
   text-overflow: ellipsis;
-  /* Thêm dấu ... */
   max-width: 100%;
-  /* Giới hạn chiều rộng */
   display: inline-block;
-  /* Để các thuộc tính trên hoạt động */
   cursor: pointer;
-  /* Cho cảm giác có thể tương tác */
+  /* font-family: Roboto; */
+  opacity: 0.9;
 }
 
 .my-col-peak {

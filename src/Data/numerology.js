@@ -1120,7 +1120,7 @@ export const WEAK_NUMB = {
   7: {
     noidung: `<p><strong class='text-danger'>Thiếu trải nghiệm thực tế</strong>, học theo lý thuyết nhưng khó áp dụng.</p>
     <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác</strong>, thiếu tư duy phản biện.</p>
-    <p><strong class='text-danger'>Dễ bị tổn thương tinh thần</strong>, khó vượt qua áp lực tâm lý.</p>`,
+    <p><strong class='text-danger'>Dễ bị tổn thương tinh thần</strong>, khó kiểm soát áp lực tâm lý.</p>`,
   },
   8: {
     noidung:
@@ -1500,7 +1500,7 @@ export const SOLUTION_NUMB = {
       <li>Tập nói “không” và đưa ra ý kiến cá nhân.</li>
       <li>Tham gia các khoá học lãnh đạo hoặc phát triển bản thân.</li>
     </ul>
-     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
+     <div class="subtitle">🚫 Tính chất công việc nên hạn chế:</div>
     <ul>
       <li>CEO, quản lý cấp cao.</li>
       <li>Founder startup, chỉ huy trưởng.</li>
@@ -1523,7 +1523,7 @@ export const SOLUTION_NUMB = {
       <li>Tham gia hoạt động nhóm, rèn khả năng chia sẻ.</li>
       <li>Viết nhật ký cảm xúc mỗi ngày.</li>
     </ul>
-     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
+     <div class="subtitle">🚫 Tính chất công việc nên hạn chế:</div>
     <ul>
       <li>Nhân sự, chăm sóc khách hàng, tư vấn tâm lý.</li>
       <li>Giáo viên mầm non, điều dưỡng.</li>
@@ -1546,7 +1546,7 @@ export const SOLUTION_NUMB = {
       <li>Tập viết blog, trình bày quan điểm cá nhân.</li>
       <li>Hạn chế môi trường tiêu cực, nhiều rập khuôn.</li>
     </ul>
-     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
+     <div class="subtitle">🚫 Tính chất công việc nên hạn chế:</div>
     <ul>
       <li>Diễn viên, ca sĩ.</li>
       <li>MC, phát thanh viên.</li>
@@ -1569,9 +1569,9 @@ export const SOLUTION_NUMB = {
       <li>Lên kế hoạch tuần/ngày rõ ràng.</li>
       <li>Cam kết với người khác để có trách nhiệm hơn.</li>
     </ul>
-     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
+     <div class="subtitle">🚫 Tính chất công việc nên hạn chế:</div>
     <ul>
-       <li>Các vị trí đòi hỏi kỷ luật cao & quy trình nghiêm ngặt: Quản lý dự án, vận hành doanh nghiệp.</li>
+       <li>Các vị trí đòi hỏi kỷ luật cao & quy trình nghiêm ngặt.</li>
       <li>Công việc kỹ thuật – sản xuất (yêu cầu chi tiết và ổn định).</li>
       <li>Hành chính – pháp lý – kiểm toán (đòi hỏi xử lý chính xác & quy trình cao).</li>
     </ul>
@@ -1592,7 +1592,7 @@ export const SOLUTION_NUMB = {
       <li>Thiền hoặc viết nhật ký để quan sát nỗi sợ thay đổi.</li>
       <li>Thử thách bản thân với những thay đổi nhỏ hằng tuần.</li>
     </ul>
-     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
+     <div class="subtitle">🚫 Tính chất công việc nên hạn chế:</div>
     <ul>
       <li>Sales năng động.</li>
       <li>Nghề nhiều công tác.</li>
@@ -1614,7 +1614,7 @@ export const SOLUTION_NUMB = {
       <li>Tập nói lời yêu thương một cách đơn giản, chân thành.</li>
       <li>Nhận nhiệm vụ nhỏ có yếu tố chăm sóc để rèn dần.</li>
     </ul>
-     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
+     <div class="subtitle">🚫 Tính chất công việc nên hạn chế:</div>
     <ul>
       <li>Y tá, giáo viên tiểu học, điều dưỡng.</li>
       <li>Luật sư, giám đốc nhân sự.</li>
@@ -1637,11 +1637,11 @@ export const SOLUTION_NUMB = {
       <li>Tham gia các hoạt động giúp phát triển tư duy sâu như đọc sách phân tích, học triết lý sống.</li>
       <li>Hạn chế lối sống vội vàng – nên dành thời gian ở một mình để hiểu bản thân.</li>
     </ul>
-     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
+     <div class="subtitle">🚫 Tính chất công việc nên hạn chế:</div>
     <ul>
      <li>Trị liệu tâm lý hoặc nghề đòi hỏi chiều sâu cảm xúc nội tâm.</li>
-      <li>Nghiên cứu học thuật chuyên sâu (khoa học, triết học, tư tưởng trừu tượng).</li>
-      <li>Công việc thiên về tâm linh hoặc đòi hỏi khả năng chiêm nghiệm cao (thiền, năng lượng, reiki).</li>
+      <li>Nghiên cứu học thuật chuyên sâu (triết học, tư tưởng trừu tượng).</li>
+      <li>Công việc thiên về tâm linh hoặc đòi hỏi khả năng chiêm nghiệm cao.</li>
     </ul>
     `,
   },
@@ -1660,7 +1660,7 @@ export const SOLUTION_NUMB = {
       <li>Rèn luyện kỹ năng ra quyết định theo nguyên tắc.</li>
       <li>Làm việc với mentor hoặc huấn luyện viên tài chính.</li>
     </ul>
-     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
+     <div class="subtitle">🚫 Tính chất công việc nên hạn chế:</div>
     <ul>
       <li>Giám đốc tài chính.</li>
       <li>Quản lý ngân sách, đầu tư.</li>
@@ -1683,7 +1683,7 @@ export const SOLUTION_NUMB = {
       <li>Tập lòng biết ơn, viết “3 điều biết ơn mỗi ngày”.</li>
       <li>Quan sát và học từ những người giàu lòng nhân ái.</li>
     </ul>
-     <div class="subtitle">🚫 Nghề nên hạn chế:</div>
+     <div class="subtitle">🚫 Tính chất công việc nên hạn chế:</div>
     <ul>
       <li>Từ thiện, công tác xã hội, giáo dục khai tâm.</li>
       <li>Hướng đạo, bác sĩ không biên giới.</li>
