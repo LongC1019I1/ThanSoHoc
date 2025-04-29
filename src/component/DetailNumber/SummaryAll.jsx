@@ -51,7 +51,7 @@ function SummaryAll() {
   }
 
   return (
-    <div id="summary">
+    <div id="summary pb-5">
       <div className="container">
         <h1 className=" h1 my-5 px-2">
           <b className="text-info"> &nbsp; &nbsp;Xu hướng nghề nghiệp </b> và{" "}

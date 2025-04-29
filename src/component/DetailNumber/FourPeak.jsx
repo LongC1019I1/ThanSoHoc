@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import fourpeak from "../../assets/img/fourpeak.png";
+import fourpeak from "../../assets/img/11.png";
 import { TOP_PEAK } from "../../Data/numerology";
 import LifePeak from "./LifePeak";
 import parse from "html-react-parser";

@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import songaysinh from "../../assets/img/songaysinh.png";
+import songaysinh from "../../assets/img/7.png";
 import { NUMEROLOGY_BIRTHDAY_NUMBER } from "../../Data/numerology";
 import parse from "html-react-parser";
 

@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import sonoicam from "../../assets/img/sonoicam.png";
+import sonoicam from "../../assets/img/10.png";
 import { INNER_NUMBER } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { Fragment } from "react";

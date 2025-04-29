@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import attituteNumber from "../../assets/img/atitutenumber.png";
+import attituteNumber from "../../assets/img/6.png";
 import { NUMEROLOGY_ATTITUDE } from "../../Data/numerology";
 import parse from "html-react-parser";
 function AtituteNumber() {

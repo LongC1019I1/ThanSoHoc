@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import sotruongthanh from "../../assets/img/sotruongthanh.png";
+import sotruongthanh from "../../assets/img/2.png";
 import { NUMEROLOGY_MATURITY } from "../../Data/numerology";
 import parse from "html-react-parser";
 function MatureNumber() {

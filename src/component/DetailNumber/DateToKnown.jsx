@@ -2,7 +2,7 @@ import { Tag } from "antd";
 import React, { Fragment, useEffect, useRef, useState } from "react";
 import { Stage, Layer, Rect, Text, Label, Arrow } from "react-konva";
 import { useSelector } from "react-redux";
-import sotruongthanh from "../../assets/img/sotruongthanh.png";
+import bieudongaysinh from "../../assets/img/4.png";
 import { ARROW } from "../../Data/numerology";
 import parse from "html-react-parser";
 const DateToKnown = ({
@@ -96,7 +96,7 @@ const DateToKnown = ({
     <Fragment>
       <div id="date_to_known">
         <h1 className=" h1 my-5 px-2">2{") "} Mật mã ngày sinh </h1>
-        <img className=" my-1 w-100" src={sotruongthanh} />
+        <img className=" my-1 w-100 px-2" src={bieudongaysinh} />
       </div>
       <div class=" my-3 row">
         <div className=" d-flex justify-content-center " ref={canvasEl}>

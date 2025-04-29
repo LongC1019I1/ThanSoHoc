@@ -1,4 +1,4 @@
-import sodinhmenh from "../../assets/img/sodinhmenh.png";
+import sodinhmenh from "../../assets/img/5.png";
 import { NUMEROLOGY_LIFE_PATH } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";

@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import solinhhon from "../../assets/img/solinhhon.png";
+import solinhhon from "../../assets/img/8.png";
 import { NUMEROLOGY_SOUL_NUMBER } from "../../Data/numerology";
 import parse from "html-react-parser";
 function SoulNumber() {

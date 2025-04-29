@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import fourchallenge from "../../assets/img/fourchallenge.png";
+import fourchallenge from "../../assets/img/12.png";
 import { TOP_CHALLENGE } from "../../Data/numerology";
 import LifePeak from "./LifePeak";
 import parse from "html-react-parser";

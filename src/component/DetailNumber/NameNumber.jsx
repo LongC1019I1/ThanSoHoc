@@ -1,4 +1,4 @@
-import sotenrieng from "../../assets/img/namenumber.png";
+import sotenrieng from "../../assets/img/3.png";
 import { NUMEROLOGY_NAME } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";

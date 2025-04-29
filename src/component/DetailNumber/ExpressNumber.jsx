@@ -1,4 +1,4 @@
-import sobieudat from "../../assets/img/sobieudat.png";
+import sobieudat from "../../assets/img/9.png";
 import { EXPRESSION_NUMBER } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";

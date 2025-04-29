@@ -1,13 +1,13 @@
 body {
   min-width: 800px !important;
   margin: 0;
-  background-image: url("./assets/img/glaxy.png"), url("./assets/img/bg.jpg");
+  background-image: url("./assets/img/glaxy.png"), url("./assets/img/glaxy.png");
   font-family: "Segoe UI", sans-serif;
   color: white;
   overflow-x: hidden;
   position: relative;
-  background-repeat: no-repeat, repeat;
-  background-size: contain;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain,cover;
 }
 
 #menu {
