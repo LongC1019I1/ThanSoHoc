@@ -1686,9 +1686,8 @@ export const SOLUTION_NUMB = {
     </ul>
      <div class="subtitle">🚫 Tính chất công việc nên hạn chế:</div>
     <ul>
-      <li>Từ thiện, công tác xã hội, giáo dục khai tâm.</li>
-      <li>Hướng đạo, bác sĩ không biên giới.</li>
-      <li>Vai trò dẫn dắt đạo đức, tâm linh.</li>
+      <li>Công tác xã hội, hướng đạo</li>
+      <li> Vai trò dẫn dắt đạo đức, tâm linh.</li>
     </ul>
     `,
   },
