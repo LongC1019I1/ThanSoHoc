@@ -786,7 +786,7 @@ export const NUMEROLOGY_SOUL_NUMBER = {
   },
   8: {
     noidung:
-      "<h4 class='my-3'>Chỉ Số Linh Hồn 8 - Người lãnh đạo mạnh mẽ và độc lập</h4> <p>Chỉ số linh hồn 8 cho thấy bạn có khát khao được tự chủ và đạt được thành công lớn. Bạn luôn tìm cách kiểm soát vận mệnh của mình, với khả năng lãnh đạo và tinh thần quyết đoán. Bạn thường tự chủ về mặt tài chính và luôn theo đuổi mục tiêu một cách mạnh mẽ.</p> <p><strong>💡 Điểm mạnh:</strong> Tham vọng, kiên trì, có tố chất lãnh đạo và khả năng định hướng tốt.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị cuốn vào quyền lực, có xu hướng cứng nhắc và quá tập trung vào vật chất.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cân bằng giữa thành công cá nhân và trách nhiệm với cộng đồng, cũng như lắng nghe và chấp nhận ý kiến đóng góp từ người khác.</p>",
+      "<h4 class='my-3'>Chỉ Số Linh Hồn 8 - Người lãnh đạo mạnh mẽ và độc lập</h4> <p>Chỉ số linh hồn 8 cho thấy bạn có khát khao được tự chủ và đạt được thành công lớn. Bạn luôn tìm cách kiểm soát vận mệnh của mình, với khả năng lãnh đạo và tinh thần quyết đoán. Bạn thường tự chủ về mặt tài chính và luôn theo đuổi mục tiêu một cách mạnh mẽ.</p> <p><strong>💡 Điểm mạnh:</strong> Tham vọng, có tố chất lãnh đạo và khả năng định hướng tốt.</p> <p><strong>⚠️ Thách thức:</strong> Dễ bị cuốn vào quyền lực, có xu hướng cứng nhắc và quá tập trung vào vật chất.</p> <p><strong>🚀 Định hướng phát triển:</strong> Học cách cân bằng giữa thành công cá nhân và trách nhiệm với cộng đồng, cũng như lắng nghe và chấp nhận ý kiến đóng góp từ người khác.</p>",
     tomtat:
       "Luôn tìm cách kiểm soát vận mệnh của mình, với khả năng lãnh đạo và tinh thần quyết đoán. Bạn mong muốn tự chủ về mặt tài chính và luôn theo đuổi mục tiêu một cách mạnh mẽ",
   },
@@ -1118,7 +1118,7 @@ export const WEAK_NUMB = {
       "<p class='mt-5'><strong class='text-danger'>Khó thể hiện tình cảm</strong>, cảm thấy không thoải mái khi bày tỏ yêu thương.</p> <p><strong class='text-danger'>Dễ cảm thấy áp lực</strong> khi phải chịu trách nhiệm với ai đó.</p>",
   },
   7: {
-    noidung: `<p><strong class='text-danger'>Thiếu trải nghiệm thực tế</strong>, học theo lý thuyết nhưng khó áp dụng.</p>
+    noidung: `<p><strong class='text-danger'>Thiếu thực tế</strong>, học theo lý thuyết nhưng khó áp dụng.</p>
     <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác</strong>, thiếu tư duy phản biện.</p>
     <p><strong class='text-danger'>Dễ bị tổn thương tinh thần</strong>, khó kiểm soát áp lực tâm lý.</p>`,
   },
@@ -1127,8 +1127,10 @@ export const WEAK_NUMB = {
       "<p class='mt-5'><strong class='text-danger'>Gặp khó khăn trong việc quản lý tài chính</strong>, dễ rơi vào tình trạng chi tiêu mất kiểm soát.</p> <p><strong class='text-danger'>Thiếu quyết đoán trong các quyết định quan trọng</strong> , Hay do dự, sợ sai lầm dẫn đến bỏ lỡ cơ hội.</p> <p><strong class='text-danger'>Dễ bị ảnh hưởng bởi người khác, thiếu lập trường vững vàng</strong> , Thiếu sự kiên định, dễ thay đổi theo ý kiến của người khác.</p> <p><strong class='text-danger'>Không giỏi tổ chức và điều hành</strong>, dễ mất kiểm soát trong công việc, dẫn đến thiếu hiệu quả.</p>",
   },
   9: {
-    noidung: `<p><strong class='text-danger'>Sống thực dụng</strong>, dễ bỏ qua các giá trị nhân văn.</p>
-     <p><strong class='text-danger'>Ích kỷ và dễ mất niềm tin</strong>, ít quan tâm đến cộng đồng.</p>`,
+    noidung: `
+    <p><strong class='text-danger'>Thiếu sự đồng cảm và lòng trắc ẩn với người khác</strong>, khó bao dung và dễ để bụng những chuyện nhỏ nhặt.</p>
+    <p><strong class='text-danger'>Sống thực dụng</strong>, dễ bỏ qua các giá trị nhân văn.</p>`
+
   },
 };
 
@@ -1672,7 +1674,6 @@ export const SOLUTION_NUMB = {
     noidung: `
    <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
-        <li>Ích kỷ,</li>
         <li>Thiếu lòng trắc ẩn,</li>
         <li>Thiếu tinh thần cộng đồng.</li>
       </ul>
@@ -1687,7 +1688,7 @@ export const SOLUTION_NUMB = {
     <ul>
       <li>Từ thiện, công tác xã hội, giáo dục khai tâm.</li>
       <li>Hướng đạo, bác sĩ không biên giới.</li>
-      <li>Vai trò đạo đức, tâm linh.</li>
+      <li>Vai trò dẫn dắt đạo đức, tâm linh.</li>
     </ul>
     `,
   },
