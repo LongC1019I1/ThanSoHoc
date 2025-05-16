@@ -1,16 +1,24 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
+import { MdMenu } from "react-icons/md";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FormInfor from "./Pages/FormInfor";
 import Numerlogy from "./Pages/Numerlogy";
 
 function App() {
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <Fragment>
-      <nav
-        id="menu"
-        className="navbar navbar-expand-lg  justify-content-center py-3"
-      >
-        <ul className="navbar-nav">
+      <nav id="menu" className="navbar navbar-expand-lg py-3">
+        <ul
+          className={`${showMenu ? "menu-auto" : "menu-limit"}  navbar-nav`}
+        >
+          <li
+            onClick={() => setShowMenu(!showMenu)}
+            className="first-item"
+          >
+            <MdMenu />
+          </li>
+
           <li className="nav-item">
             <a className="nav-link" href="#">
               HOME

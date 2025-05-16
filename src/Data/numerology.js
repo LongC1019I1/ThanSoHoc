@@ -1377,10 +1377,9 @@ export const NUMERLOGY_JOB = {
   <h4>👩‍⚕️ Nghề phù hợp:</h4>
   <ul>
      <li>Chuyên viên làm đẹp (spa, thẩm mỹ, trang điểm)</li>
-      <li>Thiết kế nội thất, thiết kế thời trang</li>
       <li>Quản trị nhân sự</li>
       <li>Giáo viên kỹ năng sống, dạy nghề</li>
-      <li>Tổ chức sự kiện, trang trí</li>
+      <li>Tổ chức sự kiệN</li>
   </ul>
 </div>`,
   },
