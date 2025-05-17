@@ -8,8 +8,8 @@ const DrawCell = ({ wMatrix, hMatrix, amountNumber, color }) => {
   const widthWindow = window.innerWidth;
 
   for (let x = 0; x < 5; x++) {
-    const xx = ((wMatrix + 190) / 5) * x + 3;
-    const xPositon = widthWindow < 1200 ? xx + 10 : xx;
+    const xx = ((wMatrix + 190) / 5) * x + 10;
+    const xPositon = widthWindow < 1200 ? xx + 5 : xx;
     for (let y = 0; y < 3; y++) {
       const yy = hMatrix - (hMatrix / 3) * (y + 1) + 5;
 

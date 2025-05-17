@@ -109,7 +109,7 @@ const ChartCombineEnergy = function ({
     const handleResize = () => {
       const width = canvasEl?.current?.offsetWidth;
       const widthWindow = window.innerWidth;
-      widthWindow < 768 ? setWLeftPanel(width * 2.3) : setWLeftPanel(width);
+      widthWindow < 768 ? setWLeftPanel(width * 2.2) : setWLeftPanel(width);
     };
 
     handleResize(); // Gọi lần đầu khi mount

@@ -24,10 +24,12 @@ const ChartDateName = ({
   const canvasEl = useRef(null);
 
   useEffect(() => {
+    const width = canvasEl?.current?.offsetWidth;
+
+    setWLeftPanel(width);
+    const widthWindow = window.innerWidth;
     const handleResize = () => {
-      const width = canvasEl?.current?.offsetWidth;
-      const widthWindow = window.innerWidth;
-      widthWindow < 768 ? setWLeftPanel(width * 1.2) : setWLeftPanel(width);
+      widthWindow < 768 ? setWLeftPanel(width * 1.9) : setWLeftPanel(width);
     };
 
     handleResize(); // Gọi lần đầu khi mount
@@ -37,8 +39,9 @@ const ChartDateName = ({
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
-  const wMatrix = wRightPanel * 0.45;
+  const widthWindow = window.innerWidth ;
+  let wMatrix = widthWindow < 768 ? wRightPanel * 0.4 : wRightPanel * 0.4;
+  buttonText == "BIỂU ĐỒ  TỔNG HỢP" ? (wMatrix = wMatrix + 85) : "";
   const hMatrix = (wMatrix / 3) * 3;
 
   const scrollToSection = (id) => {

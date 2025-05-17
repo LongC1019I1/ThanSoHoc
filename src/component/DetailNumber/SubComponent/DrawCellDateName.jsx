@@ -52,7 +52,7 @@ const DrawCellDateName = ({ wMatrix, hMatrix, amountNumber, color }) => {
                 : ""
             }
             verticalAlign="middle"
-            fontSize={widthWindow < 1200 ? wMatrix * 0.075 : wMatrix * 0.06}
+            fontSize={wMatrix * 0.06}
           />
         </React.Fragment>
       );
