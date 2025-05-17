@@ -1,12 +1,13 @@
 @import "./css/responsive.css";
-body {
 
+body {
   margin: 0;
   background-image: url("./assets/img/glaxy.png"), url("./assets/img/glaxy.png");
   font-family: "Segoe UI", sans-serif;
   color: white;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
+  overflow-x:hidden ;
 }
 
 #menu {
@@ -22,7 +23,7 @@ body {
 
 #detail_number {
   background: white;
-  padding: 15px 0 20px 0 ;
+  padding: 15px 0 20px 0;
   border-radius: 10px;
   color: black;
 }
@@ -263,8 +264,6 @@ body {
 .my-col-peak {
 }
 
-
-
 .jade-green {
   background-color: var(--jade-green);
 }
@@ -307,7 +306,6 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-
 }
 
 h1 {
