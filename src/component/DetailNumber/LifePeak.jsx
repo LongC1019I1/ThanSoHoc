@@ -19,10 +19,36 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
 
   var gray_color = "#b2aea5";
 
-  const w4Top = wRightPanel;
-  const h4Top = w4Top / 2;
+  const widthWindow = window.innerWidth;
 
-  const subWidth = w4Top / 4;
+  let w4Top;
+  let h4Top;
+  let subWidth;
+  if (widthWindow < 1200) {
+    w4Top = wRightPanel;
+
+    h4Top = w4Top / 3 + 80;
+
+    subWidth = w4Top / 2.3 + 6;
+
+    if (widthWindow < 992) {
+      h4Top = w4Top / 3 + 120;
+
+      subWidth = w4Top / 2.3 - 10;
+    }
+
+    if (widthWindow < 768) {
+      h4Top = w4Top / 3 + 180;
+
+      subWidth = w4Top / 2.3 - 20;
+    }
+  } else {
+    w4Top = wRightPanel;
+
+    h4Top = w4Top / 2 + 50;
+
+    subWidth = w4Top / 4;
+  }
 
   useEffect(() => {
     const width = canvasEl?.current?.offsetWidth;
@@ -58,13 +84,16 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
     muiten: {
       x: TAMGIACDINH1.x2 - 20,
       y: TAMGIACDINH1.y2 - 10,
-      x1: TAMGIACDINH1.x2 - 80,
+      x1: TAMGIACDINH1.x2 - 76,
       y1: TAMGIACDINH1.y2 - 40,
     },
   };
 
   TUOIDINH1.chisotuoi = {
-    x: TUOIDINH1.muiten.x1 - spaceShowNumPeak.x,
+    x:
+      widthWindow < 768
+        ? TUOIDINH1.muiten.x1 - spaceShowNumPeak.x + 45
+        : TUOIDINH1.muiten.x1 - spaceShowNumPeak.x,
     y: TUOIDINH1.muiten.y1 - spaceShowNumPeak.y,
   };
   // Dinh 2
@@ -81,13 +110,13 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
     muiten: {
       x: TAMGIACDINH2.x2 + 20,
       y: TAMGIACDINH2.y2 - 10,
-      x1: TAMGIACDINH2.x2 + 80,
+      x1: widthWindow < 768 ? TAMGIACDINH2.x2 + 65 : TAMGIACDINH2.x2 + 80,
       y1: TAMGIACDINH2.y2 - 40,
     },
   };
 
   TUOIDINH2.chisotuoi = {
-    x: TUOIDINH2.muiten.x1 + 5,
+    x: widthWindow < 768 ? TUOIDINH2.muiten.x1 - 33 : TUOIDINH2.muiten.x1 + 5,
     y: TUOIDINH2.muiten.y1 - spaceShowNumPeak.y,
   };
 
@@ -130,7 +159,7 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
   };
 
   TUOIDINH4.chisotuoi = {
-    x: TUOIDINH4.muiten.x1 + 5,
+    x: widthWindow < 768 ? TUOIDINH4.muiten.x1 - 5 : TUOIDINH4.muiten.x1 + 5,
     y: TUOIDINH4.muiten.y1 - spaceShowNumPeak.y,
   };
   const scrollToSection = (id) => {
@@ -141,9 +170,13 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
   };
   return (
     <Fragment>
-      <div ref={canvasEl} className="col-sm-12 col-md-6  rounded mb-2 px-2 ">
+      <div ref={canvasEl} className="col-md-12 col-xl-6  rounded mb-2 px-2 ">
         <div class=" d-flex justify-content-center ">
-          <Stage style={{ top: "10px" }} width={w4Top} height={h4Top}>
+          <Stage
+            style={{ top: "10px" }}
+            width={widthWindow < 1200 ? w4Top + 195 : w4Top}
+            height={widthWindow < 768 ? h4Top + 10 : h4Top}
+          >
             <Layer>
               <Line
                 points={[
