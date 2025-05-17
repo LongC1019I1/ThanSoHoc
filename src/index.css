@@ -1,12 +1,10 @@
 @import "./css/responsive.css";
 body {
-  /* min-width: 800px !important; */
+
   margin: 0;
   background-image: url("./assets/img/glaxy.png"), url("./assets/img/glaxy.png");
   font-family: "Segoe UI", sans-serif;
   color: white;
-  overflow-x: hidden;
-  position: relative;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
 }
@@ -244,9 +242,7 @@ body {
 }
 
 #root_content {
-  /* background-color: white; */
   padding: 50px 0;
-  /* min-width: 696px !important; */
 }
 
 .title_number {
@@ -265,12 +261,9 @@ body {
 }
 
 .my-col-peak {
-  /* min-height: 150px; */
 }
 
-.ant-form-item-control-input {
-  min-width: 200px !important;
-}
+
 
 .jade-green {
   background-color: var(--jade-green);
@@ -314,8 +307,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  /* min-width: 320px;
-  min-height: 100vh; */
+
 }
 
 h1 {
