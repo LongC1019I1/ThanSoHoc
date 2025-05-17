@@ -27,7 +27,7 @@ const ChartDateName = ({
     const handleResize = () => {
       const width = canvasEl?.current?.offsetWidth;
       const widthWindow = window.innerWidth;
-      widthWindow < 768 ? setWLeftPanel(width * 1.3) : setWLeftPanel(width);
+      widthWindow < 768 ? setWLeftPanel(width * 1.2) : setWLeftPanel(width);
     };
 
     handleResize(); // Gọi lần đầu khi mount
