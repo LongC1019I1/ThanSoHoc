@@ -152,7 +152,7 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
         <div class=" d-flex justify-content-center ">
           <Stage
             style={{ top: "10px" }}
-            width={widthWindow < 768 ? widthWindow *0.88 : w4Top}
+            width={widthWindow < 768 ? w4Top *0.65 : w4Top}
             height={h4Top}
           >
             <Layer>

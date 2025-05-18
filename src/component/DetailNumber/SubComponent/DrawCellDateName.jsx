@@ -16,7 +16,7 @@ const DrawCellDateName = ({ wRightPanel, amountNumber, color, buttonText }) => {
       ? wRightPanel * 0.5
       : wRightPanel * 0.4;
 
-  buttonText == "BIỂU ĐỒ  TỔNG HỢP" && widthWindow < 576 ? (wMatrix += widthWindow/4) : "";
+  buttonText == "BIỂU ĐỒ  TỔNG HỢP" && widthWindow < 576 ? (wMatrix += 38) : "";
   const hMatrix = wMatrix;
   const rects = [];
 
