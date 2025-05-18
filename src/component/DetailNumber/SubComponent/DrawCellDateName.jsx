@@ -16,7 +16,7 @@ const DrawCellDateName = ({ wRightPanel, amountNumber, color, buttonText }) => {
       ? wRightPanel * 0.5
       : wRightPanel * 0.4;
 
-  buttonText == "BIỂU ĐỒ  TỔNG HỢP" && widthWindow < 576 ? (wMatrix += 38) : "";
+  buttonText == "BIỂU ĐỒ  TỔNG HỢP" && widthWindow < 576 ? (wMatrix += 75) : "";
   const hMatrix = wMatrix;
   const rects = [];
 
@@ -42,7 +42,7 @@ const DrawCellDateName = ({ wRightPanel, amountNumber, color, buttonText }) => {
         <React.Fragment key={`${x}-${y}`}>
           {/* Vẽ viền ô */}
           <Rect
-            x={widthWindow < 768 ? xx  : xx + 100}
+            x={xx}
             y={yy}
             width={wMatrix / 3 - 10}
             height={hMatrix / 3 - 10}
@@ -52,7 +52,7 @@ const DrawCellDateName = ({ wRightPanel, amountNumber, color, buttonText }) => {
           />
           {/* Hiển thị số bên trong */}
           <Text
-            x={widthWindow < 768 ? xx  : xx + 100}
+            x={xx}
             y={yy}
             width={wMatrix / 3 - 10}
             height={hMatrix / 3 - 10}
@@ -74,10 +74,7 @@ const DrawCellDateName = ({ wRightPanel, amountNumber, color, buttonText }) => {
 
   return (
     <div>
-      <Stage
-        width={wMatrix}
-        height={hMatrix + 30}
-      >
+      <Stage width={wMatrix} height={hMatrix + 30}>
         <Layer>{rects}</Layer>
       </Stage>
     </div>
