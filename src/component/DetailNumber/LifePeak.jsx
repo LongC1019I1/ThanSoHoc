@@ -26,7 +26,7 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
   const widthWindow = window.innerWidth;
   w4Top = 615;
   h4Top = w4Top / 2 + 50;
-  subWidth = widthWindow < 768 ? 50:  w4Top / 3.9;
+  subWidth = widthWindow < 768 ? 28 :  w4Top / 3.9;
 
   useEffect(() => {
     const width = canvasEl?.current?.offsetWidth;
@@ -37,7 +37,7 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
 
   // VE TAM GIAC 4 DINH CUOC DOI
 
-  const spaceShowNumPeak = { x: 90, y: 20 };
+  const spaceShowNumPeak = { x: 80, y: 20 };
 
   const TAMGIACNGOAI = {
     x: subWidth,
@@ -152,7 +152,7 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
         <div class=" d-flex justify-content-center ">
           <Stage
             style={{ top: "10px" }}
-            width={widthWindow < 768 ? w4Top *0.65 : w4Top}
+            width={widthWindow < 768 ? w4Top *0.5 + 50 : w4Top}
             height={h4Top}
           >
             <Layer>
