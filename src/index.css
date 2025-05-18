@@ -402,8 +402,6 @@ button:focus-visible {
     background-color: #fff9e6;
     border: 0.1px solid #fae17f;
     padding: 15px;
-    display: flex;
-    align-items: center;
     border-radius: 0 5px 5px 0;
   }
 

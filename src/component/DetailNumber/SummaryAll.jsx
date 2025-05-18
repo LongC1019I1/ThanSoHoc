@@ -171,9 +171,14 @@ function SummaryAll() {
             })}
           </div>
 
-          <div class="note-box ">
-            <strong>🚫 LƯU Ý: </strong> &nbsp; Những nghề nêu trên không phải
-            bạn không làm được mà bạn cần phải nỗ lực nhiều hơn để bù đắp{" "}
+          <div class="note-box row">
+            <div className="col-3">
+              <strong>🚫 LƯU Ý: </strong>
+            </div>
+            <div className="col-9 ">
+              Những nghề nêu trên không phải bạn không làm được mà bạn cần phải
+              nỗ lực nhiều hơn để bù đắp{" "}
+            </div>
           </div>
         </div>
       </div>
