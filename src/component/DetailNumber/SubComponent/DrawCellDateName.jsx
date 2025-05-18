@@ -75,7 +75,7 @@ const DrawCellDateName = ({ wRightPanel, amountNumber, color, buttonText }) => {
   return (
     <div>
       <Stage
-        width={widthWindow < 768 ? widthWindow - 100 : wMatrix + 200}
+        width={wMatrix + 200}
         height={hMatrix + 30}
       >
         <Layer>{rects}</Layer>
