@@ -26,7 +26,7 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
   const widthWindow = window.innerWidth;
   w4Top = 615;
   h4Top = w4Top / 2 + 50;
-  subWidth = widthWindow < 768 ? w4Top / 10 :  w4Top / 3.9;
+  subWidth = widthWindow < 768 ? widthWindow / 12 :  w4Top / 3.9;
 
   useEffect(() => {
     const width = canvasEl?.current?.offsetWidth;
@@ -152,7 +152,7 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
         <div class=" d-flex justify-content-center ">
           <Stage
             style={{ top: "10px" }}
-            width={widthWindow < 768 ? w4Top - 200 : w4Top}
+            width={widthWindow < 768 ? widthWindow - 100 : w4Top}
             height={h4Top}
           >
             <Layer>
