@@ -1,8 +1,7 @@
 @import "./css/responsive.css";
 
 body {
-  width: 100% !important;
-  min-width: 576px !important;
+
   margin: 0;
   background-image: url("./assets/img/glaxy.png"),
     linear-gradient(to right, #1c002f 1%, #560049 93%);
