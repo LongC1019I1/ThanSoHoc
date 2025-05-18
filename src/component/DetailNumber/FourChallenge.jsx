@@ -24,7 +24,7 @@ function FourChallenge({ topFour }) {
         : "";
 
     return (
-      <div key={index} className="p-4 border rounded shadow-sm bg-light mt-3">
+      <div key={index} className="p-4 border rounded shadow-sm bg-light mb-3">
         <h5 className="fw-bold">
           ⚠️ {title} của bạn là năm{" "}
           <span className="text-danger">{peak.age} tuổi</span> - năm{" "}
