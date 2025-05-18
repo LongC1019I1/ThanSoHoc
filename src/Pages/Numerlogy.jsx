@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import OverviewNumber from "../component/OverviewNumber";
 import DetailNumber from "../component/DetailNumber";
 import { FaChevronUp } from "react-icons/fa";
@@ -33,7 +33,7 @@ const Numerlogy = () => {
   return (
     <Fragment>
       {!numberKarma ? (
-        <div className="flex flex-col items-center justify-center h-screen ">
+        <div className="error_page flex flex-col items-center justify-center h-screen ">
           <div className=" text-center">
             <h1 className="text-3xl font-bold text-red-600 mb-4">Oops!</h1>
             <p className="text-lg text-gray-700 mb-6">
@@ -55,22 +55,12 @@ const Numerlogy = () => {
 
           <button
             onClick={scrollToTop}
+            className="scrollToTop"
             style={{
-              position: "fixed",
-              bottom: "50px",
-              right: "30px",
-              backgroundColor: "rgba(0, 0, 0, 0.3)", // Màu xám mờ
-              color: "white",
-              border: "none",
-              borderRadius: "50%",
-              padding: "10px 15px",
-              cursor: "pointer",
               display: showButton ? "block" : "none",
-              justifyContent: "center",
-              alignItems: "center",
             }}
           >
-            <FaChevronUp size={20} />
+            <FaChevronUp  />
           </button>
         </Fragment>
       )}

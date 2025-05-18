@@ -55,7 +55,8 @@ function SummaryAll() {
           <b className="text-info"> &nbsp; &nbsp;Xu hướng nghề nghiệp </b> và{" "}
           <b className="text-danger"> Tóm tắt </b>về bạn{" "}
         </h1>
-        <img className=" my-1 w-100" src={tomtat} />
+        <img className=" my-1 w-100" style={{ scale: 1 }} src={tomtat} />
+
         <div className="m-3  px-3 py-4    border border-dark-subtle rounded  ">
           <h4 className=" mt-3 px-2">ĐIỂM MẠNH CỦA BẠN</h4>
           <p class="text-danger mb-5">

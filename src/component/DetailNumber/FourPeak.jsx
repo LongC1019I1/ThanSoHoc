@@ -37,14 +37,15 @@ function FourPeak({ topFour }) {
   };
 
   return (
-    <div id="four_peak">
+    <div class="four_peak">
       <div className="container">
         <h1 className="h1 my-5 px-2">
-          11{") "} Các đỉnh cuộc đời của ngày sinh: 
+          11{") "} Các đỉnh cuộc đời của ngày sinh:
           <b className="text-info"> {birth_day_list}</b>
         </h1>
-
-        <img className="my-1 w-100" src={fourpeak} alt="4 đỉnh" />
+        <div className="img-box">
+          <img className="my-1 w-100" src={fourpeak} alt="4 đỉnh" />
+        </div>
 
         <div className="d-flex justify-content-center">
           <LifePeak

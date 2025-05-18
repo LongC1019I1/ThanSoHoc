@@ -8,10 +8,12 @@ function MatureNumber() {
     <div id="mature_number">
       <div className="container">
         <h1 className=" h1 my-5 px-2">
-          6{") "} Con Số Trưởng Thành: {" "}
+          6{") "} Con Số Trưởng Thành:{" "}
           <b className="text-danger">Số {numberMature} </b>
         </h1>
-        <img className=" my-1 w-100" src={sotruongthanh} />
+        <div className="img-box ">
+          <img className=" my-1 w-100" src={sotruongthanh} />
+        </div>
         {NUMEROLOGY_MATURITY[numberMature]
           ? parse(NUMEROLOGY_MATURITY[numberMature].noidung)
           : ""}

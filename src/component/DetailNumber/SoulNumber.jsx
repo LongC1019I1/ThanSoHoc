@@ -8,9 +8,12 @@ function SoulNumber() {
     <div id="soul_number">
       <div className="container">
         <h1 className=" h1 my-5 px-2">
-          8{") "} Chỉ Số Linh Hồn: <b className="text-danger">Số {numberSoul}</b>
+          8{") "} Chỉ Số Linh Hồn:{" "}
+          <b className="text-danger">Số {numberSoul}</b>
         </h1>
-        <img className=" my-1 w-100" src={solinhhon} />
+        <div className="img-box ">
+          <img className=" my-1 w-100" src={solinhhon} />
+        </div>
         {NUMEROLOGY_SOUL_NUMBER[numberSoul] &&
         NUMEROLOGY_SOUL_NUMBER[numberSoul].noidung
           ? parse(NUMEROLOGY_SOUL_NUMBER[numberSoul].noidung)

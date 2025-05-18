@@ -8,10 +8,12 @@ function ExpressNumber() {
     <div id="express_number">
       <div className="container">
         <h1 className=" h1 my-5 px-2">
-          9{") "} Chỉ Số Biểu Đạt: {" "}
+          9{") "} Chỉ Số Biểu Đạt:{" "}
           <b className="text-danger">Số {numberExpress} </b>
         </h1>
-        <img className=" my-1 w-100" src={sobieudat} />
+        <div className="img-box ">
+          <img className=" my-1 w-100" src={sobieudat} />
+        </div>{" "}
         {EXPRESSION_NUMBER[numberExpress] &&
         EXPRESSION_NUMBER[numberExpress].noidung
           ? parse(EXPRESSION_NUMBER[numberExpress].noidung)

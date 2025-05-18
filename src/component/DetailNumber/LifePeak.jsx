@@ -19,36 +19,15 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
 
   var gray_color = "#b2aea5";
 
-  const widthWindow = window.innerWidth;
-
   let w4Top;
   let h4Top;
   let subWidth;
-  if (widthWindow < 1200) {
-    w4Top = wRightPanel;
 
-    h4Top = w4Top / 3 + 80;
-
-    subWidth = w4Top / 2.3 + 6;
-
-    if (widthWindow < 992) {
-      h4Top = w4Top / 3 + 120;
-
-      subWidth = w4Top / 2.3 - 10;
-    }
-
-    if (widthWindow < 768) {
-      h4Top = w4Top / 3 + 180;
-
-      subWidth = w4Top / 2.3 - 20;
-    }
-  } else {
-    w4Top = wRightPanel;
-
-    h4Top = w4Top / 2 + 50;
-
-    subWidth = w4Top / 4;
-  }
+  const widthWindow = window.innerWidth;
+  w4Top = 615;
+  h4Top = w4Top / 2 + 50;
+  subWidth = w4Top / 3.9;
+ 
 
   useEffect(() => {
     const width = canvasEl?.current?.offsetWidth;
@@ -174,8 +153,8 @@ function LifePeak({ topFour, btn, show = true, id_link }) {
         <div class=" d-flex justify-content-center ">
           <Stage
             style={{ top: "10px" }}
-            width={widthWindow < 1200 ? w4Top + 195 : w4Top}
-            height={widthWindow < 768 ? h4Top + 10 : h4Top}
+            width={w4Top}
+            height={h4Top}
           >
             <Layer>
               <Line

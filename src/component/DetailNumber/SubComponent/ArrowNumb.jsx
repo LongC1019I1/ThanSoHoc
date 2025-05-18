@@ -5,13 +5,13 @@ const ArrowNumb = ({ wRightPanel, arr, typeArrow, stroke }) => {
   let wMatrix =
     widthWindow < 576
       ? wRightPanel * 0.6
-      : widthWindow >= 576 && widthWindow <= 992
-      ? wRightPanel * 0.607  
-      : widthWindow >= 992 && widthWindow <= 1200
+      : widthWindow >= 576 && widthWindow < 992
+      ? wRightPanel * 0.6
+      : widthWindow >= 992 && widthWindow < 1200
       ? wRightPanel * 0.68
-      : widthWindow >= 1200
-      ? wRightPanel * 0.5
-      : "";
+      : widthWindow >= 1200 && widthWindow < 1400
+      ? wRightPanel * 0.6
+      : wRightPanel * 0.5;
   const hMatrix = wMatrix;
   let hMatrixStage = widthWindow < 768 ? hMatrix * 0.3 : hMatrix * 0.3;
   const x0 = 10;

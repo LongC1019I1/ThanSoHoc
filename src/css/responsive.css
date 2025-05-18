@@ -7,7 +7,7 @@
     flex-direction: row;
   }
 }
-@media (max-width: 740px) {
+@media (max-width: 767px) {
   .navbar-nav {
     flex-direction: column;
   }
@@ -52,5 +52,21 @@
   }
   .navbar-nav {
     width: 100%;
+  }
+
+  #detail_number {
+    .img-box {
+      height: 200px;
+      overflow: hidden;
+    }
+    img {
+      scale: 1.13;
+    }
+
+    .four_peak {
+      img {
+        object-position: 0 -15px;
+      }
+    }
   }
 }

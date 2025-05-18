@@ -37,11 +37,16 @@ const DateToKnown = ({
     <Fragment>
       <div id="date_to_known">
         <h1 className=" h1 my-5 px-2">2{") "} Mật mã ngày sinh </h1>
-        <img className=" my-1 w-100 px-2" src={bieudongaysinh} />
+        <div className="img-box">
+          <img className=" my-1 w-100 px-2" src={bieudongaysinh} />
+        </div>
       </div>
       <div class=" my-3 ">
         <div className="row d-flex justify-content-center">
-          <div className=" com-sm-12 col-md-6 " ref={canvasEl}>
+          <div
+            className=" com-sm-12 col-md-6 d-flex justify-content-center "
+            ref={canvasEl}
+          >
             {/* Vẽ biểu đồ bằng React Konva */}
             {wRightPanel && (
               <DrawCellDateName
@@ -87,7 +92,6 @@ const DateToKnown = ({
         {wRightPanel &&
           arrows.length > 0 &&
           arrows.map((arr, iAr) => {
-
             return (
               <React.Fragment key={iAr}>
                 <div className="row my-2 py-1">

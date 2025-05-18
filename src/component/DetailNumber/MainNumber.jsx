@@ -1,7 +1,11 @@
 import { Fragment } from "react";
 import { Divider, List } from "antd";
 import sochudao from "../../assets/img/1.png";
-import { NUMEROLOGY_KARMA, NUMERLOGY_COMMON,ARROW } from "../../Data/numerology";
+import {
+  NUMEROLOGY_KARMA,
+  NUMERLOGY_COMMON,
+  ARROW,
+} from "../../Data/numerology";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";
 import { ArrowRightOutlined } from "@ant-design/icons";
@@ -16,14 +20,11 @@ function MainNumber() {
       <div className="container">
         <h1 className=" h1 my-5 px-2">
           1{") "} Con số chủ đạo của bạn là:
-          <span className="text-danger">
-            {" "}
-            {numberKarma
-             }
-          </span>
+          <span className="text-danger"> {numberKarma}</span>
         </h1>
-        <img className=" my-1 w-100" src={sochudao} />
-
+        <div className="img-box ">
+          <img className=" my-1 w-100" src={sochudao} />
+        </div>
         <div className="container  fs-6" style={{ textAlign: "justify" }}>
           <div className="row">
             <div className="col-md-6 mt-4 col-sm-12">
@@ -35,7 +36,12 @@ function MainNumber() {
                 renderItem={(item) => (
                   <List.Item>
                     <ArrowRightOutlined className="text-primary px-2 me-3" />
-                    <span className="me-auto fw-bold" style={{fontSize: '15px'}}>{item}</span>
+                    <span
+                      className="me-auto fw-bold"
+                      style={{ fontSize: "15px" }}
+                    >
+                      {item}
+                    </span>
                   </List.Item>
                 )}
               />
@@ -49,7 +55,12 @@ function MainNumber() {
                 renderItem={(item) => (
                   <List.Item>
                     <ArrowRightOutlined className="text-primary px-2 me-3" />
-                    <span className="me-auto fw-bold" style={{fontSize: '15px'}}>{item}</span>
+                    <span
+                      className="me-auto fw-bold"
+                      style={{ fontSize: "15px" }}
+                    >
+                      {item}
+                    </span>
                   </List.Item>
                 )}
               />
@@ -77,16 +88,17 @@ function MainNumber() {
             <div>{HumanNumerology.DKPT}</div>
           </div>
           <div className="row head-main">
-            <h3 className=" fw-bold mb-3 ">🚀  Hướng phát triển:</h3>
+            <h3 className=" fw-bold mb-3 ">🚀 Hướng phát triển:</h3>
             <div>{HumanNumerology.KHAC_PHUC}</div>
           </div>
           <div className="row head-main">
-            <h3 className=" fw-bold mb-3 ">
-            🛠  Khuynh hướng cần khắc phục:
-            </h3>
+            <h3 className=" fw-bold mb-3 ">🛠 Khuynh hướng cần khắc phục:</h3>
             <div>{HumanNumerology.HUONG_PT}</div>
           </div>
-          <div className="row head-main"  style={{marginBottom:'0px !important'}}>
+          <div
+            className="row head-main"
+            style={{ marginBottom: "0px !important" }}
+          >
             <h3 className=" fw-bold mb-3 ">💼 Nghề nghiệp:</h3>
             <div>{HumanNumerology.NGHE_NGHIEP}</div>
           </div>

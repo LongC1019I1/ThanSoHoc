@@ -11,7 +11,9 @@ function NameNumber() {
           3{") "} Con Số tên <b className="text-info"> </b> của bạn là:{" "}
           <span className="text-danger"> {numberName} </span>
         </h1>
-        <img className=" my-1 w-100" src={sotenrieng} />
+        <div className="img-box ">
+          <img className=" my-1 w-100" src={sotenrieng} />
+        </div>
 
         {NUMEROLOGY_NAME[numberName] && NUMEROLOGY_NAME[numberName].noidung
           ? parse(NUMEROLOGY_NAME[numberName].noidung)

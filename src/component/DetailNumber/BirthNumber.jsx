@@ -11,10 +11,12 @@ function BirthNumber() {
     <div id="birth_number">
       <div className="container">
         <h1 className=" h1 my-5 px-2">
-          7{") "} Chỉ Số Ngày Sinh: {" "}
+          7{") "} Chỉ Số Ngày Sinh:{" "}
           <b className="text-danger">Số {numberDayBirth} </b>
         </h1>
-        <img className=" my-1  w-100" src={songaysinh} />
+        <div className="img-box">
+          <img className=" my-1  w-100" src={songaysinh} />
+        </div>
         {NUMEROLOGY_BIRTHDAY_NUMBER[numberDayBirth]
           ? parse(NUMEROLOGY_BIRTHDAY_NUMBER[numberDayBirth].noidung)
           : ""}

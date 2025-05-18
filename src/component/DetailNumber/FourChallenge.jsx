@@ -40,11 +40,12 @@ function FourChallenge({ topFour }) {
     <div id="four_challenge">
       <div className="container">
         <h1 className="h1 my-5 px-2">
-          12{") "} Các thử thách cuộc đời của bạn: 
+          12{") "} Các thử thách cuộc đời của bạn:
           <b className="text-info"> {birth_day_list}</b>
         </h1>
-
-        <img className="my-1 w-100" src={fourchallenge} alt="4 thử thách" />
+        <div className="img-box">
+          <img className="my-1 w-100" src={fourchallenge} alt="4 thử thách" />
+        </div>
 
         <div className="d-flex justify-content-center">
           <LifePeak

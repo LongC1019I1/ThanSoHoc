@@ -5,8 +5,18 @@ import { Stage, Layer, Rect, Text, Label } from "react-konva";
 const DrawCellDateName = ({ wRightPanel, amountNumber, color, buttonText }) => {
   const widthWindow = window.innerWidth;
 
-  let wMatrix = widthWindow < 768 ? wRightPanel * 0.6 : wRightPanel * 0.4;
-  buttonText == "BIỂU ĐỒ  TỔNG HỢP" ? (wMatrix += 85) : "";
+  let wMatrix =
+    widthWindow < 576
+      ? wRightPanel * 0.6
+      : widthWindow >= 576 && widthWindow < 992
+      ? wRightPanel * 0.6
+      : widthWindow >= 992 && widthWindow < 1200
+      ? wRightPanel * 0.55
+      : widthWindow >= 1200 && widthWindow < 1400
+      ? wRightPanel * 0.5
+      : wRightPanel * 0.4;
+
+  buttonText == "BIỂU ĐỒ  TỔNG HỢP" && widthWindow < 576 ? (wMatrix += 96) : "";
   const hMatrix = wMatrix;
   const rects = [];
 

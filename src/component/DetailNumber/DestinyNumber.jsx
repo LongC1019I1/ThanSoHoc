@@ -12,7 +12,10 @@ function DestinyNumber() {
           4{") "} Con Số Định Mệnh:{" "}
           <b className="text-danger">{numberDestiny} </b>
         </h1>
-        <img className=" my-1 w-100" src={sodinhmenh} />
+        <div className="img-box " >
+          <img className=" my-1 w-100" src={sodinhmenh} />
+        </div>
+
         {NUMEROLOGY_LIFE_PATH[numberDestiny] &&
         NUMEROLOGY_LIFE_PATH[numberDestiny].noidung
           ? parse(NUMEROLOGY_LIFE_PATH[numberDestiny].noidung)

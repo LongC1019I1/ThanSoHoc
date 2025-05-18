@@ -2,17 +2,34 @@
 
 body {
   margin: 0;
-  background-image: url("./assets/img/glaxy.png"), url("./assets/img/glaxy.png");
+  background-image: url("./assets/img/glaxy.png"),
+    linear-gradient(to right, #1c002f 1%, #560049 93%);
   font-family: "Segoe UI", sans-serif;
   color: white;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
-  overflow-x:hidden ;
+  overflow-x: hidden;
 }
 
 #menu {
   background: linear-gradient(to bottom, #001c31 36%, #17143f 93%);
   justify-content: center;
+}
+
+.scrollToTop {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  font-size: 15px;
 }
 
 .sign_bold {
@@ -240,12 +257,16 @@ body {
 
 #root {
   width: 100%;
+  /* min-height: 100vh; */
 }
 
 #root_content {
   padding: 50px 0;
 }
 
+.error_page {
+  min-height: 3000px !important;
+}
 .title_number {
   color: #fff8e9;
   font-weight: 550;
