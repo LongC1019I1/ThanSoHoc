@@ -2,10 +2,13 @@ import { Tag } from "antd";
 import React, { useEffect, useRef, useState } from "react";
 import { Stage, Layer, Rect, Text, Label } from "react-konva";
 
-const DrawCellDateName = ({ wMatrix, hMatrix, amountNumber, color }) => {
-  const rects = [];
-
+const DrawCellDateName = ({ wRightPanel, amountNumber, color, buttonText }) => {
   const widthWindow = window.innerWidth;
+
+  let wMatrix = widthWindow < 768 ? wRightPanel * 0.6 : wRightPanel * 0.4;
+  buttonText == "BIỂU ĐỒ  TỔNG HỢP" ? (wMatrix += 85) : "";
+  const hMatrix = wMatrix;
+  const rects = [];
 
   for (let x = 0; x < 3; x++) {
     const xx = (wMatrix / 3) * x + 3;

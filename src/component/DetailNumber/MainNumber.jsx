@@ -24,9 +24,9 @@ function MainNumber() {
         </h1>
         <img className=" my-1 w-100" src={sochudao} />
 
-        <div className="container mt-4 fs-6" style={{ textAlign: "justify" }}>
+        <div className="container  fs-6" style={{ textAlign: "justify" }}>
           <div className="row">
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-6 mt-4 col-sm-12">
               <List
                 className="h-100"
                 header={<div className="fw-bold text-success">BÀI HỌC</div>}
@@ -40,7 +40,7 @@ function MainNumber() {
                 )}
               />
             </div>
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-6 mt-4 col-sm-12">
               <List
                 className="h-100"
                 header={<div className="fw-bold text-danger">MÔI TRƯỜNG</div>}

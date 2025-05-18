@@ -25,24 +25,12 @@ const ChartDateName = ({
 
   useEffect(() => {
     const width = canvasEl?.current?.offsetWidth;
-
     setWLeftPanel(width);
-    const widthWindow = window.innerWidth;
-    const handleResize = () => {
-      widthWindow < 768 ? setWLeftPanel(width * 1.9) : setWLeftPanel(width);
-    };
-
-    handleResize(); // Gọi lần đầu khi mount
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
   }, []);
-  const widthWindow = window.innerWidth ;
-  let wMatrix = widthWindow < 768 ? wRightPanel * 0.4 : wRightPanel * 0.4;
-  buttonText == "BIỂU ĐỒ  TỔNG HỢP" ? (wMatrix = wMatrix + 85) : "";
-  const hMatrix = (wMatrix / 3) * 3;
+  // const widthWindow = window.innerWidth ;
+  // let wMatrix = widthWindow < 768 ? wRightPanel * 0.4 : wRightPanel * 0.4;
+  // buttonText == "BIỂU ĐỒ  TỔNG HỢP" ? (wMatrix = wMatrix + 85) : "";
+  // const hMatrix = (wMatrix / 3) * 3;
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -55,12 +43,12 @@ const ChartDateName = ({
     <div class="col-sm-12 col-md-6 my-3" ref={canvasEl}>
       <div className=" d-flex justify-content-center ">
         {/* Vẽ biểu đồ bằng React Konva */}
-        {wMatrix && (
+        {wRightPanel && (
           <DrawCellDateName
-            wMatrix={wMatrix}
-            hMatrix={hMatrix}
+            wRightPanel={wRightPanel}
             amountNumber={amountNumber}
             color={color}
+            buttonText={buttonText}
           />
         )}
       </div>
