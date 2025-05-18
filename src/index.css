@@ -1,10 +1,8 @@
 @import "./css/responsive.css";
 
 body {
-
   margin: 0;
-  background-image: url("./assets/img/glaxy.png"),
-    linear-gradient(to right, #1c002f 1%, #560049 93%);
+  background-image: url("./assets/img/glaxy.png"), url("./assets/img/glaxy.png");
   min-height: 3000px !important;
   font-family: "Segoe UI", sans-serif;
   color: white;

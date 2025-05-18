@@ -37,7 +37,7 @@ function FourPeak({ topFour }) {
   };
 
   return (
-    <div class="four_peak">
+    <div id="four_peak">
       <div className="container">
         <h1 className="h1 my-5 px-2">
           11{") "} Các đỉnh cuộc đời của ngày sinh:

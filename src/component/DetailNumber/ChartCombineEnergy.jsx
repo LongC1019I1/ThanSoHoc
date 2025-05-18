@@ -123,66 +123,10 @@ const ChartCombineEnergy = function ({
   const wMatrix = wRightPanel * 0.45;
   const hMatrix = (wMatrix / 3) * 3;
 
-  // const DrawCell = () => {
-  //   const rects = [];
-
-  //   for (let x = 0; x < 5; x++) {
-  //     const xx = ((wMatrix + 190) / 5) * x + 3;
-  //     for (let y = 0; y < 3; y++) {
-  //       const yy = hMatrix - (hMatrix / 3) * (y + 1) + 5;
-
-  //       const stt = y + 1 + 3 * x;
-  //       let text =
-  //         stt === 11
-  //           ? 20
-  //           : stt === 12
-  //           ? 30
-  //           : stt === 13
-  //           ? 22
-  //           : stt === 14
-  //           ? 11
-  //           : stt === 15
-  //           ? 33
-  //           : stt;
-  //       rects.push(
-  //         <React.Fragment key={`${x}-${y}`}>
-  //           {/* Vẽ viền ô */}
-  //           <Rect
-  //             x={xx}
-  //             y={yy}
-  //             width={wMatrix / 5 + 30}
-  //             height={hMatrix / 3 - 10}
-  //             fill="white"
-  //             stroke="black" // Thêm viền đen
-  //             strokeWidth={2} // Độ dày viền
-  //           />
-  //           {/* Hiển thị số bên trong */}
-  //           <Text
-  //             x={xx}
-  //             y={yy}
-  //             width={wMatrix / 3 - 10}
-  //             height={hMatrix / 3 - 10}
-  //             fontStyle="bold"
-  //             fill={color}
-  //             align="center"
-  //             text={
-  //               amountNumber.hasOwnProperty(text)
-  //                 ? text + "^" + amountNumber[text]
-  //                 : ""
-  //             }
-  //             verticalAlign="middle"
-  //             fontSize={wMatrix * 0.06}
-  //           />
-  //         </React.Fragment>
-  //       );
-  //     }
-  //   }
-
-  //   return rects;
-  // };
-
   const scrollToSection = (id) => {
+  
     const element = document.getElementById(id);
+  console.log({ element });
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
