@@ -1073,7 +1073,6 @@ export const STRONG_NUMB = {
     taiNangSangTaoBamSinh: `<p><strong class='text-primary'>Tài năng sáng tạo</strong>, thường có góc nhìn độc đáo, mới mẻ.</p>`,
     giaoTiepXuatSac: `<p><strong class='text-primary'>Giao tiếp thu hút</strong>, diễn đạt lưu loát và dễ truyền cảm hứng.</p>`,
     songLacQuanVuiVe: `<p><strong class='text-primary'>Tinh thần lạc quan</strong>, mang lại năng lượng tích cực cho người xung quanh.</p>`,
-    deDangThichNghi: `<p><strong class='text-primary'>Linh hoạt và thích nghi tốt</strong>, dễ hòa nhập với môi trường mới.</p>`,
     coSucAnhHuongLon: `<p><strong class='text-primary'>Tạo ảnh hưởng qua ngôn từ và hình ảnh</strong>, dễ nổi bật trong lĩnh vực truyền thông, nghệ thuật hoặc giáo dục.</p>`,
   },
   22: {
