@@ -4,6 +4,7 @@ import { Stage, Layer, Rect, Text, Label } from "react-konva";
 import { useDispatch, useSelector } from "react-redux";
 import { filterRealNumber } from "../../service/numerlogy";
 import { numberKarmaActions } from "../../store/numberKarma";
+import DrawCell from "./SubComponent/DrawCell";
 const ChartCombineEnergy = function ({
   color = "red",
   buttonText,
@@ -105,70 +106,80 @@ const ChartCombineEnergy = function ({
   const canvasEl = useRef(null);
 
   useEffect(() => {
-    const width = canvasEl?.current?.offsetWidth;
-    setWLeftPanel(width);
+    const handleResize = () => {
+      const width = canvasEl?.current?.offsetWidth;
+      const widthWindow = window.innerWidth;
+      widthWindow < 768 ? setWLeftPanel(width * 2.3) : setWLeftPanel(width);
+    };
+
+    handleResize(); // Gọi lần đầu khi mount
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   const wMatrix = wRightPanel * 0.45;
   const hMatrix = (wMatrix / 3) * 3;
 
-  const DrawCell = () => {
-    const rects = [];
+  // const DrawCell = () => {
+  //   const rects = [];
 
-    for (let x = 0; x < 5; x++) {
-      const xx = ((wMatrix + 190) / 5) * x + 3;
-      for (let y = 0; y < 3; y++) {
-        const yy = hMatrix - (hMatrix / 3) * (y + 1) + 5;
+  //   for (let x = 0; x < 5; x++) {
+  //     const xx = ((wMatrix + 190) / 5) * x + 3;
+  //     for (let y = 0; y < 3; y++) {
+  //       const yy = hMatrix - (hMatrix / 3) * (y + 1) + 5;
 
-        const stt = y + 1 + 3 * x;
-        let text =
-          stt === 11
-            ? 20
-            : stt === 12
-            ? 30
-            : stt === 13
-            ? 22
-            : stt === 14
-            ? 11
-            : stt === 15
-            ? 33
-            : stt;
-        rects.push(
-          <React.Fragment key={`${x}-${y}`}>
-            {/* Vẽ viền ô */}
-            <Rect
-              x={xx}
-              y={yy}
-              width={wMatrix / 5 + 30}
-              height={hMatrix / 3 - 10}
-              fill="white"
-              stroke="black" // Thêm viền đen
-              strokeWidth={2} // Độ dày viền
-            />
-            {/* Hiển thị số bên trong */}
-            <Text
-              x={xx}
-              y={yy}
-              width={wMatrix / 3 - 10}
-              height={hMatrix / 3 - 10}
-              fontStyle="bold"
-              fill={color}
-              align="center"
-              text={
-                amountNumber.hasOwnProperty(text)
-                  ? text + "^" + amountNumber[text]
-                  : ""
-              }
-              verticalAlign="middle"
-              fontSize={wMatrix * 0.06}
-            />
-          </React.Fragment>
-        );
-      }
-    }
+  //       const stt = y + 1 + 3 * x;
+  //       let text =
+  //         stt === 11
+  //           ? 20
+  //           : stt === 12
+  //           ? 30
+  //           : stt === 13
+  //           ? 22
+  //           : stt === 14
+  //           ? 11
+  //           : stt === 15
+  //           ? 33
+  //           : stt;
+  //       rects.push(
+  //         <React.Fragment key={`${x}-${y}`}>
+  //           {/* Vẽ viền ô */}
+  //           <Rect
+  //             x={xx}
+  //             y={yy}
+  //             width={wMatrix / 5 + 30}
+  //             height={hMatrix / 3 - 10}
+  //             fill="white"
+  //             stroke="black" // Thêm viền đen
+  //             strokeWidth={2} // Độ dày viền
+  //           />
+  //           {/* Hiển thị số bên trong */}
+  //           <Text
+  //             x={xx}
+  //             y={yy}
+  //             width={wMatrix / 3 - 10}
+  //             height={hMatrix / 3 - 10}
+  //             fontStyle="bold"
+  //             fill={color}
+  //             align="center"
+  //             text={
+  //               amountNumber.hasOwnProperty(text)
+  //                 ? text + "^" + amountNumber[text]
+  //                 : ""
+  //             }
+  //             verticalAlign="middle"
+  //             fontSize={wMatrix * 0.06}
+  //           />
+  //         </React.Fragment>
+  //       );
+  //     }
+  //   }
 
-    return rects;
-  };
+  //   return rects;
+  // };
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -182,9 +193,12 @@ const ChartCombineEnergy = function ({
       <div className=" d-flex justify-content-center ">
         {/* Vẽ biểu đồ bằng React Konva */}
         {wMatrix && (
-          <Stage width={wMatrix + 200} height={hMatrix}>
-            <Layer>{DrawCell()}</Layer>
-          </Stage>
+          <DrawCell
+            wMatrix={wMatrix}
+            hMatrix={hMatrix}
+            amountNumber={amountNumber}
+            color={color}
+          />
         )}
       </div>
       {/* Nút bấm */}

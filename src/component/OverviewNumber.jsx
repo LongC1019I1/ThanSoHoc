@@ -154,7 +154,7 @@ function OverviewNumber() {
         {numbers.map((numberRow, rowIndex) => (
           <div className="row  mb-4 row  d-flex border rounded p-3 m-3 d-flex justify-content-center  ">
             {numberRow.map((item, index) => (
-              <div key={`${rowIndex}-${index}`} className="col-2">
+              <div key={`${rowIndex}-${index}`} className="col-sm-6 col-md-4 col-lg-3	col-xl-2">
                 <div
                   className="text-center card-container"
                   onMouseEnter={() => setHoverIndex(`${rowIndex}-${index}`)}

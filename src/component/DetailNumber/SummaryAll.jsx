@@ -22,8 +22,6 @@ function SummaryAll() {
       return { ...acc, ...obj };
     }, {});
 
-  console.log({ newStrongNumb });
-
   const weakNumb = useSelector((state) => state.numberKarmaMain.weak_list);
   const arrow = useSelector((state) => state.numberKarmaMain.arrow);
   const lack_arrow = useSelector((state) => state.numberKarmaMain.lack_arrow);
