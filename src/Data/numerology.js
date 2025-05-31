@@ -1672,7 +1672,6 @@ export const SOLUTION_NUMB = {
     noidung: `
    <div class='text-danger'><i class="icon">💡</i><strong>Điểm yếu:</strong></div>
       <ul>
-        <li>Ích kỷ,</li>
         <li>Thiếu lòng trắc ẩn,</li>
         <li>Thiếu tinh thần cộng đồng.</li>
       </ul>

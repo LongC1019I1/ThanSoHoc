@@ -1,13 +1,13 @@
 body {
   min-width: 800px !important;
   margin: 0;
-  background-image: url("./assets/img/glaxy.png"), url("./assets/img/glaxy.png");
+  background-image: url("./assets/img/bg5.jpg");
   font-family: "Segoe UI", sans-serif;
   color: white;
   overflow-x: hidden;
   position: relative;
-  background-repeat: no-repeat, no-repeat;
-  background-size: contain,cover;
+  background-repeat: repeat;
+  background-size: contain, cover;
 }
 
 #menu {
@@ -24,6 +24,7 @@ body {
   background: white;
   color: black;
 }
+
 #four_challenge,
 #four_peak,
 #summary {
