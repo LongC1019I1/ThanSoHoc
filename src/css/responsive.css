@@ -8,6 +8,14 @@
   }
 }
 @media (max-width: 767px) {
+  body {
+    background-image: url("../assets/img/bg.jpg") !important;
+  }
+
+  .form-box {
+    background: linear-gradient(45deg, #2b1d41, #6c4ca4) !important;
+  }
+
   .navbar-nav {
     flex-direction: column;
   }
