@@ -1491,7 +1491,6 @@ export const SOLUTION_NUMB = {
       <ul>
         <li>Thiếu quyết đoán,</li>
         <li>Thiếu chính kiến,</li>
-        <li>Dễ bị thao túng.</li>
       </ul>
     </p>
       <div class="subtitle">✨ Giải pháp khắc phục:</div>
