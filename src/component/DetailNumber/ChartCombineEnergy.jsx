@@ -81,10 +81,10 @@ const ChartCombineEnergy = function ({
     (num) => !amountNumber.hasOwnProperty(num)
   );
 
-  console.log({ weakNumbers });
+
   const filteredWeakContents = weakNumbers.reduce((acc, numb) => {
     let new_acc = [];
-    console.log({ acc, numb });
+
     const strongNumCheck = {
       1: [11, 10],
       2: [22, 11],
@@ -103,7 +103,7 @@ const ChartCombineEnergy = function ({
     return new_acc;
   }, []);
 
-  console.log({ filteredWeakContents });
+
 
   dispatch(numberKarmaActions.setWeakListNumb(filteredWeakContents));
 
@@ -130,7 +130,7 @@ const ChartCombineEnergy = function ({
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
-    console.log({ element });
+ 
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
