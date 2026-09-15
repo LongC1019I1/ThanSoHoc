@@ -1,6 +1,8 @@
 import { Fragment, useRef, useState } from "react";
 
-import { Form, Input, DatePicker, Button, Alert } from "antd";
+import { Form, Input, Button, Alert } from "antd";
+import BirthDateInput from "../component/BirthDateInput";
+import { toDateParts, validateBirthDate } from "../service/birthDate";
 import { FiArrowRight, FiUser } from "react-icons/fi";
 import NumerologyOrbit from "../component/NumerologyOrbit";
 import { CrescentMoon, Ornament } from "../component/Decor";
@@ -157,7 +159,9 @@ function FormInfor() {
           <div className="lookup-card">
             <h2>Báo cáo thần số học</h2>
             <p>Bắt đầu hành trình khám phá chính mình.</p>
-            <Form form={form} layout="vertical" onFinish={onFinish}
+            <Form form={form} layout="vertical"
+              // Ô ngày sinh lưu chuỗi dd/mm/yyyy; đổi về dạng $D/$M/$y mà thuật toán đang dùng.
+              onFinish={(values) => onFinish({ ...values, date: toDateParts(validateBirthDate(values.date)) })}
               onFinishFailed={({ errorFields }) => {
                 if (errorFields.length) {
                   form.scrollToField(errorFields[0].name);
@@ -174,26 +178,13 @@ function FormInfor() {
                     size="large"
                   />
                 </Form.Item>
-                <Form.Item label="Ngày sinh" name="date" rules={[
-                  { required: true, message: "Vui lòng chọn ngày sinh hợp lệ (dd/mm/yyyy), không ở tương lai." },
+                <Form.Item label="Ngày sinh" name="date" required validateTrigger="onBlur" rules={[
                   { validator: (_, value) => {
-                    if (!value) return Promise.resolve();
-                    if (!value.isValid()) return Promise.reject(new Error("Ngày sinh không hợp lệ."));
-                    if (value.startOf("day").valueOf() > new Date().setHours(0, 0, 0, 0)) {
-                      return Promise.reject(new Error("Ngày sinh không được ở tương lai."));
-                    }
-                    return Promise.resolve();
+                    const result = validateBirthDate(value);
+                    return result.error ? Promise.reject(new Error(result.error)) : Promise.resolve();
                   } },
                 ]}>
-                  <DatePicker
-                    format="DD/MM/YYYY"
-                    placeholder="Ngày / Tháng / Năm"
-                    size="large"
-                    disabledDate={(date) => date.startOf("day").valueOf() > new Date().setHours(0, 0, 0, 0)}
-                    style={{
-                      width: "100%",
-                    }}
-                  />
+                  <BirthDateInput />
                 </Form.Item>
               {error && <Alert type="error" showIcon message={error} role="alert" />}
               <Button htmlType="submit" type="primary" className="primary-button" block loading={isSubmitting}>

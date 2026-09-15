@@ -535,6 +535,59 @@ a.primary-button:hover {
   color: var(--faint);
 }
 
+.birth-date-field {
+  position: relative;
+}
+
+.calendar-button {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: -8px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 18px;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background-color var(--ease), color var(--ease);
+}
+
+.calendar-button:hover {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+/* Input date gốc chỉ để mở lịch của trình duyệt, không hiển thị */
+.native-date-picker {
+  position: absolute;
+  top: 48px;
+  right: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.birth-date-hint {
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+/* Khi đang báo lỗi, chỉ hiện thông báo lỗi */
+.ant-form-item-has-error .birth-date-hint {
+  display: none;
+}
+
+.lookup-card .ant-form-item-additional {
+  padding-bottom: 12px;
+}
+
 .form-note {
   margin: 16px 0 0;
   font-size: 14px;
