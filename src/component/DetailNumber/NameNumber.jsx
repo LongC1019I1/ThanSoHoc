@@ -1,25 +1,23 @@
-import sotenrieng from "../../assets/img/3.png";
 import { NUMEROLOGY_NAME } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";
+import NumberArticle from "./SubComponent/NumberArticle";
+import { INDEX_INTROS } from "./indexIntros";
+
 function NameNumber() {
   const numberName = useSelector((state) => state.numberName.name);
-  return (
-    <div id="name_number">
-      <div className="container">
-        <h1 className=" h1 my-5 px-2">
-          3{") "} Con Số tên <b className="text-info"> </b> của bạn là:{" "}
-          <span className="text-danger"> {numberName} </span>
-        </h1>
-        <div className="img-box ">
-          <img className=" my-1 w-100" src={sotenrieng} />
-        </div>
+  const content = NUMEROLOGY_NAME[numberName]?.noidung;
 
-        {NUMEROLOGY_NAME[numberName] && NUMEROLOGY_NAME[numberName].noidung
-          ? parse(NUMEROLOGY_NAME[numberName].noidung)
-          : ""}
-      </div>
-    </div>
+  return (
+    <NumberArticle
+      id="name_number"
+      title="Số tên riêng"
+      value={numberName}
+      intro={INDEX_INTROS.name_number}
+      hasContent={Boolean(content)}
+    >
+      {content && <div className="prose">{parse(content)}</div>}
+    </NumberArticle>
   );
 }
 

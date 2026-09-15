@@ -1,78 +1,22 @@
-import { Tag } from "antd";
-import React, { useEffect, useRef, useState } from "react";
-import { Stage, Layer, Rect, Text, Label } from "react-konva";
-import DrawCellDateName from "./SubComponent/DrawCellDateName";
-const ChartDateName = ({
-  numbersData,
-  color = "red",
-  buttonText,
-  buttonColor,
-  id_link,
-  disabled = false,
-}) => {
-  const [wRightPanel, setWLeftPanel] = useState();
+import NumberGrid from "./SubComponent/NumberGrid";
 
+// Cùng vị trí ô với biểu đồ Konva cũ: hàng trên 3-6-9, giữa 2-5-8, dưới 1-4-7.
+const LAYOUT = [3, 6, 9, 2, 5, 8, 1, 4, 7];
+
+const ChartDateName = ({ numbersData, title, description }) => {
   const amountNumber = {};
-  for (let chr of numbersData.replaceAll("0", "")) {
-    if (amountNumber[chr]) {
-      amountNumber[chr] += 1;
-    } else {
-      amountNumber[chr] = 1;
-    }
+  for (const chr of String(numbersData ?? "").replaceAll("0", "")) {
+    amountNumber[chr] = (amountNumber[chr] || 0) + 1;
   }
 
-  const canvasEl = useRef(null);
-
-  useEffect(() => {
-    const width = canvasEl?.current?.offsetWidth;
-    setWLeftPanel(width);
-  }, []);
-  // const widthWindow = window.innerWidth ;
-  // let wMatrix = widthWindow < 768 ? wRightPanel * 0.4 : wRightPanel * 0.4;
-  // buttonText == "BIỂU ĐỒ  TỔNG HỢP" ? (wMatrix = wMatrix + 85) : "";
-  // const hMatrix = (wMatrix / 3) * 3;
-
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
-    <div class="col-sm-12 col-md-6 my-3" ref={canvasEl}>
-      <div className=" d-flex justify-content-center ">
-        {/* Vẽ biểu đồ bằng React Konva */}
-        {wRightPanel && (
-          <DrawCellDateName
-            wRightPanel={wRightPanel}
-            amountNumber={amountNumber}
-            color={color}
-            buttonText={buttonText}
-          />
-        )}
-      </div>
-      {/* Nút bấm */}
-
-      <div class="d-flex justify-content-center">
-        <button
-          className={` btn mybtn`}
-          style={{
-            backgroundColor: buttonColor,
-            color: "white",
-            padding: "10px 20px",
-            border: "none",
-            borderRadius: "5px",
-            cursor: "pointer",
-            marginTop: "10px",
-          }}
-          onClick={() => scrollToSection(id_link)}
-          disabled={disabled}
-        >
-          👉 {buttonText}
-        </button>
-      </div>
-    </div>
+    <figure className="chart-card">
+      <figcaption className="chart-caption">
+        <h3>{title}</h3>
+        {description && <p>{description}</p>}
+      </figcaption>
+      <NumberGrid layout={LAYOUT} columns={3} amountNumber={amountNumber} showMissing />
+    </figure>
   );
 };
 

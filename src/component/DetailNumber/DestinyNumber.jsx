@@ -1,27 +1,23 @@
-import sodinhmenh from "../../assets/img/5.png";
 import { NUMEROLOGY_LIFE_PATH } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";
+import NumberArticle from "./SubComponent/NumberArticle";
+import { INDEX_INTROS } from "./indexIntros";
+
 function DestinyNumber() {
   const numberDestiny = useSelector((state) => state.numberName.destiny);
+  const content = NUMEROLOGY_LIFE_PATH[numberDestiny]?.noidung;
 
   return (
-    <div id="destiny_number">
-      <div className="container">
-        <h1 className=" h1 my-5 px-2">
-          4{") "} Con Số Định Mệnh:{" "}
-          <b className="text-danger">{numberDestiny} </b>
-        </h1>
-        <div className="img-box " >
-          <img className=" my-1 w-100" src={sodinhmenh} />
-        </div>
-
-        {NUMEROLOGY_LIFE_PATH[numberDestiny] &&
-        NUMEROLOGY_LIFE_PATH[numberDestiny].noidung
-          ? parse(NUMEROLOGY_LIFE_PATH[numberDestiny].noidung)
-          : ""}
-      </div>
-    </div>
+    <NumberArticle
+      id="destiny_number"
+      title="Số định mệnh"
+      value={numberDestiny}
+      intro={INDEX_INTROS.destiny_number}
+      hasContent={Boolean(content)}
+    >
+      {content && <div className="prose">{parse(content)}</div>}
+    </NumberArticle>
   );
 }
 

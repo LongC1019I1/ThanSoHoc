@@ -1,7 +1,10 @@
-import React, { Fragment, useState } from "react";
+import { Fragment, useRef, useState } from "react";
 
-import { Form, Input, DatePicker, Button } from "antd";
-import { motion } from "framer-motion";
+import { Form, Input, DatePicker, Button, Alert } from "antd";
+import { FiArrowRight, FiUser } from "react-icons/fi";
+import NumerologyOrbit from "../component/NumerologyOrbit";
+import { CrescentMoon, Ornament } from "../component/Decor";
+import useHashScroll from "../hooks/useHashScroll";
 import {
   mergeNumberString,
   removeVietnameseTones,
@@ -19,7 +22,17 @@ import { useNavigate } from "react-router-dom";
 function FormInfor() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const [form] = Form.useForm();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState("");
+  const submitLock = useRef(false);
+  useHashScroll();
   const onFinish = (values) => {
+    if (submitLock.current) return;
+    submitLock.current = true;
+    setIsSubmitting(true);
+    setError("");
+    try {
     const spaceRegex = /\s+/g;
 
     // main number
@@ -111,62 +124,94 @@ function FormInfor() {
     const mature = mergeNumberString(main - 0 + (detinyNumber - 0) + "", true);
     dispatch(numberNameActions.setNumberMature(mature));
 
-    navigate("/detail-number");
+    navigate("/detail-number#overview");
+    } catch {
+      setError("Chưa thể tạo báo cáo. Vui lòng kiểm tra thông tin và thử lại.");
+    } finally {
+      submitLock.current = false;
+      setIsSubmitting(false);
+    }
   };
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 1.5 } }}
-    >
+    <div className="lookup-page">
       <Fragment>
         {/* Background numbers */}
 
         {/* Navigation */}
 
-        <div class="hero">
-          <h2>BÁO CÁO THẦN SỐ HỌC</h2>
-          <p> Khám phá ý nghĩa họ tên và ngày sinh của bạn</p>
-
-          <div class="form-box">
-            <Form layout="vertical" onFinish={onFinish}>
-              <div class="mb-3">
-                <Form.Item class="mx-auto w-50" name="name">
+        <section className="mystic-hero" aria-labelledby="lookup-title">
+          <div className="hero-copy">
+            <div className="hero-emblem">
+              <CrescentMoon className="emblem-moon" />
+              <NumerologyOrbit />
+              <CrescentMoon className="emblem-moon" flip />
+            </div>
+            <div className="hero-text">
+              <span className="eyebrow eyebrow--lined">Thần số học Pythagoras</span>
+              <h1 id="lookup-title">Khám phá bản thân<br />qua những <em>con số</em></h1>
+              <p>Giải mã ý nghĩa họ tên và ngày sinh của bạn.</p>
+              <Ornament />
+            </div>
+          </div>
+          <div className="lookup-card">
+            <h2>Báo cáo thần số học</h2>
+            <p>Bắt đầu hành trình khám phá chính mình.</p>
+            <Form form={form} layout="vertical" onFinish={onFinish}
+              onFinishFailed={({ errorFields }) => {
+                if (errorFields.length) {
+                  form.scrollToField(errorFields[0].name);
+                  form.getFieldInstance(errorFields[0].name)?.focus?.();
+                }
+              }}>
+                <Form.Item label="Họ và tên" name="name" rules={[
+                  { required: true, whitespace: true, message: "Vui lòng nhập họ và tên của bạn." },
+                ]}>
                   <Input
-                    class="form-control border-success"
-                    placeholder="Nhập Họ Tên "
-                    required
+                    prefix={<FiUser aria-hidden="true" className="input-icon" />}
+                    placeholder="Ví dụ: Nguyễn Minh Anh"
+                    autoComplete="name"
+                    size="large"
                   />
                 </Form.Item>
-              </div>
-              <div class="mb-3">
-                <Form.Item class="mx-auto w-50 w-100 form-control" name="date">
+                <Form.Item label="Ngày sinh" name="date" rules={[
+                  { required: true, message: "Vui lòng chọn ngày sinh hợp lệ (dd/mm/yyyy), không ở tương lai." },
+                  { validator: (_, value) => {
+                    if (!value) return Promise.resolve();
+                    if (!value.isValid()) return Promise.reject(new Error("Ngày sinh không hợp lệ."));
+                    if (value.startOf("day").valueOf() > new Date().setHours(0, 0, 0, 0)) {
+                      return Promise.reject(new Error("Ngày sinh không được ở tương lai."));
+                    }
+                    return Promise.resolve();
+                  } },
+                ]}>
                   <DatePicker
-                    name="prename"
                     format="DD/MM/YYYY"
-                    placeholder="Ngày sinh  ( dd/mm/yyyy )"
-                    class="w-100 form-control"
+                    placeholder="Ngày / Tháng / Năm"
+                    size="large"
+                    disabledDate={(date) => date.startOf("day").valueOf() > new Date().setHours(0, 0, 0, 0)}
                     style={{
                       width: "100%",
                     }}
-                    required
                   />
                 </Form.Item>
-              </div>
-
-              <button type="submit" class="btn btn-custom">
-                Tra Cứu
-              </button>
+              {error && <Alert type="error" showIcon message={error} role="alert" />}
+              <Button htmlType="submit" type="primary" className="primary-button" block loading={isSubmitting}>
+                Tra cứu ngay <FiArrowRight aria-hidden="true" />
+              </Button>
+              <p className="form-note">Sử dụng họ tên đầy đủ và ngày sinh dương lịch.</p>
             </Form>
           </div>
-        </div>
+        </section>
 
-        <section class="info-section">
-          <h2>WHAT IS NUMEROLOGY?</h2>
-          <div id="result">
-            <h2 class="text-center mb-4">
+        <section className="intro-section" id="about" aria-labelledby="intro-title">
+          <span className="eyebrow">Hiểu về thần số học</span>
+          <h2 id="intro-title">Thần số học là gì?</h2>
+          <p>Tìm hiểu các chỉ số từ họ tên và ngày sinh, biểu đồ năng lượng cùng những giai đoạn trong hành trình cuộc sống.</p>
+          <div id="result" className="intro-content">
+            <h3>
               Lời ngỏ Cuốn sách Thần số học Pythagoras
-            </h2>
+            </h3>
             <p>
               Đây là một tấm bản đồ vừa tổng quan lại vừa đủ chi tiết để chỉ dẫn
               cho bạn khá nhiều ngóc ngách hay ho trong cuộc đời mà có lẽ nếu
@@ -451,7 +496,7 @@ function FormInfor() {
           </div>
         </section>
       </Fragment>
-    </motion.div>
+    </div>
   );
 }
 

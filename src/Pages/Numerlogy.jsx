@@ -1,70 +1,65 @@
-import React, { Fragment, useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
-import OverviewNumber from "../component/OverviewNumber";
-import DetailNumber from "../component/DetailNumber";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { FaChevronUp } from "react-icons/fa";
 import { useSelector } from "react-redux";
+import OverviewNumber from "../component/OverviewNumber";
+import DetailNumber from "../component/DetailNumber";
+import ReportToc from "../component/ReportToc";
+import useHashScroll from "../hooks/useHashScroll";
+
 const Numerlogy = () => {
   const numberKarma = useSelector((state) => state.numberKarmaMain.number);
+  const birthDay = useSelector((state) => state.numberKarmaMain.birth_day);
+  const top4 = useSelector((state) => state.numberKarmaMain.top4);
+  const hasReport = Boolean(numberKarma && birthDay && top4);
   const [showButton, setShowButton] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setShowButton(true);
-      } else {
-        setShowButton(false);
-      }
-    };
+  useHashScroll(hasReport);
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [numberKarma]);
+  useEffect(() => {
+    const handleScroll = () => setShowButton(window.scrollY > 300);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
   };
 
-  return (
-    <Fragment>
-      {!numberKarma ? (
-        <div className="error_page flex flex-col items-center justify-center h-screen ">
-          <div className=" text-center">
-            <h1 className="text-3xl font-bold text-red-600 mb-4">Oops!</h1>
-            <p className="text-lg text-gray-700 mb-6">
-              Vui lòng quay lại nhập <strong>Họ Tên</strong> &{" "}
-              <strong>Ngày Tháng Năm Sinh</strong> để tiếp tục.
-            </p>
-            <NavLink
-              to="/"
-              className="px-6 py-3 btn btn-danger rounded-lg shadow hover:bg-blue-600 transition"
-            >
-              Quay lại trang chính
-            </NavLink>
-          </div>
-        </div>
-      ) : (
-        <Fragment>
-          <OverviewNumber />
-          <DetailNumber />
+  if (!hasReport) {
+    return (
+      <section className="empty-state" aria-labelledby="empty-title">
+        <h1 id="empty-title">Bạn chưa có dữ liệu báo cáo</h1>
+        <p>
+          Báo cáo được tạo từ họ tên và ngày sinh bạn nhập, và không được lưu lại
+          khi mở trực tiếp hoặc tải lại trang.
+        </p>
+        <Link to="/" className="primary-button">
+          Nhập thông tin
+        </Link>
+      </section>
+    );
+  }
 
-          <button
-            onClick={scrollToTop}
-            className="scrollToTop"
-            style={{
-              display: showButton ? "block" : "none",
-            }}
-          >
-            <FaChevronUp  />
-          </button>
-        </Fragment>
-      )}
-    </Fragment>
+  return (
+    <div className="report-layout">
+      <ReportToc />
+      <div className="report-main">
+        <OverviewNumber />
+        <DetailNumber />
+      </div>
+      <button
+        type="button"
+        className="scroll-top"
+        hidden={!showButton}
+        aria-label="Về đầu báo cáo"
+        onClick={scrollToTop}
+      >
+        <FaChevronUp aria-hidden="true" />
+      </button>
+    </div>
   );
 };
 

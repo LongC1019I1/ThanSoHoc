@@ -1,32 +1,39 @@
 import { useSelector } from "react-redux";
-import sonoicam from "../../assets/img/10.png";
 import { INNER_NUMBER } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { Fragment } from "react";
+import NumberArticle, { MissingContent } from "./SubComponent/NumberArticle";
+import { INDEX_INTROS } from "./indexIntros";
 
 function InnerNumber() {
   const spaceRegex = /\s+/g;
   const numberInner = useSelector((state) => state.numberName.inner);
 
-  const splitNumberInner = numberInner.split(spaceRegex);
+  const contents = String(numberInner ?? "")
+    .split(spaceRegex)
+    .map((numb) => INNER_NUMBER[numb]?.noidung)
+    .filter(Boolean);
 
   return (
-    <div id="inner_number">
-      <div className="container">
-        <h1 className=" h1 my-5 px-2">
-          10{") "} Chỉ Số Nội Cảm:{" "}
-          <b className="text-danger">Số {numberInner} </b>
-        </h1>
-        <div className="img-box ">
-          <img className=" my-1 w-100" src={sonoicam} />
+    <NumberArticle
+      id="inner_number"
+      title="Số nội cảm"
+      value={numberInner || "Không có"}
+      intro={INDEX_INTROS.inner_number}
+    >
+      {contents.length ? (
+        <div className="prose">
+          {contents.map((content, index) => (
+            <Fragment key={index}>{parse(content)}</Fragment>
+          ))}
         </div>
-        {splitNumberInner.map((numb, index) =>
-          INNER_NUMBER[numb] && INNER_NUMBER[numb].noidung ? (
-            <Fragment key={index}>{parse(INNER_NUMBER[numb].noidung)}</Fragment>
-          ) : null
-        )}
-      </div>
-    </div>
+      ) : (
+        <MissingContent>
+          Họ tên của bạn không có số nào xuất hiện từ 3 lần trở lên, nên không có
+          Số nội cảm để diễn giải.
+        </MissingContent>
+      )}
+    </NumberArticle>
   );
 }
 

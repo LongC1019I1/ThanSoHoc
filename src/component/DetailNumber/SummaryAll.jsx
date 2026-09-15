@@ -1,30 +1,50 @@
 import { useSelector } from "react-redux";
-import tomtat from "../../assets/img/tomtat.png";
+import { Link } from "react-router-dom";
+import { FiArrowUp, FiRefreshCw } from "react-icons/fi";
 import {
   STRONG_NUMB,
   WEAK_NUMB,
   ARROW,
   NUMEROLOGY_LIFE_PATH,
   NUMEROLOGY_SOUL_NUMBER,
-  NUMERLOGY_COMMON,
   NUMERLOGY_JOB,
   SOLUTION_NUMB,
 } from "../../Data/numerology";
 import parse from "html-react-parser";
 import { Fragment } from "react";
+import { MissingContent } from "./SubComponent/NumberArticle";
+
+function SummaryBlock({ title, lead, links = [], hasContent, children }) {
+  return (
+    <section className="summary-block">
+      <h3>{title}</h3>
+      {lead && <p className="summary-lead">{lead}</p>}
+      {hasContent ? children : <MissingContent />}
+      {links.length > 0 && (
+        <p className="related-links">
+          <span>Xem thêm:</span>
+          {links.map((link) => (
+            <a key={link.href} href={link.href}>
+              {link.label}
+            </a>
+          ))}
+        </p>
+      )}
+    </section>
+  );
+}
 
 function SummaryAll() {
   const strongNumb = useSelector((state) => state.numberKarmaMain.strong_list);
 
   const newStrongNumb = strongNumb
-    .map((numb, index) => (STRONG_NUMB[numb] ? STRONG_NUMB[numb] : null))
+    .map((numb) => (STRONG_NUMB[numb] ? STRONG_NUMB[numb] : null))
     .reduce((acc, obj) => {
       return { ...acc, ...obj };
     }, {});
 
   const weakNumb = useSelector((state) => state.numberKarmaMain.weak_list);
   const arrow = useSelector((state) => state.numberKarmaMain.arrow);
-  const lack_arrow = useSelector((state) => state.numberKarmaMain.lack_arrow);
   const numberSoul = useSelector((state) => state.numberName.soul);
   const numberDestiny = useSelector((state) => state.numberName.destiny);
   const numberKarma = useSelector((state) => state.numberKarmaMain.number);
@@ -48,139 +68,128 @@ function SummaryAll() {
     start += size;
   }
 
+  const strongArrows = (arrow || [])
+    .map((arr) => ARROW[arr]?.[1]?.KET_LUAN)
+    .filter(Boolean);
+  const weakContents = weakNumb.map((numb) => WEAK_NUMB[numb]?.noidung).filter(Boolean);
+  const motivations = [
+    NUMEROLOGY_LIFE_PATH[numberDestiny]?.tomtat,
+    NUMEROLOGY_SOUL_NUMBER[numberSoul]?.tomtat,
+    NUMEROLOGY_SOUL_NUMBER[numberKarma]?.tomtat,
+  ].filter(Boolean);
+  const jobs = strongNumb.map((numb) => NUMERLOGY_JOB[numb]?.noidung).filter(Boolean);
+  const solutions = weakNumb.map((numb) => SOLUTION_NUMB[numb]?.noidung).filter(Boolean);
+
   return (
-    <div id="summary_all">
-      <div className="container">
-        <h1 className=" h1 my-5 px-2">
-          <b className="text-info"> &nbsp; &nbsp;Xu hướng nghề nghiệp </b> và{" "}
-          <b className="text-danger"> Tóm tắt </b>về bạn{" "}
-        </h1>
-        <img className=" my-1 w-100" style={{ scale: 1 }} src={tomtat} />
+    <section id="summary_all" className="report-group" aria-labelledby="summary-title">
+      <header className="group-header">
+        <span className="eyebrow">Tổng kết</span>
+        <h2 id="summary-title">Xu hướng nghề nghiệp và tóm tắt về bạn</h2>
+      </header>
 
-        <div className="m-3  px-3 py-4    border border-dark-subtle rounded  ">
-          <h4 className=" mt-3 px-2">ĐIỂM MẠNH CỦA BẠN</h4>
-          <p class="text-danger mb-5">
-            Là tài năng, năng lực, khả năng, đặc điểm chủ đạo của bạn
-          </p>
-          {groups.map((group, index) => (
-            <div key={index}>
-              {group.map((key, subIndex) => (
-                <Fragment key={subIndex}>{parse(newStrongNumb[key])}</Fragment>
-              ))}
-              {index < groups.length - 1 && <div className="mt-5" />}{" "}
-              {/* cách dòng giữa các nhóm */}
-            </div>
-          ))}
-          {arrow.length > 0 &&
-            arrow.map((arr, iAr) => {
-              return (
-                <Fragment key={`emp${iAr}`}>
-                  {parse(ARROW[arr][1].KET_LUAN)}
-                </Fragment>
-              );
-            })}
-        </div>
-
-        <div className="m-3  px-3 py-4   border border-dark-subtle rounded  ">
-          <h4 className=" mt-3 px-2">ĐIỂM YẾU CỦA BẠN</h4>
-          <p class="text-primary">
-            Là nhược điểm, bài học, khuyết điểm của bạn
-          </p>
-          <div>
-            {weakNumb.map((numb, index) => {
-              return (
-                <div className="mt-5" key={index}>
-                  {WEAK_NUMB[numb] && WEAK_NUMB[numb].noidung
-                    ? parse(WEAK_NUMB[numb].noidung)
-                    : null}
-                </div>
-              );
-            })}
-          </div>
-          {/* <div className="">
-            {lack_arrow.length > 0 &&
-              lack_arrow.map((arr, iAr) => {
-                return (
-                  <Fragment key={`emp${iAr}`}>
-                    {parse(ARROW[arr][0].KET_LUAN)}
-                  </Fragment>
-                );
-              })}
-          </div> */}
-        </div>
-
-        <div className="m-3  p-3    border border-dark-subtle rounded  ">
-          <h4 className=" mt-3 px-2">ĐỘNG LỰC THỎA MÃN</h4>
-          <p class="text-danger">Là khao khát nội tâm, mong muốn, sứ mệnh</p>
-          <p>
-            {NUMEROLOGY_LIFE_PATH[numberDestiny] &&
-            NUMEROLOGY_LIFE_PATH[numberDestiny].tomtat
-              ? parse(NUMEROLOGY_LIFE_PATH[numberDestiny].tomtat)
-              : ""}
-          </p>
-          <p>
-            {NUMEROLOGY_SOUL_NUMBER[numberSoul] &&
-            NUMEROLOGY_SOUL_NUMBER[numberSoul].tomtat
-              ? parse(NUMEROLOGY_SOUL_NUMBER[numberSoul].tomtat)
-              : ""}
-          </p>
-          <p>
-            {NUMEROLOGY_SOUL_NUMBER[numberKarma] &&
-            NUMEROLOGY_SOUL_NUMBER[numberKarma]
-              ? parse(NUMEROLOGY_SOUL_NUMBER[numberKarma].tomtat)
-              : ""}
-          </p>
-        </div>
-        <div className="m-3  p-3 career-container border border-dark-subtle rounded  ">
-          <h4 className="  mt-3 px-2 ">XU HƯỚNG NGHỀ NGHIỆP</h4>
-          <p class="text-danger">
-            Đây là gợi ý xu hướng nghề nghiệp dựa trên năng lượng thuần trong bộ
-            số của Bạn, trong thực tế để chọn được nghề nghiệp phù hợp Bạn cần
-            xét thêm những yếu tố khác như: Nguồn lực (tài năng thực tế) và lợi
-            thế cạnh tranh (mối quan hệ, truyền thống, gia đình, tài chính, nơi
-            ở ..vv) của Bạn để Bạn lựa chọn được nghề nghiệp phù hợp nhất.
-          </p>
-
-          <div class="career-grid">
-            {strongNumb.map((numb, index) =>
-              NUMERLOGY_JOB[numb] && NUMERLOGY_JOB[numb].noidung ? (
-                <div className="mt-4" key={index}>
-                  {parse(NUMERLOGY_JOB[numb].noidung)}
-                </div>
-              ) : null
+      <div className="summary-stack">
+        <SummaryBlock
+          title="Điểm mạnh của bạn"
+          lead="Là tài năng, năng lực, khả năng, đặc điểm chủ đạo của bạn"
+          hasContent={keys.length > 0 || strongArrows.length > 0}
+          links={[
+            { href: "#charts", label: "Tổng hợp năng lượng" },
+            { href: "#date_to_known", label: "Mật mã ngày sinh" },
+          ]}
+        >
+          <div className="prose">
+            {groups.map(
+              (group, index) =>
+                group.length > 0 && (
+                  <div className="summary-group" key={index}>
+                    {group.map((key) => (
+                      <Fragment key={key}>{parse(newStrongNumb[key])}</Fragment>
+                    ))}
+                  </div>
+                )
             )}
+            {strongArrows.map((text, index) => (
+              <Fragment key={`arrow-${index}`}>{parse(text)}</Fragment>
+            ))}
           </div>
-        </div>
-        <div className="m-3  p-3  conclude  border border-dark-subtle rounded  ">
-          <h4 className="  mt-3 px-2 title"> LỜI KHUYÊN VÀ CÁCH PHÁT TRIỂN</h4>
-          <p class="text-danger">
-            Là những đề xuất phát triển giúp bạn trở nên hoàn thiện hơn
-          </p>
-          <div>
-            {weakNumb.map((numb, index) => {
-              return (
-                <div
-                  className={`mt-5 section ${index % 2 === 0 ? "even" : "odd"}`}
-                  key={index}
-                >
-                  {SOLUTION_NUMB[numb] && SOLUTION_NUMB[numb].noidung
-                    ? parse(SOLUTION_NUMB[numb].noidung)
-                    : null}
-                </div>
-              );
-            })}
-          </div>
+        </SummaryBlock>
 
-          <div class="note-box row">
-          
-            <div className=" ">
-              <strong>🚫 LƯU Ý: </strong> Những nghề nêu trên không phải bạn
-              không làm được mà bạn cần phải nỗ lực nhiều hơn để bù đắp{" "}
-            </div>
+        <SummaryBlock
+          title="Điểm yếu của bạn"
+          lead="Là nhược điểm, bài học, khuyết điểm của bạn"
+          hasContent={weakContents.length > 0}
+          links={[{ href: "#charts", label: "Tổng hợp năng lượng" }]}
+        >
+          <div className="prose">
+            {weakContents.map((text, index) => (
+              <div className="summary-item" key={index}>
+                {parse(text)}
+              </div>
+            ))}
           </div>
-        </div>
+        </SummaryBlock>
+
+        <SummaryBlock
+          title="Động lực thỏa mãn"
+          lead="Là khao khát nội tâm, mong muốn, sứ mệnh"
+          hasContent={motivations.length > 0}
+          links={[
+            { href: "#destiny_number", label: "Số định mệnh" },
+            { href: "#soul_number", label: "Số linh hồn" },
+            { href: "#main_number", label: "Số đường đời" },
+          ]}
+        >
+          <div className="prose">
+            {motivations.map((text, index) => (
+              <div className="summary-item" key={index}>
+                {parse(text)}
+              </div>
+            ))}
+          </div>
+        </SummaryBlock>
+
+        <SummaryBlock
+          title="Xu hướng nghề nghiệp"
+          lead="Đây là gợi ý xu hướng nghề nghiệp dựa trên năng lượng thuần trong bộ số của Bạn, trong thực tế để chọn được nghề nghiệp phù hợp Bạn cần xét thêm những yếu tố khác như: Nguồn lực (tài năng thực tế) và lợi thế cạnh tranh (mối quan hệ, truyền thống, gia đình, tài chính, nơi ở ..vv) của Bạn để Bạn lựa chọn được nghề nghiệp phù hợp nhất."
+          hasContent={jobs.length > 0}
+          links={[{ href: "#charts", label: "Tổng hợp năng lượng" }]}
+        >
+          <div className="career-grid prose">
+            {jobs.map((text, index) => (
+              <div key={index}>{parse(text)}</div>
+            ))}
+          </div>
+        </SummaryBlock>
+
+        <SummaryBlock
+          title="Lời khuyên và cách phát triển"
+          lead="Là những đề xuất phát triển giúp bạn trở nên hoàn thiện hơn"
+          hasContent={solutions.length > 0}
+          links={[{ href: "#lifepeak", label: "Đỉnh cao & thử thách" }]}
+        >
+          <div className="prose">
+            {solutions.map((text, index) => (
+              <div className="advice-item" key={index}>
+                {parse(text)}
+              </div>
+            ))}
+          </div>
+          <p className="note-box">
+            <strong>Lưu ý:</strong> Những nghề nêu trên không phải bạn không làm
+            được mà bạn cần phải nỗ lực nhiều hơn để bù đắp
+          </p>
+        </SummaryBlock>
       </div>
-    </div>
+
+      <div className="summary-actions">
+        <a className="ghost-button" href="#overview">
+          <FiArrowUp aria-hidden="true" /> Về đầu báo cáo
+        </a>
+        <Link className="primary-button" to="/">
+          <FiRefreshCw aria-hidden="true" /> Tra cứu lại
+        </Link>
+      </div>
+    </section>
   );
 }
 

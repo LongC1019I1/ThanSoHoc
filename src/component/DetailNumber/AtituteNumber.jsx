@@ -1,25 +1,23 @@
 import { useSelector } from "react-redux";
-import attituteNumber from "../../assets/img/6.png";
 import { NUMEROLOGY_ATTITUDE } from "../../Data/numerology";
 import parse from "html-react-parser";
+import NumberArticle from "./SubComponent/NumberArticle";
+import { INDEX_INTROS } from "./indexIntros";
+
 function AtituteNumber() {
   const numbeAtitute = useSelector((state) => state.numberKarmaMain.atitute);
+  const content = NUMEROLOGY_ATTITUDE[numbeAtitute]?.noidung;
 
   return (
-    <div id="atitute_number">
-      <div className="container">
-        <h1 className=" h1 my-5 px-2">
-          5{") "} Con Số Thái Độ:{" "}
-          <b className="text-danger">Số {numbeAtitute} </b>
-        </h1>
-        <div className="img-box ">
-          <img className=" my-1 w-100" src={attituteNumber} />
-        </div>
-        {NUMEROLOGY_ATTITUDE[numbeAtitute]
-          ? parse(NUMEROLOGY_ATTITUDE[numbeAtitute].noidung)
-          : ""}
-      </div>
-    </div>
+    <NumberArticle
+      id="atitute_number"
+      title="Số thái độ"
+      value={numbeAtitute}
+      intro={INDEX_INTROS.atitute_number}
+      hasContent={Boolean(content)}
+    >
+      {content && <div className="prose">{parse(content)}</div>}
+    </NumberArticle>
   );
 }
 

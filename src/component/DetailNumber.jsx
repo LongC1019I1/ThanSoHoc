@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import MainNumber from "./DetailNumber/MainNumber";
 import NameNumber from "./DetailNumber/NameNumber";
 import AtituteNumber from "./DetailNumber/AtituteNumber";
@@ -8,7 +7,6 @@ import BirthNumber from "./DetailNumber/BirthNumber";
 import SoulNumber from "./DetailNumber/SoulNumber";
 import ExpressNumber from "./DetailNumber/ExpressNumber";
 import InnerNumber from "./DetailNumber/InnerNumber";
-import LifePeak from "./DetailNumber/LifePeak";
 import ChartDateName from "./DetailNumber/ChartDateName";
 import { useSelector } from "react-redux";
 import ChartCombineEnergy from "./DetailNumber/ChartCombineEnergy";
@@ -16,125 +14,80 @@ import SummaryAll from "./DetailNumber/SummaryAll";
 import DateToKnown from "./DetailNumber/DateToKnown";
 import FourPeak from "./DetailNumber/FourPeak";
 import FourChallenge from "./DetailNumber/FourChallenge";
-// 🟢 Dữ liệu mẫu để truyền vào component
-const sampleNumbers = {
-  top: 8,
-  left: 2,
-  right: 8,
-  center: 10,
-};
-
-const sampleAges = {
-  bottomLeft: "27 tuổi - (2023)",
-  bottomRight: "36 tuổi - (2032)",
-  topLeft: "45 tuổi - (2041)",
-  topRight: "54 tuổi - (2050)",
-};
 
 function DetailNumber() {
   const top4 = useSelector((state) => state.numberKarmaMain.top4);
-
   const birth_day = useSelector((state) => state.numberKarmaMain.birth_day);
+  const birth_day_list = useSelector(
+    (state) => state.numberKarmaMain.birth_day_list
+  );
   const full_name_numb = useSelector(
     (state) => state.numberName.full_name_number
   );
   const combine_numb_birth_name = birth_day + "" + full_name_numb;
 
+  if (!birth_day) return null;
+
   return (
-    <Fragment>
-      <div id="detail_number">
-        {birth_day && (
-          <Fragment>
-            <div class="border rounded p-3 m-3 row ">
-              <ChartDateName
-                numbersData={birth_day}
-                color="red"
-                buttonText="BIỂU ĐỒ NGÀY SINH"
-                buttonColor="green"
-                id_link="date_to_known"
-              />
+    <div id="detail_number">
+      <section id="indices" className="report-group" aria-labelledby="indices-title">
+        <header className="group-header">
+          <span className="eyebrow">Các chỉ số</span>
+          <h2 id="indices-title">Chi tiết các chỉ số</h2>
+        </header>
+        <MainNumber />
+        <NameNumber />
+        <DestinyNumber />
+        <AtituteNumber />
+        <MatureNumber />
+        <BirthNumber />
+        <SoulNumber />
+        <ExpressNumber />
+        <InnerNumber />
+      </section>
 
-              <ChartDateName
-                numbersData={full_name_numb}
-                color="#3498da"
-                buttonText="BIỂU ĐỒ HỌ TÊN"
-                disabled={true}
-                buttonColor="purple"
-                id_link=""
-              />
-            </div>
+      {/* ChartCombineEnergy phải render trước SummaryAll vì nó tính danh sách số mạnh/yếu. */}
+      <section id="charts" className="report-group" aria-labelledby="charts-title">
+        <header className="group-header">
+          <span className="eyebrow">Biểu đồ</span>
+          <h2 id="charts-title">Biểu đồ và năng lượng</h2>
+          <p className="group-lead">
+            Mỗi ô là một con số. Ô viền liền ghi số lần xuất hiện (×n); ô viền
+            đứt là số không có.
+          </p>
+        </header>
+        <div className="chart-grid">
+          <ChartDateName
+            numbersData={birth_day}
+            title="Biểu đồ ngày sinh"
+            description={`Các chữ số của ngày sinh ${birth_day_list}`}
+          />
+          <ChartDateName
+            numbersData={full_name_numb}
+            title="Biểu đồ họ tên"
+            description="Các chữ số quy đổi từ họ tên"
+          />
+          <ChartDateName
+            numbersData={combine_numb_birth_name}
+            title="Biểu đồ tổng hợp"
+            description="Gộp chữ số của ngày sinh và họ tên"
+          />
+        </div>
+        <ChartCombineEnergy />
+        <DateToKnown />
+      </section>
 
-            <div class="border rounded p-3 m-3 d-flex justify-content-center">
-              <ChartDateName
-                numbersData={combine_numb_birth_name}
-                color="blue"
-                buttonText="BIỂU ĐỒ  TỔNG HỢP"
-                buttonColor="#3cbc9b"
-                disabled={true}
-              />
-            </div>
+      <section id="lifepeak" className="report-group" aria-labelledby="lifepeak-title">
+        <header className="group-header">
+          <span className="eyebrow">Giai đoạn cuộc đời</span>
+          <h2 id="lifepeak-title">Đỉnh cao và thử thách</h2>
+        </header>
+        <FourPeak topFour={top4?.top4_peak} />
+        <FourChallenge topFour={top4?.top4_challenge} />
+      </section>
 
-            <div class="border rounded p-3 m-3 d-flex justify-content-center">
-              {combine_numb_birth_name && (
-                <Fragment>
-                  <ChartCombineEnergy
-                    color="blue"
-                    buttonText="TÓM TẮT VỀ BẠN"
-                    buttonColor="#3cbc9b"
-                    id_link="summary_all"
-                  />
-                </Fragment>
-              )}
-            </div>
-
-            {top4 && (
-              <Fragment>
-                <div
-                  id="lifepeak"
-                  className="  border rounded  row d-flex  p-3 m-3 justify-content-center"
-                >
-                  <LifePeak
-                    topFour={top4.top4_peak}
-                    btn={{
-                      class_name: "btn btn-danger",
-                      noi_dung: "4 ĐỈNH CỦA CUỘC ĐỜI",
-                    }}
-                    id_link="four_peak"
-                  />
-                  <LifePeak
-                    topFour={top4.top4_challenge}
-                    btn={{
-                      class_name: "btn jade-green",
-                      noi_dung: "BIỂU ĐỒ THỬ THÁCH",
-                    }}
-                    id_link="four_challenge"
-                  />
-                </div>
-              </Fragment>
-            )}
-
-            <MainNumber />
-            <DateToKnown
-              numbersData={birth_day}
-              color="red"
-              buttonText="BIỂU ĐỒ NGÀY SINH"
-              buttonColor="green"
-            />
-            <NameNumber />
-            <DestinyNumber />
-            <AtituteNumber />
-            <MatureNumber />
-            <BirthNumber />
-            <SoulNumber />
-            <ExpressNumber />
-            <InnerNumber />
-            <FourPeak topFour={top4.top4_peak} />
-            <FourChallenge topFour={top4.top4_challenge} />
-            <SummaryAll />
-          </Fragment>
-        )}
-      </div>
-    </Fragment>
+      <SummaryAll />
+    </div>
   );
 }
 

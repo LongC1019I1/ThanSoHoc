@@ -1,0 +1,34 @@
+flowchart TD
+  A["P01: Trang tra cứu /"] --> B["Nhập họ tên và ngày sinh"]
+  B --> C{"Dữ liệu hợp lệ?"}
+  C -->|Không| D["Lỗi dưới trường; giữ dữ liệu; focus trường lỗi"]
+  D --> B
+  C -->|Có| E["Thuật toán hiện tại: service/numerlogy"]
+  E --> F{"Tính toán thành công?"}
+  F -->|Không| G["Giữ form; thông báo thử lại"]
+  G --> B
+  F -->|Có| H["Dispatch Redux numberKarmaMain + numberName"]
+  H --> I["/detail-number#overview"]
+  J["Mở trực tiếp hoặc tải lại báo cáo"] --> K{"Có dữ liệu Redux hợp lệ?"}
+  K -->|Không| L["Trạng thái chưa có báo cáo"]
+  L -->|Nhập thông tin| A
+  K -->|Có| I
+  I --> M["P02: Tổng quan"]
+  M -->|Chọn chỉ số| N["P03: Chi tiết chỉ số / anchor tương ứng"]
+  M -->|Mục lục| O["P04: Biểu đồ + năng lượng #charts"]
+  M -->|Mục lục| P["P05: Đỉnh cao + thử thách #lifepeak"]
+  M -->|Mục lục| Q["P06: Tổng kết #summary_all"]
+  N --> R["Mục lục dùng chung: chuyển đến mọi phần"]
+  O --> R
+  P --> R
+  Q --> R
+  R --> M
+  R --> N
+  R --> O
+  R --> P
+  R --> Q
+  R -->|Tra cứu lại| A
+  S["src/Data/numerology.js: nội dung diễn giải"] -.-> N
+  S -.-> O
+  S -.-> P
+  S -.-> Q
