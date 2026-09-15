@@ -13,6 +13,7 @@ import {
 import parse from "html-react-parser";
 import { Fragment } from "react";
 import { MissingContent } from "./SubComponent/NumberArticle";
+import DownloadPdfButton from "../DownloadPdfButton";
 
 function SummaryBlock({ title, lead, links = [], hasContent, children }) {
   return (
@@ -185,6 +186,7 @@ function SummaryAll() {
         <a className="ghost-button" href="#overview">
           <FiArrowUp aria-hidden="true" /> Về đầu báo cáo
         </a>
+        <DownloadPdfButton />
         <Link className="primary-button" to="/">
           <FiRefreshCw aria-hidden="true" /> Tra cứu lại
         </Link>

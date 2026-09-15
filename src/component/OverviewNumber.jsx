@@ -11,6 +11,7 @@ import {
   FiUser,
 } from "react-icons/fi";
 import { LifePathRing, MysticLandscape } from "./Decor";
+import DownloadPdfButton from "./DownloadPdfButton";
 
 function OverviewNumber() {
   const birth_day_list = useSelector(
@@ -55,6 +56,7 @@ function OverviewNumber() {
             <span className="name-rule" aria-hidden="true" />
           </p>
           <p className="overview-meta">Ngày sinh: {birth_day_list}</p>
+          <DownloadPdfButton className="primary-button overview-pdf" />
         </div>
         <a className="lifepath-card" href="#main_number">
           <span className="lifepath-label">Số đường đời</span>

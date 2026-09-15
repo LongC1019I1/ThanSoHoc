@@ -16,6 +16,7 @@ import {
   REPORT_SECTIONS,
 } from "./reportSections";
 import { StarEmblem } from "./Decor";
+import DownloadPdfButton from "./DownloadPdfButton";
 
 const ICONS = {
   overview: FiHome,
@@ -119,6 +120,7 @@ function ReportToc() {
             );
           })}
         </ul>
+        <DownloadPdfButton className="ghost-button toc-action" />
         <Link to="/" className="ghost-button toc-action" onClick={close}>
           <FiRefreshCw aria-hidden="true" /> Tra cứu lại
         </Link>

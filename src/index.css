@@ -1932,6 +1932,49 @@ a.primary-button:hover {
   }
 }
 
+/* ---------- Tải PDF ---------- */
+
+.pdf-download {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.toc-panel .pdf-download {
+  display: flex;
+}
+
+.overview-pdf {
+  margin-top: 20px;
+}
+
+.primary-button:disabled,
+.ghost-button:disabled {
+  opacity: 0.75;
+  cursor: progress;
+}
+
+.pdf-error {
+  font-size: 13px;
+  color: var(--danger);
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .overview-intro .pdf-download {
+    align-items: center;
+  }
+}
+
 /* ---------- Trạng thái trống & nút về đầu ---------- */
 
 .empty-state {
