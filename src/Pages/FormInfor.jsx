@@ -1,6 +1,5 @@
 import { Fragment, useRef, useState } from "react";
 
-import { Form, Input, Button, Alert } from "antd";
 import BirthDateInput from "../component/BirthDateInput";
 import { toDateParts, validateBirthDate } from "../service/birthDate";
 import { normalizeFullName } from "../service/fullName";
@@ -25,11 +24,32 @@ import { useNavigate } from "react-router-dom";
 function FormInfor() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const [form] = Form.useForm();
+  const [name, setName] = useState("");
+  const [birthDate, setBirthDate] = useState("");
+  const [fieldErrors, setFieldErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState("");
   const submitLock = useRef(false);
+  const nameRef = useRef(null);
+  const dateRef = useRef(null);
   useHashScroll();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const fullName = normalizeFullName(name);
+    const birth = validateBirthDate(birthDate);
+    setFieldErrors({ name: fullName.error, date: birth.error });
+
+    if (fullName.error || birth.error) {
+      // Đưa con trỏ về ô lỗi đầu tiên.
+      (fullName.error ? nameRef : dateRef).current?.focus();
+      return;
+    }
+
+    // Họ tên đã gộp khoảng trắng và bỏ ký tự lạ; ngày sinh đổi sang dạng $D/$M/$y
+    // mà thuật toán đang đọc.
+    onFinish({ name: fullName.name, date: toDateParts(birth) });
+  };
   const onFinish = (values) => {
     if (submitLock.current) return;
     submitLock.current = true;
@@ -163,48 +183,87 @@ function FormInfor() {
           <div className="lookup-card">
             <h2>Báo cáo thần số học</h2>
             <p>Bắt đầu hành trình khám phá chính mình.</p>
-            <Form form={form} layout="vertical"
-              onFinish={(values) => {
-                // Họ tên được gộp khoảng trắng và bỏ ký tự lạ; ngày sinh đổi từ dd/mm/yyyy
-                // sang dạng $D/$M/$y mà thuật toán đang đọc.
-                const fullName = normalizeFullName(values.name);
-                const birthDate = validateBirthDate(values.date);
-                if (fullName.error || birthDate.error) return;
-                onFinish({ name: fullName.name, date: toDateParts(birthDate) });
-              }}
-              onFinishFailed={({ errorFields }) => {
-                if (errorFields.length) {
-                  form.scrollToField(errorFields[0].name);
-                  form.getFieldInstance(errorFields[0].name)?.focus?.();
-                }
-              }}>
-                <Form.Item label="Họ và tên" name="name" required validateTrigger="onBlur" rules={[
-                  { validator: (_, value) => {
-                    const result = normalizeFullName(value);
-                    return result.error ? Promise.reject(new Error(result.error)) : Promise.resolve();
-                  } },
-                ]}>
-                  <Input
-                    prefix={<FiUser aria-hidden="true" className="input-icon" />}
+            <form className="lookup-form" onSubmit={handleSubmit} noValidate>
+              <div className="field">
+                <label htmlFor="name">
+                  Họ và tên{" "}
+                  <span className="required" aria-hidden="true">
+                    *
+                  </span>
+                </label>
+                <div className={`field-control${fieldErrors.name ? " is-invalid" : ""}`}>
+                  <FiUser className="input-icon" aria-hidden="true" />
+                  <input
+                    id="name"
+                    ref={nameRef}
+                    className="field-input"
+                    type="text"
+                    value={name}
                     placeholder="Ví dụ: Nguyễn Minh Anh"
                     autoComplete="name"
-                    size="large"
+                    aria-invalid={fieldErrors.name ? true : undefined}
+                    aria-describedby={fieldErrors.name ? "name-error" : undefined}
+                    onChange={(event) => {
+                      const next = event.target.value;
+                      setName(next);
+                      // Chỉ kiểm tra lại khi đang có lỗi, để không báo lỗi lúc mới gõ.
+                      if (fieldErrors.name) {
+                        setFieldErrors((errors) => ({ ...errors, name: normalizeFullName(next).error }));
+                      }
+                    }}
+                    onBlur={() =>
+                      setFieldErrors((errors) => ({ ...errors, name: normalizeFullName(name).error }))
+                    }
                   />
-                </Form.Item>
-                <Form.Item label="Ngày sinh" name="date" required validateTrigger="onBlur" rules={[
-                  { validator: (_, value) => {
-                    const result = validateBirthDate(value);
-                    return result.error ? Promise.reject(new Error(result.error)) : Promise.resolve();
-                  } },
-                ]}>
-                  <BirthDateInput />
-                </Form.Item>
-              {error && <Alert type="error" showIcon message={error} role="alert" />}
-              <Button htmlType="submit" type="primary" className="primary-button" block loading={isSubmitting}>
-                Tra cứu ngay <FiArrowRight aria-hidden="true" />
-              </Button>
+                </div>
+                {fieldErrors.name && (
+                  <p className="field-error" id="name-error" role="alert">
+                    {fieldErrors.name}
+                  </p>
+                )}
+              </div>
+
+              <div className="field">
+                <label htmlFor="date">
+                  Ngày sinh{" "}
+                  <span className="required" aria-hidden="true">
+                    *
+                  </span>
+                </label>
+                <BirthDateInput
+                  value={birthDate}
+                  inputRef={dateRef}
+                  invalid={Boolean(fieldErrors.date)}
+                  describedBy={fieldErrors.date ? "date-error" : undefined}
+                  onChange={(next) => {
+                    setBirthDate(next);
+                    if (fieldErrors.date) {
+                      setFieldErrors((errors) => ({ ...errors, date: validateBirthDate(next).error }));
+                    }
+                  }}
+                  onBlur={() =>
+                    setFieldErrors((errors) => ({ ...errors, date: validateBirthDate(birthDate).error }))
+                  }
+                />
+                {fieldErrors.date && (
+                  <p className="field-error" id="date-error" role="alert">
+                    {fieldErrors.date}
+                  </p>
+                )}
+              </div>
+
+              {error && (
+                <p className="form-alert" role="alert">
+                  {error}
+                </p>
+              )}
+
+              <button type="submit" className="primary-button" disabled={isSubmitting}>
+                {isSubmitting ? "Đang tạo báo cáo…" : "Tra cứu ngay"}
+                <FiArrowRight aria-hidden="true" />
+              </button>
               <p className="form-note">Sử dụng họ tên đầy đủ và ngày sinh dương lịch.</p>
-            </Form>
+            </form>
           </div>
         </section>
 

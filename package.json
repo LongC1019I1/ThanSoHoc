@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
-    "antd": "^5.24.2",
     "html-react-parser": "^5.2.2",
     "html-to-pdfmake": "^2.5.34",
     "pdfmake": "^0.3.11",

@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import { Input } from "antd";
 import { FiCalendar } from "react-icons/fi";
 import {
   BIRTH_DATE_MIN_YEAR,
@@ -25,23 +24,30 @@ const caretAfterDigits = (text, digits) => {
 
 const countDigits = (text) => (text.match(/\d/g) || []).length;
 
-// Ô nhập ngày sinh dùng trong antd Form.Item: gõ số tự thêm "/", có nút mở lịch của trình duyệt.
-function BirthDateInput({ value = "", onChange, onBlur, ref, ...rest }) {
+// Ô nhập ngày sinh: gõ số tự thêm "/", có nút mở lịch của trình duyệt.
+function BirthDateInput({
+  id = "date",
+  value = "",
+  onChange,
+  onBlur,
+  invalid = false,
+  describedBy,
+  inputRef,
+}) {
   const pickerRef = useRef(null);
-  const inputRef = useRef(null);
+  const localRef = useRef(null);
   const pendingCaret = useRef(null);
   const parsed = validateBirthDate(value);
 
-  const setInputRef = (node) => {
-    inputRef.current = node;
-    if (typeof ref === "function") ref(node);
-    else if (ref) ref.current = node;
+  const setRef = (node) => {
+    localRef.current = node;
+    if (inputRef) inputRef.current = node;
   };
 
   useEffect(() => {
     const caret = pendingCaret.current;
     pendingCaret.current = null;
-    const element = inputRef.current?.input;
+    const element = localRef.current;
     if (caret == null || !element || document.activeElement !== element) return;
     element.setSelectionRange(caret, caret);
   }, [value]);
@@ -71,42 +77,44 @@ function BirthDateInput({ value = "", onChange, onBlur, ref, ...rest }) {
       picker.showPicker();
     } catch {
       // Trình duyệt không hỗ trợ mở lịch bằng script: giữ focus ở ô nhập tay.
-      inputRef.current?.focus();
+      localRef.current?.focus();
     }
   };
 
   const handlePick = (event) => {
     const text = isoToBirthDate(event.target.value);
     if (!text) return;
+    // Không gọi onBlur ở đây: nó sẽ kiểm tra giá trị cũ. Lỗi được xóa khi onChange chạy.
     onChange?.(text);
-    inputRef.current?.focus();
-    // Form.Item kiểm tra khi blur; gọi lại để xóa lỗi cũ sau khi chọn trên lịch.
-    setTimeout(() => onBlur?.(), 0);
+    localRef.current?.focus();
   };
 
   return (
     <div className="birth-date-field">
-      <Input
-        {...rest}
-        ref={setInputRef}
-        value={value}
-        onChange={handleChange}
-        onBlur={onBlur}
-        size="large"
-        inputMode="numeric"
-        autoComplete="bday"
-        placeholder="dd/mm/yyyy"
-        suffix={
-          <button
-            type="button"
-            className="calendar-button"
-            onClick={openPicker}
-            aria-label="Chọn ngày sinh trên lịch"
-          >
-            <FiCalendar aria-hidden="true" />
-          </button>
-        }
-      />
+      <div className={`field-control${invalid ? " is-invalid" : ""}`}>
+        <input
+          id={id}
+          ref={setRef}
+          type="text"
+          className="field-input"
+          value={value}
+          onChange={handleChange}
+          onBlur={onBlur}
+          inputMode="numeric"
+          autoComplete="bday"
+          placeholder="dd/mm/yyyy"
+          aria-invalid={invalid || undefined}
+          aria-describedby={describedBy}
+        />
+        <button
+          type="button"
+          className="calendar-button"
+          onClick={openPicker}
+          aria-label="Chọn ngày sinh trên lịch"
+        >
+          <FiCalendar aria-hidden="true" />
+        </button>
+      </div>
       <input
         ref={pickerRef}
         type="date"
@@ -117,11 +125,13 @@ function BirthDateInput({ value = "", onChange, onBlur, ref, ...rest }) {
         max={todayIso()}
         onChange={handlePick}
       />
-      <p className="birth-date-hint">
-        {parsed.error
-          ? "Chỉ cần gõ số, dấu “/” sẽ tự thêm."
-          : `Ngày ${parsed.day} tháng ${parsed.month} năm ${parsed.year}`}
-      </p>
+      {!invalid && (
+        <p className="birth-date-hint">
+          {parsed.error
+            ? "Chỉ cần gõ số, dấu “/” sẽ tự thêm."
+            : `Ngày ${parsed.day} tháng ${parsed.month} năm ${parsed.year}`}
+        </p>
+      )}
     </div>
   );
 }

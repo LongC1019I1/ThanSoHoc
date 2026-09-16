@@ -256,6 +256,11 @@ function summarySection(karmaState, nameState) {
     .filter(Boolean)
     .flatMap(html);
   const jobs = strongNumb.map((numb) => NUMERLOGY_JOB[numb]?.noidung).filter(Boolean).flatMap(html);
+  // Dữ liệu chưa có gợi ý nghề nghiệp cho một số số mạnh (10, 20, 30): ghi rõ thay vì bỏ qua.
+  const jobsMissing = strongNumb.filter((numb) => !NUMERLOGY_JOB[numb]?.noidung);
+  if (jobsMissing.length) {
+    jobs.push(missing(`Chưa có gợi ý nghề nghiệp cho số ${jobsMissing.join(", ")}.`));
+  }
   const solutions = weakNumb.map((numb) => SOLUTION_NUMB[numb]?.noidung).filter(Boolean).flatMap(html);
 
   const block = (title, lead, body) => [

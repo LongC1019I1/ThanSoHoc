@@ -500,20 +500,80 @@ a.primary-button:hover {
   color: var(--muted);
 }
 
-.lookup-card .ant-form-item-label > label {
+.lookup-form {
+  display: grid;
+  gap: 18px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 6px;
   font-weight: 500;
   color: var(--text);
 }
 
-.lookup-card .ant-alert {
-  margin-bottom: 16px;
+.field label .required {
+  color: var(--danger);
 }
 
-.lookup-card .primary-button {
-  height: auto;
+.field-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 12px;
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-input);
+  background: #1a0f2c;
+  transition: border-color var(--ease), box-shadow var(--ease);
+}
+
+.field-control:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(155, 109, 255, 0.25);
+}
+
+.field-control.is-invalid {
+  border-color: var(--danger);
+}
+
+.field-input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--text);
+}
+
+.field-input:focus {
+  outline: none;
+}
+
+.field-input::placeholder {
+  color: #a597bc;
+}
+
+.field-error {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: var(--danger);
+}
+
+.form-alert {
+  margin: 0;
+  padding: 12px 16px;
+  border: 1px solid var(--danger);
+  border-radius: var(--radius-input);
+  background: rgba(255, 138, 154, 0.12);
+  font-size: 14px;
+  color: var(--text);
 }
 
 .input-icon {
+  flex-shrink: 0;
   color: var(--faint);
 }
 
@@ -561,14 +621,6 @@ a.primary-button:hover {
   color: var(--muted);
 }
 
-/* Khi đang báo lỗi, chỉ hiện thông báo lỗi */
-.ant-form-item-has-error .birth-date-hint {
-  display: none;
-}
-
-.lookup-card .ant-form-item-additional {
-  padding-bottom: 12px;
-}
 
 .form-note {
   margin: 16px 0 0;

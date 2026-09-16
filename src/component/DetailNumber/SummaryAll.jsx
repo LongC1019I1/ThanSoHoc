@@ -78,7 +78,12 @@ function SummaryAll() {
     NUMEROLOGY_SOUL_NUMBER[numberSoul]?.tomtat,
     NUMEROLOGY_SOUL_NUMBER[numberKarma]?.tomtat,
   ].filter(Boolean);
-  const jobs = strongNumb.map((numb) => NUMERLOGY_JOB[numb]?.noidung).filter(Boolean);
+  // Dữ liệu chưa có gợi ý nghề nghiệp cho một số số mạnh (10, 20, 30);
+  // ghi rõ thay vì âm thầm bỏ mục để người đọc không thấy thiếu mà không hiểu vì sao.
+  const jobs = strongNumb
+    .map((numb) => ({ numb, content: NUMERLOGY_JOB[numb]?.noidung }))
+    .filter((item) => item.content);
+  const jobsMissing = strongNumb.filter((numb) => !NUMERLOGY_JOB[numb]?.noidung);
   const solutions = weakNumb.map((numb) => SOLUTION_NUMB[numb]?.noidung).filter(Boolean);
 
   return (
@@ -152,14 +157,19 @@ function SummaryAll() {
         <SummaryBlock
           title="Xu hướng nghề nghiệp"
           lead="Đây là gợi ý xu hướng nghề nghiệp dựa trên năng lượng thuần trong bộ số của Bạn, trong thực tế để chọn được nghề nghiệp phù hợp Bạn cần xét thêm những yếu tố khác như: Nguồn lực (tài năng thực tế) và lợi thế cạnh tranh (mối quan hệ, truyền thống, gia đình, tài chính, nơi ở ..vv) của Bạn để Bạn lựa chọn được nghề nghiệp phù hợp nhất."
-          hasContent={jobs.length > 0}
+          hasContent={jobs.length > 0 || jobsMissing.length > 0}
           links={[{ href: "#charts", label: "Tổng hợp năng lượng" }]}
         >
           <div className="career-grid prose">
-            {jobs.map((text, index) => (
-              <div key={index}>{parse(text)}</div>
+            {jobs.map((item) => (
+              <div key={item.numb}>{parse(item.content)}</div>
             ))}
           </div>
+          {jobsMissing.length > 0 && (
+            <MissingContent>
+              Chưa có gợi ý nghề nghiệp cho số {jobsMissing.join(", ")}.
+            </MissingContent>
+          )}
         </SummaryBlock>
 
         <SummaryBlock
