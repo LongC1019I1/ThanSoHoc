@@ -38,11 +38,12 @@ function SummaryBlock({ title, lead, links = [], hasContent, children }) {
 function SummaryAll() {
   const strongNumb = useSelector((state) => state.numberKarmaMain.strong_list);
 
-  const newStrongNumb = strongNumb
-    .map((numb) => (STRONG_NUMB[numb] ? STRONG_NUMB[numb] : null))
-    .reduce((acc, obj) => {
-      return { ...acc, ...obj };
-    }, {});
+  // Gộp bằng object sẽ mất nội dung khi số cơ bản và số master dùng chung tên thuộc tính
+  // (1 và 10 đều có "lanhDaoVaDanDat", 7 và 11 đều có "trucGiac"), nên giữ danh sách
+  // và chỉ lọc trùng theo nội dung.
+  const strongTexts = [
+    ...new Set(strongNumb.flatMap((numb) => Object.values(STRONG_NUMB[numb] ?? {}))),
+  ];
 
   const weakNumb = useSelector((state) => state.numberKarmaMain.weak_list);
   const arrow = useSelector((state) => state.numberKarmaMain.arrow);
@@ -52,8 +53,7 @@ function SummaryAll() {
 
   // DEM DE NHOM DONG
 
-  const keys = Object.keys(newStrongNumb);
-  const totalItems = keys.length;
+  const totalItems = strongTexts.length;
 
   // ✅ Chia làm 3 nhóm gần bằng nhau
   const groupCount = 3;
@@ -65,7 +65,7 @@ function SummaryAll() {
 
   for (let i = 0; i < groupCount; i++) {
     const size = baseSize + (i < remainder ? 1 : 0); // thêm 1 cho các nhóm đầu nếu dư
-    groups.push(keys.slice(start, start + size));
+    groups.push(strongTexts.slice(start, start + size));
     start += size;
   }
 
@@ -92,7 +92,7 @@ function SummaryAll() {
         <SummaryBlock
           title="Điểm mạnh của bạn"
           lead="Là tài năng, năng lực, khả năng, đặc điểm chủ đạo của bạn"
-          hasContent={keys.length > 0 || strongArrows.length > 0}
+          hasContent={strongTexts.length > 0 || strongArrows.length > 0}
           links={[
             { href: "#charts", label: "Tổng hợp năng lượng" },
             { href: "#date_to_known", label: "Mật mã ngày sinh" },
@@ -103,8 +103,8 @@ function SummaryAll() {
               (group, index) =>
                 group.length > 0 && (
                   <div className="summary-group" key={index}>
-                    {group.map((key) => (
-                      <Fragment key={key}>{parse(newStrongNumb[key])}</Fragment>
+                    {group.map((text, textIndex) => (
+                      <Fragment key={textIndex}>{parse(text)}</Fragment>
                     ))}
                   </div>
                 )

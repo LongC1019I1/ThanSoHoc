@@ -54,6 +54,16 @@ function ReportToc() {
   }, []);
 
   const close = () => setIsOpen(false);
+  const panelRef = useRef(null);
+
+  const toggle = () => {
+    setIsOpen((open) => {
+      // Mở mục lục trên mobile thì đưa focus vào link đầu tiên.
+      if (!open) requestAnimationFrame(() => panelRef.current?.querySelector("a")?.focus());
+      return !open;
+    });
+  };
+
   const isIndexActive = INDEX_SECTIONS.some((section) => section.id === activeId);
 
   const handleKeyDown = (event) => {
@@ -75,13 +85,13 @@ function ReportToc() {
         className="toc-toggle"
         aria-expanded={isOpen}
         aria-controls="report-toc-panel"
-        onClick={() => setIsOpen((open) => !open)}
+        onClick={toggle}
       >
         {isOpen ? <FiX aria-hidden="true" /> : <FiList aria-hidden="true" />}
         Mục lục
       </button>
 
-      <nav id="report-toc-panel" className="toc-panel">
+      <nav id="report-toc-panel" className="toc-panel" ref={panelRef}>
         <ul className="toc-list">
           {REPORT_SECTIONS.map((section) => {
             const Icon = ICONS[section.href];

@@ -1,4 +1,4 @@
-import { sumArray } from "./common";
+import { sumArray } from "./common.js";
 
 export function removeVietnameseTones(str) {
   str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
@@ -25,7 +25,6 @@ export function removeVietnameseTones(str) {
   // str = str.trim();
   // Remove punctuations
   // Bỏ dấu câu, kí tự đặc biệt
-  // eslint-disable-next-line
   str = str.replace(
     // eslint-disable-next-line no-useless-escape
     /!|@|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\;|\'|\"|\&|\#|\[|\]|~|\$|_|`|-|{|}|\||\\/g,
@@ -41,7 +40,14 @@ export function removeVietnameseTones(str) {
  * @returns number
  */
 export const mergeNumberString = (numberStr, toOne = false) => {
-  const arr = numberStr.split("").map((i) => parseInt(i));
+  // Chỉ nhận chữ số: ký tự lạ tạo ra NaN và làm hàm tự gọi lại vô hạn.
+  const arr = String(numberStr ?? "")
+    .split("")
+    .map((i) => parseInt(i, 10))
+    .filter((i) => !Number.isNaN(i));
+
+  if (!arr.length) return "0";
+
   const total = sumArray(arr);
 
   if (!toOne) {
@@ -86,7 +92,8 @@ export const pickCharacter = (str, isGetVowel = true) => {
   const keyVowel = str.match(/y$|y[^aeuio]+/gi) ? /[aeuioy]+/gi : /[aeuio]+/gi;
 
   if (isGetVowel && str) {
-    return str.match(keyVowel).join("");
+    // match trả về null khi từ không có nguyên âm (ví dụ "Hm"), khi đó coi như không có nguyên âm.
+    return (str.match(keyVowel) || []).join("");
   }
 
   return str.replace(keyVowel, "");

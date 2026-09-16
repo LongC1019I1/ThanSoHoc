@@ -238,11 +238,13 @@ function phaseSection({ title, intro, topFour, content, stageTitles, birthDayLis
 function summarySection(karmaState, nameState) {
   const strongNumb = karmaState.strong_list || [];
   const weakNumb = karmaState.weak_list || [];
-  const strongContent = strongNumb
-    .map((numb) => STRONG_NUMB[numb] ?? null)
-    .reduce((acc, obj) => ({ ...acc, ...obj }), {});
+  // Giữ danh sách thay vì gộp object: số cơ bản và số master dùng chung tên thuộc tính
+  // nên cách gộp cũ làm mất nội dung (1 và 10, 7 và 11, 9 và 11).
+  const strongTexts = [
+    ...new Set(strongNumb.flatMap((numb) => Object.values(STRONG_NUMB[numb] ?? {}))),
+  ];
   const strengths = [
-    ...Object.values(strongContent).flatMap(html),
+    ...strongTexts.flatMap(html),
     ...(karmaState.arrow || []).map((arr) => ARROW[arr]?.[1]?.KET_LUAN).filter(Boolean).flatMap(html),
   ];
   const weaknesses = weakNumb.map((numb) => WEAK_NUMB[numb]?.noidung).filter(Boolean).flatMap(html);

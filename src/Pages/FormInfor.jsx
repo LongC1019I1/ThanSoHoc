@@ -3,6 +3,7 @@ import { Fragment, useRef, useState } from "react";
 import { Form, Input, Button, Alert } from "antd";
 import BirthDateInput from "../component/BirthDateInput";
 import { toDateParts, validateBirthDate } from "../service/birthDate";
+import { normalizeFullName } from "../service/fullName";
 import { FiArrowRight, FiUser } from "react-icons/fi";
 import NumerologyOrbit from "../component/NumerologyOrbit";
 import { CrescentMoon, Ornament } from "../component/Decor";
@@ -34,6 +35,9 @@ function FormInfor() {
     submitLock.current = true;
     setIsSubmitting(true);
     setError("");
+    // Xóa số mạnh/yếu của lần tra cứu trước, tránh báo cáo mới hiện dữ liệu cũ một nhịp.
+    dispatch(numberKarmaActions.setStrongListNumb([]));
+    dispatch(numberKarmaActions.setWeakListNumb([]));
     try {
     const spaceRegex = /\s+/g;
 
@@ -160,16 +164,25 @@ function FormInfor() {
             <h2>Báo cáo thần số học</h2>
             <p>Bắt đầu hành trình khám phá chính mình.</p>
             <Form form={form} layout="vertical"
-              // Ô ngày sinh lưu chuỗi dd/mm/yyyy; đổi về dạng $D/$M/$y mà thuật toán đang dùng.
-              onFinish={(values) => onFinish({ ...values, date: toDateParts(validateBirthDate(values.date)) })}
+              onFinish={(values) => {
+                // Họ tên được gộp khoảng trắng và bỏ ký tự lạ; ngày sinh đổi từ dd/mm/yyyy
+                // sang dạng $D/$M/$y mà thuật toán đang đọc.
+                const fullName = normalizeFullName(values.name);
+                const birthDate = validateBirthDate(values.date);
+                if (fullName.error || birthDate.error) return;
+                onFinish({ name: fullName.name, date: toDateParts(birthDate) });
+              }}
               onFinishFailed={({ errorFields }) => {
                 if (errorFields.length) {
                   form.scrollToField(errorFields[0].name);
                   form.getFieldInstance(errorFields[0].name)?.focus?.();
                 }
               }}>
-                <Form.Item label="Họ và tên" name="name" rules={[
-                  { required: true, whitespace: true, message: "Vui lòng nhập họ và tên của bạn." },
+                <Form.Item label="Họ và tên" name="name" required validateTrigger="onBlur" rules={[
+                  { validator: (_, value) => {
+                    const result = normalizeFullName(value);
+                    return result.error ? Promise.reject(new Error(result.error)) : Promise.resolve();
+                  } },
                 ]}>
                   <Input
                     prefix={<FiUser aria-hidden="true" className="input-icon" />}
@@ -335,7 +348,7 @@ function FormInfor() {
               học vẫn được sử dụng ít nhất trong giới chính thống Hy Lạp bảo
               thủ. Bất chấp sự phản kháng của nhà thờ, đã có những tranh luận
               được đưa ra cho sự hiện diện của Numerology trong Kinh thánh và
-              kiến ​​trúc tôn giáo <em>(Như trường hợp của số 3 và số 7)</em>.
+              kiến trúc tôn giáo <em>(Như trường hợp của số 3 và số 7)</em>.
             </p>
             <p>
               Trong chiều dài lịch sử 1500 năm tiếp theo, Numerology được lưu

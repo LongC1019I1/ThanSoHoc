@@ -25,7 +25,7 @@ const ChartCombineEnergy = function () {
   const nameNumber = useSelector((state) => state.numberName.name);
   const atitute = useSelector((state) => state.numberKarmaMain.atitute);
   const day_birth = useSelector((state) => state.numberKarmaMain.day_birth);
-  const top4 = useSelector((state) => state.numberKarmaMain.top4.top4_peak);
+  const top4 = useSelector((state) => state.numberKarmaMain.top4?.top4_peak);
   const strongBirthNumb = filterRealNumber(birthString, 2);
   const strongNameNumb = filterRealNumber(full_name_number, 3);
 

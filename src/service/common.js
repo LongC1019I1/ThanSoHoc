@@ -1,5 +1,6 @@
 
-export const sumArray = (arr) => arr.reduce((a, b) => a + b);
+// Giá trị khởi tạo 0 để mảng rỗng không làm reduce báo lỗi (tên không có nguyên âm).
+export const sumArray = (arr) => arr.reduce((a, b) => a + b, 0);
 
 /**
  * Thay thế 1 ký tự trong chuỗi và trả về chuối mới
