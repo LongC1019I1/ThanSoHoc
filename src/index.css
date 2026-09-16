@@ -909,6 +909,7 @@ a.primary-button:hover {
   margin-top: 16px;
 }
 
+/* Điện thoại: mục lục mở ra ngay dưới nút dạng thẻ, không phủ cả màn hình */
 @media (max-width: 767px) {
   .toc-toggle {
     width: 100%;
@@ -917,6 +918,25 @@ a.primary-button:hover {
 
   .toc-current {
     display: none;
+  }
+
+  .toc-backdrop {
+    display: none;
+  }
+
+  .toc-panel {
+    position: absolute;
+    top: calc(100% - 4px);
+    left: var(--gutter);
+    right: var(--gutter);
+    width: auto;
+    height: auto;
+    max-height: calc(100vh - var(--header-h) - 96px);
+    padding: 12px;
+    border: 1px solid var(--border-accent);
+    border-radius: var(--radius-panel);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+    transform: none;
   }
 }
 
