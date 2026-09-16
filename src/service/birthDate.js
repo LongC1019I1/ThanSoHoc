@@ -8,10 +8,13 @@ const pad2 = (value) => String(value).padStart(2, "0");
 /**
  * Định dạng chuỗi người dùng gõ hoặc dán thành dd/mm/yyyy.
  * - Chỉ giữ chữ số, tự chèn "/" sau ngày và tháng.
- * - Gõ dấu phân cách (/ - . khoảng trắng) sau 1 chữ số sẽ bổ sung số 0: "1/" → "01/".
+ * - Dấu phân cách (/ - . khoảng trắng) kết thúc ô hiện tại, nhờ vậy sửa giữa chuỗi
+ *   không hút chữ số của ô sau sang ô trước.
  * - appendSeparator = false khi đang xóa, để không tự thêm lại "/" vừa xóa.
+ * - padOnSeparator = true thì gõ dấu sau 1 chữ số sẽ bổ sung số 0 ("1/" → "01/");
+ *   khi sửa giữa chuỗi phải đặt false, nếu không ô đang sửa bị điền sớm.
  */
-export function formatBirthDateInput(raw, { appendSeparator = true } = {}) {
+export function formatBirthDateInput(raw, { appendSeparator = true, padOnSeparator = true } = {}) {
   const text = String(raw ?? "");
   const segments = text.split(/\D+/);
   const fields = ["", "", ""];
@@ -24,8 +27,8 @@ export function formatBirthDateInput(raw, { appendSeparator = true } = {}) {
       if (fields[index].length === FIELD_LENGTHS[index]) index += 1;
     }
     const followedBySeparator = segmentIndex < segments.length - 1;
-    if (followedBySeparator && index < 2 && fields[index].length === 1) {
-      fields[index] = pad2(fields[index]);
+    if (followedBySeparator && index < 2 && fields[index].length > 0) {
+      if (fields[index].length === 1 && padOnSeparator) fields[index] = pad2(fields[index]);
       index += 1;
     }
   });
@@ -36,6 +39,37 @@ export function formatBirthDateInput(raw, { appendSeparator = true } = {}) {
   if (year) return `${day}/${month}/${year}`;
   if (month) return month.length === 2 && addTrailing ? `${day}/${month}/` : `${day}/${month}`;
   return day.length === 2 && addTrailing ? `${day}/` : day;
+}
+
+const isDigit = (char) => char >= "0" && char <= "9";
+
+/**
+ * Vị trí con trỏ sau khi chuỗi được định dạng lại.
+ * - Gõ hoặc xóa ở cuối: luôn giữ con trỏ ở cuối, vì chuỗi có thể dài ra do tự thêm "/" hoặc số 0.
+ * - Sửa giữa chuỗi: đặt sau chữ số thứ N, và bỏ qua dấu "/" ngay sau nó khi đang thêm ký tự.
+ */
+export function nextCaretPosition(formatted, source, caret, { isDeleting = false } = {}) {
+  if (caret >= source.length) return formatted.length;
+
+  let digitsBefore = 0;
+  for (let index = 0; index < caret; index += 1) {
+    if (isDigit(source[index])) digitsBefore += 1;
+  }
+  if (digitsBefore === 0) return 0;
+
+  let seen = 0;
+  let position = formatted.length;
+  for (let index = 0; index < formatted.length; index += 1) {
+    if (!isDigit(formatted[index])) continue;
+    seen += 1;
+    if (seen === digitsBefore) {
+      position = index + 1;
+      break;
+    }
+  }
+
+  if (!isDeleting && formatted[position] === "/") position += 1;
+  return position;
 }
 
 /** Trả về { day, month, year } nếu hợp lệ, ngược lại { error }. */

@@ -3,6 +3,7 @@ import {
   birthDateToIso,
   formatBirthDateInput,
   isoToBirthDate,
+  nextCaretPosition,
   toDateParts,
   validateBirthDate,
 } from "./birthDate.js";
@@ -32,9 +33,34 @@ describe("formatBirthDateInput", () => {
     expect(formatBirthDateInput("")).toBe("");
   });
 
+  it("sửa giữa chuỗi: dấu / kết thúc ô, không hút chữ số của ô sau", () => {
+    // bôi đen tháng "08" rồi gõ "1": phải còn "12/1/1995" để gõ tiếp số thứ hai
+    expect(formatBirthDateInput("12/1/1995", { appendSeparator: false, padOnSeparator: false })).toBe("12/1/1995");
+    // xóa một chữ số của tháng: năm phải giữ nguyên
+    expect(formatBirthDateInput("12/8/1995", { appendSeparator: false, padOnSeparator: false })).toBe("12/8/1995");
+    // xóa dấu "/" đầu kèm chữ số trước nó
+    expect(formatBirthDateInput("108/1995", { appendSeparator: false, padOnSeparator: false })).toBe("10/8/1995");
+  });
+
   it("không tự thêm dấu khi đang xóa", () => {
     expect(formatBirthDateInput("12", { appendSeparator: false })).toBe("12");
     expect(formatBirthDateInput("12/08", { appendSeparator: false })).toBe("12/08");
+  });
+});
+
+describe("nextCaretPosition", () => {
+  it("giữ con trỏ ở cuối khi gõ ở cuối, kể cả khi chuỗi dài ra", () => {
+    // gõ "12" -> "12/": con trỏ phải ở sau dấu "/", nếu không ký tự kế tiếp lọt vào giữa
+    expect(nextCaretPosition("12/", "12", 2)).toBe(3);
+    // gõ "1" rồi "/" -> "01/"
+    expect(nextCaretPosition("01/", "1/", 2)).toBe(3);
+    expect(nextCaretPosition("12/08/", "12/08", 5)).toBe(6);
+  });
+
+  it("đặt sau chữ số vừa sửa khi sửa giữa chuỗi", () => {
+    expect(nextCaretPosition("12/08/1995", "12/08/1995", 4)).toBe(4);
+    expect(nextCaretPosition("12/08/1995", "1208/1995", 2, { isDeleting: true })).toBe(2);
+    expect(nextCaretPosition("12/08/1995", "12/08/1995", 0)).toBe(0);
   });
 });
 

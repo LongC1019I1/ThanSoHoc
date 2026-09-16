@@ -5,24 +5,10 @@ import {
   birthDateToIso,
   formatBirthDateInput,
   isoToBirthDate,
+  nextCaretPosition,
   todayIso,
   validateBirthDate,
 } from "../service/birthDate";
-
-// Vị trí con trỏ tính theo số chữ số đứng trước nó, để bỏ qua các dấu "/" do tự thêm.
-const caretAfterDigits = (text, digits) => {
-  if (digits <= 0) return 0;
-  let seen = 0;
-  for (let index = 0; index < text.length; index += 1) {
-    if (text[index] >= "0" && text[index] <= "9") {
-      seen += 1;
-      if (seen === digits) return index + 1;
-    }
-  }
-  return text.length;
-};
-
-const countDigits = (text) => (text.match(/\d/g) || []).length;
 
 // Ô nhập ngày sinh: gõ số tự thêm "/", có nút mở lịch của trình duyệt.
 function BirthDateInput({
@@ -64,8 +50,13 @@ function BirthDateInput({
       : raw;
     const caretInSource = removedSeparator ? Math.max(0, caret - 1) : caret;
 
-    const formatted = formatBirthDateInput(source, { appendSeparator: !isDeleting });
-    pendingCaret.current = caretAfterDigits(formatted, countDigits(source.slice(0, caretInSource)));
+    // Gõ ở cuối thì cho phép tự thêm "/" và số 0; sửa giữa chuỗi thì không, để các ô sau giữ nguyên.
+    const atEnd = caretInSource >= source.length;
+    const formatted = formatBirthDateInput(source, {
+      appendSeparator: !isDeleting,
+      padOnSeparator: atEnd,
+    });
+    pendingCaret.current = nextCaretPosition(formatted, source, caretInSource, { isDeleting });
     onChange?.(formatted);
   };
 
