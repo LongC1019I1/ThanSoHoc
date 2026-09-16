@@ -757,14 +757,11 @@ a.primary-button:hover {
 
 /* ---------- Khung báo cáo ---------- */
 
+/* Nội dung căn giữa; mục lục là nút bấm mở panel trượt, không chiếm cột cố định. */
 .report-layout {
-  display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
-  gap: 32px;
-  align-items: start;
-  max-width: var(--max-width);
+  max-width: 980px;
   margin-inline: auto;
-  padding-block: 32px 64px;
+  padding-block: 0 64px;
   padding-inline: var(--gutter);
 }
 
@@ -772,15 +769,84 @@ a.primary-button:hover {
   min-width: 0;
 }
 
+.report-layout [id] {
+  scroll-margin-top: calc(var(--header-h) + 84px);
+}
+
 .report-toc {
   position: sticky;
-  top: calc(var(--header-h) + 24px);
-  max-height: calc(100vh - var(--header-h) - 48px);
-  overflow-y: auto;
+  top: var(--header-h);
+  z-index: 40;
+  margin-inline: calc(var(--gutter) * -1);
+  padding: 10px var(--gutter);
+  border-bottom: 1px solid var(--border);
+  /* Không dùng backdrop-filter ở đây: nó tạo containing block mới làm panel
+     position: fixed bị neo vào thanh này thay vì vào màn hình. */
+  background: #120a22;
 }
 
 .toc-toggle {
-  display: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 18px;
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-input);
+  background: var(--panel);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color var(--ease), background-color var(--ease);
+}
+
+.toc-toggle:hover {
+  border-color: var(--accent);
+  background: var(--panel-raised);
+}
+
+/* Tên mục đang đọc, để đóng mục lục vẫn biết mình ở đâu */
+.toc-current {
+  padding-left: 10px;
+  border-left: 1px solid var(--border);
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.toc-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(8, 4, 16, 0.6);
+}
+
+/* Header là sticky và tạo stacking context riêng, z-index cao hơn cũng không phủ được nó,
+   nên panel bắt đầu ngay dưới header thay vì tranh lớp với header. */
+.toc-panel {
+  position: fixed;
+  top: var(--header-h);
+  left: 0;
+  z-index: 61;
+  display: flex;
+  flex-direction: column;
+  width: min(320px, 86vw);
+  height: calc(100% - var(--header-h));
+  padding: 20px 20px 32px;
+  overflow-y: auto;
+  border-right: 1px solid var(--border-accent);
+  /* Nền đặc: panel nằm trên nền mờ nên nền trong suốt sẽ lộ nội dung trang phía sau */
+  background: #1d1030;
+  box-shadow: 24px 0 64px rgba(0, 0, 0, 0.5);
+  transform: translateX(-100%);
+  visibility: hidden;
+  transition: transform 220ms ease, visibility 220ms ease;
+}
+
+.report-toc.is-open .toc-panel {
+  transform: translateX(0);
+  visibility: visible;
 }
 
 .toc-list,
@@ -844,58 +910,13 @@ a.primary-button:hover {
 }
 
 @media (max-width: 767px) {
-  .report-layout {
-    grid-template-columns: 1fr;
-    gap: 16px;
-    padding-top: 0;
-  }
-
-  .report-layout [id] {
-    scroll-margin-top: calc(var(--header-h) + 80px);
-  }
-
-  .report-toc {
-    top: var(--header-h);
-    z-index: 40;
-    max-height: none;
-    margin-inline: calc(var(--gutter) * -1);
-    padding: 8px var(--gutter);
-    overflow: visible;
-    border-bottom: 1px solid var(--border);
-    background: rgba(16, 9, 31, 0.96);
-  }
-
   .toc-toggle {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
     width: 100%;
-    min-height: 48px;
-    border: 1px solid var(--border-accent);
-    border-radius: var(--radius-input);
-    background: var(--panel);
-    font-weight: 600;
-    color: var(--text);
+    justify-content: center;
   }
 
-  .toc-panel {
+  .toc-current {
     display: none;
-    position: absolute;
-    top: calc(100% - 4px);
-    left: var(--gutter);
-    right: var(--gutter);
-    max-height: calc(100vh - var(--header-h) - 96px);
-    padding: 12px;
-    overflow-y: auto;
-    border: 1px solid var(--border-accent);
-    border-radius: var(--radius-panel);
-    background: var(--panel-raised);
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
-  }
-
-  .report-toc.is-open .toc-panel {
-    display: block;
   }
 }
 
