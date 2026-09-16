@@ -25,20 +25,6 @@
   --gutter: 32px;
   --max-width: 1280px;
   --ease: 200ms ease;
-
-  /* Bootstrap (CDN) dùng biến này cho nền, chữ và các class trong nội dung numerology.js */
-  --bs-body-bg: var(--bg);
-  --bs-body-color: var(--text);
-  --bs-body-font-family: var(--font-sans);
-  --bs-heading-color: var(--text);
-  --bs-link-color: var(--accent);
-  --bs-link-color-rgb: 155, 109, 255;
-  --bs-link-hover-color: var(--accent-light);
-  --bs-link-hover-color-rgb: 196, 168, 255;
-  --bs-border-color: var(--border);
-  --bs-primary-rgb: 196, 168, 255;
-  --bs-danger-rgb: 255, 138, 154;
-  --bs-info-rgb: 143, 211, 255;
   color-scheme: dark;
 }
 
@@ -126,10 +112,6 @@ a:hover {
 
 img {
   max-width: 100%;
-}
-
-main:focus {
-  outline: none;
 }
 
 [id] {
@@ -1930,6 +1912,81 @@ a.primary-button:hover {
   .summary-block {
     padding: 24px 16px;
   }
+}
+
+/* ---------- Class trong nội dung numerology.js ----------
+   Trước đây do Bootstrap CDN cung cấp; nay tự khai báo để bỏ CSS/JS ngoài. */
+
+.prose .my-2,
+.article-body .my-2 {
+  margin-block: 8px;
+}
+
+.prose .my-3,
+.article-body .my-3 {
+  margin-block: 12px;
+}
+
+.prose .my-4,
+.article-body .my-4 {
+  margin-block: 16px;
+}
+
+.prose .mt-2,
+.article-body .mt-2 {
+  margin-top: 8px;
+}
+
+.prose .mt-3,
+.article-body .mt-3 {
+  margin-top: 12px;
+}
+
+.prose .mt-4,
+.article-body .mt-4 {
+  margin-top: 16px;
+}
+
+.prose .mb-2,
+.article-body .mb-2 {
+  margin-bottom: 8px;
+}
+
+.prose .pl-5,
+.article-body .pl-5 {
+  padding-left: 1.4em;
+}
+
+.prose .pl-8,
+.article-body .pl-8 {
+  padding-left: 2em;
+}
+
+.prose .list-disc,
+.article-body .list-disc {
+  list-style: disc;
+}
+
+.prose .text-primary,
+.article-body .text-primary {
+  color: var(--accent-light);
+}
+
+.prose .text-danger,
+.article-body .text-danger {
+  color: var(--danger);
+}
+
+.prose .text-info,
+.article-body .text-info {
+  color: #8fd3ff;
+}
+
+.route-loading {
+  margin: 96px auto;
+  padding-inline: var(--gutter);
+  text-align: center;
+  color: var(--muted);
 }
 
 /* ---------- Tải PDF ---------- */

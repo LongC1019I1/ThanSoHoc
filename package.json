@@ -7,20 +7,19 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
     "antd": "^5.24.2",
-    "framer-motion": "^12.5.0",
     "html-react-parser": "^5.2.2",
     "html-to-pdfmake": "^2.5.34",
-    "konva": "^9.3.18",
     "pdfmake": "^0.3.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
-    "react-konva": "^19.0.3",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.2.0"
   },
@@ -29,13 +28,11 @@
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.21",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.4",
-    "vite": "^6.2.0"
+    "vite": "^6.2.0",
+    "vitest": "^5.0.1"
   }
 }
