@@ -314,8 +314,6 @@ export const NUMERLOGY_COMMON = {
         "Người Số 3 nên học cách phát triển khả năng cảm nhận cảm xúc của người khác. Khi nhận ra rằng những trải nghiệm trong cuộc sống luôn mang đến những bài học quý giá, họ sẽ có sự tiến bộ đáng kể trong hành trình phát triển bản thân. Việc học được cách chung sống hòa hợp với người khác cũng giúp họ có được những bước tiến dài. Từ đó, cuộc sống của họ sẽ tích cực hơn nhiều. Họ rất cần hạn chế phê bình hoặc chỉ trích người khác, thay vào đó là vận dụng sự kiên cường vốn có của bản thân để mang lại nguồn năng lượng tươi mới, nhìn nhận những trải nghiệm kém vui như cơ hội phát triển. Người Số 3 cũng nhận được lợi ích tuyệt vời nếu mở rộng phương thức biểu đạt của mình bằng cách vận dụng trực giác và trở nên thực tế hơn trong các hoạt động hàng ngày, đặc biệt là tại nhà.",
       NGHE_NGHIEP:
         "Người Số 3 rất thích hợp với những công việc liên quan đến trí não, bao gồm các lĩnh vực học thuật, đặc biệt là khoa học, kế toán, quản trị kinh doanh v.v... Họ cũng có thể là những nhà nghiên cứu khoa học giỏi giang, cũng như có năng khiếu trong các ngành nghệ thuật như viết lách, diễn xuất hoặc trở thành chuyên gia phê bình các bộ môn nghệ thuật.",
-      NGHE_NGHIEP:
-        "Công việc liên quan đến trí não, bao gồm các lĩnh vực học thuật, đặc biệt là khoa học, kế toán, quản trị kinh doanh v.v... Họ cũng có thể là những nhà nghiên cứu khoa học giỏi giang, cũng như có năng khiếu trong các ngành nghệ thuật như viết lách, diễn xuất hoặc trở thành chuyên gia phê bình các bộ môn nghệ thuật.",
     },
     11: {
       CHUNG:
@@ -1229,25 +1227,9 @@ export const TOP_CHALLENGE = {
     noidung:
       "<p><b>Giá trị tinh thần, trực giác, các mối quan hệ.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để phát triển giá trị tinh thần.</p> <p>Trực giác trong giai đoạn này sẽ phát triển mạnh mẽ, giai đoạn kết nối, tạo dựng mối quan hệ, tạo dựng những nhân duyên mới.</p> <p>Giai đoạn bạn có được một lối sống tinh tế. Bạn có khả năng nhận biết được những điều người khác cần và biết mình cần phải làm gì.</p> <p>Vật chất không phải là ưu tiên trong giai đoạn này. Đây là thời điểm thuận lợi để nghiên cứu về tâm lý, coaching, chữa lành, sức khỏe hay bất kỳ lĩnh vực nào có thể giúp đỡ người khác.</p>",
   },
-  3: {
-    noidung:
-      "<p><b>Sáng tạo, khai trí, giao tiếp.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho tâm trí của bạn sự khai mở về trí tuệ mà nó có tầm ảnh hưởng lớn đến cuộc sống của bạn.</p> <p>Giai đoạn mở rộng nhận thức, sự hiểu biết, khao khát sáng tạo, thôi thúc tìm hiểu về một điều gì đó mới.</p> <p>Giai đoạn mà năng lực sáng tạo và nghệ thuật của bạn có cơ hội để phát triển. Bạn sẽ có được khả năng giao tiếp và thể hiện bản thân một cách dễ dàng.</p> <p>Kỷ luật và tập trung để tránh phân tán năng lượng và giảm bớt cảm xúc tùy hứng sẽ là chìa khóa thành công trong giai đoạn này của bạn.</p>",
-  },
-  4: {
-    noidung:
-      "<p><b>Kỷ luật, chắc chắn, tài chính.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội tăng trưởng về đời sống vật chất và sự ổn định trên một nền tảng vững chắc.</p> <p>Giai đoạn để tạo 1 kỷ luật mới, để sắp xếp lại cuộc sống hay tạo ra những thói quen mới, điều này sẽ giúp bạn đạt được những mục tiêu và mang lại ý nghĩa cho cuộc đời của mình.</p>",
-  },
   5: {
     noidung:
       "<p><b>Thể hiện, thay đổi, trải nghiệm.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để mở mang sự hiểu biết và phát triển tâm linh. Bạn sẽ có được sự hiểu biết về chính bản thân mình và sự chuyển hóa trong tâm trí.</p> <p>Cuộc sống sẽ mang đến cho bạn nhiều trải nghiệm mới mẻ, thú vị. Giai đoạn mà bạn thể hiện đa năng lực của mình.</p> <p>Chìa khóa thành công trong giai đoạn này là sự tiết chế và kỷ luật, chỉ cần bạn linh hoạt, có kỷ luật và tập trung thì bạn sẽ có khả năng đạt được những thành công.</p>",
-  },
-  6: {
-    noidung:
-      "<p><b>Yêu thương, gia đình, trách nhiệm.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để phụng sự người thân, gia đình, bạn bè và cộng đồng, đồng thời trở thành người có trách nhiệm hơn.</p> <p>Đây là thời điểm thích hợp để thực hiện hoặc đưa ra cam kết điều gì đó cho gia đình như kết hôn, sinh con, chăm sóc gia đình.</p> <p>Giai đoạn bạn được công nhận về những gì đã làm, và học bài học về sự cho đi, cống hiến yêu thương.</p>",
-  },
-  7: {
-    noidung:
-      "<p><b>Tâm linh, phát triển bản thân, nghiên cứu.</b></p> <p>Trong giai đoạn này, cuộc sống sẽ mang đến cho bạn cơ hội để tìm tòi, nghiên cứu và trở thành một chuyên gia trong lĩnh vực của mình.</p> <p>Giai đoạn nhìn sâu vào bên trong mình để thấu hiểu sâu sắc hơn về bản thân, các năng lực và ý nghĩa của cuộc sống.</p> <p>Giai đoạn tốt để phát triển sâu sắc bản thân, để tìm kiếm những giáo lý tâm linh và phát triển trực giác mạnh mẽ.</p> <p>Giai đoạn bạn muốn tách khỏi với cuộc sống bên ngoài để hướng về chiều sâu bên trong để thực hành, phát triển một phương pháp tâm linh.</p>",
   },
   8: {
     noidung:
