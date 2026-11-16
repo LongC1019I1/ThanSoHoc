@@ -39,12 +39,14 @@ export async function saveLookup({ fullName, birth }) {
       auth: { persistSession: false },
     });
 
-    // ignoreDuplicates: INSERT ... ON CONFLICT DO NOTHING, nên không cần quyền đọc.
-    const { error } = await client.from(TABLE).upsert(
-      { full_name: fullName, name_key: nameKey, birth_date: birthDate },
-      { onConflict: "name_key,birth_date", ignoreDuplicates: true }
-    );
+    // Dùng insert thường, không dùng upsert: upsert của PostgREST chạy
+    // INSERT ... ON CONFLICT nên đòi thêm chính sách UPDATE, trong khi bảng này
+    // chỉ cho ghi mới. Trùng khóa sẽ trả về mã 23505 và coi như không cần lưu.
+    const { error } = await client
+      .from(TABLE)
+      .insert({ full_name: fullName, name_key: nameKey, birth_date: birthDate });
 
+    if (error?.code === "23505") return { skipped: "đã có, không lưu lại" };
     if (error) return { skipped: `lỗi Supabase: ${error.message}` };
     return { saved: true };
   } catch (error) {
