@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { FiLogOut, FiRefreshCw, FiSearch } from "react-icons/fi";
+import { FiLogOut, FiRefreshCw, FiSearch, FiTrash2 } from "react-icons/fi";
 import {
   SUPABASE_TABLE,
   getSupabaseClient,
@@ -34,6 +34,10 @@ function Admin() {
   const [loadError, setLoadError] = useState("");
   const [loading, setLoading] = useState(false);
   const [keyword, setKeyword] = useState("");
+  // Xoá hai bước: bấm "Xoá" mới hiện nút xác nhận, tránh xoá nhầm.
+  const [pendingId, setPendingId] = useState(null);
+  const [deletingId, setDeletingId] = useState(null);
+  const [deleteError, setDeleteError] = useState("");
 
   useEffect(() => {
     if (!client) {
@@ -54,6 +58,8 @@ function Admin() {
     if (!client) return;
     setLoading(true);
     setLoadError("");
+    setPendingId(null);
+    setDeleteError("");
     const { data, error, count } = await client
       .from(SUPABASE_TABLE)
       .select("id, full_name, birth_date, created_at", { count: "exact" })
@@ -87,6 +93,34 @@ function Admin() {
       setPassword("");
     }
     setSigningIn(false);
+  };
+
+  const handleDelete = async (row) => {
+    setDeleteError("");
+    setDeletingId(row.id);
+    // .select() để biết thật sự xoá được hàng nào: nếu RLS chặn thì
+    // Supabase trả mảng rỗng chứ không báo lỗi.
+    const { data, error } = await client
+      .from(SUPABASE_TABLE)
+      .delete()
+      .eq("id", row.id)
+      .select("id");
+    setDeletingId(null);
+
+    if (error) {
+      setDeleteError(`Không xoá được: ${error.message}`);
+      return;
+    }
+    if (!data || data.length === 0) {
+      setDeleteError(
+        "Không xoá được: tài khoản chưa có quyền xoá trên Supabase (thiếu policy DELETE)."
+      );
+      return;
+    }
+
+    setPendingId(null);
+    setRows((prev) => prev.filter((item) => item.id !== row.id));
+    setTotal((prev) => Math.max(0, prev - 1));
   };
 
   const visibleRows = useMemo(() => {
@@ -211,6 +245,12 @@ function Admin() {
         </p>
       )}
 
+      {deleteError && (
+        <p className="form-alert" role="alert">
+          {deleteError}
+        </p>
+      )}
+
       {!loadError && visibleRows.length === 0 && (
         <p className="admin-note">{loading ? "Đang tải…" : "Chưa có lượt tra cứu nào."}</p>
       )}
@@ -224,6 +264,7 @@ function Admin() {
                 <th scope="col">Họ và tên</th>
                 <th scope="col">Ngày sinh</th>
                 <th scope="col">Lưu lúc</th>
+                <th scope="col">Thao tác</th>
               </tr>
             </thead>
             <tbody>
@@ -233,6 +274,39 @@ function Admin() {
                   <td>{row.full_name}</td>
                   <td>{formatBirthDate(row.birth_date)}</td>
                   <td>{formatDateTime(row.created_at)}</td>
+                  <td>
+                    {pendingId === row.id ? (
+                      <span className="row-confirm">
+                        <button
+                          type="button"
+                          className="danger-button"
+                          onClick={() => handleDelete(row)}
+                          disabled={deletingId === row.id}
+                        >
+                          {deletingId === row.id ? "Đang xoá…" : "Xoá hẳn"}
+                        </button>
+                        <button
+                          type="button"
+                          className="link-button"
+                          onClick={() => setPendingId(null)}
+                          disabled={deletingId === row.id}
+                        >
+                          Huỷ
+                        </button>
+                      </span>
+                    ) : (
+                      <button
+                        type="button"
+                        className="link-button"
+                        onClick={() => {
+                          setDeleteError("");
+                          setPendingId(row.id);
+                        }}
+                      >
+                        <FiTrash2 aria-hidden="true" /> Xoá
+                      </button>
+                    )}
+                  </td>
                 </tr>
               ))}
             </tbody>

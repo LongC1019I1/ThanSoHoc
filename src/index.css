@@ -2308,3 +2308,51 @@ a.primary-button:hover {
     padding: 10px 12px;
   }
 }
+
+/* ---------- Admin: xoa mot luot tra cuu ---------- */
+
+.admin-table .link-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.admin-table .link-button:hover:not(:disabled) {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.admin-table .danger-button {
+  padding: 5px 12px;
+  border: 1px solid #e0607a;
+  border-radius: 8px;
+  background: rgba(224, 96, 122, 0.14);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: #ffb9c6;
+  cursor: pointer;
+}
+
+.admin-table .danger-button:hover:not(:disabled) {
+  background: rgba(224, 96, 122, 0.26);
+}
+
+.admin-table .danger-button:disabled,
+.admin-table .link-button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.admin-table .row-confirm {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
