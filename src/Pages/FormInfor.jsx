@@ -3,6 +3,7 @@ import { Fragment, useRef, useState } from "react";
 import BirthDateInput from "../component/BirthDateInput";
 import { toDateParts, validateBirthDate } from "../service/birthDate";
 import { normalizeFullName } from "../service/fullName";
+import { saveLookup } from "../service/saveLookup";
 import { FiArrowRight, FiUser } from "react-icons/fi";
 import NumerologyOrbit from "../component/NumerologyOrbit";
 import { CrescentMoon, Ornament } from "../component/Decor";
@@ -48,6 +49,11 @@ function FormInfor() {
 
     // Họ tên đã gộp khoảng trắng và bỏ ký tự lạ; ngày sinh đổi sang dạng $D/$M/$y
     // mà thuật toán đang đọc.
+    // Lưu lượt tra cứu, không chờ kết quả: lưu hỏng cũng không được chặn báo cáo.
+    saveLookup({ fullName: fullName.name, birth }).then((result) => {
+      if (result.skipped) console.warn("Không lưu lượt tra cứu:", result.skipped);
+    });
+
     onFinish({ name: fullName.name, date: toDateParts(birth) });
   };
   const onFinish = (values) => {
