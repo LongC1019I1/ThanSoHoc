@@ -6,6 +6,8 @@ import SiteHeader from "./component/SiteHeader";
 // Trang báo cáo kéo theo toàn bộ nội dung diễn giải (src/Data/numerology.js),
 // nên tách thành chunk riêng để trang tra cứu tải nhẹ hơn.
 const Numerlogy = lazy(() => import("./Pages/Numerlogy"));
+// Trang quản trị tách chunk riêng: khách vãng lai không tải phần này.
+const Admin = lazy(() => import("./Pages/Admin"));
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<FormInfor />} />
             <Route path="/detail-number" element={<Numerlogy />} />
+            <Route path="/admin" element={<Admin />} />
           </Routes>
         </Suspense>
       </main>

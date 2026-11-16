@@ -6,7 +6,6 @@ import { removeVietnameseTones } from "./numerlogy";
 
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
-const TABLE = import.meta.env.VITE_SUPABASE_TABLE || "lookups";
 
 export const isLookupStorageEnabled = () =>
   Boolean(SUPABASE_URL && SUPABASE_ANON_KEY);
@@ -34,16 +33,15 @@ export async function saveLookup({ fullName, birth }) {
 
   try {
     // Import động: thư viện chỉ tải khi thật sự cần lưu.
-    const { createClient } = await import("@supabase/supabase-js");
-    const client = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-      auth: { persistSession: false },
-    });
+    const { getSupabaseClient, SUPABASE_TABLE } = await import("./supabaseClient");
+    const client = getSupabaseClient();
+    if (!client) return { skipped: "chưa cấu hình Supabase" };
 
     // Dùng insert thường, không dùng upsert: upsert của PostgREST chạy
     // INSERT ... ON CONFLICT nên đòi thêm chính sách UPDATE, trong khi bảng này
     // chỉ cho ghi mới. Trùng khóa sẽ trả về mã 23505 và coi như không cần lưu.
     const { error } = await client
-      .from(TABLE)
+      .from(SUPABASE_TABLE)
       .insert({ full_name: fullName, name_key: nameKey, birth_date: birthDate });
 
     if (error?.code === "23505") return { skipped: "đã có, không lưu lại" };

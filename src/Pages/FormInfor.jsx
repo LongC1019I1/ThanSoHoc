@@ -268,7 +268,10 @@ function FormInfor() {
                 {isSubmitting ? "Đang tạo báo cáo…" : "Tra cứu ngay"}
                 <FiArrowRight aria-hidden="true" />
               </button>
-              <p className="form-note">Sử dụng họ tên đầy đủ và ngày sinh dương lịch.</p>
+              <p className="form-note">
+                Sử dụng họ tên đầy đủ và ngày sinh dương lịch. Họ tên và ngày sinh
+                được lưu lại để thống kê số lượt tra cứu.
+              </p>
             </form>
           </div>
         </section>
